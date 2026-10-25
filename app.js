@@ -116,8 +116,13 @@
   const getNews = async () => (await loadJSON('./data/news.json'))
     .map((n) => ({ ...n, image: safeUrl(n.image), sourceUrl: safeUrl(n.sourceUrl) }))
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-  const getThanks = () => loadJSON('./data/thanks.json');
-  const getTips = () => loadJSON('./data/tips.json');
+  const getThanks = async () => (await getApproved('thanks',
+    'thanks?select=id,to_whom,text,name,warm&approved=eq.true&order=created_at.desc&limit=60', './data/thanks.json'))
+    .map((t) => (t.to_whom ? { id: 's' + t.id, sid: t.id, to: t.to_whom, text: t.text, who: t.name, warm: t.warm } : t));
+  const getTips = async () => (await getApproved('tips',
+    'tips?select=id,text,age,who&approved=eq.true&order=created_at.desc&limit=60', './data/tips.json'));
+  // Свої записи показуємо, поки їх не схвалили; після схвалення вони вже є в загальному списку
+  const notYetPublished = (mine, published) => mine.filter((m) => !published.some((p) => p.text === m.text));
 
   const NEWS_TOPICS = [
     { id: 'all', label: 'Усі' },
@@ -195,7 +200,36 @@
     return then.toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' });
   };
 
+  // ---------- Сервер (Supabase) ----------
+  const SB_URL = String(CONFIG.supabaseUrl || '').replace(/\/$/, '');
+  const sbHeaders = { apikey: CONFIG.supabaseKey || '', 'Content-Type': 'application/json' };
+  const sbReady = () => !!(SB_URL && CONFIG.supabaseKey);
+  async function sbGet(path) {
+    const res = await fetch(`${SB_URL}/rest/v1/${path}`, { headers: sbHeaders });
+    if (!res.ok) throw new Error(res.status);
+    return res.json();
+  }
+
+  // Схвалені записи з сервера; без інтернету показуємо останні збережені на телефоні
+  async function getApproved(key, path, fallbackFile) {
+    if (sbReady() && navigator.onLine) {
+      try {
+        const rows = await sbGet(path);
+        store.set('cache:' + key, rows);
+        return rows;
+      } catch (e) { /* сервер недоступний: беремо збережене */ }
+    }
+    return store.get('cache:' + key, null) || (await loadJSON(fallbackFile));
+  }
+
   // ---------- Черга відправлення (працює офлайн) ----------
+  // Що куди йде: тип у черзі → таблиця Supabase і поля
+  const OUTBOX_TABLES = {
+    thanks: (p) => ['thanks', { to_whom: p.to, text: p.text, name: p.name || '' }],
+    tips: (p) => ['tips', { text: p.text, age: p.age || '', who: p.who || '' }],
+    news: (p) => ['news_suggestions', { title: p.title, link: p.link || '' }]
+  };
+  let flushing = false;
   const outbox = {
     add(type, payload) {
       const items = store.get('outbox', []);
@@ -204,22 +238,31 @@
       outbox.flush();
     },
     async flush() {
-      if (!CONFIG.apiUrl || !navigator.onLine) return;
-      const items = store.get('outbox', []);
+      if (!sbReady() || !navigator.onLine || flushing) return;
+      flushing = true;
       const left = [];
-      for (const item of items) {
+      const snapshot = store.get('outbox', []);
+      for (const item of snapshot) {
+        const map = OUTBOX_TABLES[item.type];
+        if (!map) continue;
+        const [table, body] = map(item.payload);
         try {
-          const res = await fetch(`${CONFIG.apiUrl.replace(/\/$/, '')}/${item.type}`, {
+          const res = await fetch(`${SB_URL}/rest/v1/${table}`, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(item)
+            headers: { ...sbHeaders, Prefer: 'return=minimal' },
+            body: JSON.stringify(body)
           });
-          if (!res.ok) left.push(item);
+          // 4xx (крім 429) означає, що сервер такий запис ніколи не прийме: не повторюємо
+          if (!res.ok && (res.status >= 500 || res.status === 429)) left.push(item);
         } catch (e) {
           left.push(item);
         }
       }
-      store.set('outbox', left);
+      // Поки ми відправляли, могли додатися нові записи (вони в кінці черги): не губимо їх
+      const addedMeanwhile = store.get('outbox', []).slice(snapshot.length);
+      store.set('outbox', [...left, ...addedMeanwhile]);
+      flushing = false;
+      if (addedMeanwhile.length) outbox.flush();
     }
   };
 
@@ -708,7 +751,7 @@
   screens['/thanks'] = async () => {
     const thanks = await getThanks();
     const warmed = store.get('warmed', {});
-    const mine = store.get('myThanks', []).slice().reverse();
+    const mine = notYetPublished(store.get('myThanks', []), thanks).reverse();
     const mineHtml = mine.map((t) => `
       <article class="card thanks-card thanks-card--mine">
         <span class="thanks-card__to">${esc(t.to)}</span>
@@ -717,14 +760,15 @@
       </article>`).join('');
     const cardsHtml = thanks.map((t) => {
       const on = !!warmed[t.id];
-      const n = (t.warm || 0) + (on ? 1 : 0);
+      // У подяк із сервера лічильник уже враховує моє «Тепло»
+      const n = (t.warm || 0) + (on && !t.sid ? 1 : 0);
       return `
         <article class="card thanks-card">
           <span class="thanks-card__to">${esc(t.to)}</span>
           <p>${esc(t.text)}</p>
           <div class="row-center">
             <span class="small muted">${esc(t.who)}</span>
-            <button class="warm" data-action="warm" data-id="${esc(t.id)}" data-base="${t.warm || 0}" aria-pressed="${on}" aria-label="Тепло, ${n}">${icon.heart('currentColor', 16)}<span>${n}</span></button>
+            <button class="warm" data-action="warm" data-id="${esc(t.id)}" data-sid="${t.sid || ''}" data-base="${t.warm || 0}" aria-pressed="${on}" aria-label="Тепло, ${n}">${icon.heart('currentColor', 16)}<span>${n}</span></button>
           </div>
         </article>`;
     }).join('');
@@ -803,12 +847,23 @@
     });
 
     root.querySelectorAll('[data-action="warm"]').forEach((btn) => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
         const warmed = store.get('warmed', {});
         const id = btn.dataset.id;
+        const sid = Number(btn.dataset.sid);
+        // «Тепло» на сервері можна дати лише один раз, забрати його не можна
+        if (sid && warmed[id]) return;
         warmed[id] = !warmed[id];
         store.set('warmed', warmed);
-        const n = Number(btn.dataset.base) + (warmed[id] ? 1 : 0);
+        let n = Number(btn.dataset.base) + (warmed[id] ? 1 : 0);
+        if (sid && sbReady()) {
+          try {
+            const res = await fetch(`${SB_URL}/rest/v1/rpc/warm_thanks`, {
+              method: 'POST', headers: sbHeaders, body: JSON.stringify({ thanks_id: sid })
+            });
+            if (res.ok) n = Number(await res.json()) || n;
+          } catch (e) { /* без інтернету: лишається на телефоні */ }
+        }
         btn.setAttribute('aria-pressed', String(warmed[id]));
         btn.setAttribute('aria-label', 'Тепло, ' + n);
         btn.querySelector('span').textContent = String(n);
@@ -1332,7 +1387,7 @@
 
   screens['/article/kids'] = async () => {
     const tips = await getTips();
-    const mine = store.get('myTips', []).slice().reverse();
+    const mine = notYetPublished(store.get('myTips', []), tips).reverse();
     const tipsHtml = mine.map((t) => tipCard(t, true)).join('') + tips.map((t) => tipCard(t, false)).join('');
     return `
     <div class="page page--white">

@@ -344,8 +344,6 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 .sheet__nav { display: flex; flex-direction: column; margin-bottom: 12px; }
 .sheet__nav a { min-height: 64px; display: flex; align-items: center; gap: 14px; padding: 10px 4px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 700; }
 .sheet__nav a:last-child { border-bottom: 0; }
-.sheet__nav a svg:first-child { transition: transform .15s ease; }
-.sheet__nav a:hover svg:first-child, .sheet__nav a:focus-visible svg:first-child { transform: rotate(-6deg) scale(1.06); }
 .sheet__label { flex: 1; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

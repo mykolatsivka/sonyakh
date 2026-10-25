@@ -43,6 +43,15 @@ python -m http.server 8321
 - `data/news-seen.json`: які новини робот уже переглянув, щоб не платити за них двічі.
 - Пробний запуск без Claude: `node scripts/collect-news.mjs --dry`
 
+## Сервер: подяки, поради від батьків, запропоновані новини (Supabase)
+
+- Адреса і публічний ключ — у `config.js` (`supabaseUrl`, `supabaseKey`). Адреса також прописана в `connect-src` в `index.html`.
+- Таблиці й правила безпеки — у `supabase/schema.sql` (запускається в Supabase › SQL Editor).
+- **Схвалення:** Supabase › Table Editor › `thanks` або `tips` › у колонці `approved` поставити `true`. Лише схвалене видно на сайті.
+- Запропоновані новини — у таблиці `news_suggestions` (їх бачиш лише ти).
+- `.github/workflows/keepalive.yml` раз на три дні звертається до сервера, щоб безкоштовний проєкт не «заснув».
+- Пароль бази та secret/service_role ключ **ніколи** не додавай у код чи в чат.
+
 ## Як додати добру новину вручну
 
 Відкрий `data/news.json` і додай новий блок на початок списку:

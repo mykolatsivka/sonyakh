@@ -7,7 +7,9 @@ window.SONYAKH_CONFIG = {
   // Поки порожнє, кнопка показує «Посилання з'явиться незабаром».
   donateUrl: 'https://send.monobank.ua/jar/9UaUS32dTC',
 
-  // Адреса сервера, куди надсилати подяки і запропоновані новини.
-  // Поки null: усе зберігається на телефоні і відправиться, щойно сервер з'явиться.
-  apiUrl: null
+  // Сервер Supabase для подяк, порад від батьків і запропонованих новин.
+  // Обидва значення публічні: доступ обмежують правила бази (supabase/schema.sql).
+  // Якщо змінюєш адресу, онови її також у connect-src в index.html.
+  supabaseUrl: 'https://fgehezlyxczdxjmsiyfj.supabase.co',
+  supabaseKey: 'sb_publishable_4fbrLrar5vQvV2T88WVFHQ_w2flPMGo'
 };

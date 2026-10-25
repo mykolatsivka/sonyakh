@@ -1,0 +1,23 @@
+# Безкоштовний проєкт Supabase «засинає», якщо тиждень ніхто до нього не звертається.
+# Цей робот раз на три дні робить один маленький запит, щоб сервер не заснув.
+name: Не дати серверу заснути
+
+on:
+  schedule:
+    - cron: '0 6 */3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Запит до Supabase
+        run: |
+          curl --fail --silent --show-error \
+            -H "apikey: sb_publishable_4fbrLrar5vQvV2T88WVFHQ_w2flPMGo" \
+            "https://fgehezlyxczdxjmsiyfj.supabase.co/rest/v1/thanks?select=id&limit=1" > /dev/null
+          echo "Сервер прокинувся"
