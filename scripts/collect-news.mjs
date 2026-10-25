@@ -7,6 +7,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import Anthropic from '@anthropic-ai/sdk';
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { z } from 'zod';
+import { scoreNews } from './good-news-keywords.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const NEWS_FILE = new URL('data/news.json', ROOT);
@@ -134,6 +135,49 @@ async function choose(candidates, recentTitles) {
     .map((p) => ({ ...p, title: p.title.trim().slice(0, 120), text: p.text.trim().slice(0, 300), item: candidates[p.id - 1] }));
 }
 
+// ---------- Безкоштовний режим: ключові слова ----------
+// Перше речення опису, не довше за 180 символів, щоб не копіювати текст медіа
+function firstSentence(description) {
+  const s = (description.match(/^.*?[.!?…](?=\s|$)/) || [description])[0].trim();
+  return s.length > 180 ? s.slice(0, 177).replace(/\s+\S*$/, '') + '…' : s;
+}
+
+// Основи слів заголовка, щоб помітити дві новини про ту саму подію
+const keyWords = (title) => new Set(title.toLowerCase().replace(/[^\p{L}\d\s]/gu, ' ').split(/\s+/)
+  .filter((w) => w.length > 4).map((w) => w.slice(0, 5)));
+function sameEvent(a, b) {
+  let common = 0;
+  for (const w of a) if (b.has(w)) common++;
+  return common >= 3 || (common >= 2 && common / Math.min(a.size, b.size || 1) >= 0.25);
+}
+
+function chooseByKeywords(candidates, recentTitles = []) {
+  const taken = recentTitles.map(keyWords);
+  const perTopic = {};
+  return candidates
+    .map((item) => ({ item, result: scoreNews(item.title, item.description) }))
+    .filter((c) => c.result)
+    .sort((a, b) => b.result.score - a.result.score)
+    .filter(({ item, result }) => {
+      // Не більше двох новин однієї теми за раз, щоб стрічка була різною
+      if ((perTopic[result.topic] || 0) >= 2) return false;
+      const words = keyWords(item.title);
+      if (taken.some((t) => sameEvent(words, t))) return false;
+      taken.push(words);
+      perTopic[result.topic] = (perTopic[result.topic] || 0) + 1;
+      return true;
+    })
+    .slice(0, MAX_PICKS)
+    .map(({ item, result }) => ({
+      topic: result.topic,
+      title: item.title.slice(0, 160),
+      text: firstSentence(item.description),
+      item,
+      matched: result.matched,
+      score: result.score
+    }));
+}
+
 // ---------- Головний цикл ----------
 async function main() {
   const news = JSON.parse(await readFile(NEWS_FILE, 'utf8'));
@@ -150,21 +194,26 @@ async function main() {
     if (item.published && item.published.getTime() < cutoff) continue;
     byLink.set(key, item);
   }
+  // Є ключ Claude: відбирає Claude. Немає: безкоштовно, за ключовими словами
+  const useClaude = !!process.env.ANTHROPIC_API_KEY;
+  // Для Claude обмежуємо кількість (кожен заголовок коштує грошей), ключові слова перевіряють усі
   const candidates = [...byLink.values()]
     .sort((a, b) => (b.published?.getTime() || 0) - (a.published?.getTime() || 0))
-    .slice(0, MAX_CANDIDATES);
+    .slice(0, useClaude ? MAX_CANDIDATES : Infinity);
   console.log(`Нових заголовків: ${candidates.length}`);
+  console.log(useClaude ? `Режим: Claude (${MODEL})` : 'Режим: ключові слова (безкоштовно)');
 
   if (DRY) {
-    candidates.slice(0, 15).forEach((c, i) => console.log(`${i + 1}. [${c.source}] ${c.title}`));
-    console.log('Пробний запуск: Claude не викликали, файли не змінено');
+    const picks = chooseByKeywords(candidates);
+    console.log(`Пробний запуск за ключовими словами: знайдено ${picks.length}`);
+    picks.forEach((p) => console.log(`+ [${p.topic}, ${p.score}] ${p.item.title}\n    слова: ${p.matched.join(', ')}`));
+    console.log('Файли не змінено');
     return;
   }
   if (!candidates.length) { console.log('Немає нових новин'); return; }
-  if (!process.env.ANTHROPIC_API_KEY) throw new Error('Немає ANTHROPIC_API_KEY');
 
   const recentTitles = news.filter((n) => !String(n.id).startsWith('sample-')).slice(0, 20).map((n) => n.title);
-  const picks = await choose(candidates, recentTitles);
+  const picks = useClaude ? await choose(candidates, recentTitles) : chooseByKeywords(candidates, recentTitles);
 
   // Позначаємо всі надіслані заголовки як переглянуті, щоб не платити за них вдруге
   for (const c of candidates) seen.push(hash(c.link));
