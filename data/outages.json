@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-10-24T20:24:11.394Z",
+ "updatedAt": "2026-10-25T07:03:49.995Z",
  "regions": {
   "dnipro": {
    "status": "ok",
-   "sourceUpdated": "17.10.2026 09:55",
+   "sourceUpdated": "24.07.2026 08:30",
    "days": [],
-   "updatedAt": "2026-10-24T20:24:11.394Z"
+   "updatedAt": "2026-10-25T07:03:49.995Z"
   },
   "donetsk": {
+   "status": "ok",
+   "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "sourceUpdated": null,
-   "updatedAt": null,
-   "status": "stale"
+   "updatedAt": "2026-10-25T07:03:49.995Z"
   },
   "kyiv-city": {
    "days": [],
@@ -20,10 +20,109 @@
    "status": "stale"
   },
   "kyiv": {
-   "days": [],
-   "sourceUpdated": null,
-   "updatedAt": null,
-   "status": "stale"
+   "status": "ok",
+   "sourceUpdated": "25.10.2026 08:35",
+   "days": [
+    {
+     "date": "2026-10-25",
+     "groups": {
+      "1.1": [
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       }
+      ],
+      "1.2": [],
+      "2.1": [
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 960,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 930,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 930,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 930,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 1140,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 600,
+        "to": 750,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 600,
+        "to": 750,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 600,
+        "to": 750,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1260,
+        "type": "off"
+       }
+      ]
+     }
+    }
+   ],
+   "updatedAt": "2026-10-25T07:03:49.995Z"
   },
   "lviv": {
    "status": "ok",
@@ -33,9 +132,9 @@
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "17.10.2026 09:54",
+   "sourceUpdated": "26.01.2026 08:59",
    "days": [],
-   "updatedAt": "2026-10-24T20:24:11.394Z"
+   "updatedAt": "2026-10-25T07:03:49.995Z"
   }
  }
 }
