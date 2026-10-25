@@ -129,6 +129,36 @@
   const topicLabel = (id) => (NEWS_TOPICS.find((t) => t.id === id) || { label: '' }).label;
   const TINTS = ['#E8EEFB', '#FFE9A3', '#DDF2E5', '#FDE2D8'];
 
+  // Малюнки до новин без фото: по два на кожну тему, у стилі Соняха
+  const NEWS_ART = {
+    rebuild: ['#E3EEFF', [
+      '<circle cx="62" cy="52" r="22" fill="#FFCF33"/><rect y="150" width="320" height="30" fill="#CFE0FA"/><path d="M108 94L160 54l52 40z" fill="#FF8A5C"/><rect x="118" y="92" width="84" height="58" rx="4" fill="#FFCF33"/><rect x="150" y="116" width="20" height="34" rx="4" fill="#7A4A12"/><rect x="128" y="104" width="14" height="14" rx="2" fill="#fff"/><rect x="178" y="104" width="14" height="14" rx="2" fill="#fff"/><path d="M246 150V40M206 44h88M282 44v26" stroke="#12203A" stroke-width="5" stroke-linecap="round"/><rect x="273" y="70" width="18" height="13" rx="2" fill="#1F4FB8"/>',
+      '<circle cx="262" cy="46" r="20" fill="#FFCF33"/><rect y="128" width="320" height="52" fill="#9DB7F2"/><path d="M20 128Q160 30 300 128" stroke="#12203A" stroke-width="7" fill="none"/><path d="M60 117v-34M100 117V66M140 117V58M180 117V58M220 117V66M260 117V83" stroke="#12203A" stroke-width="3"/><rect x="14" y="114" width="292" height="10" rx="3" fill="#FF8A5C"/><rect x="120" y="102" width="34" height="14" rx="5" fill="#1F4FB8"/><circle cx="128" cy="117" r="3.5" fill="#12203A"/><circle cx="146" cy="117" r="3.5" fill="#12203A"/><path d="M40 150q10-6 20 0t20 0M200 160q10-6 20 0t20 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>'
+    ]],
+    people: ['#FDE2D8', [
+      '<path d="M140 150C92 118 76 92 76 72a28 28 0 0 1 64-14 28 28 0 0 1 64 14c0 20-16 46-64 78z" fill="#F2545B"/><path d="M214 132c-22-15-30-27-30-37a13 13 0 0 1 30-6 13 13 0 0 1 30 6c0 10-8 22-30 37z" fill="#FFB300"/><ellipse cx="102" cy="72" rx="9" ry="6" fill="#fff" opacity=".7"/><path d="M252 40l4 12 12 4-12 4-4 12-4-12-12-4 12-4zM56 30l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#FFB300"/>',
+      '<path d="M100 98q6 40-8 70M160 86q-4 44 4 82M222 100q10 36-4 68" stroke="#4A5873" stroke-width="2" fill="none"/><ellipse cx="100" cy="66" rx="28" ry="34" fill="#1F4FB8"/><ellipse cx="160" cy="54" rx="30" ry="36" fill="#FFCF33"/><ellipse cx="222" cy="68" rx="28" ry="34" fill="#F2545B"/><ellipse cx="90" cy="54" rx="6" ry="10" fill="#fff" opacity=".5"/><ellipse cx="150" cy="40" rx="6" ry="10" fill="#fff" opacity=".6"/><ellipse cx="212" cy="56" rx="6" ry="10" fill="#fff" opacity=".5"/>'
+    ]],
+    sport: ['#FFF1C2', [
+      '<path d="M122 40h76v26a38 38 0 0 1-76 0z" fill="#FFB300"/><path d="M122 50h-18a20 20 0 0 0 22 30M198 50h18a20 20 0 0 1-22 30" stroke="#FFB300" stroke-width="7" fill="none"/><rect x="152" y="100" width="16" height="22" fill="#E0A000"/><rect x="128" y="120" width="64" height="16" rx="4" fill="#7A4A12"/><rect x="118" y="134" width="84" height="12" rx="4" fill="#5A360C"/><path d="M160 50l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" fill="#fff"/><path d="M60 40l4 10 10 4-10 4-4 10-4-10-10-4 10-4zM262 96l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#FFB300"/>',
+      '<path d="M128 18l26 66h-24L104 18z" fill="#1F4FB8"/><path d="M192 18l-26 66h24l26-66z" fill="#FFCF33"/><circle cx="160" cy="112" r="42" fill="#FFB300"/><circle cx="160" cy="112" r="31" fill="#FFCF33"/><path d="M160 92l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z" fill="#E0A000"/>'
+    ]],
+    animals: ['#DDF2E5', [
+      '<ellipse cx="114" cy="80" rx="22" ry="38" fill="#A86A3B" transform="rotate(20 114 80)"/><ellipse cx="206" cy="80" rx="22" ry="38" fill="#A86A3B" transform="rotate(-20 206 80)"/><circle cx="160" cy="98" r="56" fill="#E8B07A"/><ellipse cx="160" cy="122" rx="30" ry="22" fill="#F6D7B0"/><circle cx="138" cy="88" r="7" fill="#12203A"/><circle cx="182" cy="88" r="7" fill="#12203A"/><circle cx="140" cy="86" r="2" fill="#fff"/><circle cx="184" cy="86" r="2" fill="#fff"/><ellipse cx="160" cy="110" rx="10" ry="7" fill="#12203A"/><path d="M160 117v8M148 126q12 10 24 0" stroke="#12203A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M154 132q6 16 12 0" fill="#F2545B"/>',
+      '<path d="M112 70l10-44 34 30zM208 70l-10-44-34 30z" fill="#FF9F43"/><path d="M120 62l6-24 18 16zM200 62l-6-24-18 16z" fill="#FDE2D8"/><circle cx="160" cy="100" r="58" fill="#FFB86B"/><ellipse cx="138" cy="92" rx="8" ry="10" fill="#3BA776"/><ellipse cx="182" cy="92" rx="8" ry="10" fill="#3BA776"/><ellipse cx="138" cy="92" rx="3" ry="8" fill="#12203A"/><ellipse cx="182" cy="92" rx="3" ry="8" fill="#12203A"/><path d="M154 112h12l-6 7z" fill="#F2545B"/><path d="M160 119q-6 8-14 4M160 119q6 8 14 4M96 108h36M96 118h36M188 108h36M188 118h36" stroke="#7A4A12" stroke-width="2" fill="none" stroke-linecap="round"/>'
+    ]],
+    science: ['#EDE4FF', [
+      '<path d="M160 22c26 20 34 58 26 96h-52c-8-38 0-76 26-96z" fill="#fff"/><circle cx="160" cy="70" r="13" fill="#1F4FB8"/><circle cx="160" cy="70" r="7" fill="#9DB7F2"/><path d="M134 104l-18 28h22zM186 104l18 28h-22z" fill="#F2545B"/><path d="M146 120q14 40 28 0" fill="#FFB300"/><path d="M152 120q8 22 16 0" fill="#FFCF33"/><path d="M62 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3zM252 70l3 7 7 3-7 3-3 7-3-7-7-3 7-3zM86 120l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#6B4FD8"/>',
+      '<g fill="none" stroke="#6B4FD8" stroke-width="5"><ellipse cx="160" cy="90" rx="74" ry="26"/><ellipse cx="160" cy="90" rx="74" ry="26" transform="rotate(60 160 90)"/><ellipse cx="160" cy="90" rx="74" ry="26" transform="rotate(-60 160 90)"/></g><circle cx="160" cy="90" r="14" fill="#FFCF33"/><circle cx="234" cy="90" r="7" fill="#F2545B"/><circle cx="123" cy="26" r="7" fill="#1F4FB8"/><circle cx="123" cy="154" r="7" fill="#3BA776"/>'
+    ]]
+  };
+  function newsArt(topic, seed = '') {
+    const [bg, variants] = NEWS_ART[topic] || NEWS_ART.people;
+    let h = 0;
+    for (const ch of String(seed)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    return `<svg class="news-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="180" fill="${bg}"/><circle cx="20" cy="160" r="46" fill="#fff" opacity=".35"/><circle cx="300" cy="12" r="38" fill="#fff" opacity=".35"/>${variants[h % variants.length]}</svg>`;
+  }
+
   const RECIPIENTS = [
     { id: 'energy', label: 'Енергетикам' },
     { id: 'dsns', label: 'Рятувальникам' },
@@ -268,7 +298,7 @@
 
     const newsBlock = top ? `
       <a class="card news-card" href="#/news" style="text-decoration: none; color: inherit">
-        <div class="news-card__img">${top.image ? `<img src="${esc(top.image)}" alt="">` : logo(56, true)}</div>
+        <div class="news-card__img">${top.image ? `<img src="${esc(top.image)}" alt="">` : newsArt(top.topic, top.id)}</div>
         <div class="news-card__body">
           <span class="eyebrow">${esc(topicLabel(top.topic))}</span>
           <h3 class="news-card__title">${esc(top.title)}</h3>
@@ -546,7 +576,7 @@
     const [first, ...rest] = list;
     const firstHtml = first ? `
       <article class="card news-card">
-        <div class="news-card__img">${first.image ? `<img src="${esc(first.image)}" alt="">` : logo(56, true)}</div>
+        <div class="news-card__img">${first.image ? `<img src="${esc(first.image)}" alt="">` : newsArt(first.topic, first.id)}</div>
         <div class="news-card__body">
           <div class="row-between eyebrow"><span>${esc(topicLabel(first.topic))}</span><span class="muted">${esc(relDate(first.date))}</span></div>
           <h2 class="news-card__title" style="font-size: 19px">${esc(first.title)}</h2>
@@ -556,7 +586,7 @@
       </article>` : '<p class="muted">У цій темі поки немає новин. Загляни трохи згодом.</p>';
     const restHtml = rest.map((n, i) => `
       <article class="card news-row">
-        <div class="news-row__thumb" style="background: ${TINTS[i % TINTS.length]}">${n.image ? `<img src="${esc(n.image)}" alt="">` : ''}</div>
+        <div class="news-row__thumb" style="background: ${TINTS[i % TINTS.length]}">${n.image ? `<img src="${esc(n.image)}" alt="">` : newsArt(n.topic, n.id)}</div>
         <div class="stack stack--xs" style="min-width: 0">
           <span class="eyebrow">${esc(topicLabel(n.topic))}</span>
           <h3 class="news-row__title">${esc(n.title)}</h3>
