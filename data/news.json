@@ -1,42 +1,52 @@
 [
   {
-    "id": "sample-1",
-    "topic": "rebuild",
-    "date": "2026-10-24",
-    "title": "[Приклад] Заголовок доброї новини: що сталося і де",
-    "text": "[Два речення: коротко і тепло. Заміни цей приклад справжньою новиною.]",
-    "source": "[назва медіа]",
-    "sourceUrl": "",
-    "image": ""
-  },
-  {
-    "id": "sample-2",
-    "topic": "people",
-    "date": "2026-10-23",
-    "title": "[Приклад] Новина про людей",
-    "text": "[Коротко: хто і що доброго зробив.]",
-    "source": "",
-    "sourceUrl": "",
-    "image": ""
-  },
-  {
-    "id": "sample-3",
+    "id": "n-6387c186e81e",
     "topic": "sport",
-    "date": "2026-10-23",
-    "title": "[Приклад] Новина про спорт",
-    "text": "[Коротко: яка перемога.]",
-    "source": "",
-    "sourceUrl": "",
+    "date": "2026-10-25",
+    "title": "Ястремська пробилася до основної сітки турніру WTA 250 в Гуанчжоу",
+    "text": "Українка Даяна Ястремська відбралася до основної сітки змагань Жіночої тенісної асоціації (WTA 250) Guangzhou Open в Гуанчжоу (Китай) із призовим фондом понад $280 тис.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4177941-astremska-probilasa-do-osnovnoi-sitki-turniru-wta-250-v-guanczou.html",
     "image": ""
   },
   {
-    "id": "sample-4",
+    "id": "n-9652b8d8f0e5",
+    "topic": "sport",
+    "date": "2026-10-25",
+    "title": "\"Дитяче Євробачення 2026\": хто переміг і яке місце посіла Україна",
+    "text": "За перемогу в конкурсі змагалися представники 16 країн.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/show/dityache-yevrobachennya-2026-startuvav-final-konkursu-na-malti-onlayn-13539222.html",
+    "image": ""
+  },
+  {
+    "id": "n-315b148cff98",
+    "topic": "science",
+    "date": "2026-10-24",
+    "title": "Що сталося з радіацією в Чорнобилі за 40 років: вчені виявили не те, що очікували",
+    "text": "Відкриття науковців може мати значення для розуміння того, як радіоактивні матеріали поводяться в навколишньому середовищі.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/avariya-na-chaes-cherez-40-rokiv-ucheni-viyavili-nespodivanu-osoblivist-radiaciji-13538913.html",
+    "image": ""
+  },
+  {
+    "id": "n-c6e810260e25",
+    "topic": "science",
+    "date": "2026-10-24",
+    "title": "Вчені зробили прорив у квантовій фізиці: це може прискорити розробку надпровідників",
+    "text": "Американські вчені вдосконалили квантові розрахунки.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/efekt-kondo-amerikanski-vcheni-dosyagli-znachnogo-prorivu-v-kvantovih-rozrahunkah-13539018.html",
+    "image": ""
+  },
+  {
+    "id": "n-cda8e6fc5735",
     "topic": "animals",
-    "date": "2026-10-22",
-    "title": "[Приклад] Новина про тварин",
-    "text": "[Коротко: кого врятували чи прихистили.]",
-    "source": "",
-    "sourceUrl": "",
+    "date": "2026-10-24",
+    "title": "У ці місяці народжуються люди, мудрі як сови: вони бачать приховане",
+    "text": "Такі люди вирізняються особливою проникливістю.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/astrology/numerologiya-u-ci-misyaci-narodzhuyutsya-lyudi-mudri-yak-sovi-voni-bachat-prihovane-13538796.html",
     "image": ""
   }
 ]
