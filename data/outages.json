@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-25T09:40:14.994Z",
+ "updatedAt": "2026-10-25T09:50:19.848Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "24.07.2026 08:30",
    "days": [],
    "updatedAt": "2026-10-25T09:40:14.994Z"
@@ -547,14 +547,14 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "25.10.2026 10:02",
+   "sourceUpdated": "25.10.2026 11:37",
    "days": [
     {
      "date": "2026-10-25",
      "groups": {
       "1.1": [
        {
-        "from": 720,
+        "from": 840,
         "to": 960,
         "type": "off"
        }
@@ -562,14 +562,14 @@
       "1.2": [],
       "2.1": [
        {
-        "from": 720,
+        "from": 840,
         "to": 960,
         "type": "off"
        }
       ],
       "2.2": [
        {
-        "from": 720,
+        "from": 840,
         "to": 960,
         "type": "off"
        }
@@ -643,7 +643,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-25T09:40:14.994Z"
+   "updatedAt": "2026-10-25T09:50:19.848Z"
   },
   "lviv": {
    "status": "ok",
@@ -652,7 +652,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.01.2026 08:59",
    "days": [],
    "updatedAt": "2026-10-25T09:40:14.994Z"
