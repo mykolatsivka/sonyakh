@@ -16,11 +16,8 @@ declare
   recent integer;
   dupes integer;
 begin
-  body := case tg_table_name
-    when 'thanks' then new.text
-    when 'tips' then new.text
-    else new.title
-  end;
+  -- Через JSON, бо в різних таблицях різні поля (text або title)
+  body := coalesce(to_jsonb(new)->>'text', to_jsonb(new)->>'title', '');
 
   -- Посилання — головна ознака спаму
   if body ~* '(https?://|www\.|\m[a-z0-9-]+\.(com|net|org|ru|ua|info|xyz|top|io|me|ly)\M|t\.me/)' then

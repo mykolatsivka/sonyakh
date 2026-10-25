@@ -305,7 +305,7 @@
     const batch = items.slice(0, 10);
     try {
       const token = await turnstileToken();
-      const res = await fetch(`${SB_URL}/functions/v1/submit`, {
+      const res = await fetch(`${SB_URL}/functions/v1/${CONFIG.submitFunction || 'submit'}`, {
         method: 'POST',
         headers: sbHeaders,
         body: JSON.stringify({ token, items: batch.map((i) => ({ type: i.type, data: OUTBOX_TABLES[i.type](i.payload)[1] })) })

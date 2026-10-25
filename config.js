@@ -14,6 +14,9 @@ window.SONYAKH_CONFIG = {
   supabaseKey: 'sb_publishable_4fbrLrar5vQvV2T88WVFHQ_w2flPMGo',
 
   // Публічний ключ сайту Cloudflare Turnstile (перевірка «я не робот»).
-  // Поки порожній: записи йдуть у Supabase напряму, без перевірки.
-  turnstileSiteKey: ''
+  // Якщо порожній: записи йдуть у Supabase напряму, без перевірки.
+  turnstileSiteKey: '0x4AAAAAAFlLB59Sp8H1t2xI',
+
+  // Назва серверної функції в Supabase, яка перевіряє Turnstile (код: supabase/functions/submit)
+  submitFunction: 'smooth-task'
 };
