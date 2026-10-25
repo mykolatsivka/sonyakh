@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T19:37:20.053Z",
+ "updatedAt": "2026-10-25T19:50:12.838Z",
  "regions": {
   "dnipro": {
    "status": "stale",
@@ -8,10 +8,10 @@
    "updatedAt": "2026-10-25T17:50:29.648Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-10-25T19:12:17.188Z"
+   "updatedAt": "2026-10-25T19:50:12.838Z"
   },
   "kyiv-city": {
    "status": "ok",
@@ -1252,7 +1252,7 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "25.10.2026 20:02",
+   "sourceUpdated": "25.10.2026 21:45",
    "days": [
     {
      "date": "2026-10-25",
@@ -1304,14 +1304,14 @@
       "5.1": [
        {
         "from": 1140,
-        "to": 1260,
+        "to": 1440,
         "type": "off"
        }
       ],
       "5.2": [
        {
         "from": 1140,
-        "to": 1260,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -1412,7 +1412,7 @@
       ],
       "5.1": [
        {
-        "from": 360,
+        "from": 480,
         "to": 570,
         "type": "off"
        },
@@ -1448,7 +1448,7 @@
       ],
       "6.2": [
        {
-        "from": 480,
+        "from": 360,
         "to": 570,
         "type": "off"
        },
@@ -1461,7 +1461,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-25T18:18:53.323Z"
+   "updatedAt": "2026-10-25T19:50:12.838Z"
   },
   "lviv": {
    "status": "ok",
@@ -1470,10 +1470,10 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.01.2026 08:59",
    "days": [],
-   "updatedAt": "2026-10-25T17:38:49.164Z"
+   "updatedAt": "2026-10-25T19:50:12.838Z"
   }
  }
 }
