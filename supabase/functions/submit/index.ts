@@ -2,7 +2,12 @@
 // Сайт надсилає сюди подяки, поради й новини разом із токеном Cloudflare Turnstile.
 // Функція перевіряє токен у Cloudflare і лише тоді записує дані в базу.
 // Секрет Turnstile зберігається в Supabase › Edge Functions › Secrets як TURNSTILE_SECRET.
-const ALLOWED_ORIGINS = ['https://mykolatsivka.github.io', 'http://localhost:8330'];
+const ALLOWED_ORIGINS = [
+  'https://sonyakh.pp.ua',
+  'https://www.sonyakh.pp.ua',
+  'https://mykolatsivka.github.io',
+  'http://localhost:8330'
+];
 const MAX_ITEMS = 10;
 
 // Тип запису → таблиця і поля, які дозволено заповнити
