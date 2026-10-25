@@ -105,7 +105,17 @@
     }
     return cache[path];
   }
-  const getNews = async () => (await loadJSON('./data/news.json')).slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  // Пропускаємо тільки https-посилання або відносні шляхи сайту (./images/...),
+  // щоб у даних не могло опинитись небезпечне javascript:-посилання
+  const safeUrl = (url) => {
+    const value = String(url || '').trim();
+    if (/^https:\/\//i.test(value)) return value;
+    if (/^\.{0,2}\/[^/]/.test(value) && !/^[a-z][a-z0-9+.-]*:/i.test(value)) return value;
+    return '';
+  };
+  const getNews = async () => (await loadJSON('./data/news.json'))
+    .map((n) => ({ ...n, image: safeUrl(n.image), sourceUrl: safeUrl(n.sourceUrl) }))
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const getThanks = () => loadJSON('./data/thanks.json');
 
   const NEWS_TOPICS = [
@@ -799,7 +809,8 @@
   };
 
   screens['/support'] = () => {
-    const hasLink = !!CONFIG.donateUrl;
+    const donateUrl = safeUrl(CONFIG.donateUrl);
+    const hasLink = !!donateUrl;
     return `
       <div class="page">
         <header class="topbar">${backBtn('#/', 'На головну')}</header>
@@ -817,7 +828,7 @@
         </section>
         <section class="stack stack--sm">
           ${hasLink
-            ? `<a class="btn btn--yellow btn--block" style="min-height: 58px; font-size: 17px" href="${esc(CONFIG.donateUrl)}" target="_blank" rel="noopener">${icon.heart('currentColor', 22)} Підтримати через банку</a>`
+            ? `<a class="btn btn--yellow btn--block" style="min-height: 58px; font-size: 17px" href="${esc(donateUrl)}" target="_blank" rel="noopener">${icon.heart('currentColor', 22)} Підтримати через банку</a>`
             : `<span class="btn btn--yellow btn--block" aria-disabled="true" style="min-height: 58px; font-size: 17px">${icon.heart('currentColor', 22)} Підтримати через банку</span>
                <p class="small muted center">Посилання на банку з'явиться незабаром.</p>`}
           <button class="btn btn--outline btn--block" data-action="share">Поділитися Соняхом з друзями</button>
@@ -845,7 +856,7 @@
     return { date: `${parts.year}-${parts.month}-${parts.day}`, minute: Number(parts.hour) * 60 + Number(parts.minute) };
   }
 
-  const getRegions = () => loadJSON('./data/regions.json');
+  const getRegions = async () => (await loadJSON('./data/regions.json')).map((r) => ({ ...r, url: safeUrl(r.url) }));
   async function getOutages() {
     if (isDemo) {
       const demo = await loadJSON('./data/outages-demo.json');
