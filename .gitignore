@@ -1,5 +1,9 @@
 # Локальні налаштування, на сайт не потрібні
 .claude/
 node_modules/
+# Ніколи не завантажувати на GitHub
+*recovery-codes*
+*.secret
+.env
 Thumbs.db
 desktop.ini

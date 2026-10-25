@@ -500,7 +500,7 @@
           <a class="tile tile--yellow" href="#/article/bag">${icon.bag()} Тривожна валіза і план дій</a>
           <a class="tile" href="#/article/blackout">${icon.bolt()} Що робити під час блекауту</a>
           <a class="tile" href="#/article/kids">${icon.person()} Як заспокоїти дитину</a>
-          <span class="tile tile--soon">${icon.pulse()} Коли тривожно: швидка допомога собі<span class="tile__soon">Скоро</span></span>
+          <a class="tile" href="#/article/anxiety">${icon.pulse()} Коли тривожно: швидка допомога собі</a>
         </section>
 
         <footer class="footer">
@@ -1359,6 +1359,117 @@
         <p class="small muted">Складено за рекомендаціями ДСНС. [Дата перевірки статті]</p>
       </footer>
     </div>`;
+
+  // ---------- Стаття: коли тривожно + вправа 5-4-3-2-1 ----------
+  const GROUNDING = [
+    { n: 5, text: 'речей, які ти <strong>бачиш</strong>', hint: 'Колір стіни, лампа, власна долоня…' },
+    { n: 4, text: 'речі, яких можеш <strong>торкнутись</strong>', hint: 'Тканина одягу, підлога під ногами, телефон…' },
+    { n: 3, text: 'звуки, які <strong>чуєш</strong>', hint: 'Своє дихання, голоси, гудіння…' },
+    { n: 2, text: 'запахи', hint: 'Повітря, одяг, чай… Можна просто вдихнути глибше.' },
+    { n: 1, text: 'смак', hint: 'Що відчуваєш у роті? Можна зробити ковток води.' }
+  ];
+
+  screens['/article/anxiety'] = () => `
+    <div class="page page--white">
+      <header class="topbar"><div class="topbar__left">${backBtn('#/', 'Назад')}<span class="small muted" style="font-size: 14px; font-weight: 600">Стаття · 4 хв читання</span></div></header>
+      <section class="stack">
+        <span class="pill pill--yellow">Підтримка</span>
+        <h1 class="h1">Коли тривожно: швидка допомога собі</h1>
+        <p class="lead">Тривога — нормальна реакція тіла на небезпеку. Її не треба соромитись чи «перемагати». Досить допомогти тілу заспокоїтись. Ось прості способи, які працюють за 1–3 хвилини.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">1. Подихай</h2>
+        <div class="box"><div class="box__head">Одна хвилина</div><ul>
+          <li><strong>Видих довший за вдих:</strong> вдих на 4, видих на 6. Довгий видих сам по собі заспокоює серце.</li>
+          <li><strong>«Квадрат»:</strong> вдих 4, пауза 4, видих 4, пауза 4.</li></ul></div>
+        <a class="link-row" href="#/shelter">Подихати разом із Соняхом ${icon.arrow('var(--yellow)')}</a>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">2. Повернись «сюди і зараз»</h2>
+        <p>Вправа <strong>5-4-3-2-1</strong> повертає увагу з тривожних думок у тіло й навколишній світ. Пройди її крок за кроком: знаходь і торкайся кружечків.</p>
+        <div class="ground" data-ground aria-live="polite"></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">3. Допоможи тілу</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>«Обійми метелика».</strong> Схрести руки на грудях і по черзі легенько постукуй долонями по плечах 1–2 хвилини.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Напруж і відпусти.</strong> Сильно стисни кулаки на 5 секунд, потім повністю розслаб. Те саме з плечима й ногами.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Холодна вода</strong> на зап'ястя чи обличчя.</p></div>
+        <div class="step"><span class="step__n">4</span><p><strong>Попий води, з'їж щось.</strong> Голод і спрага підсилюють тривогу.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">4. Що допомагає думкам</h2>
+        <div class="box"><div class="box__head">Маленькі кроки</div><ul>
+          <li><strong>Назви почуття вголос:</strong> «Мені зараз тривожно». Названа емоція слабшає.</li>
+          <li><strong>Обмеж новини:</strong> перевіряй їх у визначений час, а не кожні 5 хвилин.</li>
+          <li><strong>Зроби одну маленьку справу:</strong> заправити ліжко, полити квітку. Відчуття контролю повертає спокій.</li>
+          <li><strong>Напиши комусь</strong> близькому або загляни у «Вдячність дня».</li></ul></div>
+        <a class="link-row" href="#/thanks" style="background: var(--surface); color: var(--ink); border: 1px solid var(--line)">Відкрити «Вдячність дня» ${icon.arrow('var(--blue)')}</a>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">5. Коли варто звернутись по допомогу</h2>
+        <p>Якщо тривога не минає тижнями, заважає спати, їсти, працювати, або з'являються думки зашкодити собі, ти не мусиш справлятися сам чи сама.</p>
+        <div class="callout"><strong>Lifeline Ukraine — <a href="tel:7333">7333</a>:</strong> лінія підтримки психічного здоров'я і запобігання самогубствам, цілодобово й безкоштовно з будь-якого оператора. Є також чат на lifelineukraine.com.</div>
+        <div class="callout" style="background: #FDE2D8"><strong>Якщо є безпосередня небезпека для життя — <a href="tel:112">112</a>.</strong></div>
+      </section>
+
+      <footer class="footer">
+        <a class="btn btn--dark btn--block" href="#/shelter">Повернутися в режим укриття</a>
+        <p class="small muted">Загальні поради з самодопомоги. Не замінюють консультації фахівця. [Дата перевірки статті]</p>
+      </footer>
+    </div>`;
+  screens['/article/anxiety'].mount = (root) => {
+    const box = root.querySelector('[data-ground]');
+    let step = -1;
+    let found = 0;
+    let timer = null;
+    const draw = () => {
+      if (step < 0) {
+        box.innerHTML = `
+          <p class="ground__big">5 · 4 · 3 · 2 · 1</p>
+          <p class="muted center">Займе близько двох хвилин. Не поспішай.</p>
+          <button class="btn btn--yellow btn--block" data-g="start">Почати вправу</button>`;
+        return;
+      }
+      if (step >= GROUNDING.length) {
+        box.innerHTML = `
+          ${sunMoon.sun.replace(/16/g, '56')}
+          <p class="ground__title">Ти тут. Ти в безпеці зараз.</p>
+          <p class="muted center">Зроби ще один повільний видих. Ти молодець.</p>
+          <button class="btn btn--ghost" data-g="restart">Пройти ще раз</button>`;
+        return;
+      }
+      const s = GROUNDING[step];
+      box.innerHTML = `
+        <span class="small muted">Крок ${step + 1} з ${GROUNDING.length}</span>
+        <p class="ground__title">Знайди <span class="ground__n">${s.n}</span> ${s.text}</p>
+        <p class="muted center small">${s.hint}</p>
+        <div class="ground__dots">
+          ${Array.from({ length: s.n }, (_, i) => `<button class="ground__dot ${i < found ? 'is-on' : ''}" data-g="tap" aria-label="Знайшов ${i + 1}" ${i < found ? 'disabled' : ''}></button>`).join('')}
+        </div>
+        <p class="small muted">${found} з ${s.n}</p>`;
+    };
+    box.addEventListener('click', (event) => {
+      const action = event.target.closest('[data-g]')?.dataset.g;
+      if (!action) return;
+      if (action === 'start' || action === 'restart') { step = 0; found = 0; }
+      if (action === 'tap' && step >= 0 && step < GROUNDING.length && found < GROUNDING[step].n) {
+        found++;
+        if (found === GROUNDING[step].n) {
+          draw();
+          timer = setTimeout(() => { step++; found = 0; draw(); }, 700);
+          return;
+        }
+      }
+      draw();
+    });
+    draw();
+    return () => clearTimeout(timer);
+  };
 
   // ---------- Вдячність дня: особиста «банка вдячності», живе лише на телефоні ----------
   const GRATITUDE_CHIPS = ['Я прокинувся', 'Тепла їжа', 'Кава чи чай', 'Рідні поруч', 'Є світло', 'Сонце за вікном',
