@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T11:50:20.995Z",
+ "updatedAt": "2026-10-25T12:22:51.445Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -546,15 +546,15 @@
    "updatedAt": "2026-10-25T08:54:32.940Z"
   },
   "kyiv": {
-   "status": "stale",
-   "sourceUpdated": "25.10.2026 11:37",
+   "status": "ok",
+   "sourceUpdated": "25.10.2026 13:43",
    "days": [
     {
      "date": "2026-10-25",
      "groups": {
       "1.1": [
        {
-        "from": 840,
+        "from": 900,
         "to": 960,
         "type": "off"
        }
@@ -562,14 +562,14 @@
       "1.2": [],
       "2.1": [
        {
-        "from": 840,
+        "from": 900,
         "to": 960,
         "type": "off"
        }
       ],
       "2.2": [
        {
-        "from": 840,
+        "from": 900,
         "to": 960,
         "type": "off"
        }
@@ -643,7 +643,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-25T09:50:19.848Z"
+   "updatedAt": "2026-10-25T12:22:51.445Z"
   },
   "lviv": {
    "status": "ok",
