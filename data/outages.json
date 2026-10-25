@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:13:43.688Z",
+ "updatedAt": "2026-10-25T13:27:37.646Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -8,10 +8,10 @@
    "updatedAt": "2026-10-25T13:13:43.688Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-10-25T11:27:16.314Z"
+   "updatedAt": "2026-10-25T13:27:37.646Z"
   },
   "kyiv-city": {
    "status": "ok",
