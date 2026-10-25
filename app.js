@@ -222,6 +222,105 @@
     return store.get('cache:' + key, null) || (await loadJSON(fallbackFile));
   }
 
+  // ---------- Пастка для ботів (шар 1) ----------
+  // Невидиме поле: людина його не бачить, а боти заповнюють усі поля підряд
+  const trapField = () => `<div class="trap" aria-hidden="true"><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>`;
+  const formOpenedAt = new WeakMap();
+  // Людина пише хоча б кілька секунд; бот надсилає форму миттєво
+  function isBot(form) {
+    const trap = form.querySelector('input[name="website"]');
+    if (trap && trap.value) return true;
+    const opened = formOpenedAt.get(form);
+    return !opened || Date.now() - opened < 3000;
+  }
+  // Час відкриття форми рахуємо з першого дотику до неї
+  document.addEventListener('focusin', (event) => {
+    const form = event.target.closest && event.target.closest('form');
+    if (form && !formOpenedAt.has(form)) formOpenedAt.set(form, Date.now());
+  });
+
+  // ---------- Перевірка «я не робот» Cloudflare Turnstile (шар 3) ----------
+  // Скрипт Cloudflare завантажуємо лише тоді, коли є що відправити
+  let turnstileLoading = null;
+  let turnstileWidget = null;
+  function loadTurnstile() {
+    if (window.turnstile) return Promise.resolve();
+    if (!turnstileLoading) {
+      turnstileLoading = new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+        s.async = true;
+        s.onload = resolve;
+        s.onerror = () => { turnstileLoading = null; reject(new Error('turnstile load')); };
+        document.head.appendChild(s);
+      });
+    }
+    return turnstileLoading;
+  }
+  // Зазвичай перевірка непомітна; кнопку «я не робот» Cloudflare покаже, лише якщо засумнівається
+  async function turnstileToken() {
+    await loadTurnstile();
+    let box = document.getElementById('turnstile-box');
+    if (!box) {
+      box = document.createElement('div');
+      box.id = 'turnstile-box';
+      document.body.appendChild(box);
+    }
+    if (turnstileWidget !== null) window.turnstile.remove(turnstileWidget);
+    return new Promise((resolve, reject) => {
+      turnstileWidget = window.turnstile.render(box, {
+        sitekey: CONFIG.turnstileSiteKey,
+        appearance: 'interaction-only',
+        language: 'uk',
+        callback: resolve,
+        'error-callback': () => reject(new Error('turnstile')),
+        'timeout-callback': () => reject(new Error('turnstile timeout'))
+      });
+    });
+  }
+
+  // Без перевірки: напряму в таблиці (поки Turnstile не налаштовано)
+  async function sendDirect(items) {
+    const left = [];
+    for (const item of items) {
+      const [table, body] = OUTBOX_TABLES[item.type](item.payload);
+      try {
+        const res = await fetch(`${SB_URL}/rest/v1/${table}`, {
+          method: 'POST',
+          headers: { ...sbHeaders, Prefer: 'return=minimal' },
+          body: JSON.stringify(body)
+        });
+        // 4xx (крім 429) означає, що сервер такий запис ніколи не прийме: не повторюємо
+        if (!res.ok && (res.status >= 500 || res.status === 429)) left.push(item);
+      } catch (e) {
+        left.push(item);
+      }
+    }
+    return left;
+  }
+
+  // З перевіркою: усе разом через функцію «submit», яка спершу питає Cloudflare
+  async function sendWithBotCheck(items) {
+    if (!items.length) return [];
+    const batch = items.slice(0, 10);
+    try {
+      const token = await turnstileToken();
+      const res = await fetch(`${SB_URL}/functions/v1/submit`, {
+        method: 'POST',
+        headers: sbHeaders,
+        body: JSON.stringify({ token, items: batch.map((i) => ({ type: i.type, data: OUTBOX_TABLES[i.type](i.payload)[1] })) })
+      });
+      if (!res.ok) return items;
+      const { results = [] } = await res.json();
+      const left = batch.filter((_, n) => results[n] === 'retry' || results[n] === undefined);
+      return [...left, ...items.slice(10)];
+    } catch (e) {
+      return items;
+    } finally {
+      if (turnstileWidget !== null && window.turnstile) { window.turnstile.remove(turnstileWidget); turnstileWidget = null; }
+    }
+  }
+
   // ---------- Черга відправлення (працює офлайн) ----------
   // Що куди йде: тип у черзі → таблиця Supabase і поля
   const OUTBOX_TABLES = {
@@ -240,24 +339,8 @@
     async flush() {
       if (!sbReady() || !navigator.onLine || flushing) return;
       flushing = true;
-      const left = [];
-      const snapshot = store.get('outbox', []);
-      for (const item of snapshot) {
-        const map = OUTBOX_TABLES[item.type];
-        if (!map) continue;
-        const [table, body] = map(item.payload);
-        try {
-          const res = await fetch(`${SB_URL}/rest/v1/${table}`, {
-            method: 'POST',
-            headers: { ...sbHeaders, Prefer: 'return=minimal' },
-            body: JSON.stringify(body)
-          });
-          // 4xx (крім 429) означає, що сервер такий запис ніколи не прийме: не повторюємо
-          if (!res.ok && (res.status >= 500 || res.status === 429)) left.push(item);
-        } catch (e) {
-          left.push(item);
-        }
-      }
+      const snapshot = store.get('outbox', []).filter((item) => OUTBOX_TABLES[item.type]);
+      const left = CONFIG.turnstileSiteKey ? await sendWithBotCheck(snapshot) : await sendDirect(snapshot);
       // Поки ми відправляли, могли додатися нові записи (вони в кінці черги): не губимо їх
       const addedMeanwhile = store.get('outbox', []).slice(snapshot.length);
       store.set('outbox', [...left, ...addedMeanwhile]);
@@ -662,7 +745,7 @@
         <section class="hero" style="gap: 12px">
           <h2 class="h2">Бачив щось хороше?</h2>
           <p class="hero__text">Поділися доброю новиною зі свого міста. Найкращі потраплять у стрічку.</p>
-          <form class="stack" data-suggest hidden>
+          <form class="stack" data-suggest hidden>${trapField()}
             <label class="sr-only" for="sg-title">Що сталося?</label>
             <input class="input" id="sg-title" required maxlength="140" placeholder="Що сталося?">
             <label class="sr-only" for="sg-link">Посилання на джерело</label>
@@ -684,6 +767,7 @@
     });
     form.addEventListener('submit', (event) => {
       event.preventDefault();
+      if (isBot(form)) { form.hidden = true; root.querySelector('[data-suggest-ok]').hidden = false; return; }
       outbox.add('news', { title: form.querySelector('#sg-title').value.trim(), link: form.querySelector('#sg-link').value.trim() });
       form.hidden = true;
       root.querySelector('[data-suggest-ok]').hidden = false;
@@ -778,7 +862,7 @@
         <header class="topbar"><div class="topbar__left">${backBtn('#/', 'На головну')}<h1 class="h1 h1--sm">Стіна подяк</h1></div></header>
         ${gratitudeCard()}
         <h2 class="h2">Подякуй комусь</h2>
-        <form class="card stack" style="padding: 20px; gap: 14px; border-radius: 24px" data-thanks-form>
+        <form class="card stack" style="padding: 20px; gap: 14px; border-radius: 24px" data-thanks-form>${trapField()}
           <fieldset>
             <legend>Кому дякуємо?</legend>
             <div class="chips">
@@ -828,6 +912,7 @@
 
     form.addEventListener('submit', (event) => {
       event.preventDefault();
+      if (isBot(form)) { root.querySelector('[data-sent]').hidden = false; return; }
       const text = form.querySelector('#th-text').value.trim();
       const whoInput = form.querySelector('#th-who');
       if (!text) return;
@@ -1465,7 +1550,7 @@
           </div>
         </div>
         ${tipsHtml || '<p class="muted center" style="font-size: 15px">Тут поки немає порад. Стань першим, хто поділиться!</p>'}
-        <form class="card stack" style="padding: 18px; gap: 12px; border-radius: 20px" data-tip-form>
+        <form class="card stack" style="padding: 18px; gap: 12px; border-radius: 20px" data-tip-form>${trapField()}
           <label class="field-label" for="tip-text">Що допомагає саме вашій дитині?</label>
           <textarea class="textarea" id="tip-text" rows="3" maxlength="400" placeholder="Наприклад: ми вигадали «чарівну ковдру», під якою нічого не страшно…" required></textarea>
           <fieldset>
@@ -1502,6 +1587,7 @@
     });
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
+      if (isBot(form)) { root.querySelector('[data-tip-sent]').hidden = false; return; }
       const text = form.querySelector('#tip-text').value.trim();
       if (!text) return;
       const tip = { text, age, who: form.querySelector('#tip-who').value.trim() };

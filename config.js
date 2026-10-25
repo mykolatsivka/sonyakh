@@ -11,5 +11,9 @@ window.SONYAKH_CONFIG = {
   // Обидва значення публічні: доступ обмежують правила бази (supabase/schema.sql).
   // Якщо змінюєш адресу, онови її також у connect-src в index.html.
   supabaseUrl: 'https://fgehezlyxczdxjmsiyfj.supabase.co',
-  supabaseKey: 'sb_publishable_4fbrLrar5vQvV2T88WVFHQ_w2flPMGo'
+  supabaseKey: 'sb_publishable_4fbrLrar5vQvV2T88WVFHQ_w2flPMGo',
+
+  // Публічний ключ сайту Cloudflare Turnstile (перевірка «я не робот»).
+  // Поки порожній: записи йдуть у Supabase напряму, без перевірки.
+  turnstileSiteKey: ''
 };
