@@ -1,4 +1,5 @@
 # Локальні налаштування, на сайт не потрібні
 .claude/
+node_modules/
 Thumbs.db
 desktop.ini

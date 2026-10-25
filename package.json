@@ -1,0 +1,18 @@
+{
+  "name": "sonyakh",
+  "private": true,
+  "type": "module",
+  "description": "Сонях: роботи, що оновлюють графіки світла і добрі новини",
+  "scripts": {
+    "outages": "node scripts/collect-outages.mjs",
+    "news": "node scripts/collect-news.mjs",
+    "news:dry": "node scripts/collect-news.mjs --dry"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "zod": "^4.6.7"
+  }
+}

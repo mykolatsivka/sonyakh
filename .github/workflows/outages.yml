@@ -9,8 +9,9 @@ on:
 permissions:
   contents: write
 
+# Спільна черга з роботом новин, щоб вони не зберігали зміни одночасно
 concurrency:
-  group: outages
+  group: data-update
   cancel-in-progress: false
 
 jobs:
@@ -33,5 +34,6 @@ jobs:
             git config user.email "sonyakh-bot@users.noreply.github.com"
             git add data/outages.json
             git commit -m "Оновлено графіки відключень"
+            git pull --rebase
             git push
           fi

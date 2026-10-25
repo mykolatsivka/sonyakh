@@ -1,0 +1,43 @@
+# Робот добрих новин: щогодини читає новини, Claude відбирає добрі, і вони з'являються на сайті
+name: Добрі новини
+
+on:
+  schedule:
+    - cron: '20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Спільна черга з роботом графіків, щоб вони не зберігали зміни одночасно
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Версії закріплені точним хешем, щоб їх не можна було непомітно підмінити
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: 22
+      - run: npm ci --omit=dev --no-audit --no-fund
+      - run: node scripts/collect-news.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
+      - name: Зберегти, якщо щось змінилось
+        run: |
+          if [ -z "$(git status --porcelain data/news.json data/news-seen.json)" ]; then
+            echo "Без змін"
+            exit 0
+          fi
+          git config user.name "sonyakh-bot"
+          git config user.email "sonyakh-bot@users.noreply.github.com"
+          git add data/news.json data/news-seen.json
+          git commit -m "Оновлено добрі новини"
+          git pull --rebase
+          git push

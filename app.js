@@ -569,7 +569,7 @@
       <div class="page">
         <header class="topbar"><div class="topbar__left">${backBtn('#/', 'На головну')}<h1 class="h1 h1--sm">Добрі новини</h1></div></header>
         ${offlinePill()}
-        <p class="muted">Тільки те, що гріє. Кожна новина перевірена і має посилання на джерело.</p>
+        <p class="muted">Тільки те, що гріє. Новини оновлюються щогодини, і кожна має посилання на джерело.</p>
         <div class="chips" role="group" aria-label="Теми">
           ${NEWS_TOPICS.map((t) => `<button class="chip" data-action="topic" data-topic="${t.id}" aria-pressed="${t.id === newsTopic}">${t.label}</button>`).join('')}
         </div>

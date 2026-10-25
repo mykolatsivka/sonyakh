@@ -26,7 +26,18 @@ python -m http.server 8321
 
 Потім відкрий у браузері http://localhost:8321
 
-## Як додати добру новину
+## Добрі новини: робот з Claude
+
+- `scripts/collect-news.mjs` щогодини читає RSS Суспільного, Укрінформу, Української правди, УНІАН і Zaxid.net,
+  надсилає нові заголовки Claude, а той відбирає до 5 добрих новин і коротко переписує їх своїми словами.
+- `.github/workflows/news.yml` запускає його на GitHub щогодини (о :20).
+- Потрібен секрет **ANTHROPIC_API_KEY** у репозиторії: Settings › Secrets and variables › Actions › New repository secret.
+- Модель за замовчуванням: `claude-haiku-5-5` (приблизно 1–2 $ на місяць). Змінити її можна без коду:
+  Settings › Secrets and variables › Actions › Variables › `NEWS_MODEL` (наприклад, `claude-opus-5-5`, точніше, але дорожче).
+- `data/news-seen.json`: які новини робот уже переглянув, щоб не платити за них двічі.
+- Пробний запуск без Claude: `node scripts/collect-news.mjs --dry`
+
+## Як додати добру новину вручну
 
 Відкрий `data/news.json` і додай новий блок на початок списку:
 
