@@ -22,5 +22,5 @@ window.SONYAKH_CONFIG = {
 
   // Код сайту в GoatCounter (статистика відвідувань без cookies), наприклад 'sonyakh'.
   // Якщо порожній: статистика вимкнена. Код також прописаний у CSP в index.html.
-  goatcounterCode: ''
+  goatcounterCode: 'sonyakh'
 };
