@@ -1847,7 +1847,33 @@
     if (changed) {
       window.scrollTo(0, 0);
       app.focus({ preventScroll: true });
+      countVisit(route);
     }
+  }
+
+  // ---------- Статистика відвідувань (GoatCounter) ----------
+  // Без cookies і без стеження: рахуємо лише, які екрани відкривають. Без інтернету просто не рахує.
+  let counterLoading = null;
+  function countVisit(route) {
+    const code = CONFIG.goatcounterCode;
+    if (!code || !navigator.onLine || /^(localhost|127\.)/.test(location.hostname)) return;
+    if (!counterLoading) {
+      window.goatcounter = { no_onload: true, allow_local: false };
+      counterLoading = new Promise((resolve) => {
+        const s = document.createElement('script');
+        s.src = 'https://gc.zgo.at/count.js';
+        s.async = true;
+        s.dataset.goatcounter = `https://${code}.goatcounter.com/count`;
+        s.onload = resolve;
+        s.onerror = () => { counterLoading = null; resolve(); };
+        document.head.appendChild(s);
+      });
+    }
+    counterLoading.then(() => {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: route === '/' ? '/' : route, title: document.title });
+      }
+    });
   }
 
   function updateOnline() {

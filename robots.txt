@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /design/
+Disallow: /supabase/
+Disallow: /scripts/
+
+Sitemap: https://sonyakh.pp.ua/sitemap.xml
