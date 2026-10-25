@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-25T19:24:19.217Z",
+ "updatedAt": "2026-10-25T19:37:20.053Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "24.07.2026 08:30",
    "days": [],
    "updatedAt": "2026-10-25T17:50:29.648Z"
