@@ -1,6 +1,6 @@
 // Service worker: зберігає Сонях на телефоні, щоб він працював без інтернету.
 // Після будь-яких змін у файлах збільш номер версії, щоб телефони підтягнули оновлення.
-const VERSION = 'sonyakh-v12';
+const VERSION = 'sonyakh-v13';
 const SHELL = [
   './',
   './index.html',
@@ -21,7 +21,13 @@ const SHELL = [
 const FONTS = 'sonyakh-fonts';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(VERSION).then((cache) => cache.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: 'reload' — беремо файли свіжими з сервера, а не старі копії з кешу браузера
+  // (GitHub Pages дозволяє браузеру 10 хвилин тримати старі версії)
+  event.waitUntil(
+    caches.open(VERSION)
+      .then((cache) => cache.addAll(SHELL.map((url) => new Request(url, { cache: 'reload' }))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', (event) => {

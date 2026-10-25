@@ -497,10 +497,10 @@
         </section>
 
         <section class="grid-2">
-          <a class="tile tile--yellow" href="#/article/bag">${icon.bag()} Тривожна валіза і план дій</a>
-          <a class="tile" href="#/article/blackout">${icon.bolt()} Що робити під час блекауту</a>
-          <a class="tile" href="#/article/kids">${icon.person()} Як заспокоїти дитину</a>
-          <a class="tile" href="#/article/anxiety">${icon.pulse()} Коли тривожно: швидка допомога собі</a>
+          <a class="tile" href="#/article/bag">${articleArt.bag}Тривожна валіза і план дій</a>
+          <a class="tile" href="#/article/blackout">${articleArt.blackout}Що робити під час блекауту</a>
+          <a class="tile" href="#/article/kids">${articleArt.kids}Як заспокоїти дитину</a>
+          <a class="tile" href="#/article/anxiety">${articleArt.anxiety}Коли тривожно: швидка допомога собі</a>
         </section>
 
         <footer class="footer">
@@ -1794,6 +1794,13 @@
       art: ill('#FFF3D1', '<path d="M20 21v13" stroke="#3BA776" stroke-width="2.4" stroke-linecap="round"/><ellipse cx="24" cy="29" rx="3.6" ry="2" transform="rotate(-30 24 29)" fill="#3BA776"/><g fill="#FFCF33"><circle cx="25.2" cy="15" r="3"/><circle cx="23.7" cy="18.7" r="3"/><circle cx="20" cy="20.2" r="3"/><circle cx="16.3" cy="18.7" r="3"/><circle cx="14.8" cy="15" r="3"/><circle cx="16.3" cy="11.3" r="3"/><circle cx="20" cy="9.8" r="3"/><circle cx="23.7" cy="11.3" r="3"/></g><circle cx="20" cy="15" r="3.6" fill="#7A4A12"/><path d="M32 12c-3-2-4-3.5-4-4.7a1.9 1.9 0 0 1 4-.8 1.9 1.9 0 0 1 4 .8c0 1.2-1 2.7-4 4.7z" fill="#F2545B"/>')
     }
   ];
+  // Малюнки для плиток статей на головній, у тому ж стилі, що й меню
+  const articleArt = {
+    bag: MENU.find((m) => m.href === '#/article/bag').art,
+    blackout: bulbArt(44),
+    kids: ill('#FDE2D8', '<circle cx="12" cy="13" r="5" fill="#A86A3B"/><circle cx="28" cy="13" r="5" fill="#A86A3B"/><circle cx="12" cy="13" r="2.4" fill="#F6D7B0"/><circle cx="28" cy="13" r="2.4" fill="#F6D7B0"/><circle cx="20" cy="22" r="11" fill="#C98A55"/><ellipse cx="20" cy="26.5" rx="5" ry="4" fill="#F6D7B0"/><circle cx="16" cy="20" r="1.6" fill="#12203A"/><circle cx="24" cy="20" r="1.6" fill="#12203A"/><ellipse cx="20" cy="25" rx="2" ry="1.4" fill="#12203A"/><path d="M33 6l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9z" fill="#FFB300"/>'),
+    anxiety: ill('#EDE4FF', '<path d="M7 15h17a4.5 4.5 0 1 0-4.5-4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 22h22a4.5 4.5 0 1 1-4.5 4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 29h9" stroke="#9DB7F2" stroke-width="2.6" stroke-linecap="round"/><path d="M33 8c-2.4-1.5-3.3-2.7-3.3-3.6a1.6 1.6 0 0 1 3.3-.6 1.6 1.6 0 0 1 3.3.6c0 .9-.9 2.1-3.3 3.6z" fill="#F2545B"/>')
+  };
   document.getElementById('menu-nav').innerHTML = MENU.map((m) =>
     `<a href="${m.href}">${m.art}<span class="sheet__label">${m.label}</span>${stroke('<path d="M9 6l6 6-6 6"/>', 18, 'var(--muted)')}</a>`).join('');
 
