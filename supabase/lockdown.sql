@@ -1,8 +1,25 @@
--- Сонях, шар 3: ЗАПУСКАТИ ЛИШЕ ПІСЛЯ того, як функція «submit» з Turnstile запрацювала.
--- Забороняє додавати записи напряму з сайту: відтепер вони потрапляють у базу тільки
--- через функцію, яка спершу перевіряє, що це людина, а не бот.
+-- Сонях, шар 3: закрити прямий запис у базу. Відтепер подяки, поради й новини
+-- потрапляють у базу ТІЛЬКИ через функцію з перевіркою Cloudflare «я не робот».
+-- Вставити цілком у Supabase › SQL Editor › New query і натиснути Run.
 -- Повернути як було: ще раз запустити supabase/schema.sql.
 
-drop policy if exists "Будь-хто може додати подяку" on public.thanks;
-drop policy if exists "Будь-хто може додати пораду" on public.tips;
-drop policy if exists "Будь-хто може запропонувати новину" on public.news_suggestions;
+-- Видаляємо всі правила, що дозволяють ДОДАВАТИ записи, незалежно від їхньої назви
+do $$
+declare
+  p record;
+begin
+  for p in
+    select policyname, tablename from pg_policies
+    where schemaname = 'public'
+      and tablename in ('thanks', 'tips', 'news_suggestions')
+      and cmd in ('INSERT', 'ALL')
+  loop
+    execute format('drop policy %I on public.%I', p.policyname, p.tablename);
+  end loop;
+end $$;
+
+-- Перевірка: має повернути 0 рядків (жодного правила на додавання не лишилось)
+select tablename, policyname, cmd from pg_policies
+where schemaname = 'public'
+  and tablename in ('thanks', 'tips', 'news_suggestions')
+  and cmd in ('INSERT', 'ALL');
