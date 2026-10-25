@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-25T17:13:36.946Z",
+ "updatedAt": "2026-10-25T17:38:49.164Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "24.07.2026 08:30",
    "days": [],
    "updatedAt": "2026-10-25T15:50:52.823Z"
@@ -646,10 +646,10 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.01.2026 08:59",
    "days": [],
-   "updatedAt": "2026-10-25T16:40:29.654Z"
+   "updatedAt": "2026-10-25T17:38:49.164Z"
   }
  }
 }
