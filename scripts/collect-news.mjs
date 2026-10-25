@@ -36,13 +36,19 @@ const hash = (s) => createHash('sha1').update(s).digest('hex').slice(0, 12);
 
 // ---------- RSS ----------
 const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', laquo: '«', raquo: '»', mdash: '—', ndash: '–', hellip: '…', rsquo: '’', lsquo: '‘', ldquo: '“', rdquo: '”' };
-function clean(raw) {
-  return String(raw || '')
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
-    .replace(/&([a-z]+);/gi, (m, name) => ENTITIES[name.toLowerCase()] ?? m)
+// Деякі медіа (наприклад, Zaxid.net) кладуть у RSS зламану CDATA-обгортку: [CDATA[…]]&gt;.
+// Тому розкодовуємо двічі і прибираємо залишки обгортки та HTML-тегів.
+export function clean(raw) {
+  let s = String(raw || '');
+  for (let i = 0; i < 2; i++) {
+    s = s
+      .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+      .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+      .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+      .replace(/&([a-z]+);/gi, (m, name) => ENTITIES[name.toLowerCase()] ?? m);
+  }
+  return s
+    .replace(/(?:<!)?\[CDATA\[|\]\]>?/g, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -137,7 +143,10 @@ async function choose(candidates, recentTitles) {
 
 // ---------- Безкоштовний режим: ключові слова ----------
 // Перше речення опису, не довше за 180 символів, щоб не копіювати текст медіа
-function firstSentence(description) {
+export function firstSentence(description, title = '') {
+  // Деякі медіа в описі просто повторюють заголовок: тоді опис не показуємо
+  const norm = (x) => x.toLowerCase().replace(/[^\p{L}\d]+/gu, '');
+  if (!description || (title && norm(description).startsWith(norm(title)))) return '';
   const s = (description.match(/^.*?[.!?…](?=\s|$)/) || [description])[0].trim();
   return s.length > 180 ? s.slice(0, 177).replace(/\s+\S*$/, '') + '…' : s;
 }
@@ -171,7 +180,7 @@ function chooseByKeywords(candidates, recentTitles = []) {
     .map(({ item, result }) => ({
       topic: result.topic,
       title: item.title.slice(0, 160),
-      text: firstSentence(item.description),
+      text: firstSentence(item.description, item.title),
       item,
       matched: result.matched,
       score: result.score
