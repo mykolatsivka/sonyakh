@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T16:51:01.701Z",
+ "updatedAt": "2026-10-25T17:13:36.946Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -646,7 +646,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.01.2026 08:59",
    "days": [],
    "updatedAt": "2026-10-25T16:40:29.654Z"
