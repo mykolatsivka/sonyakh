@@ -1169,7 +1169,8 @@
     if (!target) return;
     const action = target.dataset.action;
 
-    if (action === 'menu') menu.showModal();
+    // Фокус на саме вікно меню, а не на перший пункт, щоб не з'являлась синя рамка
+    if (action === 'menu') { menu.showModal(); menu.focus(); }
     if (action === 'install') {
       if (!installPrompt) return;
       installPrompt.prompt();
