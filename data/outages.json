@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-25T07:51:35.463Z",
+ "updatedAt": "2026-10-25T08:21:01.065Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "24.07.2026 08:30",
    "days": [],
    "updatedAt": "2026-10-25T07:03:49.995Z"
@@ -546,8 +546,8 @@
    "updatedAt": "2026-10-25T07:18:33.949Z"
   },
   "kyiv": {
-   "status": "stale",
-   "sourceUpdated": "25.10.2026 08:35",
+   "status": "ok",
+   "sourceUpdated": "25.10.2026 10:02",
    "days": [
     {
      "date": "2026-10-25",
@@ -605,50 +605,45 @@
       "5.1": [
        {
         "from": 1140,
+        "to": 1260,
+        "type": "off"
+       },
+       {
+        "from": 1350,
         "to": 1440,
         "type": "off"
        }
       ],
       "5.2": [
        {
-        "from": 600,
-        "to": 750,
+        "from": 1140,
+        "to": 1260,
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1350,
         "to": 1440,
         "type": "off"
        }
       ],
       "6.1": [
        {
-        "from": 600,
-        "to": 750,
-        "type": "off"
-       },
-       {
         "from": 1140,
-        "to": 1260,
+        "to": 1350,
         "type": "off"
        }
       ],
       "6.2": [
        {
-        "from": 600,
-        "to": 750,
-        "type": "off"
-       },
-       {
         "from": 1140,
-        "to": 1260,
+        "to": 1350,
         "type": "off"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-10-25T07:03:49.995Z"
+   "updatedAt": "2026-10-25T08:21:01.065Z"
   },
   "lviv": {
    "status": "ok",
