@@ -117,6 +117,7 @@
     .map((n) => ({ ...n, image: safeUrl(n.image), sourceUrl: safeUrl(n.sourceUrl) }))
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const getThanks = () => loadJSON('./data/thanks.json');
+  const getTips = () => loadJSON('./data/tips.json');
 
   const NEWS_TOPICS = [
     { id: 'all', label: 'Усі' },
@@ -372,7 +373,7 @@
         <section class="grid-2">
           <a class="tile tile--yellow" href="#/article/bag">${icon.bag()} Тривожна валіза і план дій</a>
           <a class="tile" href="#/article/blackout">${icon.bolt()} Що робити під час блекауту</a>
-          <span class="tile tile--soon">${icon.person()} Як заспокоїти дитину<span class="tile__soon">Скоро</span></span>
+          <a class="tile" href="#/article/kids">${icon.person()} Як заспокоїти дитину</a>
           <span class="tile tile--soon">${icon.pulse()} Коли тривожно: швидка допомога собі<span class="tile__soon">Скоро</span></span>
         </section>
 
@@ -731,6 +732,8 @@
     return `
       <div class="page">
         <header class="topbar"><div class="topbar__left">${backBtn('#/', 'На головну')}<h1 class="h1 h1--sm">Стіна подяк</h1></div></header>
+        ${gratitudeCard()}
+        <h2 class="h2">Подякуй комусь</h2>
         <form class="card stack" style="padding: 20px; gap: 14px; border-radius: 24px" data-thanks-form>
           <fieldset>
             <legend>Кому дякуємо?</legend>
@@ -765,6 +768,7 @@
       </div>`;
   };
   screens['/thanks'].mount = (root) => {
+    mountGratitude(root);
     const form = root.querySelector('[data-thanks-form]');
     const other = root.querySelector('[data-other]');
     let recipient = RECIPIENTS[0].id;
@@ -1215,6 +1219,247 @@
         <p class="small muted">Складено за рекомендаціями ДСНС. [Дата перевірки статті]</p>
       </footer>
     </div>`;
+
+  // ---------- Вдячність дня: особиста «банка вдячності», живе лише на телефоні ----------
+  const GRATITUDE_CHIPS = ['Я прокинувся', 'Тепла їжа', 'Кава чи чай', 'Рідні поруч', 'Є світло', 'Сонце за вікном',
+    'Тепла ковдра', 'Дзвінок від друга', 'Тиша вночі', 'Обійми', 'Улюблена пісня', 'Я впорався'];
+  const GRATITUDE_QUESTIONS = ['За яку дрібницю ти вдячний сьогодні?', 'Що сьогодні зігріло тебе?',
+    'Хто зробив твій день трохи кращим?', 'Що смачного було сьогодні?', 'Який момент дня хочеться запам\'ятати?',
+    'Що сьогодні вийшло добре?', 'За що можна подякувати собі сьогодні?'];
+  const daysWord = (n) => {
+    const a = n % 10, b = n % 100;
+    if (a === 1 && b !== 11) return 'день';
+    if (a >= 2 && a <= 4 && (b < 12 || b > 14)) return 'дні';
+    return 'днів';
+  };
+  const jarArt = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#FFF1C2"/><rect x="13" y="7" width="14" height="5" rx="2" fill="#E0A000"/><path d="M12 14h16a3 3 0 0 1 3 3v13a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V17a3 3 0 0 1 3-3z" fill="#fff" stroke="#F0D58A" stroke-width="1.5"/><path d="M20 30c-3.6-2.2-5-4.1-5-5.6a2.4 2.4 0 0 1 5-1.1 2.4 2.4 0 0 1 5 1.1c0 1.5-1.4 3.4-5 5.6z" fill="#F2545B"/><circle cx="14.5" cy="19.5" r="1.6" fill="#FFCF33"/><circle cx="25" cy="18.5" r="1.2" fill="#FFCF33"/><path d="M26 23l.7 1.6 1.6.7-1.6.7-.7 1.6-.7-1.6-1.6-.7 1.6-.7z" fill="#FFB300"/></svg>`;
+  let gratitudeEdit = false;
+
+  function gratitudeStreak(entries, today) {
+    const dates = new Set(entries.map((e) => e.date));
+    let day = dates.has(today) ? today : addDays(today, -1);
+    let n = 0;
+    while (dates.has(day)) { n++; day = addDays(day, -1); }
+    return n;
+  }
+
+  function gratitudeCard() {
+    const today = kyivNow().date;
+    const entries = store.get('gratitude', []);
+    const todays = entries.find((e) => e.date === today);
+    const streak = gratitudeStreak(entries, today);
+    const dayNum = Math.floor(new Date(today + 'T12:00:00Z').getTime() / 86400000);
+    const question = GRATITUDE_QUESTIONS[dayNum % GRATITUDE_QUESTIONS.length];
+    const picked = todays ? todays.items : [];
+    const custom = picked.filter((i) => !GRATITUDE_CHIPS.includes(i));
+
+    const head = `
+      <div class="gratitude__head">
+        ${jarArt(56)}
+        <div class="stack stack--xs" style="flex: 1; min-width: 0">
+          <h2 class="h2">Вдячність дня</h2>
+          <p class="small muted">Щодня згадай хоча б одну добру річ. Записи бачиш лише ти.</p>
+        </div>
+      </div>`;
+    const streakPill = streak ? `<span class="pill pill--yellow">${sunMoon.sun} ${streak} ${daysWord(streak)} поспіль</span>` : '';
+
+    let body;
+    if (todays && !gratitudeEdit) {
+      body = `
+        <p style="font-weight: 700">Сьогодні ти вдячний за:</p>
+        <div class="chips">${todays.items.map((i) => `<span class="chip chip--static">${esc(i)}</span>`).join('')}</div>
+        <div class="row-center">${streakPill}<button class="btn btn--ghost" data-action="gratitude-edit">Додати ще</button></div>`;
+    } else {
+      body = `
+        <p class="gratitude__q">${esc(question)}</p>
+        <div class="chips" role="group" aria-label="Варіанти">
+          ${GRATITUDE_CHIPS.map((c) => `<button type="button" class="chip" data-grat="${esc(c)}" aria-pressed="${picked.includes(c)}">${esc(c)}</button>`).join('')}
+        </div>
+        <label class="sr-only" for="grat-own">Своє</label>
+        <input class="input" id="grat-own" maxlength="80" placeholder="Або напиши своє…" value="${esc(custom.join(', '))}">
+        <button class="btn btn--yellow btn--block" data-action="gratitude-save">Покласти в банку вдячності</button>
+        ${streakPill ? `<div>${streakPill}</div>` : ''}`;
+    }
+
+    const past = entries.filter((e) => e.date !== today).slice(-14).reverse();
+    const jar = past.length ? `
+      <details class="gratitude__jar">
+        <summary>Моя банка вдячності (${entries.length})</summary>
+        <ul>${past.map((e) => `<li><span class="small muted">${esc(new Date(e.date + 'T12:00:00').toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }))}</span>${esc(e.items.join(', '))}</li>`).join('')}</ul>
+      </details>` : '';
+
+    return `<section class="card gratitude" data-gratitude>${head}${body}${jar}</section>`;
+  }
+
+  function mountGratitude(root) {
+    const box = root.querySelector('[data-gratitude]');
+    if (!box) return;
+    box.querySelectorAll('[data-grat]').forEach((chip) => {
+      chip.addEventListener('click', () => chip.setAttribute('aria-pressed', String(chip.getAttribute('aria-pressed') !== 'true')));
+    });
+    box.addEventListener('click', (event) => {
+      const action = event.target.closest('[data-action]')?.dataset.action;
+      if (action === 'gratitude-edit') { gratitudeEdit = true; render(); }
+      if (action === 'gratitude-save') {
+        const items = [...box.querySelectorAll('[data-grat][aria-pressed="true"]')].map((c) => c.dataset.grat);
+        const own = box.querySelector('#grat-own').value.split(',').map((s) => s.trim()).filter(Boolean);
+        const all = [...new Set([...items, ...own])];
+        if (!all.length) { box.querySelector('#grat-own').focus(); return; }
+        const today = kyivNow().date;
+        const entries = store.get('gratitude', []).filter((e) => e.date !== today);
+        entries.push({ date: today, items: all });
+        store.set('gratitude', entries.slice(-365));
+        gratitudeEdit = false;
+        render();
+      }
+    });
+  }
+
+  // ---------- Стаття: як заспокоїти дитину + поради від батьків ----------
+  const TIP_AGES = [
+    { id: 'baby', label: 'До 3 років' },
+    { id: 'preschool', label: '3–6 років' },
+    { id: 'school', label: '7–12 років' },
+    { id: 'teen', label: 'Підліток' }
+  ];
+  const ageLabel = (id) => (TIP_AGES.find((a) => a.id === id) || { label: '' }).label;
+  const tipCard = (t, mine) => `
+    <article class="card thanks-card ${mine ? 'thanks-card--mine' : ''}">
+      ${t.age ? `<span class="thanks-card__to">${esc(ageLabel(t.age))}</span>` : ''}
+      <p>${esc(t.text)}</p>
+      <span class="small muted">${mine ? 'Твоя порада · зовсім скоро її побачать усі' : esc(t.who || 'Від батьків')}</span>
+    </article>`;
+
+  screens['/article/kids'] = async () => {
+    const tips = await getTips();
+    const mine = store.get('myTips', []).slice().reverse();
+    const tipsHtml = mine.map((t) => tipCard(t, true)).join('') + tips.map((t) => tipCard(t, false)).join('');
+    return `
+    <div class="page page--white">
+      <header class="topbar"><div class="topbar__left">${backBtn('#/', 'Назад')}<span class="small muted" style="font-size: 14px; font-weight: 600">Стаття · 5 хв читання</span></div></header>
+      <section class="stack">
+        <span class="pill pill--yellow">Діти</span>
+        <h1 class="h1">Як заспокоїти дитину</h1>
+        <p class="lead">Діти зчитують наш стан швидше за слова. Найкраще, що можна зробити, — бути поруч і бути спокійним настільки, наскільки виходить.</p>
+      </section>
+      <nav class="toc" aria-label="Зміст">
+        <a href="#/article/kids" data-jump="k1">1. Спершу заспокой себе</a>
+        <a href="#/article/kids" data-jump="k2">2. Під час тривоги чи вибухів</a>
+        <a href="#/article/kids" data-jump="k3">3. Що казати і чого не казати</a>
+        <a href="#/article/kids" data-jump="k4">4. Вік має значення</a>
+        <a href="#/article/kids" data-jump="k5">5. Після відбою</a>
+        <a href="#/article/kids" data-jump="k6">6. Коли звернутись по допомогу</a>
+        <a href="#/article/kids" data-jump="tips">Поради від мам і тат</a>
+      </nav>
+
+      <section id="k1" class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">1. Спершу заспокой себе</h2>
+        <div class="box"><div class="box__head">Твій спокій — найкращі ліки</div><ul>
+          <li>Зроби кілька повільних видихів: вдих на 4, видих на 6. Дитина «підхопить» твій ритм.</li>
+          <li>Говори тихо й повільно, навіть якщо всередині тривожно.</li>
+          <li>Не треба вдавати, що все гаразд. Досить показати: «Мені теж неприємно, але я поруч, і ми впораємось».</li></ul></div>
+      </section>
+
+      <section id="k2" class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">2. Під час тривоги чи вибухів</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>Обійми, тримай за руку, посади на коліна.</strong> Дотик заспокоює краще за будь-які слова.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Назви, що відбувається, просто і чесно:</strong> «Це гучно. Ми в безпечному місці. Я з тобою».</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Дай дитині дію:</strong> тримати ліхтарик, обрати іграшку, рахувати разом.</p></div>
+        <div class="step"><span class="step__n">4</span><p><strong>Дихайте разом:</strong> «Надуваємо велику кульку… і повільно здуваємо».</p></div>
+        <div class="step"><span class="step__n">5</span><p><strong>Перемкни увагу:</strong> пісенька, казка, гра «Знайди 5 речей синього кольору» або «Бульбашки» тут, у Соняху.</p></div>
+        <a class="link-row" href="#/kids">Відкрити «Бульбашки» для дитини ${icon.arrow('var(--yellow)')}</a>
+      </section>
+
+      <section id="k3" class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">3. Що казати і чого не казати</h2>
+        <div class="box"><div class="box__head" style="background: #1E7A47">Кажи</div><ul>
+          <li>«Тобі страшно — це нормально. Я теж іноді боюсь».</li>
+          <li>«Ми разом. Дорослі роблять усе, щоб ти був у безпеці».</li></ul></div>
+        <div class="box"><div class="box__head" style="background: #B4232A">Краще не казати</div><ul>
+          <li>«Не плач», «Не бійся», «Нічого страшного». Так дитина вчиться ховати почуття.</li>
+          <li>Не обговорюй страшні новини і подробиці при дитині.</li></ul></div>
+      </section>
+
+      <section id="k4" class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">4. Вік має значення</h2>
+        <div class="box"><div class="box__head">Що допомагає в різному віці</div><ul>
+          <li><strong>Малюки (до 3 років):</strong> звичний ритуал, улюблена іграшка, колискова, твій голос.</li>
+          <li><strong>Дошкільнята (3–6):</strong> прості пояснення, гра, малювання страху на папері: «а тепер намалюємо, як він зменшується».</li>
+          <li><strong>Школярі (7–12):</strong> чесні відповіді на запитання, план дій («Що ми робимо, коли сирена»), маленькі доручення.</li>
+          <li><strong>Підлітки:</strong> розмова на рівних, без тиску. Дай побути з друзями онлайн, поважай їхній спосіб справлятися.</li></ul></div>
+      </section>
+
+      <section id="k5" class="stack">
+        <h2 class="h2 h2--lg">5. Після відбою</h2>
+        <p>Обійміться і скажіть: «Ми впорались». Поверніться до звичних справ: їжа, гра, сон. Рутина дає відчуття безпеки.</p>
+        <p>Якщо дитина хоче говорити, слухай. Якщо ні, не змушуй.</p>
+      </section>
+
+      <section id="k6" class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">6. Коли варто звернутись по допомогу</h2>
+        <p>Якщо кілька тижнів поспіль дитина погано спить, має нічні жахи, не відпускає тебе ні на крок, повертається до «малечих» звичок чи стала замкненою або агресивною, це привід поговорити з дитячим психологом.</p>
+        <div class="callout"><strong>Безкоштовно і цілодобово:</strong> Національна гаряча лінія для дітей та молоді «Ла Страда-Україна» — <a href="tel:116111"><strong>116 111</strong></a> (з мобільного) або <a href="tel:0800500225"><strong>0 800 500 225</strong></a>. Туди можуть дзвонити і діти, і батьки.</div>
+      </section>
+
+      <section id="tips" class="tips">
+        <div class="tips__head">
+          ${tipsArt(64)}
+          <div class="stack stack--xs">
+            <h2 class="h2 h2--lg">Поради від мам і тат</h2>
+            <p class="muted" style="font-size: 15px">Те, що мама підказала колись тобі, сьогодні може заспокоїти чиюсь дитину в укритті.</p>
+          </div>
+        </div>
+        ${tipsHtml || '<p class="muted center" style="font-size: 15px">Тут поки немає порад. Стань першим, хто поділиться!</p>'}
+        <form class="card stack" style="padding: 18px; gap: 12px; border-radius: 20px" data-tip-form>
+          <label class="field-label" for="tip-text">Що допомагає саме вашій дитині?</label>
+          <textarea class="textarea" id="tip-text" rows="3" maxlength="400" placeholder="Наприклад: ми вигадали «чарівну ковдру», під якою нічого не страшно…" required></textarea>
+          <fieldset>
+            <legend class="small" style="font-weight: 700">Для якого віку (необов'язково)</legend>
+            <div class="chips">${TIP_AGES.map((a) => `<button type="button" class="chip" data-age="${a.id}" aria-pressed="false">${a.label}</button>`).join('')}</div>
+          </fieldset>
+          <label class="sr-only" for="tip-who">Хто ви</label>
+          <input class="input" id="tip-who" maxlength="60" placeholder="Хто ви (необов'язково): мама двох дітей, Львів">
+          <p class="notice" role="status" data-tip-sent hidden>Дякуємо! Ваша порада зовсім скоро допомагатиме іншим.</p>
+          <button class="btn btn--dark btn--block" type="submit">Поділитися порадою</button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <a class="btn btn--dark btn--block" href="#/shelter">Повернутися в режим укриття</a>
+        <p class="small muted">Підготовлено за загальними рекомендаціями з психологічної підтримки дітей у кризових ситуаціях. Не замінює консультації фахівця. Поради батьків — їхній особистий досвід. [Дата перевірки статті]</p>
+      </footer>
+    </div>`;
+  };
+  screens['/article/kids'].mount = (root) => {
+    root.querySelectorAll('[data-jump]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        root.querySelector('#' + link.dataset.jump).scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+    const form = root.querySelector('[data-tip-form]');
+    let age = '';
+    form.querySelectorAll('[data-age]').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        age = age === chip.dataset.age ? '' : chip.dataset.age;
+        form.querySelectorAll('[data-age]').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.age === age)));
+      });
+    });
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const text = form.querySelector('#tip-text').value.trim();
+      if (!text) return;
+      const tip = { text, age, who: form.querySelector('#tip-who').value.trim() };
+      outbox.add('tips', tip);
+      const mine = store.get('myTips', []);
+      mine.push(tip);
+      store.set('myTips', mine);
+      await render();
+      const sent = app.querySelector('[data-tip-sent]');
+      if (sent) { sent.hidden = false; sent.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    });
+  };
+  const tipsArt = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#E8EEFB"/><path d="M8 13a4 4 0 0 1 4-4h16a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4h-9l-6 5v-5h-1a4 4 0 0 1-4-4z" fill="#1F4FB8"/><path d="M20 23c-4-2.5-5.5-4.6-5.5-6.3a2.6 2.6 0 0 1 5.5-1.2 2.6 2.6 0 0 1 5.5 1.2c0 1.7-1.5 3.8-5.5 6.3z" fill="#FFCF33"/></svg>`;
 
   // ---------- Дії по кліку ----------
   app.addEventListener('click', async (event) => {

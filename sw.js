@@ -1,6 +1,6 @@
 // Service worker: зберігає Сонях на телефоні, щоб він працював без інтернету.
 // Після будь-яких змін у файлах збільш номер версії, щоб телефони підтягнули оновлення.
-const VERSION = 'sonyakh-v8';
+const VERSION = 'sonyakh-v9';
 const SHELL = [
   './',
   './index.html',
@@ -14,6 +14,7 @@ const SHELL = [
   './icons/apple-touch-icon.png',
   './data/news.json',
   './data/thanks.json',
+  './data/tips.json',
   './data/regions.json',
   './data/outages.json'
 ];

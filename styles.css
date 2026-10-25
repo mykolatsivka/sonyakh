@@ -319,6 +319,21 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 .legend__dot.is-maybe { background: repeating-linear-gradient(135deg, #9DB7F2 0 3px, #C9D8FA 3px 6px); }
 .legend__now { width: 3px; height: 14px; border-radius: 2px; background: #F2545B; }
 
+/* ---------- Вдячність дня ---------- */
+.gratitude { padding: 20px; border-radius: 24px; display: flex; flex-direction: column; gap: 14px; background: #FFFBEA; border-color: #F0D58A; }
+.gratitude__head { display: flex; align-items: center; gap: 14px; }
+.gratitude__q { font-family: var(--display); font-weight: 500; font-size: 17px; line-height: 1.3; }
+.gratitude .chip { background: var(--surface); }
+.gratitude .chip[aria-pressed="true"] { background: var(--yellow); border-color: #E0A800; color: var(--ink); }
+.chip--static { display: inline-flex; align-items: center; background: var(--yellow) !important; border-color: #E0A800; cursor: default; }
+.gratitude__jar summary { cursor: pointer; font-weight: 700; color: var(--blue); min-height: 44px; display: flex; align-items: center; }
+.gratitude__jar ul { list-style: none; padding: 0; margin: 4px 0 0; display: flex; flex-direction: column; gap: 10px; }
+.gratitude__jar li { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 12px; background: var(--surface); font-size: 15px; }
+
+/* ---------- Поради від батьків ---------- */
+.tips { display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 24px; background: var(--bg); }
+.tips__head { display: flex; align-items: center; gap: 14px; }
+
 /* ---------- Меню ---------- */
 .sheet {
   width: min(440px, calc(100% - 32px)); border: 0; border-radius: 24px; padding: 20px;
