@@ -152,6 +152,8 @@
       '<g fill="none" stroke="#6B4FD8" stroke-width="5"><ellipse cx="160" cy="90" rx="74" ry="26"/><ellipse cx="160" cy="90" rx="74" ry="26" transform="rotate(60 160 90)"/><ellipse cx="160" cy="90" rx="74" ry="26" transform="rotate(-60 160 90)"/></g><circle cx="160" cy="90" r="14" fill="#FFCF33"/><circle cx="234" cy="90" r="7" fill="#F2545B"/><circle cx="123" cy="26" r="7" fill="#1F4FB8"/><circle cx="123" cy="154" r="7" fill="#3BA776"/>'
     ]]
   };
+  // Сердечко з іскорками для стіни подяк
+  const heartArt = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#FDE2D8"/><path d="M20 33C11 27.5 8 22.5 8 18.5A5.5 5.5 0 0 1 20 16a5.5 5.5 0 0 1 12 2.5c0 4-3 9-12 14.5z" fill="#F2545B"/><ellipse cx="13.5" cy="18" rx="2" ry="1.3" fill="#fff" opacity=".7"/><path d="M32 4.5l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#FFB300"/><circle cx="8" cy="9" r="1.3" fill="#FFB300"/></svg>`;
   function newsArt(topic, seed = '') {
     const [bg, variants] = NEWS_ART[topic] || NEWS_ART.people;
     let h = 0;
@@ -306,12 +308,20 @@
         </div>
       </a>` : '<p class="muted">Скоро тут з\'явиться перша добра новина.</p>';
 
-    const thanksBlock = thanks.slice(0, 2).map((t) => `
+    const thanksBlock = thanks.length ? thanks.slice(0, 2).map((t) => `
       <div class="card thanks-card">
         <span class="thanks-card__to">${esc(t.to)}</span>
         <p style="font-size: 15px">${esc(t.text)}</p>
         <span class="small muted">${esc(t.who)}</span>
-      </div>`).join('');
+      </div>`).join('') : `
+      <a class="card power-card" href="#/thanks">
+        ${heartArt(52)}
+        <span class="stack stack--xs" style="flex: 1; min-width: 0">
+          <strong style="font-size: 17px">Будь першим, хто подякує</strong>
+          <span class="small muted" style="font-size: 14px">Тепле слово енергетикам, медикам чи сусідам</span>
+        </span>
+        ${icon.arrow('var(--blue)')}
+      </a>`;
 
     return `
       <div class="page">
@@ -744,6 +754,13 @@
           <h2 class="h2">Нові подяки</h2>
           ${mineHtml}
           ${cardsHtml}
+          ${!mineHtml && !cardsHtml ? `
+          <div class="card power-hello thanks-empty">
+            ${heartArt(96)}
+            <h3 class="h2">Тут ще немає подяк</h3>
+            <p class="muted">Будь першим! Подякуй енергетикам, рятувальникам, сусідці з п'ятого поверху — будь-кому, хто зробив твій день світлішим.</p>
+            <button class="btn btn--yellow btn--block" data-action="focus-thanks">Написати першу подяку</button>
+          </div>` : ''}
         </section>
       </div>`;
   };
@@ -1225,6 +1242,11 @@
     if (action === 'topic') { newsTopic = target.dataset.topic; render(); }
     if (action === 'install-tab') { installTab = target.dataset.tab; render(); }
     if (action === 'power-day') { powerDay = Number(target.dataset.day); render(); }
+    if (action === 'focus-thanks') {
+      const field = app.querySelector('#th-text');
+      field.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      field.focus({ preventScroll: true });
+    }
     if (action === 'pick-group') {
       const key = 'myGroup:' + store.get('region', '');
       const group = target.dataset.group;
