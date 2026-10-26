@@ -1074,10 +1074,24 @@
     try {
       const res = await fetch('./data/outages.json', { cache: 'no-cache' });
       if (!res.ok) throw new Error(res.status);
-      return await res.json();
+      // Заголовок Date зберігається разом із копією файла, тож без інтернету він показує,
+      // коли графік востаннє завантажили з сервера
+      const fetchedAt = Date.parse(res.headers.get('date') || '') || Date.now();
+      return { ...(await res.json()), fetchedAt };
     } catch (e) {
       return { regions: {} };
     }
+  }
+
+  // «сьогодні о 14:20», «вчора о 23:05» або «24 жовтня о 09:10» за київським часом
+  function savedWhen(ts) {
+    const d = new Date(ts);
+    const time = d.toLocaleTimeString('uk-UA', { timeZone: 'Europe/Kyiv', hour: '2-digit', minute: '2-digit' });
+    const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Kyiv' }).format(d);
+    const today = kyivNow().date;
+    if (date === today) return `сьогодні о ${time}`;
+    if (date === addDays(today, -1)) return `вчора о ${time}`;
+    return `${d.toLocaleDateString('uk-UA', { timeZone: 'Europe/Kyiv', day: 'numeric', month: 'long' })} о ${time}`;
   }
 
   // Що зараз із чергою: є світло чи ні, і до котрої
@@ -1206,15 +1220,29 @@
     const statusPill = data.status === 'stale'
       ? `<span class="pill pill--offline">${icon.wifi()} Не вдалося оновити, показуємо останнє збережене</span>`
       : `<span class="pill">${icon.clock()} ${data.sourceUpdated ? 'Обленерго оновило: ' + esc(data.sourceUpdated) : 'Дані: ' + esc(region.operator)}</span>`;
+    // Графік, завантажений понад 3 години тому (зазвичай без інтернету), міг змінитися
+    const oldSaved = outages.fetchedAt && Date.now() - outages.fetchedAt > 3 * 3600e3;
+    const staleNote = oldSaved ? `
+      <section class="stale-note" role="status">
+        ${icon.clock()}
+        <div>
+          <strong>Графік збережено ${esc(savedWhen(outages.fetchedAt))}</strong>
+          <p>Відтоді він міг змінитися. Підключись до інтернету, і Сонях одразу оновить його.</p>
+        </div>
+      </section>` : '';
 
     if (!days.length) {
       return `<div class="page">${head}
         <section class="stack stack--sm">${select}</section>
         ${statusPill}
+        ${staleNote}
         <section class="card power-hello">
           <svg width="88" height="88" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5.5" fill="#FFCF33"/><g stroke="#FFB300" stroke-width="1.6" stroke-linecap="round"><path d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g><circle cx="10.2" cy="11.2" r=".8" fill="#7A4A12"/><circle cx="13.8" cy="11.2" r=".8" fill="#7A4A12"/><path d="M10 13.4q2 1.8 4 0" stroke="#7A4A12" stroke-width=".9" fill="none" stroke-linecap="round"/></svg>
-          <h2 class="h2">Відключень не заплановано</h2>
-          <p class="muted">${esc(region.operator)} зараз не публікує графік для твоєї області. Якщо він з'явиться, Сонях покаже його тут.</p>
+          ${oldSaved
+            ? `<h2 class="h2">Немає збереженого графіка на сьогодні</h2>
+          <p class="muted">Без інтернету Сонях не може дізнатися, чи є відключення сьогодні. Перевір пізніше або на сайті ${esc(region.operator)}.</p>`
+            : `<h2 class="h2">Відключень не заплановано</h2>
+          <p class="muted">${esc(region.operator)} зараз не публікує графік для твоєї області. Якщо він з'явиться, Сонях покаже його тут.</p>`}
         </section>
         ${findBtn}
         ${articleLink}
@@ -1269,7 +1297,7 @@
           <span class="queue__badge">${g === myGroup ? icon.star() : ''}${esc(g)}</span>
           <span class="queue__body">
             <span class="track">${segs}${isToday ? `<span class="track__now" style="left:${nowLeft}%"></span>` : ''}</span>
-            <span class="queue__text">${nowState ? `<b class="${nowState.on ? 'is-on' : 'is-off'}">${nowState.on ? 'Зараз є' : 'Зараз немає'}</b> · ` : ''}${esc(offText(intervals))}</span>
+            <span class="queue__text">${nowState ? `<b class="${nowState.on ? 'is-on' : 'is-off'}">${nowState.on ? 'Зараз є' : nowState.maybe ? 'Зараз можливе відключення' : 'Зараз немає'}</b> · ` : ''}${esc(offText(intervals))}</span>
           </span>
         </button>`;
     }).join('');
@@ -1277,6 +1305,7 @@
     return `<div class="page">${head}
       <section class="stack stack--sm">${select}</section>
       ${statusPill}
+      ${staleNote}
       ${dayTabs}
       ${mine}
       <section class="stack stack--sm">
