@@ -1491,6 +1491,20 @@
         </div>
       </section>` : '';
 
+    // Сайт обленерго не віддав графік: не можна писати «відключень немає», бо ми просто не знаємо
+    if (!days.length && data.status === 'stale') {
+      return `<div class="page">${head}
+        <section class="stack stack--sm">${select}</section>
+        <section class="card power-hello">
+          ${bulbArt(64)}
+          <h2 class="h2">Не вдалося отримати графік</h2>
+          <p class="muted">Сайт ${esc(region.operator)} зараз не віддає графік Соняху. Подивись його на офіційному сайті.</p>
+          <a class="btn btn--yellow btn--block" href="${esc(region.url)}" target="_blank" rel="noopener">Відкрити графік на сайті</a>
+        </section>
+        ${articleLink}
+      </div>`;
+    }
+
     if (!days.length) {
       return `<div class="page">${head}
         <section class="stack stack--sm">${select}</section>
