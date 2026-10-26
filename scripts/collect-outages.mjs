@@ -306,10 +306,12 @@ for (const region of regions) {
     console.log(`✓ ${region.name}: днів ${days.length}`);
   } catch (error) {
     // Лишаємо попередні дані, щоб людина бачила хоч щось
-    const entry = { ...(before || { days: [], sourceUpdated: null, updatedAt: null }), status: 'stale' };
-    if (before?.status !== 'stale') changed = true;
+    const reason = error.cause?.code ? `${error.message} (${error.cause.code})` : error.message;
+    const entry = { ...(before || { days: [], sourceUpdated: null, updatedAt: null }), status: 'stale', error: reason };
+    // Причину збою зберігаємо у файлі: журнали GitHub без входу в акаунт не видно
+    if (before?.status !== 'stale' || before?.error !== reason) changed = true;
     result.regions[region.id] = entry;
-    console.log(`✗ ${region.name}: ${error.message}`);
+    console.log(`✗ ${region.name}: ${reason}`);
   }
 }
 
