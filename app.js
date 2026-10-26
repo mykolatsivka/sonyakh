@@ -59,6 +59,9 @@
     wifi: () => stroke('<path d="M2 8.8a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M12 19.5h.01"/>', 16),
     server: () => stroke('<rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/>', 22),
     star: () => '<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFB300" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5-4.9-4.5 6.6-.8z"/></svg>',
+    brush: () => stroke('<path d="M14.5 4.5l5 5L10 19l-5-5z"/><path d="M5 14l-1.5 5.5L9 18"/><path d="M12 7l5 5"/>', 26, 'var(--sky)'),
+    search: () => stroke('<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/>', 26, 'var(--sky)'),
+    moon: () => stroke('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>', 26, 'var(--sky)'),
     gridPlus: () => stroke('<rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><path d="M17 13v8M13 17h8"/>', 22)
   };
 
@@ -506,6 +509,8 @@
           <a class="tile" href="#/article/blackout">${articleArt.blackout}Що робити під час блекауту</a>
           <a class="tile" href="#/article/kids">${articleArt.kids}Як заспокоїти дитину</a>
           <a class="tile" href="#/article/anxiety">${articleArt.anxiety}Коли тривожно: швидка допомога собі</a>
+          <a class="tile" href="#/article/first-aid">${articleArt.firstAid}Перша допомога в укритті</a>
+          <a class="tile" href="#/article/pets">${articleArt.pets}Тварина під час тривоги</a>
         </section>
 
         <footer class="footer">
@@ -541,9 +546,18 @@
           <button class="btn btn--yellow btn--block" data-action="breath" style="font-size: 17px">Почати дихати</button>
         </section>
 
+        <section class="stack stack--sm">
+          <h2 class="h2">Ігри та казки</h2>
+          <div class="grid-2">
+            <a class="night-tile" href="#/game">${icon.grid()} Знайди пару</a>
+            <a class="night-tile" href="#/kids">${icon.kids()} Бульбашки</a>
+            <a class="night-tile" href="#/color">${icon.brush()} Розмальовка</a>
+            <a class="night-tile" href="#/diff">${icon.search()} Знайди відмінності</a>
+            <a class="night-tile night-tile--wide" href="#/tales">${icon.moon()} Казка на ніч</a>
+          </div>
+        </section>
+
         <section class="grid-2">
-          <a class="night-tile" href="#/game">${icon.grid()} Знайди пару</a>
-          <a class="night-tile" href="#/kids">${icon.kids()} Для дітей</a>
           <a class="night-tile" href="#/news">${icon.sun()} Добра новина</a>
           <a class="night-tile" href="#/thanks">${icon.heartLine()} Подякувати комусь</a>
         </section>
@@ -561,6 +575,8 @@
               </label>`).join('')}
           </div>
           <a class="link-row" href="#/article/bag">Повний чекліст і план дій ${icon.arrow('var(--yellow)')}</a>
+          <a class="link-row" href="#/article/first-aid">Перша допомога в укритті ${icon.arrow('var(--yellow)')}</a>
+          <a class="link-row" href="#/article/pets">Тварина під час тривоги ${icon.arrow('var(--yellow)')}</a>
         </section>
 
         <button class="btn btn--night btn--block" data-action="all-clear">${icon.check('var(--mint)', 20)} Відбій, я виходжу з укриття</button>
@@ -709,6 +725,250 @@
     spawn();
     const timer = setInterval(spawn, 900);
     return () => clearInterval(timer);
+  };
+
+  // ---------- Розмальовка: обираєш колір і торкаєшся частини малюнка ----------
+  // Кожна частина з атрибутом data-r — окрема ділянка, яку можна зафарбувати
+  const R = (shape) => shape.replace(/^<(\w+)/, '<$1 data-r fill="#FFFFFF"');
+  const COLOR_PICTURES = [
+    { name: 'Соняшник', svg: [
+      R('<rect x="0" y="0" width="300" height="210"/>'),
+      R('<circle cx="250" cy="50" r="28"/>'),
+      R('<rect x="0" y="210" width="300" height="90"/>'),
+      R('<rect x="143" y="150" width="14" height="120" rx="6"/>'),
+      R('<ellipse cx="118" cy="215" rx="28" ry="12" transform="rotate(-25 118 215)"/>'),
+      R('<ellipse cx="182" cy="235" rx="28" ry="12" transform="rotate(25 182 235)"/>'),
+      ...Array.from({ length: 10 }, (_, i) => R(`<ellipse cx="150" cy="60" rx="15" ry="32" transform="rotate(${i * 36} 150 105)"/>`)),
+      R('<circle cx="150" cy="105" r="30"/>'),
+      '<g fill="#12203A"><circle cx="140" cy="100" r="3.5"/><circle cx="160" cy="100" r="3.5"/></g><path d="M139 113q11 9 22 0" fill="none"/>'
+    ] },
+    { name: 'Будиночок', svg: [
+      R('<rect x="0" y="0" width="300" height="220"/>'),
+      R('<path d="M42 70a22 22 0 0 1 40-12a18 18 0 0 1 30 14a14 14 0 0 1-2 28h-62a16 16 0 0 1-6-30z"/>'),
+      R('<rect x="0" y="220" width="300" height="80"/>'),
+      R('<rect x="182" y="70" width="20" height="40"/>'),
+      R('<rect x="70" y="140" width="140" height="110"/>'),
+      R('<path d="M55 145L140 75l85 70z"/>'),
+      R('<rect x="122" y="185" width="36" height="65" rx="4"/>'),
+      R('<rect x="84" y="160" width="28" height="28" rx="3"/>'),
+      R('<rect x="168" y="160" width="28" height="28" rx="3"/>'),
+      R('<rect x="250" y="190" width="14" height="60"/>'),
+      R('<circle cx="257" cy="165" r="32"/>'),
+      R('<circle cx="35" cy="255" r="10"/>'),
+      R('<circle cx="60" cy="265" r="10"/>')
+    ] },
+    { name: 'Котик', svg: [
+      R('<rect x="0" y="0" width="300" height="300"/>'),
+      R('<path d="M205 230q70-10 55-80q-5-15-15-5q8 55-45 60z"/>'),
+      R('<ellipse cx="150" cy="215" rx="70" ry="55"/>'),
+      R('<path d="M98 85L105 40l35 30z"/>'),
+      R('<path d="M202 85L195 40l-35 30z"/>'),
+      R('<circle cx="150" cy="115" r="55"/>'),
+      R('<ellipse cx="128" cy="110" rx="9" ry="12"/>'),
+      R('<ellipse cx="172" cy="110" rx="9" ry="12"/>'),
+      R('<path d="M143 130h14l-7 8z"/>'),
+      R('<circle cx="60" cy="250" r="26"/>'),
+      '<path d="M100 135l-30-5M100 145l-30 5M200 135l30-5M200 145l30 5M140 145q10 8 20 0" fill="none"/>'
+    ] }
+  ];
+  const PALETTE = [['#FFCF33', 'жовтий'], ['#FF9F43', 'помаранчевий'], ['#F2545B', 'червоний'], ['#FF8FB1', 'рожевий'], ['#9B7BFF', 'фіолетовий'],
+    ['#7FA6FF', 'блакитний'], ['#4CC38A', 'зелений'], ['#8D5B3E', 'коричневий'], ['#12203A', 'темно-синій'], ['#FFFFFF', 'білий']];
+  let colorPic = 0;
+  let colorPick = PALETTE[0][0];
+
+  screens['/color'] = () => `
+    <div class="page page--night">
+      <header class="topbar">
+        <div class="topbar__left">${backBtn('#/shelter', 'Назад в укриття')}<h1 class="h1 h1--sm">Розмальовка</h1></div>
+      </header>
+      <p style="color: var(--night-muted)">Обери колір унизу і торкнися частини малюнка. Можна фарбувати як завгодно, тут немає помилок.</p>
+      <div class="segmented segmented--night" role="group" aria-label="Малюнок">
+        ${COLOR_PICTURES.map((p, i) => `<button data-pic="${i}" aria-pressed="${i === colorPic}">${p.name}</button>`).join('')}
+      </div>
+      <div class="coloring">
+        <svg viewBox="0 0 300 300" data-canvas role="img" aria-label="Малюнок для розфарбовування: ${COLOR_PICTURES[colorPic].name}"
+          stroke="#12203A" stroke-width="3" stroke-linejoin="round">${COLOR_PICTURES[colorPic].svg.join('')}</svg>
+      </div>
+      <div class="palette" role="radiogroup" aria-label="Кольори">
+        ${PALETTE.map(([c, name]) => `<button class="palette__dot" role="radio" data-color="${c}" aria-checked="${c === colorPick}" aria-label="${name}" style="background:${c}"></button>`).join('')}
+      </div>
+      <button class="btn btn--night btn--block" data-action="clear-color">Почати малюнок спочатку</button>
+    </div>`;
+  screens['/color'].mount = (root) => {
+    const canvas = root.querySelector('[data-canvas]');
+    const key = 'coloring:' + colorPic;
+    // Розфарбоване зберігається, щоб можна було повернутися до малюнка пізніше
+    const parts = [...canvas.querySelectorAll('[data-r]')];
+    const saved = store.get(key, []);
+    parts.forEach((p, i) => { if (saved[i]) p.setAttribute('fill', saved[i]); });
+    const save = () => store.set(key, parts.map((p) => p.getAttribute('fill')));
+
+    canvas.addEventListener('pointerdown', (event) => {
+      const part = event.target.closest('[data-r]');
+      if (!part) return;
+      part.setAttribute('fill', colorPick);
+      save();
+    });
+    root.querySelectorAll('[data-color]').forEach((dot) => dot.addEventListener('click', () => {
+      colorPick = dot.dataset.color;
+      root.querySelectorAll('[data-color]').forEach((d) => d.setAttribute('aria-checked', String(d === dot)));
+    }));
+    root.querySelectorAll('[data-pic]').forEach((b) => b.addEventListener('click', () => {
+      colorPic = Number(b.dataset.pic);
+      render();
+    }));
+    root.querySelector('[data-action="clear-color"]').addEventListener('click', () => {
+      parts.forEach((p) => p.setAttribute('fill', '#FFFFFF'));
+      save();
+    });
+  };
+
+  // ---------- Знайди відмінності: дві однакові картинки, у другій 5 змін ----------
+  // Кожна відмінність: що намалювати на першій картинці (a), на другій (b) і де її шукати (x, y)
+  const DIFFS = [
+    { x: 250, y: 38, a: '<circle cx="250" cy="38" r="20" fill="#FFCF33"/>', b: '<circle cx="250" cy="38" r="20" fill="#FF9F43"/>' },
+    { x: 70, y: 40, a: '<path d="M50 48a12 12 0 0 1 20-10a10 10 0 0 1 18 6a8 8 0 0 1-2 14h-34a8 8 0 0 1-2-10z" fill="#FFFFFF"/>', b: '' },
+    { x: 112, y: 149, a: '<rect x="103" y="140" width="18" height="18" rx="2" fill="#FFCF33"/>', b: '<rect x="103" y="140" width="18" height="18" rx="2" fill="#7FA6FF"/>' },
+    { x: 140, y: 172, a: '<rect x="131" y="155" width="18" height="35" rx="3" fill="#8D5B3E"/>', b: '<rect x="131" y="155" width="18" height="35" rx="3" fill="#F2545B"/>' },
+    { x: 236, y: 112, a: '', b: '<circle cx="236" cy="112" r="6" fill="#F2545B"/>' },
+    { x: 30, y: 178, a: '<g><path d="M30 190v-12" stroke="#4CC38A" stroke-width="3"/><circle cx="30" cy="175" r="6" fill="#FF8FB1"/></g>', b: '' },
+    { x: 175, y: 70, a: '', b: '<path d="M165 70q5-6 10 0q5-6 10 0" stroke="#12203A" stroke-width="2.5" fill="none"/>' },
+    { x: 140, y: 103, a: '<path d="M95 128L140 95l45 33z" fill="#F2545B"/>', b: '<path d="M95 128L140 95l45 33z" fill="#9B7BFF"/>' }
+  ];
+  const diffScene = (picked, second) => `
+    <rect width="280" height="200" fill="#CFE3FF"/>
+    <rect y="160" width="280" height="40" fill="#BDE8B0"/>
+    <rect x="95" y="128" width="90" height="62" fill="#FFF1C2"/>
+    <rect x="159" y="140" width="18" height="18" rx="2" fill="#FFCF33"/>
+    <rect x="230" y="130" width="12" height="60" fill="#8D5B3E"/>
+    <circle cx="236" cy="115" r="26" fill="#4CC38A"/>
+    <g><path d="M60 190v-12" stroke="#4CC38A" stroke-width="3"/><circle cx="60" cy="175" r="6" fill="#FFCF33"/></g>
+    ${DIFFS.map((d, i) => (picked.includes(i) && second ? d.b : d.a)).join('')}`;
+  let diffRound = null;
+
+  screens['/diff'] = () => {
+    if (!diffRound) {
+      // Щоразу інші 5 відмінностей із 8, тож гру можна проходити багато разів
+      const order = DIFFS.map((_, i) => i).sort(() => Math.random() - 0.5);
+      diffRound = { picked: order.slice(0, 5), found: [] };
+    }
+    const { picked, found } = diffRound;
+    const marks = found.map((i) => `<circle cx="${DIFFS[i].x}" cy="${DIFFS[i].y}" r="20" fill="none" stroke="#F2545B" stroke-width="4"/>`).join('');
+    const pic = (second) => `
+      <svg class="diff__pic" viewBox="0 0 280 200" data-diff-pic role="img" aria-label="${second ? 'Друга' : 'Перша'} картинка">
+        ${diffScene(picked, second)}${marks}
+      </svg>`;
+    return `
+      <div class="page page--night">
+        <header class="topbar">
+          <div class="topbar__left">${backBtn('#/shelter', 'Назад в укриття')}<h1 class="h1 h1--sm">Знайди відмінності</h1></div>
+        </header>
+        <p style="color: var(--night-muted)">Картинки майже однакові. Знайди 5 відмінностей і торкнися їх на будь-якій картинці.</p>
+        <span class="pill pill--night">Знайдено: ${found.length} з ${picked.length}</span>
+        <div class="diff">${pic(false)}${pic(true)}</div>
+        <p class="notice center" ${found.length === picked.length ? '' : 'hidden'}>Чудово! Усі відмінності знайдено.</p>
+        <button class="btn btn--yellow btn--block" data-action="diff-new">Нова гра</button>
+      </div>`;
+  };
+  screens['/diff'].mount = (root) => {
+    root.querySelectorAll('[data-diff-pic]').forEach((svg) => svg.addEventListener('pointerdown', (event) => {
+      const pt = svg.createSVGPoint();
+      pt.x = event.clientX; pt.y = event.clientY;
+      const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+      // Ціль трохи більша за саму зміну, щоб легко влучити пальцем
+      const hit = diffRound.picked.find((i) => !diffRound.found.includes(i) && Math.hypot(DIFFS[i].x - p.x, DIFFS[i].y - p.y) < 24);
+      if (hit === undefined) return;
+      diffRound.found.push(hit);
+      render();
+    }));
+    root.querySelector('[data-action="diff-new"]').addEventListener('click', () => {
+      diffRound = null;
+      render();
+    });
+  };
+
+  // ---------- Казки на ніч: короткі, спокійні, сторінка за сторінкою ----------
+  const TALES = [
+    { id: 'sunflower', title: 'Соняшник, який світив уночі', minutes: 3, pages: [
+      'На краю села ріс маленький соняшник. Удень він дивився на сонце і ловив його тепло кожною пелюсткою.',
+      'Але одного вечора небо стало темним-темним, і сонце заховалося. «Як же тепер бути?» — подумав соняшник. Йому стало трошки страшно.',
+      'Тоді він згадав: за день він назбирав стільки сонячного тепла! Соняшник глибоко вдихнув… і повільно видихнув. І його пелюстки засвітилися ніжним жовтим світлом.',
+      'На світло прилетів світлячок, приповз равлик, прибігла мишка. Вони сіли поруч, і всім стало тепло й спокійно. «Разом не страшно», — усміхнулася мишка.',
+      'Так вони й дочекалися ранку. А коли визирнуло сонце, соняшник прошепотів: «Дякую, що ви були поруч». Добраніч, маленький. У тобі теж багато світла.'
+    ] },
+    { id: 'hedgehog', title: 'Їжачок і далекий гуркіт', minutes: 3, pages: [
+      'Жив у лісі їжачок Тишко. Він любив яблука, м\'який мох і зорі над галявиною.',
+      'Якось уночі десь далеко загуркотіло. Тишко згорнувся клубочком і заплющив очі. Серденько стукало швидко-швидко: тук-тук-тук.',
+      'Аж тут поруч сіла мама-їжачиха. Вона обійняла його і сказала: «Давай дихати разом. Вдих — раз, два, три, чотири. Видих — раз, два, три, чотири».',
+      'Вони дихали повільно, як велика сова, що гойдається на гілці. І серденько Тишка почало стукати тихіше: тук… тук… тук…',
+      '«Мамо, а гуркіт ще буде?» — спитав Тишко. «Можливо, — відповіла мама. — Але я поруч, і ми в нашій теплій нірці». Тишко притулився до мами і заснув. Добраніч.'
+    ] },
+    { id: 'cloud', title: 'Хмаринка, яка шукала дім', minutes: 3, pages: [
+      'Над полями пливла маленька біла хмаринка. Вона була така легенька, що вітер ніс її, куди сам хотів.',
+      '«Я хочу мати свій дім», — думала хмаринка. Вона спробувала сісти на гору, але гора була холодна. Спробувала сісти на дерево, але гілки кололися.',
+      'Увечері хмаринка побачила внизу віконце, у якому горіла маленька свічка. За віконцем дівчинка обіймала маму і старенького кота.',
+      'Хмаринка тихенько зависла над дахом. «Дім — це не місце, — зрозуміла вона. — Дім — це там, де тебе обіймають». І їй стало так тепло, що вона аж порожевіла.',
+      'Відтоді щовечора хмаринка прилітає до того віконця й укриває дах, наче ковдрою. Може, вона і над тобою зараз. Заплющ очі… Добраніч.'
+    ] },
+    { id: 'star', title: 'Зірочка, яка навчилася чекати', minutes: 3, pages: [
+      'Високо-високо в небі жила зовсім маленька зірочка. Вона дуже хотіла світити яскраво, як велика Полярна зоря.',
+      'Але щоночі набігали хмари, і ніхто внизу не бачив зірочку. «Навіщо мені світити, якщо мене не видно?» — сумно думала вона.',
+      'Старий Місяць почув її і лагідно сказав: «Хмари завжди минають. А ти світи, навіть коли тебе не видно. Хтось обов\'язково на тебе чекає».',
+      'І зірочка світила. Одну ніч, другу, третю. А на четверту хмари розійшлися, і внизу хлопчик на балконі показав на неї пальцем: «Мамо, дивись, моя зірочка!»',
+      'Відтоді зірочка знає: навіть коли важко і темно, хмари минають. А добре світло завжди хтось помітить. Спи солодко.'
+    ] }
+  ];
+  let taleState = { id: null, page: 0 };
+
+  screens['/tales'] = () => {
+    const tale = TALES.find((t) => t.id === taleState.id);
+    const head = (title) => `
+      <header class="topbar">
+        <div class="topbar__left">${backBtn('#/shelter', 'Назад в укриття')}<h1 class="h1 h1--sm">${title}</h1></div>
+      </header>`;
+    if (!tale) {
+      return `
+        <div class="page page--night">
+          ${head('Казка на ніч')}
+          <p style="color: var(--night-muted)">Короткі спокійні казки. Читайте вголос повільно, тихим голосом. Кожна триває кілька хвилин.</p>
+          <div class="stack stack--sm">
+            ${TALES.map((t) => `
+              <button class="night-tile night-tile--row" data-tale="${t.id}">
+                ${icon.moon()}
+                <span><b>${esc(t.title)}</b><small>${t.minutes} хв читання</small></span>
+              </button>`).join('')}
+          </div>
+        </div>`;
+    }
+    const last = taleState.page === tale.pages.length - 1;
+    return `
+      <div class="page page--night">
+        ${head('Казка на ніч')}
+        <article class="tale">
+          <p class="tale__title">${esc(tale.title)}</p>
+          <p class="tale__text">${esc(tale.pages[taleState.page])}</p>
+          <div class="tale__dots" aria-hidden="true">${tale.pages.map((_, i) => `<i class="${i === taleState.page ? 'is-on' : ''}"></i>`).join('')}</div>
+        </article>
+        <div class="grid-2">
+          <button class="btn btn--night" data-tale-step="-1" ${taleState.page === 0 ? 'disabled' : ''}>Назад</button>
+          <button class="btn btn--yellow" data-tale-step="1">${last ? 'Кінець' : 'Далі'}</button>
+        </div>
+        <button class="btn btn--night btn--block" data-tale-list>Інші казки</button>
+      </div>`;
+  };
+  screens['/tales'].mount = (root) => {
+    root.querySelectorAll('[data-tale]').forEach((b) => b.addEventListener('click', () => {
+      taleState = { id: b.dataset.tale, page: 0 };
+      render().then(() => window.scrollTo(0, 0));
+    }));
+    root.querySelectorAll('[data-tale-step]').forEach((b) => b.addEventListener('click', () => {
+      const tale = TALES.find((t) => t.id === taleState.id);
+      const next = taleState.page + Number(b.dataset.taleStep);
+      taleState = next >= tale.pages.length ? { id: null, page: 0 } : { ...taleState, page: Math.max(0, next) };
+      render();
+    }));
+    const list = root.querySelector('[data-tale-list]');
+    if (list) list.addEventListener('click', () => { taleState = { id: null, page: 0 }; render(); });
   };
 
   let newsTopic = 'all';
@@ -1403,6 +1663,183 @@
       </footer>
     </div>`;
 
+  // ---------- Стаття: перша допомога в укритті ----------
+  screens['/article/first-aid'] = () => `
+    <div class="page page--white">
+      <header class="topbar"><div class="topbar__left">${backBtn('#/', 'Назад')}<span class="small muted" style="font-size: 14px; font-weight: 600">Стаття · 4 хв читання</span></div></header>
+      <section class="stack">
+        <span class="pill pill--yellow">Безпека</span>
+        <h1 class="h1">Перша допомога в укритті</h1>
+        <p class="lead">Короткий чек-лист на випадок, якщо комусь поруч стало погано або він травмувався. Головне — не панікувати і діяти по кроках. Навіть проста допомога до приїзду медиків рятує життя.</p>
+      </section>
+      <div class="callout" style="background: #FDE2D8"><strong>Швидка допомога — <a href="tel:103">103</a>, єдиний номер екстрених служб — <a href="tel:112">112</a>.</strong> Обидва працюють безкоштовно з будь-якого оператора.</div>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">1. Спочатку безпека</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>Переконайся, що небезпека минула.</strong> Не підходь до людини, якщо там досі обстріл, пожежа чи може щось обвалитися. Постраждалий рятувальник не допоможе нікому.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Поклич на допомогу</strong> людей поруч і розподіліть, хто допомагає, а хто викликає медиків.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Вдягни рукавички,</strong> якщо вони є в аптечці.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">2. Виклич допомогу</h2>
+        <div class="box"><div class="box__head">Що сказати диспетчеру</div><ul>
+          <li><strong>Де ви:</strong> точна адреса, під'їзд, укриття чи паркінг, як туди пройти.</li>
+          <li><strong>Що сталося</strong> і скільки постраждалих.</li>
+          <li><strong>Стан людини:</strong> чи притомна, чи дихає, чи є сильна кровотеча.</li>
+          <li><strong>Не клади слухавку першим.</strong> Диспетчер підкаже, що робити далі.</li></ul></div>
+        <p>Якщо в укритті немає зв'язку, відправ когось нагору або туди, де він є.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">3. Сильна кровотеча</h2>
+        <p>Кров б'є струменем або швидко просочує одяг — це загроза життю, діяти треба за секунди.</p>
+        <div class="step"><span class="step__n">1</span><p><strong>Сильно притисни рану</strong> долонями через тканину, бинт чи одяг і не відпускай. Якщо рана глибока, щільно заповни її бинтом і тисни далі.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Турнікет — якщо кровотеча на руці чи нозі не зупиняється.</strong> Накладай вище рани, затягуй, доки кров не перестане текти. Він має бути дуже тугим, це нормально, що боляче.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Запиши час накладання</strong> прямо на турнікеті або на шкірі поруч і скажи його медикам. Турнікет не послабляй і не знімай сам.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">4. Людина без свідомості, але дихає</h2>
+        <p>Поклади її в <strong>стабільне положення на боці</strong>: так язик не западе, а блювотні маси не потраплять у дихальні шляхи. Укрий ковдрою чи курткою і перевіряй дихання, доки не приїдуть медики.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">5. Людина не дихає</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>Виклич 103</strong> або попроси когось і, якщо поруч є дефібрилятор (АЗД), нехай його принесуть.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Почни натискання на грудну клітку:</strong> долоні одна на одній посередині грудей, руки прямі, тисни на 5–6 см углиб 100–120 разів на хвилину.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Якщо вмієш</strong> — 30 натискань і 2 вдихи. Якщо ні — просто безперервно натискай. Не зупиняйся, доки не приїдуть медики або людина не почне дихати.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">6. Опіки і порізи</h2>
+        <div class="box"><div class="box__head">Опік</div><ul>
+          <li>Прибери джерело тепла, зніми гарячий одяг і прикраси, але не віддирай те, що прилипло до шкіри.</li>
+          <li><strong>Охолоджуй прохолодною водою 5–10 хвилин.</strong></li>
+          <li>Накрий чистою пов'язкою чи бинтом, не туго. Дай попити води і зігрій людину ковдрою.</li>
+          <li><strong>Не можна:</strong> лід, олія, масло, сода, пантенол чи інші мазі на свіжий опік.</li>
+          <li><strong>Викликай 103,</strong> якщо опік більший за 10 долонь постраждалого (у дитини — за 5), на обличчі, шиї, якщо людині важко дихати або шкіра обвуглена.</li></ul></div>
+        <div class="box"><div class="box__head">Неглибокий поріз чи подряпина</div><ul>
+          <li>Промий чистою водою, притисни бинтом, доки кров не зупиниться.</li>
+          <li>Накрий пов'язкою або пластирем.</li></ul></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">7. Якщо людина в паніці</h2>
+        <div class="box"><div class="box__head">Як допомогти</div><ul>
+          <li>Говори повільно, спокійно і коротко: «Я поруч. Ти в безпеці. Дихаймо разом».</li>
+          <li>Дихайте разом: видих довший за вдих.</li>
+          <li>Дай води, запропонуй сісти, накрий ковдрою.</li>
+          <li>Не кажи «заспокойся» і не сварись: це лише посилює паніку.</li></ul></div>
+        <a class="link-row" href="#/article/anxiety" style="background: var(--surface); color: var(--ink); border: 1px solid var(--line)">Коли тривожно: швидка допомога собі ${icon.arrow('var(--blue)')}</a>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">8. Аптечка для укриття</h2>
+        <div class="box"><div class="box__head">Мінімум, який варто мати</div><ul>
+          <li>Турнікет (кровоспинний джгут)</li>
+          <li>Бинти і гемостатичний бинт</li>
+          <li>Стерильні серветки й пластирі</li>
+          <li>Одноразові рукавички</li>
+          <li>Ножиці</li>
+          <li>Термоковдра</li>
+          <li>Знеболювальне і жарознижувальне</li>
+          <li>Ліки, які ти чи рідні приймаєте постійно</li>
+          <li>Антисептик для рук</li></ul></div>
+        <a class="link-row" href="#/article/bag">Тривожна валіза і план дій ${icon.arrow('var(--yellow)')}</a>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">9. Навчись на практиці</h2>
+        <p>Прочитати важливо, але руки запам'ятовують краще. Пройди курс першої домедичної допомоги: Товариство Червоного Хреста України та інші організації регулярно проводять тренінги, часто безкоштовні. Достатньо кількох годин.</p>
+      </section>
+
+      <footer class="footer">
+        <a class="btn btn--dark btn--block" href="#/shelter">Повернутися в режим укриття</a>
+        <p class="small muted">Складено за рекомендаціями МОЗ України щодо домедичної допомоги. Стаття не замінює курсу першої допомоги. Оновлено: 26 жовтня 2026.</p>
+      </footer>
+    </div>`;
+
+  // ---------- Стаття: тварина під час тривоги ----------
+  screens['/article/pets'] = () => `
+    <div class="page page--white">
+      <header class="topbar"><div class="topbar__left">${backBtn('#/', 'Назад')}<span class="small muted" style="font-size: 14px; font-weight: 600">Стаття · 3 хв читання</span></div></header>
+      <section class="stack">
+        <span class="pill pill--yellow">Улюбленці</span>
+        <h1 class="h1">Тварина під час тривоги</h1>
+        <p class="lead">Собаки й коти теж бояться вибухів і сирен, часом навіть більше за нас. Ось як підготуватися і допомогти своєму улюбленцю пережити тривогу спокійніше.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">1. Чому тварини так бояться</h2>
+        <p>Собаки й коти чують набагато краще за людей, тож сирена і вибухи для них гучніші й страшніші. А ще вони дуже тонко відчувають наш настрій: коли тривожно нам, тривожно і їм.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">2. Ознаки стресу</h2>
+        <div class="box"><div class="box__head">Собака</div><ul>
+          <li>Тремтить, скавучить або безперервно гавкає</li>
+          <li>Ховається, підтискає хвіст, тулиться до тебе</li>
+          <li>Часто дихає з відкритим ротом, хоча не спекотно</li>
+          <li>Відмовляється від їжі, гризе речі</li></ul></div>
+        <div class="box"><div class="box__head">Кіт</div><ul>
+          <li>Ховається під ліжко чи в шафу і не виходить</li>
+          <li>Розширені зіниці, притиснуті вуха</li>
+          <li>Голосно нявчить або, навпаки, завмирає</li>
+          <li>Не їсть, ходить у туалет не в лоток</li></ul></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">3. Як заспокоїти</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>Заспокойся сам.</strong> Говори з твариною тихим, рівним голосом. Твій спокій для неї найкращий сигнал, що все гаразд.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Зроби затишний «будиночок».</strong> Переноска чи коробка з ковдрою або улюбленою річчю, яка пахне тобою. Тісне укриття допомагає почуватися в безпеці.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Не тягни силоміць.</strong> Якщо кіт заховався, хай сидить: він обрав безпечне місце. Просто будь поруч.</p></div>
+        <div class="step"><span class="step__n">4</span><p><strong>Приглуши звуки:</strong> зачини вікна, увімкни тиху музику чи білий шум.</p></div>
+        <div class="step"><span class="step__n">5</span><p><strong>Відволікай,</strong> коли тварина трохи заспокоїться: ласощі, улюблена іграшка, погладжування.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">4. Як забрати тварину в укриття</h2>
+        <div class="box"><div class="box__head">Щоб не загубилася</div><ul>
+          <li><strong>Кота — тільки в переносці,</strong> собаку — на повідку. Наляканий кіт може вирватися з рук і втекти.</li>
+          <li><strong>Нашийник з адресником:</strong> ім'я тварини і твій номер телефону.</li>
+          <li><strong>Чипування</strong> допомагає знайти тварину, якщо загубиться. Дані чипа мають бути внесені в базу з твоїми контактами.</li>
+          <li><strong>Привчи до переноски заздалегідь:</strong> залиш її відкритою вдома, поклади всередину ласощі й ковдру.</li></ul></div>
+        <p>Не всі укриття приймають тварин, тож дізнайся про це заздалегідь і будь уважним до сусідів: дехто має алергію чи боїться собак.</p>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">5. Тривожна валіза для улюбленця</h2>
+        <div class="box"><div class="box__head">Що покласти</div><ul>
+          <li>Корм на 3 дні і запас питної води</li>
+          <li>Складна миска</li>
+          <li>Ліки, якщо тварина їх приймає</li>
+          <li>Пелюшки, пакети, для кота — маленький лоток</li>
+          <li>Запасний повідець і нашийник</li>
+          <li>Ковдра чи улюблена іграшка</li>
+          <li>Ветеринарний паспорт і свіже фото тварини</li></ul></div>
+        <a class="link-row" href="#/article/bag">Тривожна валіза для всієї родини ${icon.arrow('var(--yellow)')}</a>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">6. Якщо тварина загубилася</h2>
+        <div class="step"><span class="step__n">1</span><p><strong>Шукай одразу поруч.</strong> Налякані коти зазвичай ховаються дуже близько: у підвалах, під машинами, у кущах. Клич тихим голосом, особливо ввечері, коли тихіше.</p></div>
+        <div class="step"><span class="step__n">2</span><p><strong>Розклей оголошення</strong> з фото, кличкою, особливими прикметами і своїм номером телефону.</p></div>
+        <div class="step"><span class="step__n">3</span><p><strong>Напиши в місцеві групи</strong> про загублених тварин у соцмережах і в чат будинку.</p></div>
+        <div class="step"><span class="step__n">4</span><p><strong>Обдзвони притулки і ветклініки</strong> поблизу: туди часто приносять знайдених тварин.</p></div>
+      </section>
+
+      <section class="stack" style="gap: 14px">
+        <h2 class="h2 h2--lg">7. Коли звернутися до ветеринара</h2>
+        <p>Якщо тварина довго не може заспокоїтися, не їсть понад добу, має блювання, діарею чи інші зміни, які не минають, зверніться до ветеринара. Він може порадити заспокійливі засоби. Не давай тварині людських ліків без поради лікаря: деякі з них для неї отруйні.</p>
+      </section>
+
+      <footer class="footer">
+        <a class="btn btn--dark btn--block" href="#/shelter">Повернутися в режим укриття</a>
+        <p class="small muted">Загальні поради для власників тварин. Не замінюють консультації ветеринара. Оновлено: 26 жовтня 2026.</p>
+      </footer>
+    </div>`;
+
   // ---------- Стаття: коли тривожно + вправа 5-4-3-2-1 ----------
   const GROUNDING = [
     { n: 5, text: 'речей, які ти <strong>бачиш</strong>', hint: 'Колір стіни, лампа, власна долоня…' },
@@ -1843,6 +2280,8 @@
     bag: MENU.find((m) => m.href === '#/article/bag').art,
     blackout: bulbArt(44),
     kids: ill('#FDE2D8', '<circle cx="12" cy="13" r="5" fill="#A86A3B"/><circle cx="28" cy="13" r="5" fill="#A86A3B"/><circle cx="12" cy="13" r="2.4" fill="#F6D7B0"/><circle cx="28" cy="13" r="2.4" fill="#F6D7B0"/><circle cx="20" cy="22" r="11" fill="#C98A55"/><ellipse cx="20" cy="26.5" rx="5" ry="4" fill="#F6D7B0"/><circle cx="16" cy="20" r="1.6" fill="#12203A"/><circle cx="24" cy="20" r="1.6" fill="#12203A"/><ellipse cx="20" cy="25" rx="2" ry="1.4" fill="#12203A"/><path d="M33 6l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9z" fill="#FFB300"/>'),
+    firstAid: ill('#FDE2D8', '<rect x="8" y="12" width="24" height="19" rx="5" fill="#F2545B"/><path d="M15 12V9.5A2.5 2.5 0 0 1 17.5 7h5A2.5 2.5 0 0 1 25 9.5V12" stroke="#C93A41" stroke-width="2.4" fill="none"/><path d="M20 16.5v10M15 21.5h10" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>'),
+    pets: ill('#FFF1C2', '<ellipse cx="20" cy="25.5" rx="7" ry="6" fill="#A86A3B"/><ellipse cx="11.5" cy="17.5" rx="3" ry="3.8" fill="#A86A3B"/><ellipse cx="28.5" cy="17.5" rx="3" ry="3.8" fill="#A86A3B"/><ellipse cx="16" cy="11.5" rx="3" ry="3.8" fill="#A86A3B"/><ellipse cx="24" cy="11.5" rx="3" ry="3.8" fill="#A86A3B"/><path d="M33 29c-2.4-1.5-3.3-2.7-3.3-3.6a1.6 1.6 0 0 1 3.3-.6 1.6 1.6 0 0 1 3.3.6c0 .9-.9 2.1-3.3 3.6z" fill="#F2545B"/>'),
     anxiety: ill('#EDE4FF', '<path d="M7 15h17a4.5 4.5 0 1 0-4.5-4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 22h22a4.5 4.5 0 1 1-4.5 4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 29h9" stroke="#9DB7F2" stroke-width="2.6" stroke-linecap="round"/><path d="M33 8c-2.4-1.5-3.3-2.7-3.3-3.6a1.6 1.6 0 0 1 3.3-.6 1.6 1.6 0 0 1 3.3.6c0 .9-.9 2.1-3.3 3.6z" fill="#F2545B"/>')
   };
   document.getElementById('menu-nav').innerHTML = MENU.map((m) =>
@@ -1883,7 +2322,7 @@
     const changed = route !== currentRoute;
     currentRoute = route;
     if (changed) trackNav(route);
-    document.body.classList.toggle('is-night', ['/shelter', '/game', '/kids'].includes(route));
+    document.body.classList.toggle('is-night', ['/shelter', '/game', '/kids', '/color', '/diff', '/tales'].includes(route));
     document.querySelector('meta[name="theme-color"]').setAttribute('content', document.body.classList.contains('is-night') ? '#0E1830' : '#12203A');
     app.innerHTML = html;
     if (screen.mount) cleanup = screen.mount(app) || null;

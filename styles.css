@@ -272,7 +272,36 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 .segmented { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 4px; border-radius: 14px; background: #E2E7F0; }
 .segmented button { min-height: 44px; border: 0; border-radius: 10px; background: transparent; color: var(--muted); font-size: 15px; font-weight: 700; }
 .segmented button[aria-pressed="true"] { background: var(--surface); color: var(--ink); }
-.phone-home { background: var(--ink); border-radius: 24px; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.segmented--night { grid-template-columns: repeat(3, minmax(0, 1fr)); background: var(--night-2); }
+.segmented--night button { color: var(--night-muted); }
+.segmented--night button[aria-pressed="true"] { background: var(--yellow); color: var(--ink); }
+
+/* Ігри та казки в режимі укриття */
+.night-tile--wide { grid-column: span 2; min-height: 72px; flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px; }
+.night-tile--row { width: 100%; min-height: 76px; flex-direction: row; align-items: center; justify-content: flex-start; gap: 14px; cursor: pointer; }
+.night-tile--row span { display: flex; flex-direction: column; gap: 2px; }
+.night-tile--row small { font-size: 13px; font-weight: 500; color: var(--night-muted); }
+
+.coloring { background: #FFFFFF; border-radius: 24px; padding: 10px; }
+.coloring svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
+.coloring [data-r] { cursor: pointer; }
+.palette { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.palette__dot { aspect-ratio: 1; min-height: 44px; border-radius: 50%; border: 3px solid var(--night-2); box-shadow: 0 0 0 2px var(--night-2); cursor: pointer; }
+.palette__dot[aria-checked="true"] { box-shadow: 0 0 0 4px var(--yellow); }
+
+.diff { display: grid; gap: 12px; }
+.diff__pic { display: block; width: 100%; height: auto; border-radius: 18px; touch-action: manipulation; cursor: pointer; }
+@media (min-width: 720px) { .diff { grid-template-columns: 1fr 1fr; } }
+
+.tale { background: var(--night-2); border-radius: 24px; padding: 26px 22px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; }
+.tale__title { font-family: var(--display); font-size: 18px; line-height: 1.3; color: var(--yellow); margin: 0; }
+.tale__text { font-size: 21px; line-height: 1.6; color: var(--night-text); margin: 0; flex: 1; }
+.tale__dots { display: flex; justify-content: center; gap: 8px; }
+.tale__dots i { width: 8px; height: 8px; border-radius: 50%; background: #34446E; }
+.tale__dots i.is-on { background: var(--yellow); }
+.btn:disabled { opacity: .4; }
+
+.phone-home {background: var(--ink); border-radius: 24px; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
 .phone-home__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px 14px; width: 100%; }
 .phone-home__app { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 11px; color: #C9D3E8; }
 .phone-home__app span:first-child { width: 56px; height: 56px; border-radius: 16px; background: #2B3C66; }
