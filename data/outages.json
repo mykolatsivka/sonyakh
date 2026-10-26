@@ -1,12 +1,11 @@
 {
- "updatedAt": "2026-10-26T22:42:26.710Z",
+ "updatedAt": "2026-10-26T22:53:56.669Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.10.2026 15:34",
    "days": [],
-   "updatedAt": "2026-10-26T22:17:47.005Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-26T22:53:56.669Z"
   },
   "donetsk": {
    "status": "stale",
@@ -23,7 +22,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.10.2026 21:13",
    "days": [
     {
@@ -852,8 +851,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-26T22:17:47.005Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-26T22:53:56.669Z"
   },
   "kyiv": {
    "status": "stale",
@@ -1005,48 +1003,16 @@
    "updatedAt": "2026-10-26T22:17:47.005Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.10.2026 15:29",
-   "days": [
-    {
-     "date": "2026-10-26",
-     "groups": {
-      "1.1": [],
-      "1.2": [],
-      "2.1": [],
-      "2.2": [],
-      "3.1": [],
-      "3.2": [],
-      "4.1": [],
-      "4.2": [],
-      "5.1": [
-       {
-        "from": 420,
-        "to": 570,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 420,
-        "to": 570,
-        "type": "off"
-       }
-      ],
-      "6.1": [],
-      "6.2": []
-     }
-    }
-   ],
-   "updatedAt": "2026-10-26T20:54:34.265Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "days": [],
+   "updatedAt": "2026-10-26T22:53:56.669Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "27.10.2026 00:00",
+   "status": "ok",
+   "sourceUpdated": "27.10.2026 00:30",
    "days": [],
-   "updatedAt": "2026-10-26T22:17:47.005Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-10-26T22:53:56.669Z"
   },
   "chernivtsi": {
    "days": [],
