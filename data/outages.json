@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T02:02:29.466Z",
+ "updatedAt": "2026-10-26T02:41:46.124Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -104,7 +104,7 @@
    "updatedAt": "2026-10-25T23:51:10.571Z"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.10.2026 20:47",
    "days": [
     {
@@ -813,7 +813,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-25T22:26:54.411Z"
+   "updatedAt": "2026-10-26T02:41:46.124Z"
   },
   "kyiv": {
    "status": "ok",
