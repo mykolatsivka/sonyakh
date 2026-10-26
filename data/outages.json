@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-25T23:51:10.571Z",
+ "updatedAt": "2026-10-26T00:47:22.039Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.10.2026 01:01",
    "days": [
     {
@@ -98,7 +98,7 @@
    "updatedAt": "2026-10-25T23:51:10.571Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
    "updatedAt": "2026-10-25T23:51:10.571Z"
@@ -963,7 +963,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.10.2026 23:22",
    "days": [
     {
@@ -1044,7 +1044,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-25T22:13:56.959Z"
+   "updatedAt": "2026-10-26T00:47:22.039Z"
   }
  }
 }
