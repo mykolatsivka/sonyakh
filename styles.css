@@ -319,6 +319,12 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 .legend__dot.is-maybe { background: repeating-linear-gradient(135deg, #9DB7F2 0 3px, #C9D8FA 3px 6px); }
 .legend__now { width: 3px; height: 14px; border-radius: 2px; background: #F2545B; }
 
+/* ---------- Telegram-канал ---------- */
+.tg-link { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-radius: 16px; background: #E8F5FD; color: var(--ink); text-decoration: none; font-weight: 700; font-size: 15px; }
+.tg-link span { flex: 1; }
+.tg-card { padding: 18px; border-radius: 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.btn--tg { background: #2AABEE; color: #fff; }
+
 /* ---------- Вправа 5-4-3-2-1 ---------- */
 .ground { padding: 22px 18px; border-radius: 24px; background: #EDE4FF; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; }
 .ground__big { font-family: var(--display); font-weight: 700; font-size: 30px; letter-spacing: .02em; color: #4B32B8; }

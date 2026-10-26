@@ -160,6 +160,10 @@
   };
   // Сердечко з іскорками для стіни подяк
   const heartArt = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#FDE2D8"/><path d="M20 33C11 27.5 8 22.5 8 18.5A5.5 5.5 0 0 1 20 16a5.5 5.5 0 0 1 12 2.5c0 4-3 9-12 14.5z" fill="#F2545B"/><ellipse cx="13.5" cy="18" rx="2" ry="1.3" fill="#fff" opacity=".7"/><path d="M32 4.5l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#FFB300"/><circle cx="8" cy="9" r="1.3" fill="#FFB300"/></svg>`;
+  // Telegram-канал
+  const tgUrl = () => (CONFIG.telegramChannel ? `https://t.me/${encodeURIComponent(CONFIG.telegramChannel)}` : '');
+  const tgArt = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#2AABEE"/><path d="M9.5 19.3l18.6-7.2c.9-.3 1.6.2 1.3 1.6l-3.2 15c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.8 8.8-7.9c.4-.3-.1-.5-.6-.2l-10.8 6.8-4.7-1.5c-1-.3-1-1 .2-1.5z" fill="#fff"/></svg>`;
+
   function newsArt(topic, seed = '') {
     const [bg, variants] = NEWS_ART[topic] || NEWS_ART.people;
     let h = 0;
@@ -486,6 +490,7 @@
             <a href="#/news" style="font-size: 14px; font-weight: 600">Усі новини</a>
           </div>
           ${newsBlock}
+          ${tgUrl() ? `<a class="tg-link" href="${esc(tgUrl())}" target="_blank" rel="noopener">${tgArt(32)}<span>Добрі новини щодня в Telegram</span>${icon.arrow('var(--blue)')}</a>` : ''}
         </section>
 
         <section class="stack">
@@ -742,6 +747,15 @@
         </div>
         ${firstHtml}
         ${restHtml}
+        ${tgUrl() ? `
+        <section class="card tg-card">
+          ${tgArt(56)}
+          <div class="stack stack--xs" style="flex: 1; min-width: 0">
+            <h2 class="h2">Добрі новини в Telegram</h2>
+            <p class="small muted" style="font-size: 14px">1–3 теплі новини на день, без поганого. Підпишись, щоб не шукати.</p>
+          </div>
+          <a class="btn btn--tg btn--block" href="${esc(tgUrl())}" target="_blank" rel="noopener">Підписатися на @${esc(CONFIG.telegramChannel)}</a>
+        </section>` : ''}
         <section class="hero" style="gap: 12px">
           <h2 class="h2">Бачив щось хороше?</h2>
           <p class="hero__text">Поділися доброю новиною зі свого міста. Найкращі потраплять у стрічку.</p>
@@ -1785,6 +1799,7 @@
       href: '#/article/bag', label: 'Тривожна валіза і план дій',
       art: ill('#DDF2E5', '<path d="M15 13v-3a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v3" stroke="#2E8A5F" stroke-width="2.4" fill="none"/><rect x="9" y="12" width="22" height="21" rx="6" fill="#3BA776"/><rect x="13" y="22" width="14" height="8" rx="3" fill="#2E8A5F"/><rect x="18" y="19.5" width="4" height="4.5" rx="1" fill="#FFCF33"/>')
     },
+    ...(CONFIG.telegramChannel ? [{ href: `https://t.me/${encodeURIComponent(CONFIG.telegramChannel)}`, label: 'Telegram-канал', art: tgArt(44) }] : []),
     {
       href: '#/install', label: 'Як встановити Сонях',
       art: ill('#E8EEFB', '<rect x="12" y="5" width="15" height="29" rx="3.5" fill="#12203A"/><rect x="14" y="8" width="11" height="21" rx="1.5" fill="#fff"/><g fill="#FFCF33"><circle cx="19.5" cy="15.2" r="2.2"/><circle cx="19.5" cy="21.6" r="2.2"/><circle cx="16.3" cy="18.4" r="2.2"/><circle cx="22.7" cy="18.4" r="2.2"/></g><circle cx="19.5" cy="18.4" r="1.8" fill="#7A4A12"/><circle cx="29" cy="29" r="5.5" fill="#3BA776"/><path d="M29 26.2v5.2M26.7 29.3l2.3 2.3 2.3-2.3" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>')
@@ -1802,7 +1817,7 @@
     anxiety: ill('#EDE4FF', '<path d="M7 15h17a4.5 4.5 0 1 0-4.5-4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 22h22a4.5 4.5 0 1 1-4.5 4.5" stroke="#6B4FD8" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 29h9" stroke="#9DB7F2" stroke-width="2.6" stroke-linecap="round"/><path d="M33 8c-2.4-1.5-3.3-2.7-3.3-3.6a1.6 1.6 0 0 1 3.3-.6 1.6 1.6 0 0 1 3.3.6c0 .9-.9 2.1-3.3 3.6z" fill="#F2545B"/>')
   };
   document.getElementById('menu-nav').innerHTML = MENU.map((m) =>
-    `<a href="${m.href}">${m.art}<span class="sheet__label">${m.label}</span>${stroke('<path d="M9 6l6 6-6 6"/>', 18, 'var(--muted)')}</a>`).join('');
+    `<a href="${m.href}"${m.href.startsWith('https://') ? ' target="_blank" rel="noopener"' : ''}>${m.art}<span class="sheet__label">${m.label}</span>${stroke('<path d="M9 6l6 6-6 6"/>', 18, 'var(--muted)')}</a>`).join('');
 
   menu.addEventListener('click', (event) => {
     if (event.target === menu || event.target.closest('a')) menu.close();
