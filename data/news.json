@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-0ed1ac4ec692",
+    "topic": "sport",
+    "date": "2026-10-27",
+    "title": "Збірна України з греко-римської боротьби без медалей завершила виступ на ЧС-2026",
+    "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178765-zbirna-ukraini-z-grekorimskoi-borotbi-bez-medalej-zaversila-vistup-na-cs2026.html",
+    "image": ""
+  },
+  {
     "id": "n-b012441b74c2",
     "topic": "sport",
     "date": "2026-10-27",
@@ -587,16 +597,6 @@
     "text": "Наукова спільнота поки що скептично налаштована, адже детальний звіт дослідники не опублікували.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/alhimiki-buli-pravi-transmutaciya-zdatna-peretvoriti-rtut-na-zoloto-13539588.html",
-    "image": ""
-  },
-  {
-    "id": "n-9802c871b2b7",
-    "topic": "sport",
-    "date": "2026-10-25",
-    "title": "Український гімнаст Чепурний став четвертим у фіналі ЧС-2026 в опорному стрибку",
-    "text": "Лідер збірної України зі спортивної гімнастики Назар Чепурний посів четверте місце місце у фіналі чемпіонату світу-2026 в опорному стрибку.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178037-ukrainskij-gimnast-cepurnij-stav-cetvertim-u-finali-cs2026-v-opornomu-stribku.html",
     "image": ""
   }
 ]
