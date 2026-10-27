@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-adbd61f0e2d7",
+    "topic": "sport",
+    "date": "2026-10-27",
+    "title": "У Вірменії археологи знайшли монету римського імператора Октавіана Августа",
+    "text": "Монету римського імператора Октавіана Августа, золоті сережки, бронзовий кинджал та інші артефакти виявили археологи під час розкопок поблизу історико-археологічного…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178695-u-virmenii-arheologi-znajsli-monetu-rimskogo-imperatora-oktaviana-avgusta.html",
+    "image": ""
+  },
+  {
+    "id": "n-1d6cda20da74",
+    "topic": "sport",
+    "date": "2026-10-27",
+    "title": "Не складні і дорогі технології: Флеш назвав ключ до перемоги у війні",
+    "text": "Прогрес як двигун війни тепер визначається спроможністю швидко виробляти дешеві і масові воєнні засоби, вважає експерт.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/weapons/yaka-zbroya-dozvolit-peremogti-u-viyni-flesh-dav-vidpovid-13541760.html",
+    "image": ""
+  },
+  {
     "id": "n-782db7afb676",
     "topic": "rebuild",
     "date": "2026-10-27",
@@ -577,26 +597,6 @@
     "text": "Дослідження за участю понад 8000 працюючих людей показало, що краща відповідність між особистісними рисами людини та вимогами роботи пов'язана з вищими доходами.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/geni-brativ-i-sester-yak-voni-mozhut-vplivati-na-osvitu-ta-uspih-lyudini-13539546.html",
-    "image": ""
-  },
-  {
-    "id": "n-ea655feb9c4c",
-    "topic": "science",
-    "date": "2026-10-25",
-    "title": "«Ти - Космос», «Катинь» і «Тіні забутих предків»: у Римі відбудуться Дні українського і польського кіно",
-    "text": "У Римі з 27 по 29 жовтня відбудеться фестиваль “Дні українського та польського кіно”.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4177955-ti-kosmos-katin-i-tini-zabutih-predkiv-u-rimi-vidbudutsa-dni-ukrainskogo-i-polskogo-kino.html",
-    "image": ""
-  },
-  {
-    "id": "n-37ba249bf578",
-    "topic": "sport",
-    "date": "2026-10-25",
-    "title": "Геологи підтвердили велике родовище в Неваді: там є і мідь, і золото",
-    "text": "Поклади знаходяться близько до поверхні, тож їх можна видобувати відкритим способом.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/pid-pusteleyu-nevadi-znayshli-mid-i-zoloto-na-milyardi-dolariv-13539513.html",
     "image": ""
   }
 ]
