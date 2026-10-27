@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-b012441b74c2",
+    "topic": "sport",
+    "date": "2026-10-27",
+    "title": "Матч 1/8 фіналу Кубку України: \"Шахтар\" переміг \"Динамо\"",
+    "text": "Поєдинок закінчився з рахунком 3:0.",
+    "source": "УНІАН",
+    "sourceUrl": "https://sport.unian.ua/shahtar-dinamo-kubok-ukrajini-shahtar-peremig-dinamo-z-rahunkom-3-0-13541901.html",
+    "image": ""
+  },
+  {
+    "id": "n-4952c1477511",
+    "topic": "rebuild",
+    "date": "2026-10-27",
+    "title": "У Києві відновили рух поїздів «зеленої» гілки метро між станціями «Осокорки» та «Червоний хутір»",
+    "text": "У Києві відновили рух поїздів на зеленій лінії метрополітену між станціями Осокорки - Червоний хутір, водночас рух Південним мостом тимчасово призупинений.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4178747-u-kievi-vidnovili-ruh-poizdiv-zelenoi-gilki-metro-miz-stanciami-osokorki-ta-cervonij-hutir.html",
+    "image": ""
+  },
+  {
+    "id": "n-4b5f2f13a8a0",
+    "topic": "animals",
+    "date": "2026-10-27",
+    "title": "Скільки тварин ви знайдете на малюнку: головоломка на уважність",
+    "text": "Цей цікавий тест пропонує вам знайти всіх тварин серед ліній, намальованих чорнилом.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/test-na-vnimatelnost-skolko-zhivotnyh-na-kartinke-13540773.html",
+    "image": ""
+  },
+  {
     "id": "n-5b6d5cafaecf",
     "topic": "people",
     "date": "2026-10-27",
@@ -567,36 +597,6 @@
     "text": "Лідер збірної України зі спортивної гімнастики Назар Чепурний посів четверте місце місце у фіналі чемпіонату світу-2026 в опорному стрибку.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178037-ukrainskij-gimnast-cepurnij-stav-cetvertim-u-finali-cs2026-v-opornomu-stribku.html",
-    "image": ""
-  },
-  {
-    "id": "n-3ba551ad3620",
-    "topic": "sport",
-    "date": "2026-10-25",
-    "title": "Близько 300 осіб взяли участь у фіналі «Ігор ветеранів» на Тернопільщині",
-    "text": "У Тернопільській області близько 300 осіб із різних регіонів України змагалися у фіналі «Ігри Ветеранів - 2026» у трьох видах спорту.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178017-blizko-300-osib-vzali-ucast-u-finali-igor-veteraniv-na-ternopilsini.html",
-    "image": ""
-  },
-  {
-    "id": "n-b3633b8c3484",
-    "topic": "science",
-    "date": "2026-10-25",
-    "title": "У Рівному заснували поетичну премію імені Максима Кривцова",
-    "text": "У Рівному заснували міську молодіжну поетичну премію імені Героя України Максима Кривцова.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4177999-u-rivnomu-zasnuvali-poeticnu-premiu-imeni-maksima-krivcova.html",
-    "image": ""
-  },
-  {
-    "id": "n-3684d56441e0",
-    "topic": "animals",
-    "date": "2026-10-25",
-    "title": "До 5 тисяч гривень за гусака: чоловік на Хмельниччині вирощує незвичайних птахів",
-    "text": "Холмогорських гусей вирощують у невеликих домашніх та фермерських господарствах.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/rozvedennya-holmogorskih-gusey-cholovik-na-hmelnichchini-viroshchuye-ptahiv-vagoyu-do-14-kg-13539606.html",
     "image": ""
   }
 ]
