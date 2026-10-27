@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T09:20:35.530Z",
+ "updatedAt": "2026-10-27T09:45:55.435Z",
  "regions": {
   "dnipro": {
    "status": "stale",
@@ -24,14 +24,14 @@
     }
    ],
    "updatedAt": "2026-10-27T07:36:58.275Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "error": "HTTP 403"
   },
   "donetsk": {
    "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
    "updatedAt": "2026-10-27T08:51:29.116Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "error": "HTTP 403"
   },
   "zaporizhzhia": {
    "days": [],
@@ -41,7 +41,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.10.2026 10:30",
    "days": [
     {
@@ -845,10 +845,11 @@
      }
     }
    ],
-   "updatedAt": "2026-10-27T08:51:29.116Z"
+   "updatedAt": "2026-10-27T08:51:29.116Z",
+   "error": "HTTP 403"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.10.2026 11:17",
    "days": [
     {
@@ -986,7 +987,8 @@
      }
     }
    ],
-   "updatedAt": "2026-10-27T09:20:35.530Z"
+   "updatedAt": "2026-10-27T09:20:35.530Z",
+   "error": "HTTP 403"
   },
   "lviv": {
    "status": "ok",
@@ -995,22 +997,25 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "mykolaiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": null,
    "days": [],
-   "updatedAt": "2026-10-26T22:17:47.005Z"
+   "updatedAt": "2026-10-26T22:17:47.005Z",
+   "error": "HTTP 403"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.10.2026 15:29",
    "days": [],
-   "updatedAt": "2026-10-27T08:51:29.116Z"
+   "updatedAt": "2026-10-27T08:51:29.116Z",
+   "error": "HTTP 403"
   },
   "rivne": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.10.2026 11:00",
    "days": [],
-   "updatedAt": "2026-10-27T09:20:35.530Z"
+   "updatedAt": "2026-10-27T09:20:35.530Z",
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "chernivtsi": {
    "days": [],
