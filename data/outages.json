@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T07:36:58.275Z",
+ "updatedAt": "2026-10-27T07:56:13.714Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -40,7 +40,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "27.10.2026 08:52",
    "days": [
     {
@@ -869,12 +869,11 @@
      }
     }
    ],
-   "updatedAt": "2026-10-27T07:06:29.184Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-27T07:56:13.714Z"
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "27.10.2026 08:35",
+   "sourceUpdated": "27.10.2026 09:51",
    "days": [
     {
      "date": "2026-10-27",
@@ -887,14 +886,14 @@
        },
        {
         "from": 990,
-        "to": 1260,
+        "to": 1230,
         "type": "off"
        }
       ],
       "1.2": [
        {
         "from": 360,
-        "to": 780,
+        "to": 600,
         "type": "off"
        },
        {
@@ -930,12 +929,12 @@
       "3.1": [
        {
         "from": 570,
-        "to": 990,
+        "to": 810,
         "type": "off"
        },
        {
         "from": 1200,
-        "to": 1260,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -971,7 +970,7 @@
        },
        {
         "from": 1200,
-        "to": 1440,
+        "to": 1290,
         "type": "off"
        }
       ],
@@ -999,14 +998,14 @@
       "6.2": [
        {
         "from": 780,
-        "to": 1230,
+        "to": 1020,
         "type": "off"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-10-27T07:06:29.184Z"
+   "updatedAt": "2026-10-27T07:56:13.714Z"
   },
   "lviv": {
    "status": "ok",
@@ -1021,11 +1020,10 @@
    "updatedAt": "2026-10-26T22:17:47.005Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.10.2026 15:29",
    "days": [],
-   "updatedAt": "2026-10-27T05:56:32.071Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-27T07:56:13.714Z"
   },
   "rivne": {
    "status": "ok",
