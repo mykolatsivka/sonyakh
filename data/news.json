@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-fdeb33800d78",
+    "topic": "rebuild",
+    "date": "2026-10-27",
+    "title": "Розсилка: Відбудова України-2026",
+    "text": "Чому Україні вже недостатньо лише ремонтувати електростанції.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua https://archive.sendpul.se/v/5034k/1qgjr/",
+    "image": ""
+  },
+  {
+    "id": "n-c771e38f6842",
+    "topic": "animals",
+    "date": "2026-10-27",
+    "title": "Чому собака гарчить на одних людей і радісно зустрічає інших: експерти розкрили причини",
+    "text": "Виявляється, чотирилапі оцінюють людей не лише за зовнішністю.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/chomu-sobaka-gavkaye-na-lyudey-naukovci-ta-kinologi-rozkrili-spravzhni-prichini-13541352.html",
+    "image": ""
+  },
+  {
+    "id": "n-74ba4d7e039e",
+    "topic": "sport",
+    "date": "2026-10-27",
+    "title": "Рекордсменка усіх Радіодиктантів винесла вердикт цьогорічному тексту",
+    "text": "Під час спілкування з журналістами вона оцінила диктант.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/radiodiktant-nacionalnoji-yednosti-2026-rekordsmenka-ocinila-cogorichniy-tekst-13541607.html",
+    "image": ""
+  },
+  {
+    "id": "n-cc756e581aaf",
+    "topic": "rebuild",
+    "date": "2026-10-27",
+    "title": "Україна залишається перспективною країною для іноземних інвестицій попри війну, – ДТЕК",
+    "text": "Гендиректор ДТЕК Максим Тімченко наголошує, що інвестиції в українську енергетику під час війни мають стратегічне значення не лише для окремих підприємств / фото…",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/other/ukrajina-zalishayetsya-perspektivnoyu-krajinoyu-dlya-inozemnih-investiciy-popri-viynu-dtek-13541595.html",
+    "image": ""
+  },
+  {
     "id": "n-54926f78eb70",
     "topic": "sport",
     "date": "2026-10-27",
@@ -557,46 +597,6 @@
     "text": "У Львові відбувся благодійний забіг Running Rave 2.0, учасники якого зібрали понад 50 тисяч грн на придбання пікапа для 67-ї окремої механізованої бригади.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4177984-u-lvovi-na-blagodijnomu-zabigu-zbirali-grosi-na-pikap-dla-vijskovih.html",
-    "image": ""
-  },
-  {
-    "id": "n-513645fe342f",
-    "topic": "sport",
-    "date": "2026-10-25",
-    "title": "Свіщов відкрив сезон водного поло: «Динамо» святкує перемогу над «Акватіко»",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/svishhov_vidkriv_sezon_vodnogo_polo_dinamo_svyatkuye_peremogu_nad_akvatiko_n1648661",
-    "image": ""
-  },
-  {
-    "id": "n-d8f24ba56ef2",
-    "topic": "science",
-    "date": "2026-10-25",
-    "title": "\"Зоряна ніч\" Ван Гога приховувала астрономічну підказку: що з’ясували вчені",
-    "text": "Небо, зображене на полотні, – це саме те, що Ван Гог бачив на власні очі з вікна французької психіатричної лікарні 137 років тому.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/zoryana-nich-van-goga-vcheni-rozkrili-tayemnicyu-neba-1889-roku-13539465.html",
-    "image": ""
-  },
-  {
-    "id": "n-38263ba0c655",
-    "topic": "people",
-    "date": "2026-10-25",
-    "title": "У Мукачеві започаткували книжковий фестиваль - що у програмі",
-    "text": "У Мукачеві 14-15 листопада 2026 року вперше відбудеться масштабний книжковий фестиваль Mukachevo Book Fest, який збере українських письменників, видавців, митців та читачів з…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4177952-u-mukacevi-zapocatkuvali-knizkovij-festival-so-u-programi.html",
-    "image": ""
-  },
-  {
-    "id": "n-6387c186e81e",
-    "topic": "sport",
-    "date": "2026-10-25",
-    "title": "Ястремська пробилася до основної сітки турніру WTA 250 в Гуанчжоу",
-    "text": "Українка Даяна Ястремська відбралася до основної сітки змагань Жіночої тенісної асоціації (WTA 250) Guangzhou Open в Гуанчжоу (Китай) із призовим фондом понад $280 тис.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4177941-astremska-probilasa-do-osnovnoi-sitki-turniru-wta-250-v-guanczou.html",
     "image": ""
   }
 ]
