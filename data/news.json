@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-e0abe467b398",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "Від номінанта на \"Оскар\": вийшов трейлер фільму \"Попіл і олівці\" про українських дітей під час війни",
+    "text": "В український прокат фільм вийде 3 грудня 2026 року.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/kino/ash-and-crayons-2026-treyler-i-data-vihodu-dokumentalnogo-filmu-yevgena-afineyevskogo-video-13542876.html",
+    "image": ""
+  },
+  {
+    "id": "n-0f2f13d6cc06",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "Наразі триває розмінування маршрутів для виїзду цивільних із Олешок - Лубінець",
+    "text": "Наразі триває розмінування маршрутів для виїзду цивільних людей із міста Олешки Херсонської області.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179098-narazi-trivae-rozminuvanna-marsrutiv-dla-viizdu-civilnih-iz-olesok-lubinec.html",
+    "image": ""
+  },
+  {
+    "id": "n-59329913a989",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "Перукарка розгадала загадку Стародавнього Риму, над якою вчені ламали голову століттями",
+    "text": "Вона розкрила таємницю римських зачісок, які до цього вважалися перуками.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/tayemnicya-rimskih-zachisok-perukarka-rozgadala-sekret-za-dopomogoyu-odnogo-slova-13542639.html",
+    "image": ""
+  },
+  {
     "id": "n-751bbebd93ce",
     "topic": "sport",
     "date": "2026-10-28",
@@ -567,36 +597,6 @@
     "text": "Контакт із собакою може пом’якшувати фізіологічну реакцію організму на стрес.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/pogladzhuvannya-sobaki-mozhe-zahishchati-vid-stresu-shcho-pokazalo-doslidzhennya-13540827.html",
-    "image": ""
-  },
-  {
-    "id": "n-bcba359d2dbc",
-    "topic": "people",
-    "date": "2026-10-26",
-    "title": "В Ужгороді відкрили мініскульптуру на честь 100-річчя персонажа Гурвінека",
-    "text": "В Ужгороді за участю послів відкрили мініскульптуру на честь 100-річчя чеського лялькового персонажа Гурвінека.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4178372-v-uzgorodi-vidkrili-miniskulpturu-na-cest-100ricca-personaza-gurvineka.html",
-    "image": ""
-  },
-  {
-    "id": "n-16ce3bc7b323",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Збірна України отримала суперниць на жіночому ЧС-2027 з волейболу",
-    "text": "Жіноча збірна України з волейболу дізналася суперниць на груповому етапі чемпіонату світу-2027.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178367-zbirna-ukraini-otrimala-supernic-na-zinocomu-cs2027-z-volejbolu.html",
-    "image": ""
-  },
-  {
-    "id": "n-072729b16867",
-    "topic": "rebuild",
-    "date": "2026-10-26",
-    "title": "У Мукачеві відкрили лабораторію з робототехніки для студентів",
-    "text": "У Мукачівському кампусі Ужгородського університету відкрили лабораторію робототехніки EduRob.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178352-u-mukacevi-vidkrili-laboratoriu-z-robototehniki-dla-studentiv.html",
     "image": ""
   }
 ]
