@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-eb74d115d770",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "Китай побудував дивний пасажирський літак з десятьма двигунами: чому він став мемом",
+    "text": "На перший погляд, може здатися, що зображення літака створив ШІ, але це не так.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/transport/z-yavilis-pershi-foto-prototipu-povnistyu-elektrichnogo-litaka-ce-25a-13542525.html",
+    "image": ""
+  },
+  {
+    "id": "n-5d5ac994000a",
+    "topic": "animals",
+    "date": "2026-10-28",
+    "title": "На Закарпатті ведмеді стали частіше підходити до осель у гірських селах - у ДСНС і поліції прокоментували",
+    "text": "На Закарпатті стали частіше фіксувати ведмедів біля осель людей у гірських селах – цього разу найбільшого хижака Карпат зняли на камеру на приватному подвір'ї в Тячівському районі.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4178968-na-zakarpatti-vedmedi-stali-castise-pidhoditi-do-osel-u-girskih-selah-u-dsns-i-policii-prokomentuvali.html",
+    "image": ""
+  },
+  {
+    "id": "n-596e9eeb1fae",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "Найкращі фільми з Джулією Робертс: добірка ZAXID.NET",
+    "text": "По той бік «Красуні»: якою ви могли не побачити Джулію Робертс",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/po_toy_bik_krasuni_yakoyu_vi_mogli_ne_pobachiti_dzhuliyu_roberts_n1648888",
+    "image": ""
+  },
+  {
+    "id": "n-395a74ec1430",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "На \"Євробаченні-2027\" виступить країна, яка чотири роки не брала участі в конкурсі",
+    "text": "Всього буде 36 країн-учасниць.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/show/yevrobachennya-2027-na-konkursi-zaspivaye-predstavniki-krajini-yaka-ne-brala-uchast-chotiri-roki-13542549.html",
+    "image": ""
+  },
+  {
     "id": "n-00117a30ad81",
     "topic": "sport",
     "date": "2026-10-28",
@@ -557,46 +597,6 @@
     "text": "З 28 до 31 жовтня дивіться дев’ять матчів основного раунду Ліги чемпіонів УЄФА з футзалу.",
     "source": "УНІАН",
     "sourceUrl": "https://sport.unian.ua/kijivstar-tb-eksklyuzivno-pokazhe-dev-yat-matchiv-ligi-chempioniv-uyefa-z-futzalu-28-31-zhovtnya-13540464.html",
-    "image": ""
-  },
-  {
-    "id": "n-eb21a33c98e2",
-    "topic": "science",
-    "date": "2026-10-26",
-    "title": "Польща та В’єтнам підписали угоду про стратегічне партнерство",
-    "text": "Польща та В’єтнам домовилися підвищити рівень двосторонніх відносин до рівня стратегічного партнерства.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178309-polsa-ta-vetnam-pidpisali-ugodu-pro-strategicne-partnerstvo.html",
-    "image": ""
-  },
-  {
-    "id": "n-ad335e667b41",
-    "topic": "rebuild",
-    "date": "2026-10-26",
-    "title": "У Стамбулі відбулася презентація книги «Калиновий присмак турецького чаю»",
-    "text": "У Стамбулі презентували першу книгу української авторки родом із Кропивницького Олени Литвиненко «Калиновий присмак турецького чаю» - особисту розповідь про відкриття Туреччини…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4178314-u-stambuli-vidbulasa-prezentacia-knigi-kalinovij-prismak-tureckogo-cau.html",
-    "image": ""
-  },
-  {
-    "id": "n-4832a0ca2948",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Тернопільська компанія виграла тендер на утримання доріг Буковини за понад 700 млн грн",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/na_bukovini_obrali_pidryadnika_dlya_utrimannya_dorig_za_735_mln_grn_n1648709",
-    "image": ""
-  },
-  {
-    "id": "n-25826fb5c59c",
-    "topic": "people",
-    "date": "2026-10-26",
-    "title": "Мода, зірки та благодійність: як пройшов Lviv Fashion Week SS 2027 за підтримки blago",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/moda_zirki_ta_blagodiynist_yak_proyshov_lviv_fashion_week_ss_2027_za_pidtrimki_blago_n1648692",
     "image": ""
   }
 ]
