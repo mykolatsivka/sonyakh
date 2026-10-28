@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-777dcbbb41eb",
+    "topic": "animals",
+    "date": "2026-10-28",
+    "title": "Чому кіт раптом утікає від господаря: 5 причин такої поведінки",
+    "text": "Вусаті живуть за власною логікою, і страх тут далеко не завжди головна причина.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/chomu-kit-tikaye-vid-lyudini-5-prichin-takoji-povedinki-13542366.html",
+    "image": ""
+  },
+  {
+    "id": "n-10efcf69e383",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "Нідерланди виділяють Україні понад мільярд євро невійськової допомоги",
+    "text": "Уряд Нідерландів надасть 1,2 млрд євро на відновлення енергетики, водопостачання та підтримку бізнесу України до 2027 року.",
+    "source": "Українська правда",
+    "sourceUrl": "https://www.pravda.com.ua/news/2026/10/28/8060058/",
+    "image": ""
+  },
+  {
     "id": "n-b5c5db1d9c3d",
     "topic": "science",
     "date": "2026-10-28",
@@ -577,26 +597,6 @@
     "text": "Жіноча тенісна асоціація (WTA) оновила рейтинг спортсменок станом на 26 жовтня.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178149-rejting-wta-svitolina-ta-kostuk-zzalisautsa-u-top10-astremska-povernulasa-u-top100.html",
-    "image": ""
-  },
-  {
-    "id": "n-ca27ba02cd0a",
-    "topic": "animals",
-    "date": "2026-10-26",
-    "title": "Біля Чорнобиля помітили табун рідкісних коней",
-    "text": "Щонайменше вісім тварин потрапили в об’єктив дослідника.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/bilya-chornobilya-pomitili-tabun-ridkisnih-koney-shcho-pro-nih-vidomo-foto-13540032.html",
-    "image": ""
-  },
-  {
-    "id": "n-a414aa523ced",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Пам'яті головного сержанта Павла Діденка (позивний «Звіробій»)",
-    "text": "Мріяв зібрати у себе найближчих людей, щоб святкувати перемогу України.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-ato/4176480-pamati-golovnogo-serzanta-pavla-didenka-pozivnij-zvirobij.html",
     "image": ""
   }
 ]
