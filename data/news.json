@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-751bbebd93ce",
+    "topic": "sport",
+    "date": "2026-10-28",
+    "title": "Анастасія Алпєєва стала чемпіонкою світу-2026 зі спортивної боротьби",
+    "text": "Українка Анастасія Алпєєва виграла чемпіонат світу зі спортивної боротьби, який проходить в Астані (Казахстан).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179054-anastasia-alpeeva-stala-cempionkou-svitu2026-zi-sportivnoi-borotbi.html",
+    "image": ""
+  },
+  {
+    "id": "n-5f0afd63de76",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "Philip Morris розробила мобільний додаток для роботи з торговими точками по Україні",
+    "text": "фото ua.depositphotos.comКомпанія Philip Morris розробила цифрову платформу для взаємодії з торговельними точками в Україні, яка дозволяє автоматизувати обмін інформацією з…",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/other/philip-morris-rozrobila-mobilniy-dodatok-dlya-roboti-z-torgovimi-tochkami-po-ukrajini-13542798.html",
+    "image": ""
+  },
+  {
+    "id": "n-0d52f14eec32",
+    "topic": "people",
+    "date": "2026-10-28",
+    "title": "Рівненські лікарі врятували мешканку Славути з критичним порушенням роботи серця",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/rivnenski_likari_vryatuvali_meshkanku_slavuti_z_kritichnim_porushennyam_roboti_sertsya_n1648921",
+    "image": ""
+  },
+  {
     "id": "n-3df9b1c4189b",
     "topic": "rebuild",
     "date": "2026-10-28",
@@ -567,36 +597,6 @@
     "text": "У Мукачівському кампусі Ужгородського університету відкрили лабораторію робототехніки EduRob.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178352-u-mukacevi-vidkrili-laboratoriu-z-robototehniki-dla-studentiv.html",
-    "image": ""
-  },
-  {
-    "id": "n-ce1d892d612c",
-    "topic": "rebuild",
-    "date": "2026-10-26",
-    "title": "Україна цьогоріч уже відкрила 29 нових напрямків аграрного експорту",
-    "text": "Для української продукції з початку 2026 року станом на жовтень погоджено 29 нових експортних напрямків у 13 країнах і Європейському Союзі; це найбільший річний показник…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-economy/4178361-ukraina-cogoric-uze-vidkrila-29-novih-napramkiv-agrarnogo-eksportu.html",
-    "image": ""
-  },
-  {
-    "id": "n-2400ddfe017b",
-    "topic": "animals",
-    "date": "2026-10-26",
-    "title": "Українець, що залетів на мотопараплані в Молдову, попросив там притулку",
-    "text": "",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/10/26/8059803/",
-    "image": ""
-  },
-  {
-    "id": "n-a355259c066c",
-    "topic": "science",
-    "date": "2026-10-26",
-    "title": "В уряді Британії роз’яснили слова прем’єра про повернення країни до ЄС",
-    "text": "Уряд Великої Британії наразі не розглядає відновлення свободи пересування з країнами ЄС та повернення країни до Євроспільноти.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178333-v-uradi-britanii-rozasnili-slova-premera-pro-povernenna-kraini-do-es.html",
     "image": ""
   }
 ]
