@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-4fa82a2caa9e",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "У Страсбурзі відкрили виставку та презентували книжку про незламний Херсон",
+    "text": "У Палаці Європи у Страсбурзі 28 жовтня відкрили фотовиставку Олександра Толоконнікова «Незламний Херсон: Ціна життя» та презентували книжку про досвід стійкості регіону під час…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4179106-u-strasburzi-vidkrili-vistavku-ta-prezentuvali-knizku-pro-nezlamnij-herson.html",
+    "image": ""
+  },
+  {
+    "id": "n-e27db85b6166",
+    "topic": "science",
+    "date": "2026-10-28",
+    "title": "Як сіль впливає на печінку: вчені виявили небезпечний зв’язок",
+    "text": "Нирки контролюють, скільки натрію утримує організм, але це не означає, що печінка захищена від його впливу.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/yak-sil-vplivaye-na-pechinku-ta-pidvishchuye-rizik-jiji-zahvoryuvan-poyasnennya-vchenih-13542762.html",
+    "image": ""
+  },
+  {
     "id": "n-e0abe467b398",
     "topic": "science",
     "date": "2026-10-28",
@@ -577,26 +597,6 @@
     "text": "Урожай доставляють від переробного заводу до шахти не вантажівками, а за допомогою канатної дороги.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/zberigannya-yabluk-u-shahti-yak-v-italiji-ekonomlyat-blizko-30-energiji-13540869.html",
-    "image": ""
-  },
-  {
-    "id": "n-9cd2289c89ad",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Матвій Бідний заявив, що Україна бойкотуватиме чемпіонат світу з важкої атлетики в Москві",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/matviy_bidniy_zayaviv_shho_ukrayina_boykotuvatime_chempionat_svitu_z_vazhkoyi_atletiki_v_moskvi_n1648765",
-    "image": ""
-  },
-  {
-    "id": "n-b677ed5aebf3",
-    "topic": "animals",
-    "date": "2026-10-26",
-    "title": "Власники собак давно це знали: тепер ефект підтвердили вимірюваннями",
-    "text": "Контакт із собакою може пом’якшувати фізіологічну реакцію організму на стрес.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/pogladzhuvannya-sobaki-mozhe-zahishchati-vid-stresu-shcho-pokazalo-doslidzhennya-13540827.html",
     "image": ""
   }
 ]
