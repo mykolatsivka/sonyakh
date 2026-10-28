@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-3df9b1c4189b",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "У Києві за два роки відремонтували укриття в 76 закладах освіти",
+    "text": "У Києві за останні два роки виконали ремонти в укриттях 76 закладів освіти, у 33-х роботи тривають.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4179010-u-kievi-za-dva-roki-vidremontuvali-ukritta-v-76-zakladah-osviti.html",
+    "image": ""
+  },
+  {
+    "id": "n-915162d843ad",
+    "topic": "sport",
+    "date": "2026-10-28",
+    "title": "Долар відійшов від рекорду: НБУ встановив офіційний курс валют на 29 жовтня",
+    "text": "Курс гривні до євро встановлено на рівні 50,77 грн/євро.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/finance/oficiyniy-kurs-dolara-vidkotivsya-na-odnu-kopiyku-nbu-13542756.html",
+    "image": ""
+  },
+  {
+    "id": "n-731a118675fb",
+    "topic": "rebuild",
+    "date": "2026-10-28",
+    "title": "Відновлення Південного мосту і ділянки метро: у КМДА анонсували рішення наступного тижня",
+    "text": "На початку наступного тижня очікується акт обстеження Південного мосту від Національного інституту розвитку інфраструктури, після чого буде ухвалене рішення щодо роботи…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4179009-vidnovlenna-pivdennogo-mostu-i-dilanki-metro-u-kmda-anonsuvali-risenna-nastupnogo-tizna.html",
+    "image": ""
+  },
+  {
     "id": "n-ca7de3054457",
     "topic": "animals",
     "date": "2026-10-28",
@@ -567,36 +597,6 @@
     "text": "Уряд Великої Британії наразі не розглядає відновлення свободи пересування з країнами ЄС та повернення країни до Євроспільноти.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178333-v-uradi-britanii-rozasnili-slova-premera-pro-povernenna-kraini-do-es.html",
-    "image": ""
-  },
-  {
-    "id": "n-55c7e039eb01",
-    "topic": "science",
-    "date": "2026-10-26",
-    "title": "На Таллінському кінофестивалі відбудеться прем’єра фільму про українських військових, які пройшли полон",
-    "text": "Українсько-литовський документальний фільм режисера Неріюса Мілеріуса \"Жити\" (Living On) увійшов до програми 30-го Таллінського кінофестивалю \"Темні ночі\" (PÖFF).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4178332-na-tallinskomu-kinofestivali-vidbudetsa-premera-filmu-pro-ukrainskih-vijskovih-aki-projsli-polon.html",
-    "image": ""
-  },
-  {
-    "id": "n-e837bf83de07",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Формула-1 отримає нового чемпіона – чинний володар титулу склав повноваження",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/formula_1_otrimaye_novogo_chempiona_chinniy_volodar_titulu_sklav_povnovazhennya_n1648736",
-    "image": ""
-  },
-  {
-    "id": "n-b505e9e194b4",
-    "topic": "rebuild",
-    "date": "2026-10-26",
-    "title": "Україна може побудувати власну супутникову мережу: експерт назвав можливі терміни",
-    "text": "Україна планує створити власний аналог Starlink, щоб зменшити залежність від комерційних супутникових мереж.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/war/vlasniy-starlink-dlya-ukrajini-koli-mozhut-zapustiti-pershi-suputniki-13540485.html",
     "image": ""
   }
 ]
