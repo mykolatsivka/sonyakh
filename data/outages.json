@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T09:50:00.385Z",
+ "updatedAt": "2026-10-28T10:13:12.342Z",
  "regions": {
   "dnipro": {
    "status": "stale",
@@ -23,7 +23,7 @@
   },
   "kyiv-city": {
    "status": "ok",
-   "sourceUpdated": "28.10.2026 09:45",
+   "sourceUpdated": "28.10.2026 12:05",
    "days": [
     {
      "date": "2026-10-28",
@@ -211,7 +211,7 @@
       ],
       "21.1": [
        {
-        "from": 780,
+        "from": 720,
         "to": 960,
         "type": "off"
        },
@@ -228,7 +228,7 @@
         "type": "off"
        },
        {
-        "from": 810,
+        "from": 780,
         "to": 990,
         "type": "off"
        },
@@ -245,7 +245,7 @@
         "type": "off"
        },
        {
-        "from": 840,
+        "from": 810,
         "to": 1020,
         "type": "off"
        },
@@ -739,7 +739,7 @@
       ],
       "57.1": [
        {
-        "from": 780,
+        "from": 720,
         "to": 960,
         "type": "off"
        },
@@ -756,7 +756,7 @@
         "type": "off"
        },
        {
-        "from": 810,
+        "from": 780,
         "to": 990,
         "type": "off"
        },
@@ -773,7 +773,7 @@
         "type": "off"
        },
        {
-        "from": 840,
+        "from": 810,
         "to": 1020,
         "type": "off"
        },
@@ -851,7 +851,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-28T09:38:53.407Z"
+   "updatedAt": "2026-10-28T10:13:12.342Z"
   },
   "kyiv": {
    "status": "ok",
@@ -1024,9 +1024,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "28.10.2026 11:30",
+   "sourceUpdated": "28.10.2026 12:00",
    "days": [],
-   "updatedAt": "2026-10-28T09:38:53.407Z"
+   "updatedAt": "2026-10-28T10:13:12.342Z"
   },
   "chernivtsi": {
    "days": [],
