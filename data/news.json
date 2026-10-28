@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-ca7de3054457",
+    "topic": "animals",
+    "date": "2026-10-28",
+    "title": "На Одещину прилетіла зграя рідкісних рожевих фламінго: як на них впливає війна, - вчений",
+    "text": "За підрахунками дослідника, зараз у нацпарку є понад 250 таких птахів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/rozhevi-flamingo-velika-zgraya-ridkisnih-ptahiv-zavitala-na-odeshchinu-novini-odesi-13542612.html",
+    "image": ""
+  },
+  {
     "id": "n-eb74d115d770",
     "topic": "rebuild",
     "date": "2026-10-28",
@@ -587,16 +597,6 @@
     "text": "Україна планує створити власний аналог Starlink, щоб зменшити залежність від комерційних супутникових мереж.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/war/vlasniy-starlink-dlya-ukrajini-koli-mozhut-zapustiti-pershi-suputniki-13540485.html",
-    "image": ""
-  },
-  {
-    "id": "n-ba5e91b22058",
-    "topic": "sport",
-    "date": "2026-10-26",
-    "title": "Київстар ТБ ексклюзивно покаже дев’ять матчів Ліги чемпіонів УЄФА з футзалу 28–31 жовтня",
-    "text": "З 28 до 31 жовтня дивіться дев’ять матчів основного раунду Ліги чемпіонів УЄФА з футзалу.",
-    "source": "УНІАН",
-    "sourceUrl": "https://sport.unian.ua/kijivstar-tb-eksklyuzivno-pokazhe-dev-yat-matchiv-ligi-chempioniv-uyefa-z-futzalu-28-31-zhovtnya-13540464.html",
     "image": ""
   }
 ]
