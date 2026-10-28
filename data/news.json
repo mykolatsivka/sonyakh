@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-d9386a3fe40c",
+    "topic": "sport",
+    "date": "2026-10-28",
+    "title": "«Динамо» перемогло «Рейнджерс» на старті Юнацької ліги УЄФА",
+    "text": "Футболісти київського «Динамо» (U19) розпочали свої виступи в Юнацькій лізі УЄФА сезону 2026/27.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179133-dinamo-peremoglo-rejndzers-na-starti-unackoi-ligi-uefa.html",
+    "image": ""
+  },
+  {
     "id": "n-4fa82a2caa9e",
     "topic": "rebuild",
     "date": "2026-10-28",
@@ -587,16 +597,6 @@
     "text": "До списку фіналістів увійшли футболісти з шести країн.",
     "source": "УНІАН",
     "sourceUrl": "https://sport.unian.ua/zolotiy-m-yach-2026-ogolosheno-10-pretendentiv-na-nagorodu-13540908.html",
-    "image": ""
-  },
-  {
-    "id": "n-17b47ae9d0c5",
-    "topic": "rebuild",
-    "date": "2026-10-26",
-    "title": "Італійці зберігають яблука в шахті: навіщо вони спускають урожай під землю",
-    "text": "Урожай доставляють від переробного заводу до шахти не вантажівками, а за допомогою канатної дороги.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/zberigannya-yabluk-u-shahti-yak-v-italiji-ekonomlyat-blizko-30-energiji-13540869.html",
     "image": ""
   }
 ]
