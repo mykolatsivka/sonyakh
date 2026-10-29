@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-75f73bf7a943",
+    "topic": "sport",
+    "date": "2026-10-29",
+    "title": "Роналду переміг у голосуванні за «Золотий м’яч усіх часів», Мессі залишився позаду",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/ronaldu_peremig_u_golosuvanni_za_zolotiy_myach_usih_chasiv_messi_zalishivsya_pozadu_n1649024",
+    "image": ""
+  },
+  {
+    "id": "n-44c3087d3484",
+    "topic": "sport",
+    "date": "2026-10-29",
+    "title": "Вісім вистав за шість днів: завершився фестиваль «Золоті оплески Буковини»",
+    "text": "У Чернівцях завершився XVIII фестиваль комедії «Золоті оплески Буковини», який тривав із 24 до 29 жовтня.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179553-visim-vistav-za-sist-dniv-zaversivsa-festival-zoloti-opleski-bukovini.html",
+    "image": ""
+  },
+  {
     "id": "n-46593451d81f",
     "topic": "animals",
     "date": "2026-10-29",
@@ -577,26 +597,6 @@
     "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178644-anastasia-alpeeva-vijsla-u-final-cs2026-zi-sportivnoi-borotbi.html",
-    "image": ""
-  },
-  {
-    "id": "n-812f2668c4fb",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Важливо не лише скільки кави пити, а й коли: вчені знайшли цікавий зв’язок",
-    "text": "Дослідники майже десять років стежили за тисячами людей.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/health/rankova-kava-i-serce-vcheni-z-yasuvali-chomu-chas-jiji-vzhivannya-mozhe-mati-znachennya-13541550.html",
-    "image": ""
-  },
-  {
-    "id": "n-afdee96a9477",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Ветерани зі Львова дебютували в Лізі чемпіонів з ампфутболу та зайняли 5 місце",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/veterani_zi_lvova_debyutuvali_v_lizi_chempioniv_z_ampfutbolu_ta_zaynyali_5_mistse_n1648813",
     "image": ""
   }
 ]
