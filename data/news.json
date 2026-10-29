@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-d6689a860e94",
+    "topic": "sport",
+    "date": "2026-10-29",
+    "title": "Сьогодні визначаться усі чвертьфіналісти Кубка України з футболу",
+    "text": "У Кубку України з футболу у четвер, 29 жовтня, пройдуть заключні поєдинки 1/8 фіналу сезону-2026/27.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179267-sogodni-viznacatsa-usi-cvertfinalisti-kubka-ukraini-z-futbolu.html",
+    "image": ""
+  },
+  {
+    "id": "n-aab756552cf4",
+    "topic": "animals",
+    "date": "2026-10-29",
+    "title": "Активне довголіття собак і котів: український бренд PRACTIK представив нову лінійку Longevity",
+    "text": "Лінійка повнораціонного харчування для собак і котів PRACTIK FRESH Longevity Formula побудована навколо шести принципів підтримки активного довголіття.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/other/aktivne-dovgolittya-sobak-i-kotiv-ukrajinskiy-brend-practik-predstaviv-novu-liniyku-longevity-13542663.html",
+    "image": ""
+  },
+  {
     "id": "n-1c106695b778",
     "topic": "people",
     "date": "2026-10-29",
@@ -577,26 +597,6 @@
     "text": "У Кубку України з футболу у вівторок, 27 жовтня, відбудуться стартові поєдинки 1/8 фіналу турніру сезону-2026/27.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178423-sogodni-viznacatsa-persi-cvertfinalisti-kubka-ukraini-z-futbolu.html",
-    "image": ""
-  },
-  {
-    "id": "n-5898e8d62239",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Є важливі умови: львівські школярі зможуть отримати по 30 тис. грн премії",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/ye_vazhlivi_umovi_lvivski_shkolyari_zmozhut_otrimati_po_30_tis_grn_premiyi_n1648773",
-    "image": ""
-  },
-  {
-    "id": "n-c42223fb264b",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Археологи виявили найдавніше житло людей у Західній півкулі",
-    "text": "Вчені вважають, що цей табір міг бути збудований приблизно 13 800 років тому.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/naydavnishe-zhitlo-lyudey-u-zahidniy-pivkuli-viyavili-na-alyasci-13540926.html",
     "image": ""
   }
 ]
