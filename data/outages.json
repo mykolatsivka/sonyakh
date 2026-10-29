@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T17:12:30.738Z",
+ "updatedAt": "2026-10-29T17:23:40.649Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -8,11 +8,10 @@
    "updatedAt": "2026-10-29T16:36:57.931Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-10-29T14:39:16.929Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-29T17:23:40.649Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -22,7 +21,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "28.10.2026 23:35",
    "days": [
     {
@@ -876,7 +875,8 @@
      }
     }
    ],
-   "updatedAt": "2026-10-29T14:14:52.409Z"
+   "updatedAt": "2026-10-29T14:14:52.409Z",
+   "error": "fetch failed (UND_ERR_SOCKET)"
   },
   "kyiv": {
    "status": "ok",
@@ -1052,11 +1052,10 @@
    "updatedAt": "2026-10-28T08:50:11.066Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.10.2026 23:22",
    "days": [],
-   "updatedAt": "2026-10-29T16:50:21.929Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-29T17:23:40.649Z"
   },
   "rivne": {
    "status": "ok",
