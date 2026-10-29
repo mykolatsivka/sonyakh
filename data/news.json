@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-907231d7b1f6",
+    "topic": "science",
+    "date": "2026-10-29",
+    "title": "В Україні відзначили найкращі мовні проєкти 2026 року",
+    "text": "У межах форуму до Дня української писемності та мови «Українська – мова сильних», який 29 жовтня провело Міністерство культури України, відбулося нагородження переможців…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179417-v-ukraini-vidznacili-najkrasi-movni-proekti-2026-roku.html",
+    "image": ""
+  },
+  {
+    "id": "n-9e7d0b8acc89",
+    "topic": "science",
+    "date": "2026-10-29",
+    "title": "В елітній могилі майя знайшли 226 людських зубів: кому вони належали",
+    "text": "Незвичайна знахідка допомогла дослідникам дізнатися більше про ритуали стародавньої цивілізації та її уявлення про зв'язок із предками.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/zhinku-pohovali-z-226-chuzhimi-zubami-shcho-genetiki-z-yasuvali-pro-davniy-ritual-13543692.html",
+    "image": ""
+  },
+  {
+    "id": "n-c14fbad17c50",
+    "topic": "rebuild",
+    "date": "2026-10-29",
+    "title": "Ближче до гігантських айсбергів: у Гренландії відкрили новий міжнародний аеропорт",
+    "text": "Поки передбачено один прямий рейс на тиждень, в окремі сезони кількість вильотів збільшуватимуть.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/tourism/news/grenlandiya-vidkrila-noviy-mizhnarodniy-aeroport-do-krizhanih-fiordiv-teper-blizhche-13543977.html",
+    "image": ""
+  },
+  {
     "id": "n-84d5462c0434",
     "topic": "sport",
     "date": "2026-10-29",
@@ -567,36 +597,6 @@
     "text": "Захід триватиме до 2 листопада.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/games/u-steam-rozpochavsya-festival-prisvyacheniy-hororam-nayvigidnishi-propoziciji-13541292.html",
-    "image": ""
-  },
-  {
-    "id": "n-76497e9a3f35",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Спінозавр із \"Парку Юрського періоду\" міг бути водним хижаком: що зʼясували вчені",
-    "text": "Науковці проаналізували великий масив даних - понад 11 тисяч вимірювань, фотографії та результати комп’ютерної томографії.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/spinozavr-bilshu-chastinu-zhittya-provodiv-pid-vodoyu-shcho-z-yasuvali-vcheni-za-dopomogoyu-shi-13541253.html",
-    "image": ""
-  },
-  {
-    "id": "n-2477eeb006a8",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Китайський мотоцикліст встановив рекорд Гіннеса, подолавши по воді 40 кілометрів",
-    "text": "MX450 використовує амфібійні лижі для утримання на плаву.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/economics/transport/motocikl-na-vodi-kitayec-projihav-40-km-richkoyu-i-vstanoviv-rekord-ginnesa-13541262.html",
-    "image": ""
-  },
-  {
-    "id": "n-1e31499a0207",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Лагодить авто та лікує душі: ТЕТ покаже телевізійну прем’єру серіалу \"Вітя\"",
-    "text": "У серіалі історія хлопця перетворюється на чесну розмову про вибір.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/common/lagodit-avto-ta-likuye-dushi-tet-pokazhe-televiziynu-prem-yeru-serialu-vitya-13541250.html",
     "image": ""
   }
 ]
