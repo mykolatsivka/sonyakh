@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-84d5462c0434",
+    "topic": "sport",
+    "date": "2026-10-29",
+    "title": "Ветеран на біговому протезі встановив рекорд України на марафоні у США",
+    "text": "Ветеран Вадим Науменко із Хмельницького під час марафону морської піхоти у США подолав на біговому протезі понад 41 км за 3,3 години, встановивши національний рекорд України.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179397-veteran-na-bigovomu-protezi-vstanoviv-rekord-ukraini-na-marafoni-u-ssa.html",
+    "image": ""
+  },
+  {
+    "id": "n-1ac38fc9ff55",
+    "topic": "people",
+    "date": "2026-10-29",
+    "title": "Пережила два Голодомори, Другу світову і нацистський карцер: що розповіла 100-річної жителька Чернігівщини",
+    "text": "Зараз значну частину часу жінка проводить у своїй кімнаті та читає газети.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/100-richnoji-zhitelka-chernigivshchini-rozpovila-pro-perezhiti-golodomori-viynu-i-nacistskiy-karcer-13543746.html",
+    "image": ""
+  },
+  {
     "id": "n-750578a30aa5",
     "topic": "science",
     "date": "2026-10-29",
@@ -577,26 +597,6 @@
     "text": "У серіалі історія хлопця перетворюється на чесну розмову про вибір.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/common/lagodit-avto-ta-likuye-dushi-tet-pokazhe-televiziynu-prem-yeru-serialu-vitya-13541250.html",
-    "image": ""
-  },
-  {
-    "id": "n-d631009ce136",
-    "topic": "rebuild",
-    "date": "2026-10-27",
-    "title": "У Китаї збудували 10-поверховий житловий будинок менш ніж за 29 годин: як це можливо",
-    "text": "Це не фокус, а нова технологія будівництва.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/u-kitaji-zdivuvali-ves-svit-tam-zbuduvali-10-poverhoviy-budinok-mensh-nizh-za-29-godin-13541124.html",
-    "image": ""
-  },
-  {
-    "id": "n-d41214d6a09b",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Медбрат франківської лікарні виборов Кубок України з миття вікон",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/medbrat_frankivskoyi_likarni_viborov_kubok_ukrayini_z_mittya_vikon_n1648787",
     "image": ""
   }
 ]
