@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-8e5aad4ce942",
+    "topic": "sport",
+    "date": "2026-10-29",
+    "title": "Манола Скобельська зупинилася за крок до п'єдесталу ЧС-2026 зі спортивної боротьби",
+    "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179478-manola-skobelska-zupinilasa-za-krok-do-pedestalu-cs2026-zi-sportivnoi-borotbi.html",
+    "image": ""
+  },
+  {
+    "id": "n-5492e788e0f9",
+    "topic": "rebuild",
+    "date": "2026-10-29",
+    "title": "Для збереження зібраного урожаю аграрії Донеччини отримали 179 зернових рукавів",
+    "text": "Для збереження зібраного урожаю 28 аграріїв Донеччини отримали 179 зернових рукавів, що дадуть змогу зберегти належну якість зерна.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179480-dla-zberezenna-zibranogo-urozau-agrarii-doneccini-otrimali-179-zernovih-rukaviv.html",
+    "image": ""
+  },
+  {
     "id": "n-907231d7b1f6",
     "topic": "science",
     "date": "2026-10-29",
@@ -577,26 +597,6 @@
     "text": "Українка Даяна Ястремська вийшла до другого кола турніру Жіночої тенісної асоціації (WTA 250) Guangzhou Open в Гуанчжоу (Китай) із призовим фондом понад $280 тис.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178581-astremska-peremogla-amerikanku-volinec-na-starti-turniru-wta-250-v-guanczou.html",
-    "image": ""
-  },
-  {
-    "id": "n-8e8d291e940d",
-    "topic": "science",
-    "date": "2026-10-27",
-    "title": "Нідерланди передумали брати участь в Євробаченні-2027",
-    "text": "Нідерланди не братимуть участі в пісенному конкурсі “Євробачення-2027”, попри попередні плани повернутися.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4178595-niderlandi-peredumali-brati-ucast-v-evrobacenni2027.html",
-    "image": ""
-  },
-  {
-    "id": "n-6dc0c839c011",
-    "topic": "people",
-    "date": "2026-10-27",
-    "title": "У Steam стартував геловінський фестиваль: які ігри віддають зі знижкою в 90%",
-    "text": "Захід триватиме до 2 листопада.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/games/u-steam-rozpochavsya-festival-prisvyacheniy-hororam-nayvigidnishi-propoziciji-13541292.html",
     "image": ""
   }
 ]
