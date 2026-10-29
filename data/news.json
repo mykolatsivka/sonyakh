@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-660c91a12842",
+    "topic": "rebuild",
+    "date": "2026-10-30",
+    "title": "На Херсонщині вперше провели складну операцію з відновлення кровотоку в артерії",
+    "text": "",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179563-na-hersonsini-vperse-proveli-skladnu-operaciu-z-vidnovlenna-krovotoku-v-arterii.html",
+    "image": ""
+  },
+  {
+    "id": "n-a79a83743274",
+    "topic": "animals",
+    "date": "2026-10-29",
+    "title": "Зуб слона віком 700 000 років \"розповів\" про забутий світ, у якому жили стародавні люди",
+    "text": "У цьому середовищі мешкали гігантські слони та жили одні з перших груп людей у цьому регіоні.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/zub-slona-vikom-700-000-rokiv-rozpoviv-pro-zabutiy-svit-u-yakomu-zhili-starodavni-lyudi-13544283.html",
+    "image": ""
+  },
+  {
     "id": "n-75f73bf7a943",
     "topic": "sport",
     "date": "2026-10-29",
@@ -577,26 +597,6 @@
     "text": "Під час спілкування з журналістами вона оцінила диктант.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/society/radiodiktant-nacionalnoji-yednosti-2026-rekordsmenka-ocinila-cogorichniy-tekst-13541607.html",
-    "image": ""
-  },
-  {
-    "id": "n-cc756e581aaf",
-    "topic": "rebuild",
-    "date": "2026-10-27",
-    "title": "Україна залишається перспективною країною для іноземних інвестицій попри війну, – ДТЕК",
-    "text": "Гендиректор ДТЕК Максим Тімченко наголошує, що інвестиції в українську енергетику під час війни мають стратегічне значення не лише для окремих підприємств / фото…",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/economics/other/ukrajina-zalishayetsya-perspektivnoyu-krajinoyu-dlya-inozemnih-investiciy-popri-viynu-dtek-13541595.html",
-    "image": ""
-  },
-  {
-    "id": "n-54926f78eb70",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Анастасія Алпєєва вийшла у фінал ЧС-2026 зі спортивної боротьби",
-    "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178644-anastasia-alpeeva-vijsla-u-final-cs2026-zi-sportivnoi-borotbi.html",
     "image": ""
   }
 ]
