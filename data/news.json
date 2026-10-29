@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-cecb964814ce",
+    "topic": "science",
+    "date": "2026-10-29",
+    "title": "В Ужгороді визначили перших лауреатів мистецької премії імені Володимира Микити",
+    "text": "В Ужгороді визначили переможців новозаснованої міської премії імені Володимира Микити у галузі образотворчого та декоративно-прикладного мистецтва у трьох номінаціях.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179316-v-uzgorodi-viznacili-persih-laureativ-misteckoi-premii-imeni-volodimira-mikiti.html",
+    "image": ""
+  },
+  {
     "id": "n-d6689a860e94",
     "topic": "sport",
     "date": "2026-10-29",
@@ -587,16 +597,6 @@
     "text": "Хамам, арт-терапія і кафе біля Стрийського парку",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/hamam_art_terapiya_i_kafe_bilya_striyskogo_parku_n1648759",
-    "image": ""
-  },
-  {
-    "id": "n-e156d53cee72",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Сьогодні визначаться перші чвертьфіналісти Кубка України з футболу",
-    "text": "У Кубку України з футболу у вівторок, 27 жовтня, відбудуться стартові поєдинки 1/8 фіналу турніру сезону-2026/27.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178423-sogodni-viznacatsa-persi-cvertfinalisti-kubka-ukraini-z-futbolu.html",
     "image": ""
   }
 ]
