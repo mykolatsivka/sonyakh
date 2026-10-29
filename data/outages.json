@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T01:17:31.881Z",
+ "updatedAt": "2026-10-29T01:40:37.646Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -22,7 +22,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "28.10.2026 23:35",
    "days": [
     {
@@ -876,8 +876,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-28T23:49:45.373Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-29T01:40:37.646Z"
   },
   "kyiv": {
    "status": "ok",
@@ -1060,9 +1059,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "29.10.2026 03:00",
+   "sourceUpdated": "29.10.2026 03:30",
    "days": [],
-   "updatedAt": "2026-10-29T01:17:31.881Z"
+   "updatedAt": "2026-10-29T01:40:37.646Z"
   },
   "chernivtsi": {
    "days": [],
