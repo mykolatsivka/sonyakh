@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-8b996b6ee8e1",
+    "topic": "animals",
+    "date": "2026-10-30",
+    "title": "Українських лелек простежили аж до Африки: відомо, де саме вони зимуватимуть",
+    "text": "Завдяки сучасним GPS-передавачам орнітологи можуть відстежувати, куди летять перелітні птахи.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/de-zimuyut-leleki-ornitologi-prostezhili-shlyah-ptahiv-vid-ukrajini-do-afriki-13544202.html",
+    "image": ""
+  },
+  {
+    "id": "n-cbf342a04e6a",
+    "topic": "animals",
+    "date": "2026-10-30",
+    "title": "Гігантський морський хижак може полювати на суші: як це можливо",
+    "text": "На початку кожного року самки морських левів виходять на пляжі, щоб народити дитинчат.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/gigantskiy-morskiy-hizhak-mozhe-polyuvati-na-sushi-yak-ce-mozhlivo-13544196.html",
+    "image": ""
+  },
+  {
     "id": "n-99b6e6b68b2d",
     "topic": "people",
     "date": "2026-10-30",
@@ -577,26 +597,6 @@
     "text": "Українська компанія HIMERA та данська GomSpace вивели на орбіту OBRIA NANO - перший випробувальний супутник для майбутньої незалежної української мережі зв’язку, який вже…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-society/4178694-na-orbiti-zapracuvav-persij-suputnik-ukrainskoi-merezi-zvazku-obria.html",
-    "image": ""
-  },
-  {
-    "id": "n-fdeb33800d78",
-    "topic": "rebuild",
-    "date": "2026-10-27",
-    "title": "Розсилка: Відбудова України-2026",
-    "text": "Чому Україні вже недостатньо лише ремонтувати електростанції.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua https://archive.sendpul.se/v/5034k/1qgjr/",
-    "image": ""
-  },
-  {
-    "id": "n-c771e38f6842",
-    "topic": "animals",
-    "date": "2026-10-27",
-    "title": "Чому собака гарчить на одних людей і радісно зустрічає інших: експерти розкрили причини",
-    "text": "Виявляється, чотирилапі оцінюють людей не лише за зовнішністю.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/chomu-sobaka-gavkaye-na-lyudey-naukovci-ta-kinologi-rozkrili-spravzhni-prichini-13541352.html",
     "image": ""
   }
 ]
