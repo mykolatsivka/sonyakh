@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-f0d3c86ad661",
+    "topic": "rebuild",
+    "date": "2026-10-30",
+    "title": "У Національному театрі імені Франка відкрили дитячий простір - Бережна",
+    "text": "У Національному академічному театрі імені Івана Франка відкрили дитячий простір.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179822-u-nacionalnomu-teatri-imeni-franka-vidkrili-ditacij-prostir-berezna.html",
+    "image": ""
+  },
+  {
+    "id": "n-ab2ba4716485",
+    "topic": "animals",
+    "date": "2026-10-30",
+    "title": "Як зробити годівницю для птахів за п’ять хвилин: потрібна одна річ, яку зазвичай викидають",
+    "text": "У холодну пору року птахи потребують додаткової уваги.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/advice/vikoristana-upakovka-z-pid-yayec-mozhe-stati-godivniceyu-dlya-ptahiv-13545054.html",
+    "image": ""
+  },
+  {
     "id": "n-ac9da6d37dbe",
     "topic": "people",
     "date": "2026-10-30",
@@ -577,26 +597,6 @@
     "text": "У далекому майбутньому Азовське море може стати місцем, у якому наші нащадки видобуватимуть сіль.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/ecology/azovske-more-zvidki-tam-akuli-i-chomu-tam-zmozhut-vidobuvati-sil-13540857.html",
-    "image": ""
-  },
-  {
-    "id": "n-a0663892220d",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "У Рівному створили серію анімованих історій про спадщину князів Любомирських",
-    "text": "У Рівному презентували п’ять анімованих історій про історичні пам’ятки та спадщину князів Любомирських.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4178800-u-rivnomu-stvorili-seriu-animovanih-istorij-pro-spadsinu-knaziv-lubomirskih.html",
-    "image": ""
-  },
-  {
-    "id": "n-ff3953427706",
-    "topic": "sport",
-    "date": "2026-10-28",
-    "title": "У рекордному скарбниці епохи вікінгів \"загубилася\" монета, яку не знаходили вже понад 100 років",
-    "text": "До наших днів збереглося менше 20 монет цього видатного правителя, причому більшість із них знаходиться за межами Норвегії.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/u-rekordnomu-skarbnici-epohi-vikingiv-zagubilasya-moneta-yaku-ne-znahodili-vzhe-ponad-100-rokiv-13542060.html",
     "image": ""
   }
 ]
