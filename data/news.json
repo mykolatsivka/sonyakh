@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-b8fcbdc33cea",
+    "topic": "sport",
+    "date": "2026-10-30",
+    "title": "Нова хвиля зростання цін. Які продукти стануть \"золотими\" вже незабаром",
+    "text": "Експерти \"розклали по поличках\" всі товари, які зростатимуть у ціні восени та взимку, щоб українці змогли зорієнтуватися та підготуватися до цього.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/economics/agro/nova-hvilya-zrostannya-cin-yaki-produkti-stanut-shche-dorozhchimi-vzhe-nezabarom-13544397.html",
+    "image": ""
+  },
+  {
+    "id": "n-18677e4ba45f",
+    "topic": "science",
+    "date": "2026-10-30",
+    "title": "На кінофестивалі у Німеччині відбудеться європейська прем’єра фільму «ЄвроКривбас»",
+    "text": "На міжнародному кінофестивалі FilmFestival Cottbus відбудеться європейська прем’єра документального фільму \"ЄвроКривбас\".",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179619-na-kinofestivali-u-nimeccini-vidbudetsa-evropejska-premera-filmu-evrokrivbas.html",
+    "image": ""
+  },
+  {
     "id": "n-39ff17500fd5",
     "topic": "rebuild",
     "date": "2026-10-30",
@@ -577,26 +597,6 @@
     "text": "Цей цікавий тест пропонує вам знайти всіх тварин серед ліній, намальованих чорнилом.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/test-na-vnimatelnost-skolko-zhivotnyh-na-kartinke-13540773.html",
-    "image": ""
-  },
-  {
-    "id": "n-5b6d5cafaecf",
-    "topic": "people",
-    "date": "2026-10-27",
-    "title": "Пластунки влаштували флешмоб під час Радіодиктанту до 100-річчя куреня «Ті, що греблі рвуть»",
-    "text": "Членкині найстаршого жіночого пластового куреня «Ті, що греблі рвуть» влаштували флешмоб «100 слів і більше», присвятивши написання Радіодиктанту національної єдності століттю…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4178730-plastunki-vlastuvali-flesmob-pid-cas-radiodiktantu-do-100ricca-kurena-ti-so-grebli-rvut.html",
-    "image": ""
-  },
-  {
-    "id": "n-adbd61f0e2d7",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "У Вірменії археологи знайшли монету римського імператора Октавіана Августа",
-    "text": "Монету римського імператора Октавіана Августа, золоті сережки, бронзовий кинджал та інші артефакти виявили археологи під час розкопок поблизу історико-археологічного…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-world/4178695-u-virmenii-arheologi-znajsli-monetu-rimskogo-imperatora-oktaviana-avgusta.html",
     "image": ""
   }
 ]
