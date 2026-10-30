@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-b736af16eb1d",
+    "topic": "science",
+    "date": "2026-10-30",
+    "title": "Львівський Emily Resort визнали найкращим преміальним медичним курортом Європи",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/lvivskiy_emily_resort_viznali_naykrashhim_premialnim_medichnim_kurortom_yevropi_n1649015",
+    "image": ""
+  },
+  {
+    "id": "n-1fde0c4db118",
+    "topic": "science",
+    "date": "2026-10-30",
+    "title": "Український медичний стартап посів друге місце на міжнародному конкурсі",
+    "text": "Медичний стартап CheckEye посів друге місце на міжнародному конкурсі Healthy Longevity Global Competition 2026, організованому Національною академією медицини США.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4179658-ukrainskij-medicnij-startap-posiv-druge-misce-na-miznarodnomu-konkursi.html",
+    "image": ""
+  },
+  {
     "id": "n-1359eb200c69",
     "topic": "science",
     "date": "2026-10-30",
@@ -577,26 +597,6 @@
     "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178765-zbirna-ukraini-z-grekorimskoi-borotbi-bez-medalej-zaversila-vistup-na-cs2026.html",
-    "image": ""
-  },
-  {
-    "id": "n-b012441b74c2",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Матч 1/8 фіналу Кубку України: \"Шахтар\" переміг \"Динамо\"",
-    "text": "Поєдинок закінчився з рахунком 3:0.",
-    "source": "УНІАН",
-    "sourceUrl": "https://sport.unian.ua/shahtar-dinamo-kubok-ukrajini-shahtar-peremig-dinamo-z-rahunkom-3-0-13541901.html",
-    "image": ""
-  },
-  {
-    "id": "n-4952c1477511",
-    "topic": "rebuild",
-    "date": "2026-10-27",
-    "title": "У Києві відновили рух поїздів «зеленої» гілки метро між станціями «Осокорки» та «Червоний хутір»",
-    "text": "У Києві відновили рух поїздів на зеленій лінії метрополітену між станціями Осокорки - Червоний хутір, водночас рух Південним мостом тимчасово призупинений.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4178747-u-kievi-vidnovili-ruh-poizdiv-zelenoi-gilki-metro-miz-stanciami-osokorki-ta-cervonij-hutir.html",
     "image": ""
   }
 ]
