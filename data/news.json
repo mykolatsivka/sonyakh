@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-0d7ae7caca29",
+    "topic": "science",
+    "date": "2026-10-30",
+    "title": "Астрономи, можливо, виявили перший природний супутник за межами Сонячної системи",
+    "text": "Цей незвичайний об’єкт обертається не навколо планети, а навколо коричневого карлика.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/astronomi-mozhlivo-viyavili-pershiy-prirodniy-suputnik-za-mezhami-sonyachnoji-sistemi-13545303.html",
+    "image": ""
+  },
+  {
     "id": "n-190fec7d1661",
     "topic": "sport",
     "date": "2026-10-30",
@@ -587,16 +597,6 @@
     "text": "По той бік «Красуні»: якою ви могли не побачити Джулію Робертс",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/po_toy_bik_krasuni_yakoyu_vi_mogli_ne_pobachiti_dzhuliyu_roberts_n1648888",
-    "image": ""
-  },
-  {
-    "id": "n-395a74ec1430",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "На \"Євробаченні-2027\" виступить країна, яка чотири роки не брала участі в конкурсі",
-    "text": "Всього буде 36 країн-учасниць.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/lite/show/yevrobachennya-2027-na-konkursi-zaspivaye-predstavniki-krajini-yaka-ne-brala-uchast-chotiri-roki-13542549.html",
     "image": ""
   }
 ]
