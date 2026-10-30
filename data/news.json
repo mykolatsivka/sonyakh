@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-f50c24c633dd",
+    "topic": "rebuild",
+    "date": "2026-10-30",
+    "title": "У Тернополі облаштували новий безбар'єрний маршрут та інклюзивний дитячий майданчик",
+    "text": "У Тернополі на вулиці Миколи Гоголя завершили облаштування безбар’єрного маршруту поблизу дитячої поліклініки.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179716-u-ternopoli-oblastuvali-novij-bezbarernij-marsrut-ta-inkluzivnij-ditacij-majdancik.html",
+    "image": ""
+  },
+  {
     "id": "n-b736af16eb1d",
     "topic": "science",
     "date": "2026-10-30",
@@ -587,16 +597,6 @@
     "text": "Ці дані було отримано завдяки місії Artemis I у 2022 році.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/radiaciya-bilya-misyacya-shcho-pokazali-vimiryuvannya-pid-chas-misiji-artemis-i-13541964.html",
-    "image": ""
-  },
-  {
-    "id": "n-0ed1ac4ec692",
-    "topic": "sport",
-    "date": "2026-10-27",
-    "title": "Збірна України з греко-римської боротьби без медалей завершила виступ на ЧС-2026",
-    "text": "В Астані (Казахстан) триває чемпіонат світу з вільної, жіночої та греко-римської боротьби.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4178765-zbirna-ukraini-z-grekorimskoi-borotbi-bez-medalej-zaversila-vistup-na-cs2026.html",
     "image": ""
   }
 ]
