@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-81c89d85f89a",
+    "topic": "sport",
+    "date": "2026-10-30",
+    "title": "Жіноча збірна України вирушає на матчі другого етапу кваліфікації Євробаскету-2027",
+    "text": "Жіноча національна збірна України з баскетболу у листопаді проведе матчі першого кола другого раунду кваліфікації чемпіонату Європи-2027.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179863-zinoca-zbirna-ukraini-virusae-na-matci-drugogo-etapu-kvalifikacii-evrobasketu2027.html",
+    "image": ""
+  },
+  {
     "id": "n-f0d3c86ad661",
     "topic": "rebuild",
     "date": "2026-10-30",
@@ -587,16 +597,6 @@
     "text": "Уряд Нідерландів надасть 1,2 млрд євро на відновлення енергетики, водопостачання та підтримку бізнесу України до 2027 року.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/10/28/8060058/",
-    "image": ""
-  },
-  {
-    "id": "n-b5c5db1d9c3d",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "Чому в Азовському морі є акули і чи справді воно може перетворитися на сіль, - науковці",
-    "text": "У далекому майбутньому Азовське море може стати місцем, у якому наші нащадки видобуватимуть сіль.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/azovske-more-zvidki-tam-akuli-i-chomu-tam-zmozhut-vidobuvati-sil-13540857.html",
     "image": ""
   }
 ]
