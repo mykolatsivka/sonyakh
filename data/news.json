@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-f141ebb521a8",
+    "topic": "sport",
+    "date": "2026-10-31",
+    "title": "Сьогодні розпочинаються літні Юнацькі Олімпійські ігри-2026",
+    "text": "У Дакарі (Сенегал) у суботу, 31 жовтня, стартують IV літні Юнацькі Олімпійські ігри - перша в історії олімпійська подія на африканському континенті.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179845-sogodni-rozpocinautsa-litni-unacki-olimpijski-igri2026.html",
+    "image": ""
+  },
+  {
     "id": "n-2e4a85680a03",
     "topic": "animals",
     "date": "2026-10-31",
@@ -587,16 +597,6 @@
     "text": "На початку наступного тижня очікується акт обстеження Південного мосту від Національного інституту розвитку інфраструктури, після чого буде ухвалене рішення щодо роботи…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4179009-vidnovlenna-pivdennogo-mostu-i-dilanki-metro-u-kmda-anonsuvali-risenna-nastupnogo-tizna.html",
-    "image": ""
-  },
-  {
-    "id": "n-ca7de3054457",
-    "topic": "animals",
-    "date": "2026-10-28",
-    "title": "На Одещину прилетіла зграя рідкісних рожевих фламінго: як на них впливає війна, - вчений",
-    "text": "За підрахунками дослідника, зараз у нацпарку є понад 250 таких птахів.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/rozhevi-flamingo-velika-zgraya-ridkisnih-ptahiv-zavitala-na-odeshchinu-novini-odesi-13542612.html",
     "image": ""
   }
 ]
