@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-6dc7734e493a",
+    "topic": "sport",
+    "date": "2026-10-31",
+    "title": "УПЛ. «Чорноморець» у Рівному здобув вольову перемогу над «Вересом»",
+    "text": "У чемпіонаті України з футболу серед команд Премʼєр-ліги (УПЛ) тривають поєдинки 11-го туру.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180036-upl-cornomorec-u-rivnomu-zdobuv-volovu-peremogu-nad-veresom.html",
+    "image": ""
+  },
+  {
     "id": "n-90aeba08c9b5",
     "topic": "sport",
     "date": "2026-10-31",
@@ -587,16 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/rivnenski_likari_vryatuvali_meshkanku_slavuti_z_kritichnim_porushennyam_roboti_sertsya_n1648921",
-    "image": ""
-  },
-  {
-    "id": "n-3df9b1c4189b",
-    "topic": "rebuild",
-    "date": "2026-10-28",
-    "title": "У Києві за два роки відремонтували укриття в 76 закладах освіти",
-    "text": "У Києві за останні два роки виконали ремонти в укриттях 76 закладів освіти, у 33-х роботи тривають.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4179010-u-kievi-za-dva-roki-vidremontuvali-ukritta-v-76-zakladah-osviti.html",
     "image": ""
   }
 ]
