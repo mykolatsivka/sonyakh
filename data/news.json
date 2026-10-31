@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-41a2d48a5d1a",
+    "topic": "rebuild",
+    "date": "2026-10-31",
+    "title": "В Амстердамі відкрили виставку українського літературного плаката",
+    "text": "У публічній бібліотеці в Амстердамі відбулося відкриття виставки українського літературного плаката “Power of Words: Odesa City Letters” (Сила слів: одеські літери міста), яка…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180003-v-amsterdami-vidkrili-vistavku-ukrainskogo-literaturnogo-plakata.html",
+    "image": ""
+  },
+  {
     "id": "n-f141ebb521a8",
     "topic": "sport",
     "date": "2026-10-31",
@@ -587,16 +597,6 @@
     "text": "Курс гривні до євро встановлено на рівні 50,77 грн/євро.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/economics/finance/oficiyniy-kurs-dolara-vidkotivsya-na-odnu-kopiyku-nbu-13542756.html",
-    "image": ""
-  },
-  {
-    "id": "n-731a118675fb",
-    "topic": "rebuild",
-    "date": "2026-10-28",
-    "title": "Відновлення Південного мосту і ділянки метро: у КМДА анонсували рішення наступного тижня",
-    "text": "На початку наступного тижня очікується акт обстеження Південного мосту від Національного інституту розвитку інфраструктури, після чого буде ухвалене рішення щодо роботи…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4179009-vidnovlenna-pivdennogo-mostu-i-dilanki-metro-u-kmda-anonsuvali-risenna-nastupnogo-tizna.html",
     "image": ""
   }
 ]
