@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-6b8f39e9b6b3",
+    "topic": "animals",
+    "date": "2026-10-31",
+    "title": "Кішки мерзнуть швидше, ніж багато хто думає: ветеринарка назвала комфортну температуру",
+    "text": "Особливу увагу слід приділяти ослабленим котам, а також породам із теплих країв.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/komfortna-temperatura-dlya-kotiv-veterinarka-rozpovila-koli-jim-staye-zanadto-holodno-13545207.html",
+    "image": ""
+  },
+  {
     "id": "n-abf4dfb7c937",
     "topic": "science",
     "date": "2026-10-30",
@@ -587,16 +597,6 @@
     "text": "На перший погляд, може здатися, що зображення літака створив ШІ, але це не так.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/economics/transport/z-yavilis-pershi-foto-prototipu-povnistyu-elektrichnogo-litaka-ce-25a-13542525.html",
-    "image": ""
-  },
-  {
-    "id": "n-5d5ac994000a",
-    "topic": "animals",
-    "date": "2026-10-28",
-    "title": "На Закарпатті ведмеді стали частіше підходити до осель у гірських селах - у ДСНС і поліції прокоментували",
-    "text": "На Закарпатті стали частіше фіксувати ведмедів біля осель людей у гірських селах – цього разу найбільшого хижака Карпат зняли на камеру на приватному подвір'ї в Тячівському районі.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4178968-na-zakarpatti-vedmedi-stali-castise-pidhoditi-do-osel-u-girskih-selah-u-dsns-i-policii-prokomentuvali.html",
     "image": ""
   }
 ]
