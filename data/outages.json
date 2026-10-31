@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T22:35:39.999Z",
+ "updatedAt": "2026-10-31T22:50:13.805Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -22,7 +22,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "31.10.2026 21:45",
    "days": [
     {
@@ -1051,8 +1051,7 @@
      }
     }
    ],
-   "updatedAt": "2026-10-31T22:10:16.080Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-31T22:50:13.805Z"
   },
   "kyiv": {
    "status": "ok",
