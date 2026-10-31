@@ -1,11 +1,12 @@
 {
- "updatedAt": "2026-10-31T02:14:53.385Z",
+ "updatedAt": "2026-10-31T02:26:10.481Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.10.2026 01:01",
    "days": [],
-   "updatedAt": "2026-10-30T22:20:41.029Z"
+   "updatedAt": "2026-10-30T22:20:41.029Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
    "status": "stale",
@@ -22,7 +23,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "31.10.2026 02:45",
    "days": [
     {
@@ -976,11 +977,10 @@
      }
     }
    ],
-   "updatedAt": "2026-10-31T01:11:58.516Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-10-31T02:26:10.481Z"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "30.10.2026 21:05",
    "days": [
     {
@@ -1128,7 +1128,8 @@
      }
     }
    ],
-   "updatedAt": "2026-10-30T23:35:54.157Z"
+   "updatedAt": "2026-10-30T23:35:54.157Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1150,11 +1151,10 @@
    "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "31.10.2026 03:30",
+   "status": "ok",
+   "sourceUpdated": "31.10.2026 04:00",
    "days": [],
-   "updatedAt": "2026-10-31T01:38:55.814Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-10-31T02:26:10.481Z"
   },
   "chernivtsi": {
    "days": [],
