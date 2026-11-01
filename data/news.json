@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-a0544a7fa54d",
+    "topic": "science",
+    "date": "2026-11-01",
+    "title": "Вчені розкрили таємницю примарних маяків, що десятиліттями лякають мандрівників у морі",
+    "text": "Ілюзія маяка посеред моря - зовсім не те, що хочеться побачити під час подорожі.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/vcheni-rozkrili-tayemnicyu-primarnih-mayakiv-shcho-desyatilittyami-lyakayut-mandrivnikiv-u-mori-13546023.html",
+    "image": ""
+  },
+  {
     "id": "n-b8a3eadc5817",
     "topic": "sport",
     "date": "2026-10-31",
@@ -587,16 +597,6 @@
     "text": "Наразі триває розмінування маршрутів для виїзду цивільних людей із міста Олешки Херсонської області.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179098-narazi-trivae-rozminuvanna-marsrutiv-dla-viizdu-civilnih-iz-olesok-lubinec.html",
-    "image": ""
-  },
-  {
-    "id": "n-59329913a989",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "Перукарка розгадала загадку Стародавнього Риму, над якою вчені ламали голову століттями",
-    "text": "Вона розкрила таємницю римських зачісок, які до цього вважалися перуками.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/tayemnicya-rimskih-zachisok-perukarka-rozgadala-sekret-za-dopomogoyu-odnogo-slova-13542639.html",
     "image": ""
   }
 ]
