@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-045df105ad0c",
+    "topic": "science",
+    "date": "2026-11-01",
+    "title": "У 1961 році США відправили в космос 480 мільйонів мідних голок: до чого це призвело",
+    "text": "Вони стали першим у історії космічним сміттям.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/480-milyoniv-midnih-golok-na-orbiti-navishcho-ssha-proveli-cey-nezvichayniy-eksperiment-13546302.html",
+    "image": ""
+  },
+  {
+    "id": "n-8cf126801d53",
+    "topic": "science",
+    "date": "2026-11-01",
+    "title": "Дебютну книжку «Аґрафки» номінували на естонську премію дитячої перекладної літератури",
+    "text": "Книжка-картинка «Зірки і макові зернята» українських художників Романи Романишин і Андрія Лесіва увійшла до списку номінантів естонської премії дитячої перекладної літератури…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180257-debutnu-knizku-agrafki-nominuvali-na-estonsku-premiu-ditacoi-perekladnoi-literaturi.html",
+    "image": ""
+  },
+  {
+    "id": "n-47713e69ed05",
+    "topic": "rebuild",
+    "date": "2026-11-01",
+    "title": "Буданов запропонував увічнити Стуса в Будапешті після відкриття погруддя Надя в Києві",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/budanov_zaproponuvav_uvichniti_stusa_v_budapeshti_pislya_vidkrittya_pogruddya_nadya_v_kiyevi_n1649145",
+    "image": ""
+  },
+  {
     "id": "n-b67818844051",
     "topic": "sport",
     "date": "2026-11-01",
@@ -567,36 +597,6 @@
     "text": "Україна отримає від Нідерландів 1,2 млрд євро для відновлення, енергетики, приватного сектору та співпраці бізнесу в 2027–2029 роках.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/10/28/8060170/",
-    "image": ""
-  },
-  {
-    "id": "n-94f5513fbee1",
-    "topic": "people",
-    "date": "2026-10-28",
-    "title": "Люди, які народилися в ці 4 місяці, природжені одинаки",
-    "text": "Вони часто воліють покладатися лише на себе.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/lite/astrology/numerologiya-lyudi-yaki-narodilisya-v-ci-4-misyaci-prirodzheni-odinaki-13542819.html",
-    "image": ""
-  },
-  {
-    "id": "n-d9386a3fe40c",
-    "topic": "sport",
-    "date": "2026-10-28",
-    "title": "«Динамо» перемогло «Рейнджерс» на старті Юнацької ліги УЄФА",
-    "text": "Футболісти київського «Динамо» (U19) розпочали свої виступи в Юнацькій лізі УЄФА сезону 2026/27.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179133-dinamo-peremoglo-rejndzers-na-starti-unackoi-ligi-uefa.html",
-    "image": ""
-  },
-  {
-    "id": "n-4fa82a2caa9e",
-    "topic": "rebuild",
-    "date": "2026-10-28",
-    "title": "У Страсбурзі відкрили виставку та презентували книжку про незламний Херсон",
-    "text": "У Палаці Європи у Страсбурзі 28 жовтня відкрили фотовиставку Олександра Толоконнікова «Незламний Херсон: Ціна життя» та презентували книжку про досвід стійкості регіону під час…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4179106-u-strasburzi-vidkrili-vistavku-ta-prezentuvali-knizku-pro-nezlamnij-herson.html",
     "image": ""
   }
 ]
