@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-b67818844051",
+    "topic": "sport",
+    "date": "2026-11-01",
+    "title": "Український дзюдоїст Савицький здобув «бронзу» на Grand Slam в ОАЕ",
+    "text": "В Абу-Дабі (Об'єднані Арабські Емірати) пройшов черговий турнір сезону-2026 серії Grand Slam, на якому Україну представляли 11 дзюдоїстів.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180188-ukrainskij-dzudoist-savickij-zdobuv-bronzu-na-grand-slam-v-oae.html",
+    "image": ""
+  },
+  {
+    "id": "n-bf29bb2ca4bc",
+    "topic": "sport",
+    "date": "2026-11-01",
+    "title": "СБС у жовтні уражали ворожі цілі кожні 41 секунду та встановили рекорд",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/sbs_u_zhovtni_urazhali_vorozhi_tsili_kozhni_41_sekundu_ta_vstanovili_rekord_n1649135",
+    "image": ""
+  },
+  {
     "id": "n-315b1610d2fb",
     "topic": "sport",
     "date": "2026-11-01",
@@ -577,26 +597,6 @@
     "text": "У Палаці Європи у Страсбурзі 28 жовтня відкрили фотовиставку Олександра Толоконнікова «Незламний Херсон: Ціна життя» та презентували книжку про досвід стійкості регіону під час…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-society/4179106-u-strasburzi-vidkrili-vistavku-ta-prezentuvali-knizku-pro-nezlamnij-herson.html",
-    "image": ""
-  },
-  {
-    "id": "n-e27db85b6166",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "Як сіль впливає на печінку: вчені виявили небезпечний зв’язок",
-    "text": "Нирки контролюють, скільки натрію утримує організм, але це не означає, що печінка захищена від його впливу.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/yak-sil-vplivaye-na-pechinku-ta-pidvishchuye-rizik-jiji-zahvoryuvan-poyasnennya-vchenih-13542762.html",
-    "image": ""
-  },
-  {
-    "id": "n-e0abe467b398",
-    "topic": "science",
-    "date": "2026-10-28",
-    "title": "Від номінанта на \"Оскар\": вийшов трейлер фільму \"Попіл і олівці\" про українських дітей під час війни",
-    "text": "В український прокат фільм вийде 3 грудня 2026 року.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/lite/kino/ash-and-crayons-2026-treyler-i-data-vihodu-dokumentalnogo-filmu-yevgena-afineyevskogo-video-13542876.html",
     "image": ""
   }
 ]
