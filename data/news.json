@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-56f33b6b1702",
+    "topic": "animals",
+    "date": "2026-11-01",
+    "title": "У сибірській печері виявили сліди невідомої тварини: допомогла стародавня ДНК",
+    "text": "Стародавні люди могли полювати на цих тварин.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/yak-x-u-sibiru-starodavnya-dnk-dopomogla-viyaviti-nevidomogo-rodicha-suchasnogo-yaka-13546686.html",
+    "image": ""
+  },
+  {
     "id": "n-85cffce60818",
     "topic": "science",
     "date": "2026-11-01",
@@ -587,16 +597,6 @@
     "text": "Визначився склад жіночої юнацької збірної України з баскетболу 3х3, яка виступить на Юнацьких Олімпійських іграх 2026 року в Сенегалі.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179327-zinoca-zbirna-ukraini-z-basketbolu-3h3-nazvala-sklad-na-unacki-olimpijski-igri.html",
-    "image": ""
-  },
-  {
-    "id": "n-cecb964814ce",
-    "topic": "science",
-    "date": "2026-10-29",
-    "title": "В Ужгороді визначили перших лауреатів мистецької премії імені Володимира Микити",
-    "text": "В Ужгороді визначили переможців новозаснованої міської премії імені Володимира Микити у галузі образотворчого та декоративно-прикладного мистецтва у трьох номінаціях.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179316-v-uzgorodi-viznacili-persih-laureativ-misteckoi-premii-imeni-volodimira-mikiti.html",
     "image": ""
   }
 ]
