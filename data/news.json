@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-c578af6a96b8",
+    "topic": "rebuild",
+    "date": "2026-11-01",
+    "title": "ФДМУ планує провести аудит виробника інсуліну «Індар» після відновлення контролю над підприємством",
+    "text": "Фонд держмайна проводить перевірку діяльності ПрАТ «Індар» після повернення контролю над підприємством.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-economy/4180274-fdmu-planue-provesti-audit-virobnika-insulinu-indar-pisla-vidnovlenna-kontrolu-nad-pidpriemstvom.html",
+    "image": ""
+  },
+  {
+    "id": "n-f031e234aa93",
+    "topic": "people",
+    "date": "2026-11-01",
+    "title": "У Польщі завтра стартує фестиваль українського кіно: 50 стрічок покажуть у 12 містах",
+    "text": "У Польщі відбудеться 11-й фестиваль українського кіно, у програмі якого – 50 стрічок.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180265-u-polsi-zavtra-startue-festival-ukrainskogo-kino-50-stricok-pokazut-u-12-mistah.html",
+    "image": ""
+  },
+  {
     "id": "n-045df105ad0c",
     "topic": "science",
     "date": "2026-11-01",
@@ -577,26 +597,6 @@
     "text": "Усього у світі налічується не більше 600 птахів цього виду.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/sim-kaliforniyskih-kondoriv-yakih-u-prirodi-mayzhe-ne-zalishilosya-vipustili-v-nebo-u-ssha-13543119.html",
-    "image": ""
-  },
-  {
-    "id": "n-1271c21456a2",
-    "topic": "science",
-    "date": "2026-10-29",
-    "title": "Римляни першими винайшли житлові багатоповерхівки, і вони були вельми схожі на сучасні",
-    "text": "Мільйонне населення Стародавнього Риму ніколи б не вдалося розмістити у приватних будинках на одну сім'ю кожен.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/starodavniy-rim-mav-svoji-zhitlovi-bagatopoverhivki-yak-voni-viglyadali-13543056.html",
-    "image": ""
-  },
-  {
-    "id": "n-d1ab4f80678a",
-    "topic": "rebuild",
-    "date": "2026-10-28",
-    "title": "Корецький розповів деталі про невійськову допомогу від Нідерландів на 1,2 млрд євро",
-    "text": "Україна отримає від Нідерландів 1,2 млрд євро для відновлення, енергетики, приватного сектору та співпраці бізнесу в 2027–2029 роках.",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/10/28/8060170/",
     "image": ""
   }
 ]
