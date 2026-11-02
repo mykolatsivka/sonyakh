@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T03:14:53.387Z",
+ "updatedAt": "2026-11-02T03:28:10.488Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -176,10 +176,11 @@
    "updatedAt": "2026-11-02T01:39:08.999Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.10.2026 09:52",
    "days": [],
-   "updatedAt": "2026-11-02T01:39:08.999Z"
+   "updatedAt": "2026-11-02T01:39:08.999Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
    "status": "ok",
