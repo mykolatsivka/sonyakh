@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-9647edcd3f4f",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "У Львові відкрили інтерактивну виставку про історію книгодрукування та Острозьку Біблію",
+    "text": "",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180623-u-lvovi-vidkrili-interaktivnu-vistavku-pro-istoriu-knigodrukuvanna-ta-ostrozku-bibliu.html",
+    "image": ""
+  },
+  {
+    "id": "n-771e1b41aaa4",
+    "topic": "rebuild",
+    "date": "2026-11-02",
+    "title": "В Україні запустили застосунок Freya для дистанційного догляду за похованнями близьких",
+    "text": "Мільйони українців, які виїхали за кордон або переїхали до інших міст, отримали можливість дистанційно подбати про місця спочинку рідних.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/v-ukrajini-zapustili-zastosunok-freya-dlya-distanciynogo-doglyadu-za-pohovannyami-blizkih-13547610.html",
+    "image": ""
+  },
+  {
+    "id": "n-73dbba65b24e",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "На цвинтарях Правобережного злакового степу вчені знайшли понад 700 видів рослин",
+    "text": "На цвинтарях на території Правобережного злакового степу (Миколаївщина, Одещина та Дніпропетровщина) вчені знайшли понад 700 видів рослин, із яких більше 60 – охоронювані види.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4180617-na-cvintarah-pravobereznogo-zlakovogo-stepu-vceni-znajsli-ponad-700-vidiv-roslin.html",
+    "image": ""
+  },
+  {
     "id": "n-bdfbbbeac343",
     "topic": "rebuild",
     "date": "2026-11-02",
@@ -567,36 +597,6 @@
     "text": "Щороку на Тибетському нагір’ї на висотах понад 4000 метрів накопичується понад 56 тонн фрагментів, які загрожуть довкіллю.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/ecology/everest-zasipaye-mikroplastikom-vcheni-z-yasuvali-zvidki-vin-potraplyaye-na-vershinu-13544544.html",
-    "image": ""
-  },
-  {
-    "id": "n-b8fcbdc33cea",
-    "topic": "sport",
-    "date": "2026-10-30",
-    "title": "Нова хвиля зростання цін. Які продукти стануть \"золотими\" вже незабаром",
-    "text": "Експерти \"розклали по поличках\" всі товари, які зростатимуть у ціні восени та взимку, щоб українці змогли зорієнтуватися та підготуватися до цього.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/economics/agro/nova-hvilya-zrostannya-cin-yaki-produkti-stanut-shche-dorozhchimi-vzhe-nezabarom-13544397.html",
-    "image": ""
-  },
-  {
-    "id": "n-18677e4ba45f",
-    "topic": "science",
-    "date": "2026-10-30",
-    "title": "На кінофестивалі у Німеччині відбудеться європейська прем’єра фільму «ЄвроКривбас»",
-    "text": "На міжнародному кінофестивалі FilmFestival Cottbus відбудеться європейська прем’єра документального фільму \"ЄвроКривбас\".",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179619-na-kinofestivali-u-nimeccini-vidbudetsa-evropejska-premera-filmu-evrokrivbas.html",
-    "image": ""
-  },
-  {
-    "id": "n-39ff17500fd5",
-    "topic": "rebuild",
-    "date": "2026-10-30",
-    "title": "У Києві відновили рух Південним мостом на правий берег: кому дозволять проїзд",
-    "text": "Із 30 жовтня водії зможуть проїжджати Південним мостом із лівого на правий берег однією смугою.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/economics/transport/u-kiyevi-vidnovili-ruh-pivdennim-mostom-na-praviy-bereg-yaki-obmezhennya-diyatimut-dlya-vodijiv-novini-kiyeva-13544343.html",
     "image": ""
   }
 ]
