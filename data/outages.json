@@ -1,19 +1,17 @@
 {
- "updatedAt": "2026-11-02T12:17:57.792Z",
+ "updatedAt": "2026-11-02T12:37:04.569Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "27.10.2026 01:08",
    "days": [],
-   "updatedAt": "2026-11-02T11:11:24.652Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-02T11:11:24.652Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -23,8 +21,8 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
-   "sourceUpdated": "02.11.2026 06:12",
+   "status": "ok",
+   "sourceUpdated": "02.11.2026 13:54",
    "days": [
     {
      "date": "2026-11-02",
@@ -37,11 +35,11 @@
        },
        {
         "from": 480,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
-        "from": 1110,
+        "from": 1020,
         "to": 1440,
         "type": "off"
        }
@@ -58,8 +56,8 @@
         "type": "off"
        },
        {
-        "from": 930,
-        "to": 1350,
+        "from": 870,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -75,8 +73,8 @@
         "type": "off"
        },
        {
-        "from": 990,
-        "to": 1410,
+        "from": 930,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -92,7 +90,7 @@
         "type": "off"
        },
        {
-        "from": 1020,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -105,11 +103,11 @@
        },
        {
         "from": 480,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
-        "from": 1110,
+        "from": 1020,
         "to": 1440,
         "type": "off"
        }
@@ -126,7 +124,7 @@
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1110,
         "to": 1440,
         "type": "off"
        }
@@ -143,7 +141,7 @@
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1140,
         "to": 1440,
         "type": "off"
        }
@@ -160,7 +158,7 @@
         "type": "off"
        },
        {
-        "from": 1230,
+        "from": 1200,
         "to": 1440,
         "type": "off"
        }
@@ -177,7 +175,7 @@
         "type": "off"
        },
        {
-        "from": 1320,
+        "from": 1260,
         "to": 1440,
         "type": "off"
        }
@@ -211,7 +209,7 @@
         "type": "off"
        },
        {
-        "from": 1410,
+        "from": 1380,
         "to": 1440,
         "type": "off"
        }
@@ -228,7 +226,7 @@
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1110,
         "to": 1440,
         "type": "off"
        }
@@ -241,7 +239,7 @@
        },
        {
         "from": 810,
-        "to": 1230,
+        "to": 1260,
         "type": "off"
        }
       ],
@@ -257,8 +255,8 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 1320,
+        "from": 810,
+        "to": 1350,
         "type": "off"
        }
       ],
@@ -274,8 +272,8 @@
         "type": "off"
        },
        {
-        "from": 930,
-        "to": 1350,
+        "from": 870,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -291,8 +289,8 @@
         "type": "off"
        },
        {
-        "from": 990,
-        "to": 1410,
+        "from": 930,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -308,7 +306,7 @@
         "type": "off"
        },
        {
-        "from": 1020,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -321,11 +319,11 @@
        },
        {
         "from": 480,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
-        "from": 1110,
+        "from": 1020,
         "to": 1440,
         "type": "off"
        }
@@ -342,7 +340,7 @@
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1110,
         "to": 1440,
         "type": "off"
        }
@@ -359,7 +357,7 @@
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1140,
         "to": 1440,
         "type": "off"
        }
@@ -376,7 +374,7 @@
         "type": "off"
        },
        {
-        "from": 1230,
+        "from": 1200,
         "to": 1440,
         "type": "off"
        }
@@ -393,7 +391,7 @@
         "type": "off"
        },
        {
-        "from": 1320,
+        "from": 1260,
         "to": 1440,
         "type": "off"
        }
@@ -410,7 +408,7 @@
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1140,
         "to": 1440,
         "type": "off"
        }
@@ -444,7 +442,7 @@
         "type": "off"
        },
        {
-        "from": 1410,
+        "from": 1380,
         "to": 1440,
         "type": "off"
        }
@@ -457,7 +455,7 @@
        },
        {
         "from": 810,
-        "to": 1230,
+        "to": 1260,
         "type": "off"
        }
       ],
@@ -473,8 +471,8 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 1320,
+        "from": 810,
+        "to": 1350,
         "type": "off"
        }
       ],
@@ -490,8 +488,8 @@
         "type": "off"
        },
        {
-        "from": 930,
-        "to": 1350,
+        "from": 870,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -507,8 +505,8 @@
         "type": "off"
        },
        {
-        "from": 990,
-        "to": 1410,
+        "from": 930,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -524,7 +522,7 @@
         "type": "off"
        },
        {
-        "from": 1020,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -537,11 +535,11 @@
        },
        {
         "from": 480,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
-        "from": 1110,
+        "from": 1020,
         "to": 1440,
         "type": "off"
        }
@@ -558,7 +556,7 @@
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1110,
         "to": 1440,
         "type": "off"
        }
@@ -575,7 +573,7 @@
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1140,
         "to": 1440,
         "type": "off"
        }
@@ -592,7 +590,7 @@
         "type": "off"
        },
        {
-        "from": 1230,
+        "from": 1200,
         "to": 1440,
         "type": "off"
        }
@@ -609,7 +607,7 @@
         "type": "off"
        },
        {
-        "from": 1230,
+        "from": 1200,
         "to": 1440,
         "type": "off"
        }
@@ -626,7 +624,7 @@
         "type": "off"
        },
        {
-        "from": 1320,
+        "from": 1260,
         "to": 1440,
         "type": "off"
        }
@@ -660,7 +658,7 @@
         "type": "off"
        },
        {
-        "from": 1410,
+        "from": 1380,
         "to": 1440,
         "type": "off"
        }
@@ -673,7 +671,7 @@
        },
        {
         "from": 810,
-        "to": 1230,
+        "to": 1260,
         "type": "off"
        }
       ],
@@ -689,8 +687,8 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 1320,
+        "from": 810,
+        "to": 1350,
         "type": "off"
        }
       ],
@@ -706,8 +704,8 @@
         "type": "off"
        },
        {
-        "from": 930,
-        "to": 1350,
+        "from": 870,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -723,8 +721,8 @@
         "type": "off"
        },
        {
-        "from": 990,
-        "to": 1410,
+        "from": 930,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -740,7 +738,7 @@
         "type": "off"
        },
        {
-        "from": 1020,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -753,11 +751,11 @@
        },
        {
         "from": 480,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
-        "from": 1110,
+        "from": 1020,
         "to": 1440,
         "type": "off"
        }
@@ -774,7 +772,7 @@
         "type": "off"
        },
        {
-        "from": 1320,
+        "from": 1260,
         "to": 1440,
         "type": "off"
        }
@@ -791,7 +789,7 @@
         "type": "off"
        },
        {
-        "from": 1140,
+        "from": 1110,
         "to": 1440,
         "type": "off"
        }
@@ -808,7 +806,7 @@
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1140,
         "to": 1440,
         "type": "off"
        }
@@ -825,7 +823,7 @@
         "type": "off"
        },
        {
-        "from": 1230,
+        "from": 1200,
         "to": 1440,
         "type": "off"
        }
@@ -842,7 +840,7 @@
         "type": "off"
        },
        {
-        "from": 1320,
+        "from": 1260,
         "to": 1440,
         "type": "off"
        }
@@ -876,7 +874,7 @@
         "type": "off"
        },
        {
-        "from": 1410,
+        "from": 1380,
         "to": 1440,
         "type": "off"
        }
@@ -889,7 +887,7 @@
        },
        {
         "from": 810,
-        "to": 1230,
+        "to": 1260,
         "type": "off"
        }
       ],
@@ -905,8 +903,8 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 1320,
+        "from": 810,
+        "to": 1350,
         "type": "off"
        }
       ],
@@ -922,8 +920,8 @@
         "type": "off"
        },
        {
-        "from": 930,
-        "to": 1350,
+        "from": 870,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -939,8 +937,8 @@
         "type": "off"
        },
        {
-        "from": 990,
-        "to": 1410,
+        "from": 930,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -973,7 +971,7 @@
         "type": "off"
        },
        {
-        "from": 1020,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -990,7 +988,7 @@
         "type": "off"
        },
        {
-        "from": 1410,
+        "from": 1380,
         "to": 1440,
         "type": "off"
        }
@@ -1003,7 +1001,7 @@
        },
        {
         "from": 810,
-        "to": 1230,
+        "to": 1260,
         "type": "off"
        }
       ],
@@ -1019,19 +1017,18 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 1320,
+        "from": 810,
+        "to": 1350,
         "type": "off"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-11-02T10:49:58.099Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "02.11.2026 08:59",
    "days": [
     {
@@ -1174,8 +1171,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-02T10:49:58.099Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "lviv": {
    "status": "ok",
@@ -1184,25 +1180,22 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "mykolaiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": null,
    "days": [],
-   "updatedAt": "2026-11-02T10:49:58.099Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.10.2026 09:52",
    "days": [],
-   "updatedAt": "2026-11-02T11:11:24.652Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "02.11.2026 13:30",
+   "status": "ok",
+   "sourceUpdated": "02.11.2026 14:30",
    "days": [],
-   "updatedAt": "2026-11-02T11:36:17.963Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "chernivtsi": {
    "days": [],
