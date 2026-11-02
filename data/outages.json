@@ -1,17 +1,19 @@
 {
- "updatedAt": "2026-11-02T15:36:42.849Z",
+ "updatedAt": "2026-11-02T16:13:52.019Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.10.2026 01:08",
    "days": [],
-   "updatedAt": "2026-11-02T15:12:28.921Z"
+   "updatedAt": "2026-11-02T15:12:28.921Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-02T15:36:42.849Z"
+   "updatedAt": "2026-11-02T15:36:42.849Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -21,7 +23,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "02.11.2026 13:54",
    "days": [
     {
@@ -1025,10 +1027,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-02T15:12:28.921Z"
+   "updatedAt": "2026-11-02T15:12:28.921Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "02.11.2026 15:35",
    "days": [
     {
@@ -1176,7 +1179,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-02T13:50:19.085Z"
+   "updatedAt": "2026-11-02T13:50:19.085Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1191,16 +1195,17 @@
    "updatedAt": "2026-11-02T12:37:04.569Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "26.10.2026 09:52",
    "days": [],
-   "updatedAt": "2026-11-02T12:37:04.569Z"
+   "updatedAt": "2026-11-02T12:37:04.569Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "02.11.2026 17:30",
+   "sourceUpdated": "02.11.2026 18:00",
    "days": [],
-   "updatedAt": "2026-11-02T15:36:42.849Z"
+   "updatedAt": "2026-11-02T16:13:52.019Z"
   },
   "chernivtsi": {
    "days": [],
