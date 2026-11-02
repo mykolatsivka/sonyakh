@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-d448274684d2",
+    "topic": "animals",
+    "date": "2026-11-02",
+    "title": "В Україні спостерігають навалу рідкісних птахів із Сибіру",
+    "text": "Масова поява цих птахів, ймовірно, пов'язана із неврожаєм насіння лісових дерев за Уралом.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/v-ukrajinu-masovo-zaletilav-gorihivka-krapchasta-ridkisniy-ptah-iz-sibiru-13546641.html",
+    "image": ""
+  },
+  {
     "id": "n-fa91b27e0afe",
     "topic": "sport",
     "date": "2026-11-02",
@@ -587,16 +597,6 @@
     "text": "Зараз значну частину часу жінка проводить у своїй кімнаті та читає газети.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/society/100-richnoji-zhitelka-chernigivshchini-rozpovila-pro-perezhiti-golodomori-viynu-i-nacistskiy-karcer-13543746.html",
-    "image": ""
-  },
-  {
-    "id": "n-750578a30aa5",
-    "topic": "science",
-    "date": "2026-10-29",
-    "title": "Громада в Румунії провела захід на підтримку української культурної спадщини",
-    "text": "У Реметах (румунський повіт Марамуреш) відбувся культурний захід «Осінні звичаї українців — День вдячності», який зібрав понад 400 учасників і був присвячений збереженню…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4179381-gromada-v-rumunii-provela-zahid-na-pidtrimku-ukrainskoi-kulturnoi-spadsini.html",
     "image": ""
   }
 ]
