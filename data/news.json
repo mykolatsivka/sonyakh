@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-bce14a93d00d",
+    "topic": "people",
+    "date": "2026-11-02",
+    "title": "Кохана Паттінсона назвала причину, через яку вони досі не зіграли весілля",
+    "text": "Модель також заговорила про їхні плани на майбутнє.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/stars/robert-pattinson-kohana-aktora-rozpovila-chomu-voni-dosi-ne-odruzhilisya-13547289.html",
+    "image": ""
+  },
+  {
+    "id": "n-5c0cf84fbc6d",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "В Угорщині археологи виявили понад 700 римських монет та інші артефакти часів імперії",
+    "text": "Зокрема, археологи виявили срібну монету, яка була викарбувана за часів правління імператора Антоніна Пія.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/u-ugorshchini-viyavili-ponad-700-rimskih-monet-shcho-rozpovili-arheologi-13547232.html",
+    "image": ""
+  },
+  {
+    "id": "n-53321ff95f69",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "Де саме хрестили Ісуса: вчені визначили точне місце на березі Йордану",
+    "text": "Стверджується, що ця подія сталася на східному березі річки.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/misce-hreshchennya-isusa-vcheni-viznachili-yogo-roztashuvannya-na-shidnomu-berezi-yordanu-13547262.html",
+    "image": ""
+  },
+  {
     "id": "n-ffa48684a2b6",
     "topic": "people",
     "date": "2026-11-02",
@@ -567,36 +597,6 @@
     "text": "Завдяки сучасним GPS-передавачам орнітологи можуть відстежувати, куди летять перелітні птахи.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/ecology/de-zimuyut-leleki-ornitologi-prostezhili-shlyah-ptahiv-vid-ukrajini-do-afriki-13544202.html",
-    "image": ""
-  },
-  {
-    "id": "n-cbf342a04e6a",
-    "topic": "animals",
-    "date": "2026-10-30",
-    "title": "Гігантський морський хижак може полювати на суші: як це можливо",
-    "text": "На початку кожного року самки морських левів виходять на пляжі, щоб народити дитинчат.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/gigantskiy-morskiy-hizhak-mozhe-polyuvati-na-sushi-yak-ce-mozhlivo-13544196.html",
-    "image": ""
-  },
-  {
-    "id": "n-99b6e6b68b2d",
-    "topic": "people",
-    "date": "2026-10-30",
-    "title": "У Чернівцях медики врятували 68-річного чоловіка після двох зупинок серця та інфаркту",
-    "text": "Медики Чернівецької обласної клінічної лікарні врятували 68-річного чоловіка після двох зупинок серця, кардіогенного шоку і гострого інфаркту міокарда.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179568-u-cernivcah-mediki-vratuvali-68ricnogo-colovika-pisla-dvoh-zupinok-serca-ta-infarktu.html",
-    "image": ""
-  },
-  {
-    "id": "n-660c91a12842",
-    "topic": "rebuild",
-    "date": "2026-10-30",
-    "title": "На Херсонщині вперше провели складну операцію з відновлення кровотоку в артерії",
-    "text": "",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179563-na-hersonsini-vperse-proveli-skladnu-operaciu-z-vidnovlenna-krovotoku-v-arterii.html",
     "image": ""
   }
 ]
