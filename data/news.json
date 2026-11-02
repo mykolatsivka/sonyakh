@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-86e88f243c51",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "Українські баскетболістки готуються до виступів на Юнацьій Олімпіаді-2026",
+    "text": "В Дакарі (Сенегал) стартували Юнацькі Олімпійські ігри-2026, і вже першого змагального дня українці здобули золоту нагороду у дзюдо.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180502-ukrainski-basketbolisti-gotuutsa-do-vistupiv-na-unacij-olimpiadi2026.html",
+    "image": ""
+  },
+  {
+    "id": "n-bc0e09278183",
+    "topic": "rebuild",
+    "date": "2026-11-02",
+    "title": "Відкрили банку огірків: що зробити, щоб вони не зіпсувалися за кілька днів",
+    "text": "Після відкриття банку з солоними огірками слід зберігати в холодильнику.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/yak-zberigati-solinnya-pislya-vidkrittya-banki-holodilnik-rozsil-i-golovni-pomilki-13547088.html",
+    "image": ""
+  },
+  {
+    "id": "n-a2d3da2bc161",
+    "topic": "people",
+    "date": "2026-11-02",
+    "title": "Співачка ROXOLANA вперше за довгий час показала маленьку доньку",
+    "text": "Днями у родині артистки було свято.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/lite/stars/roxolana-spivachka-pokazala-odnorichnu-donku-13547115.html",
+    "image": ""
+  },
+  {
     "id": "n-e4c0bd2376f8",
     "topic": "rebuild",
     "date": "2026-11-02",
@@ -567,36 +597,6 @@
     "text": "У цьому середовищі мешкали гігантські слони та жили одні з перших груп людей у цьому регіоні.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/zub-slona-vikom-700-000-rokiv-rozpoviv-pro-zabutiy-svit-u-yakomu-zhili-starodavni-lyudi-13544283.html",
-    "image": ""
-  },
-  {
-    "id": "n-75f73bf7a943",
-    "topic": "sport",
-    "date": "2026-10-29",
-    "title": "Роналду переміг у голосуванні за «Золотий м’яч усіх часів», Мессі залишився позаду",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/ronaldu_peremig_u_golosuvanni_za_zolotiy_myach_usih_chasiv_messi_zalishivsya_pozadu_n1649024",
-    "image": ""
-  },
-  {
-    "id": "n-44c3087d3484",
-    "topic": "sport",
-    "date": "2026-10-29",
-    "title": "Вісім вистав за шість днів: завершився фестиваль «Золоті оплески Буковини»",
-    "text": "У Чернівцях завершився XVIII фестиваль комедії «Золоті оплески Буковини», який тривав із 24 до 29 жовтня.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179553-visim-vistav-za-sist-dniv-zaversivsa-festival-zoloti-opleski-bukovini.html",
-    "image": ""
-  },
-  {
-    "id": "n-46593451d81f",
-    "topic": "animals",
-    "date": "2026-10-29",
-    "title": "Птах-паразит навчився підробляти яйця інших видів, але дорого за це заплатив",
-    "text": "Маленька африканська пташка побудувала свою еволюційну стратегію на тому, щоб дурити інших птахів.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/afrikanska-zozulya-pochala-mutuvati-cherez-svoyu-strategiyu-pidkidannya-yayec-v-chuzhi-gnizda-13543887.html",
     "image": ""
   }
 ]
