@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-04e16c69ef47",
+    "topic": "science",
+    "date": "2026-11-02",
+    "title": "Магнітні бурі на початку листопада: вчені розповіли, чи буде шторм",
+    "text": "Місяць розпочався з магнітної бурі, проте зараз ситуація змінилася.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/pogoda/news/magnitni-buri-v-listopadi-prognoz-na-pochatok-misyacya-13546794.html",
+    "image": ""
+  },
+  {
     "id": "n-d448274684d2",
     "topic": "animals",
     "date": "2026-11-02",
@@ -587,16 +597,6 @@
     "text": "Ветеран Вадим Науменко із Хмельницького під час марафону морської піхоти у США подолав на біговому протезі понад 41 км за 3,3 години, встановивши національний рекорд України.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179397-veteran-na-bigovomu-protezi-vstanoviv-rekord-ukraini-na-marafoni-u-ssa.html",
-    "image": ""
-  },
-  {
-    "id": "n-1ac38fc9ff55",
-    "topic": "people",
-    "date": "2026-10-29",
-    "title": "Пережила два Голодомори, Другу світову і нацистський карцер: що розповіла 100-річної жителька Чернігівщини",
-    "text": "Зараз значну частину часу жінка проводить у своїй кімнаті та читає газети.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/society/100-richnoji-zhitelka-chernigivshchini-rozpovila-pro-perezhiti-golodomori-viynu-i-nacistskiy-karcer-13543746.html",
     "image": ""
   }
 ]
