@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-fb2528377adb",
+    "topic": "sport",
+    "date": "2026-11-02",
+    "title": "Сонячна супербуря пробила захисний бар’єр Землі: супутник зафіксував наслідки",
+    "text": "У травні 2024 року Сонце спричинило геомагнітну бурю класу G5.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/magnitniy-zahist-zemli-sonyachna-burya-probila-bar-yer-poyasiv-van-allena-13546917.html",
+    "image": ""
+  },
+  {
+    "id": "n-ac265840c90f",
+    "topic": "people",
+    "date": "2026-11-02",
+    "title": "Телескоп NASA може впасти на Землю вже за кілька днів: врятувати його не вдалося",
+    "text": "Цей телескоп було запущено ще у 2004 році для дослідження гамма-спалахів та наднових.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/teleskop-nasa-swift-padaye-z-orbiti-koli-vin-uviyde-v-atmosferu-zemli-13546884.html",
+    "image": ""
+  },
+  {
     "id": "n-04e16c69ef47",
     "topic": "science",
     "date": "2026-11-02",
@@ -577,26 +597,6 @@
     "text": "Незвичайна знахідка допомогла дослідникам дізнатися більше про ритуали стародавньої цивілізації та її уявлення про зв'язок із предками.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/zhinku-pohovali-z-226-chuzhimi-zubami-shcho-genetiki-z-yasuvali-pro-davniy-ritual-13543692.html",
-    "image": ""
-  },
-  {
-    "id": "n-c14fbad17c50",
-    "topic": "rebuild",
-    "date": "2026-10-29",
-    "title": "Ближче до гігантських айсбергів: у Гренландії відкрили новий міжнародний аеропорт",
-    "text": "Поки передбачено один прямий рейс на тиждень, в окремі сезони кількість вильотів збільшуватимуть.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/tourism/news/grenlandiya-vidkrila-noviy-mizhnarodniy-aeroport-do-krizhanih-fiordiv-teper-blizhche-13543977.html",
-    "image": ""
-  },
-  {
-    "id": "n-84d5462c0434",
-    "topic": "sport",
-    "date": "2026-10-29",
-    "title": "Ветеран на біговому протезі встановив рекорд України на марафоні у США",
-    "text": "Ветеран Вадим Науменко із Хмельницького під час марафону морської піхоти у США подолав на біговому протезі понад 41 км за 3,3 години, встановивши національний рекорд України.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179397-veteran-na-bigovomu-protezi-vstanoviv-rekord-ukraini-na-marafoni-u-ssa.html",
     "image": ""
   }
 ]
