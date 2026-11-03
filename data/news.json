@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-a4d4acc5bfd5",
+    "topic": "sport",
+    "date": "2026-11-03",
+    "title": "Це місто в Німеччині б'є рекорди туризму: середньовічна краса, дешеве пиво й спокій",
+    "text": "Колишній Карл-Маркс-Штадт поєднує середньовічні вежі, квартали модерну та клуби у старих фабриках.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/tourism/news/nedoocinene-misto-nimechchini-b-ye-turistichni-rekordi-a-pivo-tam-koshtuye-4-13547715.html",
+    "image": ""
+  },
+  {
     "id": "n-61be157ee3d6",
     "topic": "science",
     "date": "2026-11-03",
@@ -587,16 +597,6 @@
     "text": "Попри вік, Марія досі намагається допомагати родичам по господарству.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/society/dovgozhitelka-z-bukovini-vidznachila-100-richchya-yaki-viprobuvannya-jiy-dovelosya-perezhiti-13544997.html",
-    "image": ""
-  },
-  {
-    "id": "n-144168c868ef",
-    "topic": "animals",
-    "date": "2026-10-30",
-    "title": "Жовта стрічка на повідку у собаки не для прикраси: що вона означає",
-    "text": "При цьому жовта стрічка не обов'язково свідчить про агресивну поведінку собаки.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/shcho-oznachaye-zhovtra-strichka-na-povidku-sobaki-ta-yak-pravilno-povoditisya-13544937.html",
     "image": ""
   }
 ]
