@@ -25,7 +25,8 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { -webkit-text-size-adjust: 100%; }
+/* Android (Chrome) малює синій прямокутник на кожен дотик — вимикаємо, натомість кнопки трохи «втискаються» */
+html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
 body {
   margin: 0;
   background: var(--bg);
@@ -38,6 +39,11 @@ body.is-night { background: var(--night); }
 a { color: var(--blue); }
 button, input, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; }
+/* Довге натискання на кнопку не виділяє текст */
+button, .chip, [role="button"], [data-action] { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+button, [role="button"] { transition: transform .08s ease, opacity .08s ease; }
+button:active, [role="button"]:active { transform: scale(.97); }
+a:active { opacity: .75; }
 :focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
 .is-night :focus-visible { outline-color: var(--yellow); }
 h1, h2, h3 { margin: 0; }
