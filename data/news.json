@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-b89d4375bc58",
+    "topic": "science",
+    "date": "2026-11-03",
+    "title": "Магнітні бурі 3 листопада: вчені обнадіяли прогнозом",
+    "text": "У найближчі дні бур не передбачається, проте магнітне поле Землі не буде цілком спокійним.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/pogoda/news/magnitni-buri-3-listopada-prognoz-na-sogodni-ta-na-nayblizhchi-kilka-dniv-13547181.html",
+    "image": ""
+  },
+  {
     "id": "n-575a570236f4",
     "topic": "sport",
     "date": "2026-11-03",
@@ -587,16 +597,6 @@
     "text": "29 жовтня в рамках проєкту Women in Capital та за підтримки УНІАН відбувся круглий стіл представників українських енергетичних компаній на тему \"Енергетичні проєкти малого та…",
     "source": "УНІАН",
     "sourceUrl": "https://press.unian.ua/press/energoefektivnist-zaraz-neobhidna-dialog-biznesu-iz-kerivnictvom-yevropeyskogo-investiciynogo-banku-yeib-video-13545267.html",
-    "image": ""
-  },
-  {
-    "id": "n-81c89d85f89a",
-    "topic": "sport",
-    "date": "2026-10-30",
-    "title": "Жіноча збірна України вирушає на матчі другого етапу кваліфікації Євробаскету-2027",
-    "text": "Жіноча національна збірна України з баскетболу у листопаді проведе матчі першого кола другого раунду кваліфікації чемпіонату Європи-2027.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179863-zinoca-zbirna-ukraini-virusae-na-matci-drugogo-etapu-kvalifikacii-evrobasketu2027.html",
     "image": ""
   }
 ]
