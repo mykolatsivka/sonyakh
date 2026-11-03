@@ -7,7 +7,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import Anthropic from '@anthropic-ai/sdk';
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { z } from 'zod';
-import { scoreNews } from './good-news-keywords.mjs';
+import { scoreNews, badUrl } from './good-news-keywords.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const NEWS_FILE = new URL('data/news.json', ROOT);
@@ -164,7 +164,7 @@ function chooseByKeywords(candidates, recentTitles = []) {
   const taken = recentTitles.map(keyWords);
   const perTopic = {};
   return candidates
-    .map((item) => ({ item, result: scoreNews(item.title, item.description) }))
+    .map((item) => ({ item, result: scoreNews(item.title, item.description, item.link) }))
     .filter((c) => c.result)
     .sort((a, b) => b.result.score - a.result.score)
     .filter(({ item, result }) => {
@@ -201,6 +201,8 @@ async function main() {
     const key = hash(item.link);
     if (seenSet.has(key) || byLink.has(key)) continue;
     if (item.published && item.published.getTime() < cutoff) continue;
+    // Рубрики з клікбейтом і плітками не показуємо навіть Claude
+    if (badUrl(item.link)) continue;
     byLink.set(key, item);
   }
   // Є ключ Claude: відбирає Claude. Немає: безкоштовно, за ключовими словами
