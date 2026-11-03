@@ -1,6 +1,6 @@
 // Service worker: зберігає Сонях на телефоні, щоб він працював без інтернету.
 // Після будь-яких змін у файлах збільш номер версії, щоб телефони підтягнули оновлення.
-const VERSION = 'sonyakh-v28';
+const VERSION = 'sonyakh-v29';
 const SHELL = [
   './',
   './index.html',
@@ -16,9 +16,12 @@ const SHELL = [
   './data/thanks.json',
   './data/tips.json',
   './data/regions.json',
-  './data/outages.json'
+  './data/outages.json',
+  './fonts/manrope-cyrillic.woff2',
+  './fonts/manrope-latin.woff2',
+  './fonts/unbounded-cyrillic.woff2',
+  './fonts/unbounded-latin.woff2'
 ];
-const FONTS = 'sonyakh-fonts';
 
 self.addEventListener('install', (event) => {
   // cache: 'reload' — беремо файли свіжими з сервера, а не старі копії з кешу браузера
@@ -33,7 +36,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== VERSION && k !== FONTS).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== VERSION).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -42,18 +45,6 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
-
-  // Шрифти Google: беремо збережені, у фоні оновлюємо
-  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
-    event.respondWith(
-      caches.open(FONTS).then(async (cache) => {
-        const cached = await cache.match(request);
-        const fresh = fetch(request).then((res) => { cache.put(request, res.clone()); return res; }).catch(() => cached);
-        return cached || fresh;
-      })
-    );
-    return;
-  }
 
   if (url.origin !== self.location.origin) return;
 
