@@ -1,9 +1,9 @@
 {
- "updatedAt": "2026-11-03T16:36:43.056Z",
+ "updatedAt": "2026-11-03T16:50:15.867Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
-   "sourceUpdated": "03.11.2026 18:02",
+   "status": "ok",
+   "sourceUpdated": "03.11.2026 18:36",
    "days": [
     {
      "date": "2026-11-03",
@@ -40,7 +40,7 @@
        },
        {
         "from": 900,
-        "to": 1140,
+        "to": 1110,
         "type": "off"
        }
       ],
@@ -84,11 +84,6 @@
        {
         "from": 480,
         "to": 900,
-        "type": "off"
-       },
-       {
-        "from": 1110,
-        "to": 1350,
         "type": "off"
        }
       ],
@@ -138,11 +133,6 @@
         "from": 690,
         "to": 1080,
         "type": "off"
-       },
-       {
-        "from": 1320,
-        "to": 1440,
-        "type": "off"
        }
       ],
       "6.2": [
@@ -165,8 +155,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-03T16:24:23.055Z",
-   "error": "The operation was aborted due to timeout"
+   "updatedAt": "2026-11-03T16:50:15.867Z"
   },
   "donetsk": {
    "status": "stale",
