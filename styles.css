@@ -393,6 +393,9 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 }
 .sheet:focus { outline: none; }
 .sheet::backdrop { background: rgba(14, 24, 48, .55); }
+/* Поки меню відкрите, сторінка позаду не гортається */
+html.menu-open, html.menu-open body { overflow: hidden; overscroll-behavior: none; }
+.sheet { overscroll-behavior: contain; }
 .sheet__nav { display: flex; flex-direction: column; margin-bottom: 12px; }
 .sheet__nav a { min-height: 64px; display: flex; align-items: center; gap: 14px; padding: 10px 4px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 700; }
 .sheet__nav a:last-child { border-bottom: 0; }
