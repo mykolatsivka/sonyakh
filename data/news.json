@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-29e09f932232",
+    "topic": "rebuild",
+    "date": "2026-11-03",
+    "title": "Жінка відкрила стару сімейну папку: всередині виявилася мистецька сенсація",
+    "text": "Хоча вона не розкриває вартість своєї колекції, результати останніх великих аукціонів свідчать про те, наскільки високо на міжнародному арт-ринку цінуються роботи голландського…",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/roboti-rembrandta-znayshli-v-stariy-simeyniy-papci-cherez-ponad-100-rokiv-13548474.html",
+    "image": ""
+  },
+  {
+    "id": "n-bae1fce882d4",
+    "topic": "rebuild",
+    "date": "2026-11-03",
+    "title": "У мерії Осло провели урочистий захід до річниці відновлення незалежності України",
+    "text": "В мерії норвезької столиці Осло відбувся урочистий захід з нагоди 35-ї річниці відновлення незалежності України.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4180938-u-merii-oslo-proveli-urocistij-zahid-do-ricnici-vidnovlenna-nezaleznosti-ukraini.html",
+    "image": ""
+  },
+  {
     "id": "n-b1cfe4070d21",
     "topic": "rebuild",
     "date": "2026-11-03",
@@ -577,26 +597,6 @@
     "text": "До Дня української писемності та мови встановили національний рекорд, 115 дітей із 30 країн прочитали вірші про українську мову.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180051-rekord-ukraini-do-dna-pisemnosti-ta-movi-115-ditej-iz-30-krain-procitali-virsi-pro-ukrainsku-movu.html",
-    "image": ""
-  },
-  {
-    "id": "n-6dc7734e493a",
-    "topic": "sport",
-    "date": "2026-10-31",
-    "title": "УПЛ. «Чорноморець» у Рівному здобув вольову перемогу над «Вересом»",
-    "text": "У чемпіонаті України з футболу серед команд Премʼєр-ліги (УПЛ) тривають поєдинки 11-го туру.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180036-upl-cornomorec-u-rivnomu-zdobuv-volovu-peremogu-nad-veresom.html",
-    "image": ""
-  },
-  {
-    "id": "n-90aeba08c9b5",
-    "topic": "sport",
-    "date": "2026-10-31",
-    "title": "Усик хоче повернутися у крузервейт для супербою з Бенавідесом, - інсайдер",
-    "text": "Усик хоче битися з Бенавідесом, коли той буде у найкращій формі.",
-    "source": "УНІАН",
-    "sourceUrl": "https://sport.unian.ua/benavides-i-usik-mozhut-provesti-superbiy-ukrajinec-hoche-povernutisya-u-kruzerveyt-13545714.html",
     "image": ""
   }
 ]
