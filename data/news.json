@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-b1cfe4070d21",
+    "topic": "rebuild",
+    "date": "2026-11-03",
+    "title": "Вперше в Україні: у Львівському перинатальному центрі відкрили салон краси",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_vidkrili_pershiy_v_ukrayini_salon_krasi_v_perinatalnomu_tsentri_shho_vidomo_n1649284",
+    "image": ""
+  },
+  {
+    "id": "n-06669057cb88",
+    "topic": "animals",
+    "date": "2026-11-03",
+    "title": "Цього гігантського птаха 150 років вважали вимерлим: аналіз ДНК розкрив несподівану правду",
+    "text": "Генетичний аналіз показав, що останки належали не окремому вимерлому виду.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/vcheni-vvazhali-shcho-cey-gigantskiy-ptah-vimer-150-rokiv-tomu-analiz-dnk-rozkriv-nespodivanu-pravdu-13548189.html",
+    "image": ""
+  },
+  {
+    "id": "n-07f9a64ee527",
+    "topic": "people",
+    "date": "2026-11-03",
+    "title": "Десять причин відвідати фестиваль «Земля Поетів»",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/desyat_prichin_vidvidati_festival_zemlya_poetiv_n1649287",
+    "image": ""
+  },
+  {
     "id": "n-0aee9ddb3a81",
     "topic": "sport",
     "date": "2026-11-03",
@@ -567,36 +597,6 @@
     "text": "Усик хоче битися з Бенавідесом, коли той буде у найкращій формі.",
     "source": "УНІАН",
     "sourceUrl": "https://sport.unian.ua/benavides-i-usik-mozhut-provesti-superbiy-ukrajinec-hoche-povernutisya-u-kruzerveyt-13545714.html",
-    "image": ""
-  },
-  {
-    "id": "n-41a2d48a5d1a",
-    "topic": "rebuild",
-    "date": "2026-10-31",
-    "title": "В Амстердамі відкрили виставку українського літературного плаката",
-    "text": "У публічній бібліотеці в Амстердамі відбулося відкриття виставки українського літературного плаката “Power of Words: Odesa City Letters” (Сила слів: одеські літери міста), яка…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180003-v-amsterdami-vidkrili-vistavku-ukrainskogo-literaturnogo-plakata.html",
-    "image": ""
-  },
-  {
-    "id": "n-f141ebb521a8",
-    "topic": "sport",
-    "date": "2026-10-31",
-    "title": "Сьогодні розпочинаються літні Юнацькі Олімпійські ігри-2026",
-    "text": "У Дакарі (Сенегал) у суботу, 31 жовтня, стартують IV літні Юнацькі Олімпійські ігри - перша в історії олімпійська подія на африканському континенті.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179845-sogodni-rozpocinautsa-litni-unacki-olimpijski-igri2026.html",
-    "image": ""
-  },
-  {
-    "id": "n-2e4a85680a03",
-    "topic": "animals",
-    "date": "2026-10-31",
-    "title": "Чому кіт почав спати вдвічі більше: ветеринарка розповіла, чи є привід для хвилювання",
-    "text": "За словами Росс, помітна зміна звичок сну може бути важливішою, ніж точна кількість годин, які вона спить.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/kit-stav-bilshe-spati-veterinarka-poyasnila-chi-ce-normalno-13545378.html",
     "image": ""
   }
 ]
