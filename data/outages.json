@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T04:36:36.109Z",
+ "updatedAt": "2026-11-03T04:50:18.075Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1030,7 +1030,7 @@
    "updatedAt": "2026-11-03T03:25:24.265Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "03.11.2026 02:39",
    "days": [
     {
@@ -1218,8 +1218,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-03T03:25:24.265Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-03T04:50:18.075Z"
   },
   "lviv": {
    "status": "ok",
@@ -1229,19 +1228,19 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "03.11.2026 00:41",
+   "sourceUpdated": "03.11.2026 06:40",
    "days": [
     {
      "date": "2026-11-03",
      "groups": {
       "1.1": [
        {
-        "from": 870,
-        "to": 900,
+        "from": 660,
+        "to": 690,
         "type": "maybe"
        },
        {
-        "from": 900,
+        "from": 690,
         "to": 1050,
         "type": "off"
        },
@@ -1249,16 +1248,36 @@
         "from": 1050,
         "to": 1080,
         "type": "maybe"
+       },
+       {
+        "from": 1290,
+        "to": 1350,
+        "type": "maybe"
        }
       ],
       "1.2": [
        {
-        "from": 1080,
-        "to": 1110,
+        "from": 390,
+        "to": 420,
         "type": "maybe"
        },
        {
-        "from": 1110,
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 660,
+        "type": "maybe"
+       },
+       {
+        "from": 870,
+        "to": 900,
+        "type": "maybe"
+       },
+       {
+        "from": 900,
         "to": 1260,
         "type": "off"
        },
@@ -1270,12 +1289,27 @@
       ],
       "2.1": [
        {
-        "from": 1080,
-        "to": 1110,
+        "from": 390,
+        "to": 420,
         "type": "maybe"
        },
        {
-        "from": 1110,
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 660,
+        "type": "maybe"
+       },
+       {
+        "from": 870,
+        "to": 900,
+        "type": "maybe"
+       },
+       {
+        "from": 900,
         "to": 1260,
         "type": "off"
        },
@@ -1300,6 +1334,26 @@
         "from": 420,
         "to": 450,
         "type": "maybe"
+       },
+       {
+        "from": 870,
+        "to": 900,
+        "type": "maybe"
+       },
+       {
+        "from": 900,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1080,
+        "type": "maybe"
+       },
+       {
+        "from": 1290,
+        "to": 1350,
+        "type": "maybe"
        }
       ],
       "3.1": [
@@ -1310,12 +1364,12 @@
        },
        {
         "from": 480,
-        "to": 630,
+        "to": 840,
         "type": "off"
        },
        {
-        "from": 630,
-        "to": 660,
+        "from": 840,
+        "to": 870,
         "type": "maybe"
        }
       ],
@@ -1334,18 +1388,88 @@
         "from": 420,
         "to": 450,
         "type": "maybe"
-       }
-      ],
-      "4.1": [
+       },
+       {
+        "from": 870,
+        "to": 900,
+        "type": "maybe"
+       },
+       {
+        "from": 900,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1080,
+        "type": "maybe"
+       },
        {
         "from": 1290,
         "to": 1350,
         "type": "maybe"
        }
       ],
+      "4.1": [
+       {
+        "from": 390,
+        "to": 420,
+        "type": "maybe"
+       },
+       {
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 660,
+        "type": "maybe"
+       },
+       {
+        "from": 1080,
+        "to": 1110,
+        "type": "maybe"
+       },
+       {
+        "from": 1110,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
       "4.2": [
        {
-        "from": 1290,
+        "from": 390,
+        "to": 420,
+        "type": "maybe"
+       },
+       {
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 660,
+        "type": "maybe"
+       },
+       {
+        "from": 1080,
+        "to": 1110,
+        "type": "maybe"
+       },
+       {
+        "from": 1110,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
         "to": 1350,
         "type": "maybe"
        }
@@ -1358,23 +1482,28 @@
        },
        {
         "from": 480,
-        "to": 630,
+        "to": 840,
         "type": "off"
        },
        {
-        "from": 630,
-        "to": 660,
+        "from": 840,
+        "to": 870,
+        "type": "maybe"
+       },
+       {
+        "from": 1290,
+        "to": 1350,
         "type": "maybe"
        }
       ],
       "5.2": [
        {
-        "from": 870,
-        "to": 900,
+        "from": 660,
+        "to": 690,
         "type": "maybe"
        },
        {
-        "from": 900,
+        "from": 690,
         "to": 1050,
         "type": "off"
        },
@@ -1399,6 +1528,21 @@
         "from": 840,
         "to": 870,
         "type": "maybe"
+       },
+       {
+        "from": 1080,
+        "to": 1110,
+        "type": "maybe"
+       },
+       {
+        "from": 1110,
+        "to": 1260,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1290,
+        "type": "maybe"
        }
       ],
       "6.2": [
@@ -1416,49 +1560,89 @@
         "from": 840,
         "to": 870,
         "type": "maybe"
+       },
+       {
+        "from": 1080,
+        "to": 1110,
+        "type": "maybe"
+       },
+       {
+        "from": 1110,
+        "to": 1260,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1290,
+        "type": "maybe"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-11-03T01:22:36.146Z"
+   "updatedAt": "2026-11-03T04:50:18.075Z"
   },
   "odesa": {
-   "status": "stale",
-   "sourceUpdated": "03.11.2026 00:48",
+   "status": "ok",
+   "sourceUpdated": "03.11.2026 06:32",
    "days": [
     {
      "date": "2026-11-03",
      "groups": {
       "1.1": [
        {
-        "from": 540,
-        "to": 690,
+        "from": 420,
+        "to": 810,
+        "type": "off"
+       },
+       {
+        "from": 1020,
+        "to": 1260,
         "type": "off"
        }
       ],
       "1.2": [
        {
-        "from": 540,
-        "to": 690,
+        "from": 420,
+        "to": 810,
+        "type": "off"
+       },
+       {
+        "from": 1020,
+        "to": 1260,
         "type": "off"
        }
       ],
       "2.1": [
        {
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
         "from": 1020,
-        "to": 1260,
+        "to": 1320,
         "type": "off"
        }
       ],
       "2.2": [
        {
+        "from": 420,
+        "to": 630,
+        "type": "off"
+       },
+       {
         "from": 1020,
-        "to": 1260,
+        "to": 1320,
         "type": "off"
        }
       ],
       "3.1": [
+       {
+        "from": 600,
+        "to": 840,
+        "type": "off"
+       },
        {
         "from": 1230,
         "to": 1320,
@@ -1467,6 +1651,11 @@
       ],
       "3.2": [
        {
+        "from": 600,
+        "to": 840,
+        "type": "off"
+       },
+       {
         "from": 1230,
         "to": 1320,
         "type": "off"
@@ -1474,51 +1663,70 @@
       ],
       "4.1": [
        {
-        "from": 660,
-        "to": 840,
+        "from": 600,
+        "to": 1020,
+        "type": "off"
+       },
+       {
+        "from": 1230,
+        "to": 1320,
         "type": "off"
        }
       ],
       "4.2": [
        {
-        "from": 660,
-        "to": 840,
+        "from": 600,
+        "to": 1020,
+        "type": "off"
+       },
+       {
+        "from": 1230,
+        "to": 1320,
         "type": "off"
        }
       ],
       "5.1": [
        {
         "from": 360,
-        "to": 570,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 810,
+        "to": 1050,
         "type": "off"
        }
       ],
       "5.2": [
        {
         "from": 360,
-        "to": 570,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 810,
+        "to": 1050,
         "type": "off"
        }
       ],
       "6.1": [
        {
         "from": 810,
-        "to": 1050,
+        "to": 1230,
         "type": "off"
        }
       ],
       "6.2": [
        {
         "from": 810,
-        "to": 1050,
+        "to": 1230,
         "type": "off"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-11-03T03:36:44.472Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-03T04:50:18.075Z"
   },
   "rivne": {
    "status": "ok",
