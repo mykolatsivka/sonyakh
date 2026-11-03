@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T18:14:08.327Z",
+ "updatedAt": "2026-11-03T18:24:55.703Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -162,7 +162,7 @@
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
    "updatedAt": "2026-11-03T17:11:03.956Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "error": "The operation was aborted due to timeout"
   },
   "zaporizhzhia": {
    "days": [],
