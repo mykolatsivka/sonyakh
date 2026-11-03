@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-575a570236f4",
+    "topic": "sport",
+    "date": "2026-11-03",
+    "title": "Чоловік з металошукачем натрапив на тисячолітню \"Руку бога\" з чистого золота",
+    "text": "Знахідка може коштувати від кількох десятків тисяч до мільйона доларів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/cholovik-z-metaloshukachem-natrapiv-na-tisyacholitnyu-ruku-boga-z-chistogo-zolota-13547802.html",
+    "image": ""
+  },
+  {
+    "id": "n-1511e7ca8e35",
+    "topic": "science",
+    "date": "2026-11-03",
+    "title": "Китайські вчені знайшли в океані \"енергетичні димоходи\", що можуть змінити підводну війну",
+    "text": "Розуміючи особливості підводних течій, можна більш ефективно використовувати акустичний пеленг підводних і надводних човнів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/kitayski-vcheni-viyavili-na-dni-okeanu-gigantski-energetichni-dimohodi-yaki-mozhut-zminiti-pidvodnu-viynu-13547760.html",
+    "image": ""
+  },
+  {
     "id": "n-7ad596b9e705",
     "topic": "sport",
     "date": "2026-11-03",
@@ -577,26 +597,6 @@
     "text": "Жіноча національна збірна України з баскетболу у листопаді проведе матчі першого кола другого раунду кваліфікації чемпіонату Європи-2027.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179863-zinoca-zbirna-ukraini-virusae-na-matci-drugogo-etapu-kvalifikacii-evrobasketu2027.html",
-    "image": ""
-  },
-  {
-    "id": "n-f0d3c86ad661",
-    "topic": "rebuild",
-    "date": "2026-10-30",
-    "title": "У Національному театрі імені Франка відкрили дитячий простір - Бережна",
-    "text": "У Національному академічному театрі імені Івана Франка відкрили дитячий простір.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4179822-u-nacionalnomu-teatri-imeni-franka-vidkrili-ditacij-prostir-berezna.html",
-    "image": ""
-  },
-  {
-    "id": "n-ab2ba4716485",
-    "topic": "animals",
-    "date": "2026-10-30",
-    "title": "Як зробити годівницю для птахів за п’ять хвилин: потрібна одна річ, яку зазвичай викидають",
-    "text": "У холодну пору року птахи потребують додаткової уваги.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/lite/advice/vikoristana-upakovka-z-pid-yayec-mozhe-stati-godivniceyu-dlya-ptahiv-13545054.html",
     "image": ""
   }
 ]
