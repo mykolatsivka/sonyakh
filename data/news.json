@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-0aee9ddb3a81",
+    "topic": "sport",
+    "date": "2026-11-03",
+    "title": "Україна закликає скасувати чемпіонат світу-2030 із важкої атлетики в Москві",
+    "text": "Міністерство молоді та спорту України спільно з Національним олімпійським комітетом та Федерацією важкої атлетики України закликає Міжнародну федерацію важкої атлетики (IWF)…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180840-ukraina-zaklikae-skasuvati-cempionat-svitu2030-iz-vazkoi-atletiki-v-moskvi.html",
+    "image": ""
+  },
+  {
+    "id": "n-802a6a6ed36c",
+    "topic": "sport",
+    "date": "2026-11-03",
+    "title": "У вівторок «Шахтар» проведе матч Ліги чемпіонів УЄФА проти «Спортинга»",
+    "text": "3 листопада футболісти донецького «Шахтаря» зустрінуться з португальським «Спортингом» у 4-у турі основного раунду Ліги чемпіонів.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180841-u-vivtorok-sahtar-provede-matc-ligi-cempioniv-uefa-proti-sportinga.html",
+    "image": ""
+  },
+  {
+    "id": "n-77b21ace5ebf",
+    "topic": "rebuild",
+    "date": "2026-11-03",
+    "title": "Сутички у Петропавлівській Борщагівці: ДБР відкрило справу і закликало не робити передчасні висновки",
+    "text": "Державне бюро розслідувань розпочало кримінальне провадження за фактом подій, які сталися 2 листопада в Петропавлівській Борщагівці Київської області і закликало громадськість…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4180836-suticki-u-petropavlivskij-borsagivci-dbr-vidkrilo-spravu-i-zaklikalo-utrimuvatis-vid-peredcasnih-visnovkiv.html",
+    "image": ""
+  },
+  {
     "id": "n-eda8cb6304b8",
     "topic": "sport",
     "date": "2026-11-03",
@@ -567,36 +597,6 @@
     "text": "За словами Росс, помітна зміна звичок сну може бути важливішою, ніж точна кількість годин, які вона спить.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/curiosities/kit-stav-bilshe-spati-veterinarka-poyasnila-chi-ce-normalno-13545378.html",
-    "image": ""
-  },
-  {
-    "id": "n-6b8f39e9b6b3",
-    "topic": "animals",
-    "date": "2026-10-31",
-    "title": "Кішки мерзнуть швидше, ніж багато хто думає: ветеринарка назвала комфортну температуру",
-    "text": "Особливу увагу слід приділяти ослабленим котам, а також породам із теплих країв.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/komfortna-temperatura-dlya-kotiv-veterinarka-rozpovila-koli-jim-staye-zanadto-holodno-13545207.html",
-    "image": ""
-  },
-  {
-    "id": "n-abf4dfb7c937",
-    "topic": "science",
-    "date": "2026-10-30",
-    "title": "Вчені знайшли гриб віком 440 мільйонів років у місці, де не було дерев: що їх здивувало",
-    "text": "Його незвичайна будова дає ключ до розуміння того, як гриби сприяли перетворенню безплідної суші на середовище, придатне для процвітання інших організмів.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/vcheni-znayshli-grib-vikom-440-milyoniv-rokiv-u-misci-de-ne-bulo-derev-shcho-jih-zdivuvalo-13545408.html",
-    "image": ""
-  },
-  {
-    "id": "n-0d7ae7caca29",
-    "topic": "science",
-    "date": "2026-10-30",
-    "title": "Астрономи, можливо, виявили перший природний супутник за межами Сонячної системи",
-    "text": "Цей незвичайний об’єкт обертається не навколо планети, а навколо коричневого карлика.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/astronomi-mozhlivo-viyavili-pershiy-prirodniy-suputnik-za-mezhami-sonyachnoji-sistemi-13545303.html",
     "image": ""
   }
 ]
