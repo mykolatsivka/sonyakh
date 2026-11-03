@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T22:20:26.504Z",
+ "updatedAt": "2026-11-03T22:36:03.159Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -192,15 +192,14 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "02.11.2026 22:04",
    "days": [],
-   "updatedAt": "2026-11-03T22:10:00.736Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-03T22:36:03.159Z"
   },
   "kyiv": {
-   "status": "stale",
-   "sourceUpdated": "03.11.2026 21:39",
+   "status": "ok",
+   "sourceUpdated": "04.11.2026 00:08",
    "days": [
     {
      "date": "2026-11-04",
@@ -255,13 +254,18 @@
       ],
       "3.1": [
        {
+        "from": 0,
+        "to": 210,
+        "type": "off"
+       },
+       {
         "from": 390,
         "to": 840,
         "type": "off"
        },
        {
         "from": 1020,
-        "to": 1440,
+        "to": 1320,
         "type": "off"
        }
       ],
@@ -273,7 +277,7 @@
        },
        {
         "from": 1020,
-        "to": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -296,6 +300,11 @@
       ],
       "4.2": [
        {
+        "from": 0,
+        "to": 210,
+        "type": "off"
+       },
+       {
         "from": 390,
         "to": 840,
         "type": "off"
@@ -309,7 +318,7 @@
       "5.1": [
        {
         "from": 0,
-        "to": 210,
+        "to": 420,
         "type": "off"
        },
        {
@@ -347,11 +356,6 @@
         "type": "off"
        },
        {
-        "from": 360,
-        "to": 420,
-        "type": "off"
-       },
-       {
         "from": 600,
         "to": 1050,
         "type": "off"
@@ -365,11 +369,6 @@
       "6.2": [
        {
         "from": 0,
-        "to": 210,
-        "type": "off"
-       },
-       {
-        "from": 360,
         "to": 420,
         "type": "off"
        },
@@ -387,8 +386,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-03T22:10:00.736Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-03T22:36:03.159Z"
   },
   "lviv": {
    "status": "ok",
@@ -1080,9 +1078,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "04.11.2026 00:00",
+   "sourceUpdated": "04.11.2026 00:30",
    "days": [],
-   "updatedAt": "2026-11-03T22:10:00.736Z"
+   "updatedAt": "2026-11-03T22:36:03.159Z"
   },
   "chernivtsi": {
    "days": [],
