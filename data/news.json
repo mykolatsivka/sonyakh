@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-3b1b7ff5b4f4",
+    "topic": "science",
+    "date": "2026-11-03",
+    "title": "У премії «Генерація Ніка» з’являться дві нові нагороди",
+    "text": "У премії для молодих художників і літераторів \"Генерація Ніка\" у 2027 році з’являться дві нові нагороди - для літераторів віком від 12 до 15 років від Фонду Сергія Жадана та за…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180781-u-premii-generacia-nika-zavlatsa-dvi-novi-nagorodi.html",
+    "image": ""
+  },
+  {
+    "id": "n-819989e54a0f",
+    "topic": "animals",
+    "date": "2026-11-03",
+    "title": "Норвезького лосося почали годувати відходами птахівництва: чому так сталося",
+    "text": "Причина, зокрема, пов'язана з явищем Ель-Ніньйо.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/curiosities/chim-goduyut-lososya-v-norvegiji-chomu-u-korm-dodayut-produkti-ptahivnictva-13548012.html",
+    "image": ""
+  },
+  {
     "id": "n-b89d4375bc58",
     "topic": "science",
     "date": "2026-11-03",
@@ -577,26 +597,6 @@
     "text": "У п'ятницю, 30 жовтня, розпочався 11-й тур чемпіонату України з футболу серед команд Прем'єр-ліги (УПЛ).",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179880-sahtar-peremig-obolon-i-vijsov-u-lideri-futbolnoi-premerligi.html",
-    "image": ""
-  },
-  {
-    "id": "n-92b9cb3816d3",
-    "topic": "rebuild",
-    "date": "2026-10-30",
-    "title": "В Україні розпочинається опалювальний сезон - скільки котелень вже запустили",
-    "text": "У низці регіонів України найближчим часом розпочнеться повноцінний запуск систем теплопостачання.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4179874-v-ukraini-rozpocinaetsa-opaluvalnij-sezon-skilki-kotelen-vze-zapustili.html",
-    "image": ""
-  },
-  {
-    "id": "n-74bf3b6b6d5b",
-    "topic": "rebuild",
-    "date": "2026-10-30",
-    "title": "Енергоефективність зараз необхідна: діалог бізнесу із керівництвом Європейського інвестиційного банку (ЄІБ)",
-    "text": "29 жовтня в рамках проєкту Women in Capital та за підтримки УНІАН відбувся круглий стіл представників українських енергетичних компаній на тему \"Енергетичні проєкти малого та…",
-    "source": "УНІАН",
-    "sourceUrl": "https://press.unian.ua/press/energoefektivnist-zaraz-neobhidna-dialog-biznesu-iz-kerivnictvom-yevropeyskogo-investiciynogo-banku-yeib-video-13545267.html",
     "image": ""
   }
 ]
