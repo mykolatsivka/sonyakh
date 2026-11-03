@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-eda8cb6304b8",
+    "topic": "sport",
+    "date": "2026-11-03",
+    "title": "Українські тенісистки розгромили Туніс у юніорському Кубку Біллі Джин Кінг",
+    "text": "Юніорська збірна України з тенісу серед дівчат до 16-ти років розпочала виступи у фінальному турнірі Кубка Біллі Джин Кінг у Каїрі (Єгипет) з упевненої перемоги над командою…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180822-ukrainski-tenisistki-rozgromili-tunis-u-uniorskomu-kubku-billi-dzin-king.html",
+    "image": ""
+  },
+  {
     "id": "n-3b1b7ff5b4f4",
     "topic": "science",
     "date": "2026-11-03",
@@ -587,16 +597,6 @@
     "text": "Цей незвичайний об’єкт обертається не навколо планети, а навколо коричневого карлика.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/astronomi-mozhlivo-viyavili-pershiy-prirodniy-suputnik-za-mezhami-sonyachnoji-sistemi-13545303.html",
-    "image": ""
-  },
-  {
-    "id": "n-190fec7d1661",
-    "topic": "sport",
-    "date": "2026-10-30",
-    "title": "«Шахтар» переміг «Оболонь» і повернувся у лідери футбольної Прем'єр-ліги",
-    "text": "У п'ятницю, 30 жовтня, розпочався 11-й тур чемпіонату України з футболу серед команд Прем'єр-ліги (УПЛ).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4179880-sahtar-peremig-obolon-i-vijsov-u-lideri-futbolnoi-premerligi.html",
     "image": ""
   }
 ]
