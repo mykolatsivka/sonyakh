@@ -2219,7 +2219,7 @@
     const action = target.dataset.action;
 
     // Фокус на саме вікно меню, а не на перший пункт, щоб не з'являлась синя рамка
-    if (action === 'menu') { menu.showModal(); menu.focus(); }
+    if (action === 'menu') { menu.showModal(); menu.focus(); document.documentElement.classList.add('menu-open'); }
     if (action === 'install') {
       if (!installPrompt) return;
       installPrompt.prompt();
@@ -2304,6 +2304,8 @@
   menu.addEventListener('click', (event) => {
     if (event.target === menu || event.target.closest('a')) menu.close();
   });
+  // Меню закрили будь-як (кнопка, клавіша Esc, пункт меню): знову дозволяємо гортати сторінку
+  menu.addEventListener('close', () => document.documentElement.classList.remove('menu-open'));
 
   // ---------- Маршрутизація ----------
   let currentRoute = null;
