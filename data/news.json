@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-351cbc1186e6",
+    "topic": "science",
+    "date": "2026-11-03",
+    "title": "На Закарпатті бібліотеку поповнили понад 500 чеськими та німецькими книжками",
+    "text": "Закарпатська обласна бібліотека для дітей та юнацтва отримала від чеських партнерів 545 книжок для дітей та юнацтва чеською та німецькою мовами.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180993-na-zakarpatti-biblioteku-popovnili-ponad-500-ceskimi-ta-nimeckimi-knizkami.html",
+    "image": ""
+  },
+  {
     "id": "n-c089c93281d3",
     "topic": "science",
     "date": "2026-11-03",
@@ -587,16 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/predstavniki_ukrayini_perepisali_istoriyu_vistupiv_u_lizi_chempioniv_z_futzalu_n1649133",
-    "image": ""
-  },
-  {
-    "id": "n-a0544a7fa54d",
-    "topic": "science",
-    "date": "2026-11-01",
-    "title": "Вчені розкрили таємницю примарних маяків, що десятиліттями лякають мандрівників у морі",
-    "text": "Ілюзія маяка посеред моря - зовсім не те, що хочеться побачити під час подорожі.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/curiosities/vcheni-rozkrili-tayemnicyu-primarnih-mayakiv-shcho-desyatilittyami-lyakayut-mandrivnikiv-u-mori-13546023.html",
     "image": ""
   }
 ]
