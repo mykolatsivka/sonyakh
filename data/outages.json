@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T18:13:41.215Z",
+ "updatedAt": "2026-11-04T18:36:57.661Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -900,7 +900,7 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "04.11.2026 11:25",
+   "sourceUpdated": "04.11.2026 20:36",
    "days": [
     {
      "date": "2026-11-04",
@@ -1095,9 +1095,198 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-05",
+     "groups": {
+      "1.1": [
+       {
+        "from": 0,
+        "to": 420,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 0,
+        "to": 240,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 420,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 0,
+        "to": 240,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 0,
+        "to": 240,
+        "type": "off"
+       },
+       {
+        "from": 630,
+        "to": 1050,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 210,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 210,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 210,
+        "to": 420,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 210,
+        "to": 420,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 420,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 420,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 0,
+        "to": 210,
+        "type": "off"
+       },
+       {
+        "from": 420,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 420,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1320,
+        "type": "off"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-04T16:12:03.361Z"
+   "updatedAt": "2026-11-04T18:36:57.661Z"
   },
   "lviv": {
    "status": "ok",
@@ -2288,9 +2477,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "04.11.2026 20:00",
+   "sourceUpdated": "04.11.2026 20:30",
    "days": [],
-   "updatedAt": "2026-11-04T18:13:41.215Z"
+   "updatedAt": "2026-11-04T18:36:57.661Z"
   },
   "chernivtsi": {
    "days": [],
