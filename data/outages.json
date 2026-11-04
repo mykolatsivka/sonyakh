@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T17:50:06.243Z",
+ "updatedAt": "2026-11-04T18:13:41.215Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -193,7 +193,7 @@
   },
   "kyiv-city": {
    "status": "ok",
-   "sourceUpdated": "04.11.2026 18:39",
+   "sourceUpdated": "04.11.2026 20:00",
    "days": [
     {
      "date": "2026-11-04",
@@ -428,7 +428,7 @@
         "type": "off"
        },
        {
-        "from": 1260,
+        "from": 1320,
         "to": 1440,
         "type": "off"
        }
@@ -896,7 +896,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-04T16:49:50.396Z"
+   "updatedAt": "2026-11-04T18:13:41.215Z"
   },
   "kyiv": {
    "status": "ok",
@@ -1107,7 +1107,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "03.11.2026 20:45",
+   "sourceUpdated": "04.11.2026 20:00",
    "days": [
     {
      "date": "2026-11-04",
@@ -1607,9 +1607,508 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-05",
+     "groups": {
+      "1.1": [
+       {
+        "from": 90,
+        "to": 120,
+        "type": "maybe"
+       },
+       {
+        "from": 120,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 270,
+        "to": 300,
+        "type": "maybe"
+       },
+       {
+        "from": 510,
+        "to": 540,
+        "type": "maybe"
+       },
+       {
+        "from": 540,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 720,
+        "type": "maybe"
+       },
+       {
+        "from": 930,
+        "to": 960,
+        "type": "maybe"
+       },
+       {
+        "from": 960,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1140,
+        "type": "maybe"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 510,
+        "to": 540,
+        "type": "maybe"
+       },
+       {
+        "from": 540,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 930,
+        "type": "maybe"
+       },
+       {
+        "from": 1350,
+        "to": 1380,
+        "type": "maybe"
+       },
+       {
+        "from": 1380,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 510,
+        "to": 540,
+        "type": "maybe"
+       },
+       {
+        "from": 540,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 930,
+        "type": "maybe"
+       },
+       {
+        "from": 1350,
+        "to": 1380,
+        "type": "maybe"
+       },
+       {
+        "from": 1380,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 90,
+        "to": 120,
+        "type": "maybe"
+       },
+       {
+        "from": 120,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 270,
+        "to": 300,
+        "type": "maybe"
+       },
+       {
+        "from": 510,
+        "to": 540,
+        "type": "maybe"
+       },
+       {
+        "from": 540,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 720,
+        "type": "maybe"
+       },
+       {
+        "from": 930,
+        "to": 960,
+        "type": "maybe"
+       },
+       {
+        "from": 960,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1140,
+        "type": "maybe"
+       },
+       {
+        "from": 1350,
+        "to": 1380,
+        "type": "maybe"
+       },
+       {
+        "from": 1380,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 300,
+        "to": 330,
+        "type": "maybe"
+       },
+       {
+        "from": 330,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 510,
+        "type": "maybe"
+       },
+       {
+        "from": 720,
+        "to": 750,
+        "type": "maybe"
+       },
+       {
+        "from": 750,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1140,
+        "type": "maybe"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 300,
+        "to": 330,
+        "type": "maybe"
+       },
+       {
+        "from": 330,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 510,
+        "type": "maybe"
+       },
+       {
+        "from": 720,
+        "to": 750,
+        "type": "maybe"
+       },
+       {
+        "from": 750,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1140,
+        "type": "maybe"
+       },
+       {
+        "from": 1350,
+        "to": 1380,
+        "type": "maybe"
+       },
+       {
+        "from": 1380,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 90,
+        "to": 120,
+        "type": "maybe"
+       },
+       {
+        "from": 120,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 270,
+        "to": 300,
+        "type": "maybe"
+       },
+       {
+        "from": 720,
+        "to": 750,
+        "type": "maybe"
+       },
+       {
+        "from": 750,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 930,
+        "type": "maybe"
+       },
+       {
+        "from": 1140,
+        "to": 1170,
+        "type": "maybe"
+       },
+       {
+        "from": 1170,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 90,
+        "to": 120,
+        "type": "maybe"
+       },
+       {
+        "from": 120,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 270,
+        "to": 300,
+        "type": "maybe"
+       },
+       {
+        "from": 720,
+        "to": 750,
+        "type": "maybe"
+       },
+       {
+        "from": 750,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 930,
+        "type": "maybe"
+       },
+       {
+        "from": 1140,
+        "to": 1170,
+        "type": "maybe"
+       },
+       {
+        "from": 1170,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 60,
+        "to": 90,
+        "type": "maybe"
+       },
+       {
+        "from": 450,
+        "to": 480,
+        "type": "maybe"
+       },
+       {
+        "from": 480,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 720,
+        "type": "maybe"
+       },
+       {
+        "from": 1140,
+        "to": 1170,
+        "type": "maybe"
+       },
+       {
+        "from": 1170,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 60,
+        "to": 90,
+        "type": "maybe"
+       },
+       {
+        "from": 450,
+        "to": 480,
+        "type": "maybe"
+       },
+       {
+        "from": 480,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 720,
+        "type": "maybe"
+       },
+       {
+        "from": 1140,
+        "to": 1170,
+        "type": "maybe"
+       },
+       {
+        "from": 1170,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 60,
+        "to": 90,
+        "type": "maybe"
+       },
+       {
+        "from": 300,
+        "to": 330,
+        "type": "maybe"
+       },
+       {
+        "from": 330,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 510,
+        "type": "maybe"
+       },
+       {
+        "from": 930,
+        "to": 960,
+        "type": "maybe"
+       },
+       {
+        "from": 960,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 60,
+        "to": 90,
+        "type": "maybe"
+       },
+       {
+        "from": 300,
+        "to": 330,
+        "type": "maybe"
+       },
+       {
+        "from": 330,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 510,
+        "type": "maybe"
+       },
+       {
+        "from": 930,
+        "to": 960,
+        "type": "maybe"
+       },
+       {
+        "from": 960,
+        "to": 1320,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1350,
+        "type": "maybe"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-04T08:15:17.627Z"
+   "updatedAt": "2026-11-04T18:13:41.215Z"
   },
   "odesa": {
    "status": "ok",
@@ -1789,9 +2288,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "04.11.2026 19:30",
+   "sourceUpdated": "04.11.2026 20:00",
    "days": [],
-   "updatedAt": "2026-11-04T17:36:15.642Z"
+   "updatedAt": "2026-11-04T18:13:41.215Z"
   },
   "chernivtsi": {
    "days": [],
