@@ -2391,14 +2391,26 @@
   outbox.flush();
 
   if ('serviceWorker' in navigator) {
-    // Коли приїхала нова версія Соняха, один раз перезавантажуємо сторінку, щоб її показати
+    // Коли приїхала нова версія Соняха, НЕ перезавантажуємо застосунок у людини на очах:
+    // це виглядало як «Сонях вилітає» на першому запуску після оновлення.
+    // Нова версія тихо підставляється, коли людина згортає Сонях (і нічого не пише),
+    // а якщо не згорнула — просто відкриється наступного разу.
     const hadController = !!navigator.serviceWorker.controller;
+    let updateReady = false;
     let reloaded = false;
-    navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (!hadController || reloaded) return;
+    const typing = () => [...document.querySelectorAll('textarea, input[type="text"], input:not([type])')]
+      .some((el) => el.value.trim());
+    const applyUpdate = () => {
+      if (!updateReady || reloaded || !document.hidden || typing()) return;
       reloaded = true;
       location.reload();
+    };
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController) return;
+      updateReady = true;
+      applyUpdate();
     });
+    document.addEventListener('visibilitychange', applyUpdate);
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js').catch(() => { /* без офлайну, але сайт працює */ });
     });
