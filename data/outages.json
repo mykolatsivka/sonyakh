@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T17:21:55.865Z",
+ "updatedAt": "2026-11-05T17:36:11.372Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -232,7 +232,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "05.11.2026 18:18",
    "days": [
     {
@@ -1256,10 +1256,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-05T17:11:32.465Z"
+   "updatedAt": "2026-11-05T17:11:32.465Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "05.11.2026 08:10",
    "days": [
     {
@@ -1452,7 +1453,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-05T17:11:32.465Z"
+   "updatedAt": "2026-11-05T17:11:32.465Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1968,7 +1970,7 @@
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "05.11.2026 14:51",
+   "sourceUpdated": "05.11.2026 19:31",
    "days": [
     {
      "date": "2026-11-05",
@@ -2148,15 +2150,204 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-06",
+     "groups": {
+      "1.1": [
+       {
+        "from": 0,
+        "to": 90,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 0,
+        "to": 90,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 0,
+        "to": 90,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 0,
+        "to": 90,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 1110,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 60,
+        "to": 300,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 60,
+        "to": 300,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 60,
+        "to": 300,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 60,
+        "to": 300,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 270,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 270,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 270,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 1140,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 270,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 1140,
+        "type": "off"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-05T17:11:32.465Z"
+   "updatedAt": "2026-11-05T17:36:11.372Z"
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "05.11.2026 19:00",
+   "sourceUpdated": "05.11.2026 19:30",
    "days": [],
-   "updatedAt": "2026-11-05T17:11:32.465Z"
+   "updatedAt": "2026-11-05T17:36:11.372Z"
   },
   "chernivtsi": {
    "days": [],
