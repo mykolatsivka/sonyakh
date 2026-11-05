@@ -5,7 +5,7 @@ window.SONYAKH_CONFIG = {
 
   // Посилання на банку (наприклад, https://send.monobank.ua/jar/...).
   // Поки порожнє, кнопка показує «Посилання з'явиться незабаром».
-  donateUrl: 'https://send.monobank.ua/jar/9UaUS32dTC',
+  donateUrl: 'https://send.monobank.ua/jar/6BgZBoQ9mA',
 
   // Сервер Supabase для подяк, порад від батьків і запропонованих новин.
   // Обидва значення публічні: доступ обмежують правила бази (supabase/schema.sql).
