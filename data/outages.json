@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T17:49:59.449Z",
+ "updatedAt": "2026-11-05T18:15:13.093Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1259,7 +1259,7 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "05.11.2026 08:10",
+   "sourceUpdated": "05.11.2026 19:51",
    "days": [
     {
      "date": "2026-11-05",
@@ -1449,9 +1449,208 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-06",
+     "groups": {
+      "1.1": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 450,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 0,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 450,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 450,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 450,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 30,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 660,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1290,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 30,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 660,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1290,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 30,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 660,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1290,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 30,
+        "to": 270,
+        "type": "off"
+       },
+       {
+        "from": 660,
+        "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1290,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 240,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 870,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 0,
+        "to": 60,
+        "type": "off"
+       },
+       {
+        "from": 240,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 870,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 240,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 870,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 240,
+        "to": 690,
+        "type": "off"
+       },
+       {
+        "from": 870,
+        "to": 1320,
+        "type": "off"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-05T17:49:59.449Z"
+   "updatedAt": "2026-11-05T18:15:13.093Z"
   },
   "lviv": {
    "status": "ok",
@@ -2342,9 +2541,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "05.11.2026 19:30",
+   "sourceUpdated": "05.11.2026 20:00",
    "days": [],
-   "updatedAt": "2026-11-05T17:36:11.372Z"
+   "updatedAt": "2026-11-05T18:15:13.093Z"
   },
   "chernivtsi": {
    "days": [],
