@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-06T06:50:23.290Z",
+ "updatedAt": "2026-11-06T07:12:28.572Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "05.11.2026 21:33",
    "days": [
     {
@@ -205,15 +205,14 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T06:20:36.344Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "donetsk": {
    "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
    "updatedAt": "2026-11-06T04:50:06.813Z",
-   "error": "HTTP 403"
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -223,7 +222,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "05.11.2026 21:12",
    "days": [
     {
@@ -1177,11 +1176,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T05:36:31.194Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "06.11.2026 07:39",
    "days": [
     {
@@ -1389,8 +1387,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T05:49:40.524Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "lviv": {
    "status": "ok",
@@ -1399,7 +1396,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "mykolaiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "05.11.2026 20:53",
    "days": [
     {
@@ -1902,11 +1899,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-05T22:11:15.308Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "05.11.2026 21:31",
    "days": [
     {
@@ -2099,15 +2095,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T05:49:40.524Z",
-   "error": "HTTP 403"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "06.11.2026 08:30",
+   "status": "ok",
+   "sourceUpdated": "06.11.2026 09:00",
    "days": [],
-   "updatedAt": "2026-11-06T06:40:44.327Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-11-06T07:12:28.572Z"
   },
   "chernivtsi": {
    "days": [],
