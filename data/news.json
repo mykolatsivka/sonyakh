@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-edda74f89ab3",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Премія Шевельова оголосила лонглист номінантів",
+    "text": "Оголосили довгий список номінантів на здобуття Премії імені Юрія Шевельова 2026 року за найкращу українську книжку есеїстики.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182165-premia-sevelova-ogolosila-longlist-nominantiv.html",
+    "image": ""
+  },
+  {
+    "id": "n-31c6d27c1772",
+    "topic": "sport",
+    "date": "2026-11-06",
+    "title": "ФК «Полісся» пепреміг вдома «Верес» у чемпіонаті УПЛ",
+    "text": "У п'ятницю розпочався 12-й тур чемпіонату України з футболу серед клубів української Прем'єр-ліги (УПЛ).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182147-fk-polissa-pepremig-vdoma-veres-u-cempionati-upl.html",
+    "image": ""
+  },
+  {
+    "id": "n-558dbc48090b",
+    "topic": "animals",
+    "date": "2026-11-06",
+    "title": "На Закарпатті переселенцям передали понад 7 тисяч тонн корму для тварин",
+    "text": "На Закарпатті у межах Національної програми догляду за домашніми тваринами переселенцям передали понад 7 тис.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182151-na-zakarpatti-pereselencam-peredali-ponad-7-tisac-tonn-kormu-dla-tvarin.html",
+    "image": ""
+  },
+  {
     "id": "n-bb32b098a9b1",
     "topic": "science",
     "date": "2026-11-06",
@@ -567,36 +597,6 @@
     "text": "Юніорська збірна України з тенісу серед дівчат до 16-ти років розпочала виступи у фінальному турнірі Кубка Біллі Джин Кінг у Каїрі (Єгипет) з упевненої перемоги над командою…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180822-ukrainski-tenisistki-rozgromili-tunis-u-uniorskomu-kubku-billi-dzin-king.html",
-    "image": ""
-  },
-  {
-    "id": "n-3b1b7ff5b4f4",
-    "topic": "science",
-    "date": "2026-11-03",
-    "title": "У премії «Генерація Ніка» з’являться дві нові нагороди",
-    "text": "У премії для молодих художників і літераторів \"Генерація Ніка\" у 2027 році з’являться дві нові нагороди - для літераторів віком від 12 до 15 років від Фонду Сергія Жадана та за…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180781-u-premii-generacia-nika-zavlatsa-dvi-novi-nagorodi.html",
-    "image": ""
-  },
-  {
-    "id": "n-575a570236f4",
-    "topic": "science",
-    "date": "2026-11-03",
-    "title": "Чоловік з металошукачем натрапив на тисячолітню \"Руку бога\" з чистого золота",
-    "text": "Знахідка може коштувати від кількох десятків тисяч до мільйона доларів.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/cholovik-z-metaloshukachem-natrapiv-na-tisyacholitnyu-ruku-boga-z-chistogo-zolota-13547802.html",
-    "image": ""
-  },
-  {
-    "id": "n-7ad596b9e705",
-    "topic": "sport",
-    "date": "2026-11-03",
-    "title": "Миколаївець встановив світовий рекорд за найбільшою кількістю обертів під час бігу на тренажері",
-    "text": "Миколаївець Гайк Мікаелян встановив світовий рекорд зробивши найбільшу кількість обертів на 360 градусів під час бігу на біговій доріжці.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4180714-mikolaivec-vstanoviv-svitovij-rekord-za-najbilsou-kilkistu-obertiv-pid-cas-bigu-na-trenazeri.html",
     "image": ""
   }
 ]
