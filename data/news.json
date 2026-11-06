@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-49f853d5487b",
+    "topic": "sport",
+    "date": "2026-11-06",
+    "title": "Українські школярі здобули три медалі на міжнародному науковому ярмарку в Бразилії",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/mostratec_2026_ukrayinski_uchni_zdobuli_tri_medali_na_mizhnarodnomu_naukovomu_yarmarku_v_braziliyi_n1649597",
+    "image": ""
+  },
+  {
+    "id": "n-46253ec2e277",
+    "topic": "sport",
+    "date": "2026-11-06",
+    "title": "Olympic Dreams у США: прийом у Маямі та 8 медалей на Panamerican Open/Cup",
+    "text": "Фото: Юрій РеваУкраїнські дзюдоїсти здобули вісім медалей – одну золоту та сім бронзових – на міжнародних турнірах Panamerican Cup та Panamerican Open, що відбулися у Флориді…",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/olympic-dreams-u-ssha-priyom-u-mayami-ta-8-medaley-na-panamerican-open-cup-13548735.html",
+    "image": ""
+  },
+  {
+    "id": "n-c2d26113f0b7",
+    "topic": "rebuild",
+    "date": "2026-11-06",
+    "title": "На Південному мосту відкрили додаткову смугу руху з лівого на правий берег Києва",
+    "text": "У Києві на Південному мосту відкрили додаткову смугу руху з лівого на правий берег Дніпра.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182188-na-pivdennomu-mostu-vidkrili-dodatkovu-smugu-ruhu-z-livogo-na-pravij-bereg-kieva.html",
+    "image": ""
+  },
+  {
+    "id": "n-662c9f8c71f4",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Від «космічної бази» до галереї-печери: 5 будівель із куполами замість звичних дахів",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/yak_kupoli_zminyuyut_viglyad_suchasnoyi_arhitekturi_5_nezvichaynih_budivel_svitu_n1649423",
+    "image": ""
+  },
+  {
     "id": "n-edda74f89ab3",
     "topic": "science",
     "date": "2026-11-06",
@@ -557,46 +597,6 @@
     "text": "Група Метінвест отримала відзнаку RESILIENCE MARK 2026 за ветеранську політику та системну підтримку працівників, які повертаються з військової служби до цивільного і…",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/society/metinvest-otrimav-nagorodu-resilience-mark-2026-za-programi-sistemnoji-pidtrimki-veteraniv-13548555.html",
-    "image": ""
-  },
-  {
-    "id": "n-3e7ebcfac2a7",
-    "topic": "science",
-    "date": "2026-11-03",
-    "title": "Остання воля Івана Франка: кому письменник довірив свою спадщину",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/zapovit_ivana_franka_ostannya_volya_i_dokument_iz_pidpisom_pismennika_n1649299",
-    "image": ""
-  },
-  {
-    "id": "n-bae1fce882d4",
-    "topic": "rebuild",
-    "date": "2026-11-03",
-    "title": "У мерії Осло провели урочистий захід до річниці відновлення незалежності України",
-    "text": "В мерії норвезької столиці Осло відбувся урочистий захід з нагоди 35-ї річниці відновлення незалежності України.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4180938-u-merii-oslo-proveli-urocistij-zahid-do-ricnici-vidnovlenna-nezaleznosti-ukraini.html",
-    "image": ""
-  },
-  {
-    "id": "n-b1cfe4070d21",
-    "topic": "rebuild",
-    "date": "2026-11-03",
-    "title": "Вперше в Україні: у Львівському перинатальному центрі відкрили салон краси",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_lvovi_vidkrili_pershiy_v_ukrayini_salon_krasi_v_perinatalnomu_tsentri_shho_vidomo_n1649284",
-    "image": ""
-  },
-  {
-    "id": "n-eda8cb6304b8",
-    "topic": "sport",
-    "date": "2026-11-03",
-    "title": "Українські тенісистки розгромили Туніс у юніорському Кубку Біллі Джин Кінг",
-    "text": "Юніорська збірна України з тенісу серед дівчат до 16-ти років розпочала виступи у фінальному турнірі Кубка Біллі Джин Кінг у Каїрі (Єгипет) з упевненої перемоги над командою…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180822-ukrainski-tenisistki-rozgromili-tunis-u-uniorskomu-kubku-billi-dzin-king.html",
     "image": ""
   }
 ]
