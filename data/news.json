@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-bb32b098a9b1",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Учені знайшли найшвидшого павука у світі: він розганяється до 3,6 метра за секунду",
+    "text": "Цей результат значно перевищує попередній офіційний показник - 1,7 метра за секунду.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/z-yakoyu-shvidkistyu-bigaye-nayshvidshiy-pavuk-u-sviti-i-de-vin-zhive-13551324.html",
+    "image": ""
+  },
+  {
+    "id": "n-e21a486e3f7a",
+    "topic": "people",
+    "date": "2026-11-06",
+    "title": "Український фільм «No shade in the forest» покажуть на кінофестивалі в Нідерландах",
+    "text": "Український документальний фільм «No shade in the forest» (“У лісі немає тіні”) Володимира Тихого увійшов до офіційної програми міжнародного фестивалю Wildlife Film Festival…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182109-ukrainskij-film-no-shade-in-the-forest-pokazut-na-kinofestivali-v-niderlandah.html",
+    "image": ""
+  },
+  {
     "id": "n-36b65b44caaa",
     "topic": "rebuild",
     "date": "2026-11-06",
@@ -577,26 +597,6 @@
     "text": "Миколаївець Гайк Мікаелян встановив світовий рекорд зробивши найбільшу кількість обертів на 360 градусів під час бігу на біговій доріжці.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4180714-mikolaivec-vstanoviv-svitovij-rekord-za-najbilsou-kilkistu-obertiv-pid-cas-bigu-na-trenazeri.html",
-    "image": ""
-  },
-  {
-    "id": "n-291b226a9ebf",
-    "topic": "science",
-    "date": "2026-11-02",
-    "title": "Український фонд культурної спадщини для збереження національних цінностей за рік залучив €4 мільйони",
-    "text": "Український фонд культурної спадщини (UCHF) за перший рік роботи залучив на збереження та відновлення національних цінностей 4 млн євро від 11 країн.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180655-ukrainskij-fond-kulturnoi-spadsini-dla-zberezenna-nacionalnih-cinnostej-za-rik-zaluciv-4-miljoni.html",
-    "image": ""
-  },
-  {
-    "id": "n-8f881f75fe68",
-    "topic": "science",
-    "date": "2026-11-02",
-    "title": "Винагорода до 100 тис. грн: оголосили старт Освітньої премії Львова 2026",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/osvitnya_premiya_lvova_2026_yak_i_koli_podati_zayavku_shho_mayut_zrobiti_uchasniki_n1649246",
     "image": ""
   }
 ]
