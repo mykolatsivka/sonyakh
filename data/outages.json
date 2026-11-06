@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T09:50:06.304Z",
+ "updatedAt": "2026-11-06T10:11:55.545Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -222,7 +222,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "05.11.2026 21:12",
    "days": [
     {
@@ -1176,12 +1176,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T09:13:26.851Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-06T10:11:55.545Z"
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "06.11.2026 10:47",
+   "sourceUpdated": "06.11.2026 12:10",
    "days": [
     {
      "date": "2026-11-06",
@@ -1198,7 +1197,7 @@
         "type": "off"
        },
        {
-        "from": 1080,
+        "from": 990,
         "to": 1440,
         "type": "off"
        }
@@ -1245,11 +1244,6 @@
        },
        {
         "from": 450,
-        "to": 900,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1320,
         "type": "off"
        }
@@ -1267,11 +1261,6 @@
        },
        {
         "from": 660,
-        "to": 1110,
-        "type": "off"
-       },
-       {
-        "from": 1290,
         "to": 1440,
         "type": "off"
        }
@@ -1344,7 +1333,7 @@
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 780,
         "to": 1320,
         "type": "off"
        }
@@ -1373,7 +1362,7 @@
         "type": "off"
        },
        {
-        "from": 780,
+        "from": 720,
         "to": 1320,
         "type": "off"
        }
@@ -1393,7 +1382,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-06T08:49:54.921Z"
+   "updatedAt": "2026-11-06T10:11:55.545Z"
   },
   "lviv": {
    "status": "ok",
@@ -2085,9 +2074,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "06.11.2026 11:30",
+   "sourceUpdated": "06.11.2026 12:00",
    "days": [],
-   "updatedAt": "2026-11-06T09:36:18.629Z"
+   "updatedAt": "2026-11-06T10:11:55.545Z"
   },
   "chernivtsi": {
    "days": [],
