@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-f687a2d99b3d",
+    "topic": "sport",
+    "date": "2026-11-06",
+    "title": "Збірна України з хокею обіграла Польщу в першому матчі Європейського кубка націй",
+    "text": "Збірна України з хокею в першому з трьох матчів Європейського кубка націй обіграла Польщу з рахунком 2:1.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4181942-zbirna-ukraini-z-hokeu-obigrala-polsu-v-persomu-matci-evropejskogo-kubka-nacij.html",
+    "image": ""
+  },
+  {
     "id": "n-566bec957e90",
     "topic": "animals",
     "date": "2026-11-05",
@@ -587,16 +597,6 @@
     "text": "Дев’ята Національна Премія кінокритиків «Кіноколо» завершила приймання заявок, загалом відібрали 166 кіноробіт.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180305-za-premiu-kinokolo-cogoric-zmagatimutsa-166-robit.html",
-    "image": ""
-  },
-  {
-    "id": "n-37b27e7d7be7",
-    "topic": "sport",
-    "date": "2026-11-01",
-    "title": "Вероніка Подрез вдруге стала чемпіонкою турніру WTT W75 у Пуатьє",
-    "text": "Українська тенісистка Вероніка Подрез другий рік поспіль виграла титул на турнірі WTT W75 у французькому Пуатьє із призовим фондом $60 тис.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180296-veronika-podrez-vdruge-stala-cempionkou-turniru-wtt-w75-u-puate.html",
     "image": ""
   }
 ]
