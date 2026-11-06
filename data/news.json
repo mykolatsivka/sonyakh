@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-05079003ba2f",
+    "topic": "rebuild",
+    "date": "2026-11-06",
+    "title": "У Миколаєві відкрили виставку «Квітковий вайб»",
+    "text": "",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182009-u-mikolaevi-vidkrili-vistavku-kvitkovij-vajb.html",
+    "image": ""
+  },
+  {
+    "id": "n-7899f357ed08",
+    "topic": "animals",
+    "date": "2026-11-06",
+    "title": "На Вінниччині встановили найбільшу в країні скульптурну композицію зубрів",
+    "text": "На Вінниччині 5 листопада поблизу м.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182000-na-vinniccini-vstanovili-najbilsu-v-kraini-skulpturnu-kompoziciu-zubriv.html",
+    "image": ""
+  },
+  {
     "id": "n-d9c8b163d90e",
     "topic": "rebuild",
     "date": "2026-11-06",
@@ -577,26 +597,6 @@
     "text": "В Дакарі (Сенегал) стартували Юнацькі Олімпійські ігри-2026, і вже першого змагального дня українці здобули золоту нагороду у дзюдо.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180502-ukrainski-basketbolisti-gotuutsa-do-vistupiv-na-unacij-olimpiadi2026.html",
-    "image": ""
-  },
-  {
-    "id": "n-47a5d6ae180c",
-    "topic": "science",
-    "date": "2026-11-02",
-    "title": "Українська діаспора об’єднала науковців із десяти країн на конференції до 180-річчя Миклухи-Маклая",
-    "text": "Освітня референтура Світової федерації українських жіночих організацій з партнерами провела міжнародну науково-освітню конференцію «Миклухо-Маклай: між народами і…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4180433-ukrainska-diaspora-obednala-naukovciv-iz-desati-krain-na-konferencii-do-180ricca-mikluhimaklaa.html",
-    "image": ""
-  },
-  {
-    "id": "n-8d71cd219162",
-    "topic": "sport",
-    "date": "2026-11-02",
-    "title": "Максим Шульга набрав 14 очок за БК «Реал» у грі чемпіонату Іспанії",
-    "text": "Український баскетбольний плеймейкер Максим Шульга отримав шанс зіграти за мадридський «Реал» у матчі чемпіонату Іспанії проти «Бургоса».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180441-maksim-sulga-nabrav-14-ocok-za-bk-real-u-gri-cempionatu-ispanii.html",
     "image": ""
   }
 ]
