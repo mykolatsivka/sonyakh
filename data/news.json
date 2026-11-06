@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-3d1e8d915d5e",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Археологи зберігали дивні посудини ціле століття, а потім дізналися, хто насправді їх виготовив",
+    "text": "Сто років тому археологи, які проводили розкопки в районі затоки Тампа, виявили фрагменти кераміки з візерунками, нетиповими для цієї місцевості.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/arheologi-zberigali-divni-posudini-cile-stolittya-a-potim-diznalisya-hto-naspravdi-jih-vigotoviv-13551234.html",
+    "image": ""
+  },
+  {
     "id": "n-f687a2d99b3d",
     "topic": "sport",
     "date": "2026-11-06",
@@ -587,16 +597,6 @@
     "text": "Еліна Світоліна четвертий тиждень утримує шосте місце у рейтингу Жіночої тенісної асоціації (WTA).",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4180449-svitolina-cetvertij-tizden-pospil-posidae-soste-misce-u-rejtingu-wta.html",
-    "image": ""
-  },
-  {
-    "id": "n-85cffce60818",
-    "topic": "science",
-    "date": "2026-11-01",
-    "title": "За премію «Кіноколо» цьогоріч змагатимуться 166 робіт",
-    "text": "Дев’ята Національна Премія кінокритиків «Кіноколо» завершила приймання заявок, загалом відібрали 166 кіноробіт.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180305-za-premiu-kinokolo-cogoric-zmagatimutsa-166-robit.html",
     "image": ""
   }
 ]
