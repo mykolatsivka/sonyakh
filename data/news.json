@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-36b65b44caaa",
+    "topic": "rebuild",
+    "date": "2026-11-06",
+    "title": "На Тернопільщині відновили криївку УПА",
+    "text": "У Чортківській громаді на Тернопільщині відновили криївку УПА.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182071-na-ternopilsini-vidnovili-kriivku-upa.html",
+    "image": ""
+  },
+  {
+    "id": "n-507db7dff978",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Люди \"кайфували\" канабісом майже 3000 років тому: археологи знайшли докази",
+    "text": "Докази знайшли в одній з найдавніших монументальних гробниць, пов'язаних із матеріальною культурою скіфів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/kanabisom-kayfuvali-shche-2800-rokiv-tomu-znahidka-arheologiv-u-sibiru-13551531.html",
+    "image": ""
+  },
+  {
+    "id": "n-a72b694cb530",
+    "topic": "sport",
+    "date": "2026-11-06",
+    "title": "У п'ятницю двома матчами стартує 12-й тур футбольного чемпіонату УПЛ",
+    "text": "6 листопада розпочинається 12-й тур чемпіонату України з футболу серед клубів Української Прем'єр-ліги (УПЛ).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182044-u-patnicu-dvoma-matcami-startue-12j-tur-futbolnogo-cempionatu-upl.html",
+    "image": ""
+  },
+  {
+    "id": "n-93b144bb5c84",
+    "topic": "science",
+    "date": "2026-11-06",
+    "title": "Стартував прийом заявок на Премію Читомо-2026",
+    "text": "До 23 листопада триває прийом заявок на Премію Читомо-2026, яка відзначає видатні досягнення у сфері українського книговидання та літератури.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182052-startuvav-prijom-zaavok-na-premiu-citomo2026.html",
+    "image": ""
+  },
+  {
     "id": "n-9f4fb0647364",
     "topic": "science",
     "date": "2026-11-06",
@@ -557,46 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/osvitnya_premiya_lvova_2026_yak_i_koli_podati_zayavku_shho_mayut_zrobiti_uchasniki_n1649246",
-    "image": ""
-  },
-  {
-    "id": "n-54d7063bb09e",
-    "topic": "people",
-    "date": "2026-11-02",
-    "title": "«FRANKO: Sound Continuum 360°»: музичний проєкт до ювілею письменника з’явився на стримінгових платформах",
-    "text": "Музичний проєкт «FRANKO: Sound Continuum 360°», створений до 170-річчя від дня народження Івана Франка, став доступним на стримінгових платформах Спотіфай та Ютуб.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180625-franko-sound-continuum-360-muzicnij-proekt-do-uvileu-pismennika-zavivsa-na-strimingovih-platformah.html",
-    "image": ""
-  },
-  {
-    "id": "n-9647edcd3f4f",
-    "topic": "science",
-    "date": "2026-11-02",
-    "title": "У Львові відкрили інтерактивну виставку про історію книгодрукування та Острозьку Біблію",
-    "text": "",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4180623-u-lvovi-vidkrili-interaktivnu-vistavku-pro-istoriu-knigodrukuvanna-ta-ostrozku-bibliu.html",
-    "image": ""
-  },
-  {
-    "id": "n-83f897ce57c0",
-    "topic": "rebuild",
-    "date": "2026-11-02",
-    "title": "Meest відкриває новий склад у Львівській області: сума інвестицій",
-    "text": "Meest відкриє на Львівщині новий логістичний комплекс за 30 млн доларів",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/meest_vidkriye_na_lvivshhini_noviy_logistichniy_kompleks_za_30_mln_dolariv_n1649223",
-    "image": ""
-  },
-  {
-    "id": "n-5c0cf84fbc6d",
-    "topic": "science",
-    "date": "2026-11-02",
-    "title": "В Угорщині археологи виявили понад 700 римських монет та інші артефакти часів імперії",
-    "text": "Зокрема, археологи виявили срібну монету, яка була викарбувана за часів правління імператора Антоніна Пія.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/u-ugorshchini-viyavili-ponad-700-rimskih-monet-shcho-rozpovili-arheologi-13547232.html",
     "image": ""
   }
 ]
