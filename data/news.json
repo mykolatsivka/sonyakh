@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-a31966628c95",
+    "topic": "people",
+    "date": "2026-11-07",
+    "title": "Подільським шляхом святого Якова цього року пройшла рекордна кількість людей",
+    "text": "Подільський шлях святого Якова (Camino Podolico) цього року пройшли 1700 людей, що є рекордним показником за весь час проєкту.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182390-podilskim-slahom-svatogo-akova-cogo-roku-projsla-rekordna-kilkist-ludej.html",
+    "image": ""
+  },
+  {
+    "id": "n-637f667f1007",
+    "topic": "sport",
+    "date": "2026-11-07",
+    "title": "Українські тенісистки - у півфіналі Billie Jean King Cup Junior Finals",
+    "text": "Юніорська збірна України з тенісу серед дівчат до-ти 16 років вийшла до півфіналу Billie Jean King Cup Junior Finals, що триває у Каїрі (Єгипет).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182387-ukrainski-tenisistki-u-pivfinali-billie-jean-king-cup-junior-finals.html",
+    "image": ""
+  },
+  {
     "id": "n-09914467177f",
     "topic": "sport",
     "date": "2026-11-07",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/mediki_lvova_vryatuvali_7_richnogo_hlopchika_golovu_yakogo_probiv_galmivniy_disk_vid_vantazhivki_n1649356",
-    "image": ""
-  },
-  {
-    "id": "n-3cb1f8c4793d",
-    "topic": "people",
-    "date": "2026-11-04",
-    "title": "Квартира від blago за підтримку збору для «Хартії»: як долучитися до благодійного розіграшу",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/kvartira_vid_blago_za_pidtrimku_zboru_dlya_hartiyi_yak_doluchitisya_do_blagodiynogo_rozigrashu_n1649335",
-    "image": ""
-  },
-  {
-    "id": "n-40d2f2c1a0cf",
-    "topic": "rebuild",
-    "date": "2026-11-04",
-    "title": "Киянам частково повернули воду: фахівці працювали всю ніч",
-    "text": "У Києві частково відновили водопостачання.",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/04/8061166/",
     "image": ""
   }
 ]
