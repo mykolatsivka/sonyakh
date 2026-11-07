@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T12:37:05.878Z",
+ "updatedAt": "2026-11-07T12:49:49.656Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -202,7 +202,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "07.11.2026 13:33",
    "days": [
     {
@@ -1251,11 +1251,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T11:49:55.792Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-07T12:49:49.656Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "07.11.2026 10:51",
    "days": [
     {
@@ -1473,8 +1472,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T09:11:22.986Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-07T12:49:49.656Z"
   },
   "lviv": {
    "status": "ok",
@@ -1484,7 +1482,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "07.11.2026 13:36",
+   "sourceUpdated": "07.11.2026 14:38",
    "days": [
     {
      "date": "2026-11-07",
@@ -1544,11 +1542,11 @@
        },
        {
         "from": 780,
-        "to": 900,
+        "to": 1020,
         "type": "maybe"
        },
        {
-        "from": 900,
+        "from": 1020,
         "to": 1170,
         "type": "off"
        },
@@ -1581,16 +1579,6 @@
        },
        {
         "from": 780,
-        "to": 900,
-        "type": "maybe"
-       },
-       {
-        "from": 900,
-        "to": 960,
-        "type": "off"
-       },
-       {
-        "from": 960,
         "to": 990,
         "type": "maybe"
        },
@@ -1665,16 +1653,6 @@
        },
        {
         "from": 780,
-        "to": 900,
-        "type": "maybe"
-       },
-       {
-        "from": 900,
-        "to": 960,
-        "type": "off"
-       },
-       {
-        "from": 960,
         "to": 990,
         "type": "maybe"
        },
@@ -1712,11 +1690,11 @@
        },
        {
         "from": 780,
-        "to": 900,
+        "to": 1020,
         "type": "maybe"
        },
        {
-        "from": 900,
+        "from": 1020,
         "to": 1170,
         "type": "off"
        },
@@ -1926,11 +1904,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T11:49:55.792Z"
+   "updatedAt": "2026-11-07T12:49:49.656Z"
   },
   "odesa": {
-   "status": "stale",
-   "sourceUpdated": "07.11.2026 13:39",
+   "status": "ok",
+   "sourceUpdated": "07.11.2026 14:41",
    "days": [
     {
      "date": "2026-11-07",
@@ -1942,7 +1920,7 @@
         "type": "off"
        },
        {
-        "from": 930,
+        "from": 960,
         "to": 1350,
         "type": "off"
        }
@@ -1954,7 +1932,7 @@
         "type": "off"
        },
        {
-        "from": 930,
+        "from": 960,
         "to": 1350,
         "type": "off"
        }
@@ -1966,7 +1944,7 @@
         "type": "off"
        },
        {
-        "from": 930,
+        "from": 960,
         "to": 1170,
         "type": "off"
        }
@@ -1978,7 +1956,7 @@
         "type": "off"
        },
        {
-        "from": 930,
+        "from": 960,
         "to": 1170,
         "type": "off"
        }
@@ -2029,11 +2007,6 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 960,
-        "type": "off"
-       },
-       {
         "from": 1140,
         "to": 1350,
         "type": "off"
@@ -2048,11 +2021,6 @@
        {
         "from": 540,
         "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 900,
-        "to": 960,
         "type": "off"
        },
        {
@@ -2102,11 +2070,6 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 960,
-        "type": "off"
-       },
-       {
         "from": 1320,
         "to": 1440,
         "type": "off"
@@ -2119,11 +2082,6 @@
         "type": "off"
        },
        {
-        "from": 900,
-        "to": 960,
-        "type": "off"
-       },
-       {
         "from": 1320,
         "to": 1440,
         "type": "off"
@@ -2132,8 +2090,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T11:49:55.792Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-07T12:49:49.656Z"
   },
   "rivne": {
    "status": "ok",
