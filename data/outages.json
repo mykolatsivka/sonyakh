@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T09:50:10.939Z",
+ "updatedAt": "2026-11-07T10:10:14.102Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -188,10 +188,11 @@
    "updatedAt": "2026-11-07T04:36:13.126Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-07T09:50:10.939Z"
+   "updatedAt": "2026-11-07T09:50:10.939Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -202,7 +203,7 @@
   },
   "kyiv-city": {
    "status": "ok",
-   "sourceUpdated": "07.11.2026 09:56",
+   "sourceUpdated": "07.11.2026 12:04",
    "days": [
     {
      "date": "2026-11-07",
@@ -1009,11 +1010,6 @@
       "52.1": [
        {
         "from": 90,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 900,
         "to": 1200,
         "type": "off"
        },
@@ -1026,11 +1022,11 @@
       "53.1": [
        {
         "from": 150,
-        "to": 780,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 900,
+        "from": 810,
         "to": 1260,
         "type": "off"
        },
@@ -1048,11 +1044,11 @@
        },
        {
         "from": 180,
-        "to": 780,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 900,
+        "from": 840,
         "to": 1290,
         "type": "off"
        }
@@ -1065,11 +1061,11 @@
        },
        {
         "from": 240,
-        "to": 780,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 900,
+        "from": 870,
         "to": 1350,
         "type": "off"
        }
@@ -1116,7 +1112,7 @@
        },
        {
         "from": 420,
-        "to": 900,
+        "to": 870,
         "type": "off"
        },
        {
@@ -1230,7 +1226,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T09:35:38.162Z"
+   "updatedAt": "2026-11-07T10:10:14.102Z"
   },
   "kyiv": {
    "status": "ok",
@@ -2113,9 +2109,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "07.11.2026 11:30",
+   "sourceUpdated": "07.11.2026 12:00",
    "days": [],
-   "updatedAt": "2026-11-07T09:35:38.162Z"
+   "updatedAt": "2026-11-07T10:10:14.102Z"
   },
   "chernivtsi": {
    "days": [],
