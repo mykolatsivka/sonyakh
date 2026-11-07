@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:49:45.488Z",
+ "updatedAt": "2026-11-07T09:11:22.986Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1235,7 +1235,7 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "07.11.2026 10:33",
+   "sourceUpdated": "07.11.2026 10:51",
    "days": [
     {
      "date": "2026-11-07",
@@ -1269,7 +1269,7 @@
         "type": "off"
        },
        {
-        "from": 660,
+        "from": 630,
         "to": 720,
         "type": "off"
        },
@@ -1452,7 +1452,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-07T08:35:52.826Z"
+   "updatedAt": "2026-11-07T09:11:22.986Z"
   },
   "lviv": {
    "status": "ok",
@@ -2114,9 +2114,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "07.11.2026 10:30",
+   "sourceUpdated": "07.11.2026 11:00",
    "days": [],
-   "updatedAt": "2026-11-07T08:35:52.826Z"
+   "updatedAt": "2026-11-07T09:11:22.986Z"
   },
   "chernivtsi": {
    "days": [],
