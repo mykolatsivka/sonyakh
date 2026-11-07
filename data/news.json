@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-09914467177f",
+    "topic": "sport",
+    "date": "2026-11-07",
+    "title": "Українські хокеїсти перемогли британців у Європейському кубку націй",
+    "text": "Національна збірна України з хокею обіграла команду Великої Британії.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182372-ukrainski-hokeisti-peremogli-britanciv-u-evropejskomu-kubku-nacij.html",
+    "image": ""
+  },
+  {
+    "id": "n-5cc8d57f98d3",
+    "topic": "sport",
+    "date": "2026-11-07",
+    "title": "Українська баскетболістка Марків про виступ на ЮОІ: У нас були всі шанси",
+    "text": "Дівоча збірна України з баскетболу 3×3 провела два поєдинки на груповому етапі Юнацьких Олімпійських ігор-2026 у Дакарі (Сенегал).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182382-ukrainska-basketbolistka-markiv-pro-vistup-na-uoi-u-nas-buli-vsi-sansi.html",
+    "image": ""
+  },
+  {
     "id": "n-42ff217dc3aa",
     "topic": "rebuild",
     "date": "2026-11-07",
@@ -577,26 +597,6 @@
     "text": "У Києві частково відновили водопостачання.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/04/8061166/",
-    "image": ""
-  },
-  {
-    "id": "n-9464a5c7ec62",
-    "topic": "science",
-    "date": "2026-11-04",
-    "title": "У рештках динозавра віком 115 млн років уперше виявили кров",
-    "text": "Знахідка з Бразилії змушує переглянути старі уявлення науковців і навіть може підказати, де шукати життя поза Землею.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/krov-dinozavra-vcheni-vpershe-znayshli-zalishki-gemoglobinu-vikom-115-mln-rokiv-13548945.html",
-    "image": ""
-  },
-  {
-    "id": "n-ce701684718f",
-    "topic": "animals",
-    "date": "2026-11-03",
-    "title": "Після майже п’яти місяців пошуків біля Львова знайшли дикого африканського кота з Франківщини",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/pislya_mayzhe_pyati_misyatsiv_poshukiv_bilya_lvova_znayshli_dikogo_afrikanskogo_kota_z_frankivshhini_n1649332",
     "image": ""
   }
 ]
