@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-08T17:19:54.385Z",
+ "updatedAt": "2026-11-08T17:35:32.311Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "07.11.2026 23:10",
    "days": [
     {
@@ -185,13 +185,15 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T16:35:44.118Z"
+   "updatedAt": "2026-11-08T16:35:44.118Z",
+   "error": "HTTP 403"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-08T17:19:54.385Z"
+   "updatedAt": "2026-11-08T17:19:54.385Z",
+   "error": "HTTP 403"
   },
   "zaporizhzhia": {
    "days": [],
@@ -201,7 +203,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 10:42",
    "days": [
     {
@@ -1230,10 +1232,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T17:09:13.218Z"
+   "updatedAt": "2026-11-08T17:09:13.218Z",
+   "error": "HTTP 403"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 09:28",
    "days": [
     {
@@ -1446,7 +1449,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T15:35:33.548Z"
+   "updatedAt": "2026-11-08T15:35:33.548Z",
+   "error": "HTTP 403"
   },
   "lviv": {
    "status": "ok",
@@ -1455,7 +1459,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "mykolaiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 17:02",
    "days": [
     {
@@ -1768,10 +1772,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T15:09:25.755Z"
+   "updatedAt": "2026-11-08T15:09:25.755Z",
+   "error": "HTTP 403"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 09:30",
    "days": [
     {
@@ -1904,13 +1909,15 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T16:49:43.999Z"
+   "updatedAt": "2026-11-08T16:49:43.999Z",
+   "error": "HTTP 403"
   },
   "rivne": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 19:00",
    "days": [],
-   "updatedAt": "2026-11-08T17:09:13.218Z"
+   "updatedAt": "2026-11-08T17:09:13.218Z",
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "chernivtsi": {
    "days": [],
