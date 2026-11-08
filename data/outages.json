@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T10:35:47.928Z",
+ "updatedAt": "2026-11-08T10:49:32.362Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -188,11 +188,10 @@
    "updatedAt": "2026-11-08T08:24:05.649Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-08T10:20:15.557Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-08T10:49:32.362Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1457,7 +1456,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "08.11.2026 09:19",
+   "sourceUpdated": "08.11.2026 12:47",
    "days": [
     {
      "date": "2026-11-08",
@@ -1613,16 +1612,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1640,16 +1629,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1736,16 +1715,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1768,16 +1737,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1849,7 +1808,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T07:22:54.969Z"
+   "updatedAt": "2026-11-08T10:49:32.362Z"
   },
   "odesa": {
    "status": "ok",
