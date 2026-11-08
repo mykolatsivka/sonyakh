@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T07:35:59.170Z",
+ "updatedAt": "2026-11-08T07:49:58.817Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -202,7 +202,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "08.11.2026 00:49",
    "days": [
     {
@@ -1181,7 +1181,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T05:10:57.695Z"
+   "updatedAt": "2026-11-08T05:10:57.695Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
    "status": "ok",
@@ -1802,8 +1803,8 @@
    "updatedAt": "2026-11-08T07:22:54.969Z"
   },
   "odesa": {
-   "status": "stale",
-   "sourceUpdated": "08.11.2026 08:47",
+   "status": "ok",
+   "sourceUpdated": "08.11.2026 09:30",
    "days": [
     {
      "date": "2026-11-08",
@@ -1812,11 +1813,6 @@
        {
         "from": 120,
         "to": 360,
-        "type": "off"
-       },
-       {
-        "from": 750,
-        "to": 990,
         "type": "off"
        },
        {
@@ -1829,11 +1825,6 @@
        {
         "from": 120,
         "to": 360,
-        "type": "off"
-       },
-       {
-        "from": 750,
-        "to": 990,
         "type": "off"
        }
       ],
@@ -1880,22 +1871,12 @@
         "from": 330,
         "to": 570,
         "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1200,
-        "type": "off"
        }
       ],
       "4.2": [
        {
         "from": 330,
         "to": 570,
-        "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1200,
         "type": "off"
        }
       ],
@@ -1926,11 +1907,11 @@
        },
        {
         "from": 540,
-        "to": 780,
+        "to": 570,
         "type": "off"
        },
        {
-        "from": 1170,
+        "from": 1320,
         "to": 1410,
         "type": "off"
        }
@@ -1943,11 +1924,11 @@
        },
        {
         "from": 540,
-        "to": 780,
+        "to": 570,
         "type": "off"
        },
        {
-        "from": 1170,
+        "from": 1320,
         "to": 1410,
         "type": "off"
        }
@@ -1955,8 +1936,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T06:49:47.521Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-08T07:49:58.817Z"
   },
   "rivne": {
    "status": "ok",
