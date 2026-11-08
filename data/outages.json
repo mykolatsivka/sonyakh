@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T07:12:28.916Z",
+ "updatedAt": "2026-11-08T07:22:54.969Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1407,7 +1407,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "08.11.2026 08:52",
+   "sourceUpdated": "08.11.2026 09:19",
    "days": [
     {
      "date": "2026-11-08",
@@ -1425,16 +1425,6 @@
        },
        {
         "from": 600,
-        "to": 630,
-        "type": "maybe"
-       },
-       {
-        "from": 630,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 780,
         "to": 810,
         "type": "maybe"
        },
@@ -1499,16 +1489,6 @@
       "2.1": [
        {
         "from": 600,
-        "to": 630,
-        "type": "maybe"
-       },
-       {
-        "from": 630,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 780,
         "to": 810,
         "type": "maybe"
        },
@@ -1819,7 +1799,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-08T07:12:28.916Z"
+   "updatedAt": "2026-11-08T07:22:54.969Z"
   },
   "odesa": {
    "status": "ok",
