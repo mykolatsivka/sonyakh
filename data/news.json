@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-933370d57f31",
+    "topic": "science",
+    "date": "2026-11-09",
+    "title": "Після багаторічного конфлікту парафіянам Жовкви дозволили молитися у церкві зі спадщини ЮНЕСКО",
+    "text": "Після семи років реставрації та суперечок жовківську церкву відкриють для богослужінь",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/derevyanu_tserkvu_svyatoyi_triytsi_xviii_st_u_zhovkvi_peredali_u_koristuvannya_parafiyi_na_49_rokiv_n1649741",
+    "image": ""
+  },
+  {
+    "id": "n-37071dddfef3",
+    "topic": "science",
+    "date": "2026-11-09",
+    "title": "ChatGPT складає психологічний профіль кожного користувача: що з'ясували вчені",
+    "text": "У сучасному цифровому світі персоналізація вже давно стала звичним явищем, але пам’ять чат-ботів виводить цей механізм на новий рівень.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/techno/neiroseti/chatgpt-tayemno-zbiraye-psihologichni-profili-lyudey-naukovci-b-yut-na-spoloh-13554489.html",
+    "image": ""
+  },
+  {
     "id": "n-4b535855f3c9",
     "topic": "rebuild",
     "date": "2026-11-09",
@@ -577,26 +597,6 @@
     "text": "Тенісистки збірної України серед дівчат до 16-ти років здобули третю поспіль перемогу у фінальному турнірі юніорського Кубка Біллі Джин Кінг Cup Junior Finals, який проходить у…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4181722-ukrainki-zigraut-z-avstralieu-v-14j-billie-jean-king-cup-junior-finals.html",
-    "image": ""
-  },
-  {
-    "id": "n-9474586b0e8b",
-    "topic": "rebuild",
-    "date": "2026-11-05",
-    "title": "У столиці відновили рух поїздів на червоній лінії метро",
-    "text": "У Києві на червоній лінії метро відновили рух поїздів, який тимчасово зупиняли через значні коливання напруги.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4181708-u-stolici-na-cervonij-linii-metro-zupinivsa-ruh-poizdiv.html",
-    "image": ""
-  },
-  {
-    "id": "n-48b17a7d3a51",
-    "topic": "rebuild",
-    "date": "2026-11-05",
-    "title": "У столиці запрацювали понад 1,5 тисячі пунктів незламності - КМДА",
-    "text": "У Києві розгорнули 1 541 пункт незламності у стаціонарних будівлях.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4181702-u-stolici-zapracuvali-ponad-15-tisaci-punktiv-nezlamnosti-kmda.html",
     "image": ""
   }
 ]
