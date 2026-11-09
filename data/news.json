@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-c00064c734b9",
+    "topic": "sport",
+    "date": "2026-11-09",
+    "title": "Українські футзалістки - у фіналі Юнацьких Олімпійських ігор-2026",
+    "text": "Дівоча збірна України з футзалу обіграла Італію і вийшла у фінал Юнацьких Олімпійських ігор- -2026 у столині Сенегалу Дакарі.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182803-ukrainski-futzalistki-u-finali-unackih-olimpijskih-igor2026.html",
+    "image": ""
+  },
+  {
+    "id": "n-f18414468f86",
+    "topic": "sport",
+    "date": "2026-11-09",
+    "title": "Микита Кузьменко здобув «бронзу» змагань з пляжної боротьби Юнацьких ігор",
+    "text": "17-річний представник пляжної боротьби Микита Кузьменко став бронзовим призером IV літніх Юнацьких Олімпійських ігор у столиці Сенегалу Дакарі.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182812-mikita-kuzmenko-zdobuv-bronzu-zmagan-z-plaznoi-borotbi-unackih-igor.html",
+    "image": ""
+  },
+  {
+    "id": "n-3d84095e0df4",
+    "topic": "people",
+    "date": "2026-11-09",
+    "title": "Каріохірурги Львова врятували колегу з Прикарпаття від розриву аневризми висхідної аорти",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/kariohirurgi_lvova_vryatuvali_kolegu_z_prikarpattya_vid_rozrivu_rozrivu_anevrizmi_vishidnoyi_aorti_n1649676",
+    "image": ""
+  },
+  {
     "id": "n-384fb7ec8f0b",
     "topic": "sport",
     "date": "2026-11-08",
@@ -567,36 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/prosta_godivnitsya_bez_doshhok_i_tsvyahiv_yak_dopomogti_ptaham_uzimku_za_kilka_hvilin_n1649334",
-    "image": ""
-  },
-  {
-    "id": "n-1ec58e9a423b",
-    "topic": "sport",
-    "date": "2026-11-04",
-    "title": "Моуріньо б'є рекорди Ліги чемпіонів",
-    "text": "Перемога мадридського «Реала» над афінським АЕКом (3:2) у четвертому турі Ліги чемпіонів стала особливою подією для головного тренера іспанського клубу.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4181558-mourino-be-rekordi-ligi-cempioniv.html",
-    "image": ""
-  },
-  {
-    "id": "n-2b10dca4acac",
-    "topic": "rebuild",
-    "date": "2026-11-04",
-    "title": "Львівський перевізник збудує біля ринку «Привокзальний» ЖК та дворівневий підземний паркінг",
-    "text": "Біля ринку «Привокзальний» у Львові планують збудувати ЖК із дворівневим підземним паркінгом",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/bilya_rinku_privokzalniy_u_lvovi_planuyut_zbuduvati_zhk_iz_dvorivnevim_pidzemnim_parkingom_n1649434",
-    "image": ""
-  },
-  {
-    "id": "n-3e95884ada12",
-    "topic": "rebuild",
-    "date": "2026-11-04",
-    "title": "В Ужгороді на Шахті планують збудувати 17 таунхаусів",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/v_uzhgorodi_na_shahti_planuyut_zbuduvati_17_taunhausiv_n1649427",
     "image": ""
   }
 ]
