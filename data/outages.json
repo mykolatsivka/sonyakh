@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T05:36:56.385Z",
+ "updatedAt": "2026-11-09T06:26:27.020Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -208,10 +208,11 @@
    "updatedAt": "2026-11-09T05:24:06.348Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-09T05:36:56.385Z"
+   "updatedAt": "2026-11-09T05:36:56.385Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1229,7 +1230,7 @@
   },
   "kyiv": {
    "status": "ok",
-   "sourceUpdated": "08.11.2026 23:29",
+   "sourceUpdated": "09.11.2026 07:56",
    "days": [
     {
      "date": "2026-11-09",
@@ -1258,7 +1259,7 @@
         "type": "off"
        },
        {
-        "from": 600,
+        "from": 660,
         "to": 990,
         "type": "off"
        },
@@ -1275,7 +1276,7 @@
         "type": "off"
        },
        {
-        "from": 540,
+        "from": 570,
         "to": 1050,
         "type": "off"
        },
@@ -1309,7 +1310,7 @@
         "type": "off"
        },
        {
-        "from": 480,
+        "from": 540,
         "to": 630,
         "type": "off"
        },
@@ -1322,7 +1323,7 @@
       "3.2": [
        {
         "from": 120,
-        "to": 630,
+        "to": 600,
         "type": "off"
        },
        {
@@ -1426,7 +1427,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-09T05:24:06.348Z"
+   "updatedAt": "2026-11-09T06:26:27.020Z"
   },
   "lviv": {
    "status": "ok",
@@ -1948,9 +1949,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "09.11.2026 07:30",
+   "sourceUpdated": "09.11.2026 08:00",
    "days": [],
-   "updatedAt": "2026-11-09T05:36:56.385Z"
+   "updatedAt": "2026-11-09T06:26:27.020Z"
   },
   "chernivtsi": {
    "days": [],
