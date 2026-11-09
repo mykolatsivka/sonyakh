@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-584a3548de43",
+    "topic": "science",
+    "date": "2026-11-09",
+    "title": "Вчені дослідили рухи восьминогів: це може вплинути на підхід до створення роботів",
+    "text": "У новому дослідженні описано дві основні стратегії, які застосовують морські безхребетні.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/yak-vosminogi-proslizayut-kriz-neymovirno-vuzki-otvori-vcheni-rozkrili-jihniy-sekret-13554345.html",
+    "image": ""
+  },
+  {
+    "id": "n-902ddc667cbd",
+    "topic": "people",
+    "date": "2026-11-09",
+    "title": "В Україні відкривають новий набір на освітню програму про лідерство та партнерства в культурі",
+    "text": "Відкривається другий набір на програму «Лідерство та партнерства в культурі» – безоплатне навчання для команд, які працюють із культурною спадщиною та хочуть розвивати…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182926-v-ukraini-vidkrivaut-novij-nabir-na-osvitnu-programu-pro-liderstvo-ta-partnerstva-v-kulturi.html",
+    "image": ""
+  },
+  {
     "id": "n-5bc1c3ecf894",
     "topic": "sport",
     "date": "2026-11-09",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/zimoviy_odyag_dlya_sobak_hto_potrebuye_dodatkovogo_zahistu_i_yak_obrati_n1649452",
-    "image": ""
-  },
-  {
-    "id": "n-92747117c30e",
-    "topic": "rebuild",
-    "date": "2026-11-05",
-    "title": "На Буковині завершили ремонт мосту на трасі, що веде до кордону з Румунією",
-    "text": "Служба відновлення у Чернівецькій області завершила ремонт мосту на трасі Доманове – Тереблече поблизу Опришен.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4181663-na-bukovini-zaversili-remont-mostu-na-trasi-so-vede-do-kordonu-z-rumunieu.html",
-    "image": ""
-  },
-  {
-    "id": "n-45abc47b7722",
-    "topic": "animals",
-    "date": "2026-11-05",
-    "title": "Прислуховуються до лісу: в районі Чорнобиля у фотопастку потрапили граціозні тварини",
-    "text": "Науковці кажуть, що миті, які зафіксовані на фото, нагадають, скільки світла, гармонії та натхнення дарує дика природа.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/oleni-u-chornobili-fotopastka-zafiksuvala-graciynih-tvarin-13550256.html",
     "image": ""
   }
 ]
