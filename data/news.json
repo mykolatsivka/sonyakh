@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-51a6327f1882",
+    "topic": "sport",
+    "date": "2026-11-09",
+    "title": "Мессі з новим рекордом потрапив до символічної збірної року",
+    "text": "Міжнародна профспілка футболістів FIFPRO оголосила символічну збірну 2026 року.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183109-messi-z-novim-rekordom-potrapiv-do-simvolicnoi-zbirnoi-roku.html",
+    "image": ""
+  },
+  {
     "id": "n-974093781430",
     "topic": "science",
     "date": "2026-11-09",
@@ -587,16 +597,6 @@
     "text": "26 листопада 2026 року вже вчетверте Українська правда проведе церемонію нагородження переможців премії УП100.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/05/8061396/",
-    "image": ""
-  },
-  {
-    "id": "n-f7137b8071a3",
-    "topic": "animals",
-    "date": "2026-11-05",
-    "title": "Групу українських лелек простежили аж до Африки: де зимуватимуть пернаті мандрівники",
-    "text": "Станом на 3 листопада дослідники знову отримують дані про переміщення всіх чотирьох лелек.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/ukrajinski-leleki-distalisya-serengeti-ta-pivdennogo-sudanu-de-zaraz-perebuvayut-ptahi-13550325.html",
     "image": ""
   }
 ]
