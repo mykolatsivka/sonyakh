@@ -1,212 +1,211 @@
 {
- "updatedAt": "2026-11-09T22:09:40.887Z",
+ "updatedAt": "2026-11-09T22:20:31.248Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
-   "sourceUpdated": "09.11.2026 22:01",
+   "status": "ok",
+   "sourceUpdated": "09.11.2026 23:57",
    "days": [
     {
-     "date": "2026-11-09",
+     "date": "2026-11-10",
      "groups": {
       "1.1": [
        {
-        "from": 0,
-        "to": 60,
+        "from": 270,
+        "to": 510,
         "type": "off"
        },
        {
-        "from": 450,
-        "to": 870,
-        "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1380,
+        "from": 900,
+        "to": 1350,
         "type": "off"
        }
       ],
       "1.2": [
        {
-        "from": 0,
-        "to": 60,
+        "from": 270,
+        "to": 510,
         "type": "off"
        },
        {
-        "from": 450,
-        "to": 870,
-        "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1380,
+        "from": 900,
+        "to": 1350,
         "type": "off"
        }
       ],
       "2.1": [
        {
-        "from": 0,
-        "to": 60,
+        "from": 270,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 450,
-        "to": 690,
-        "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1380,
+        "from": 900,
+        "to": 1140,
         "type": "off"
        }
       ],
       "2.2": [
        {
-        "from": 0,
-        "to": 60,
+        "from": 270,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 450,
-        "to": 690,
-        "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1380,
+        "from": 900,
+        "to": 1140,
         "type": "off"
        }
       ],
       "3.1": [
        {
-        "from": 30,
-        "to": 270,
+        "from": 0,
+        "to": 90,
         "type": "off"
        },
        {
-        "from": 360,
-        "to": 450,
+        "from": 480,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 660,
-        "to": 1110,
-        "type": "off"
-       },
-       {
-        "from": 1290,
-        "to": 1440,
+        "from": 1110,
+        "to": 1350,
         "type": "off"
        }
       ],
       "3.2": [
        {
-        "from": 30,
-        "to": 270,
+        "from": 0,
+        "to": 90,
         "type": "off"
        },
        {
-        "from": 360,
-        "to": 450,
+        "from": 480,
+        "to": 720,
         "type": "off"
        },
        {
-        "from": 660,
-        "to": 1110,
-        "type": "off"
-       },
-       {
-        "from": 1290,
-        "to": 1440,
+        "from": 1110,
+        "to": 1350,
         "type": "off"
        }
       ],
       "4.1": [
        {
-        "from": 30,
-        "to": 270,
+        "from": 0,
+        "to": 90,
         "type": "off"
        },
        {
-        "from": 660,
-        "to": 900,
+        "from": 480,
+        "to": 930,
         "type": "off"
        },
        {
-        "from": 1290,
-        "to": 1440,
+        "from": 1110,
+        "to": 1350,
         "type": "off"
        }
       ],
       "4.2": [
        {
-        "from": 30,
-        "to": 270,
+        "from": 0,
+        "to": 90,
         "type": "off"
        },
        {
-        "from": 660,
-        "to": 900,
+        "from": 480,
+        "to": 930,
         "type": "off"
        },
        {
-        "from": 1290,
-        "to": 1440,
+        "from": 1110,
+        "to": 1350,
         "type": "off"
        }
       ],
       "5.1": [
        {
-        "from": 240,
-        "to": 660,
+        "from": 60,
+        "to": 300,
         "type": "off"
        },
        {
-        "from": 870,
-        "to": 1290,
+        "from": 690,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
       "5.2": [
        {
-        "from": 240,
-        "to": 660,
+        "from": 60,
+        "to": 300,
         "type": "off"
        },
        {
-        "from": 870,
-        "to": 1290,
+        "from": 690,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
       "6.1": [
        {
-        "from": 240,
-        "to": 480,
+        "from": 60,
+        "to": 300,
         "type": "off"
        },
        {
-        "from": 870,
-        "to": 1290,
+        "from": 360,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
       "6.2": [
        {
-        "from": 240,
-        "to": 480,
+        "from": 60,
+        "to": 300,
         "type": "off"
        },
        {
-        "from": 870,
-        "to": 1290,
+        "from": 360,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 690,
+        "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ]
      }
     }
    ],
-   "updatedAt": "2026-11-09T21:10:10.345Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-09T22:20:31.248Z"
   },
   "donetsk": {
    "status": "stale",
