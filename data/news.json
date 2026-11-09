@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-4b535855f3c9",
+    "topic": "rebuild",
+    "date": "2026-11-09",
+    "title": "У Франківську відкрили мурал, присвячений аеропідрозділу «Рій» 102-ї бригади ТрО",
+    "text": "В Івано-Франківську відкрили мурал, присвячений історії аеропідрозділу «Рій» 102-ї бригади ТрО.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182954-u-frankivsku-vidkrili-mural-prisvacenij-aeropidrozdilu-rij-102i-brigadi-tro.html",
+    "image": ""
+  },
+  {
+    "id": "n-1907be7c0e96",
+    "topic": "people",
+    "date": "2026-11-09",
+    "title": "Кінофестиваль Миколайчук OPEN розпочав прийом фільмів",
+    "text": "Шостий міжнародний фестиваль глядацького кіно Миколайчук OPEN, який відбудеться у Чернівцях з 12 до 19 червня 2027 року, відкрив прийом фільмів.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182951-kinofestival-mikolajcuk-open-rozpocav-prijom-filmiv.html",
+    "image": ""
+  },
+  {
+    "id": "n-03ba72e27c46",
+    "topic": "people",
+    "date": "2026-11-09",
+    "title": "У Львові лікарі вперше виконали найскладнішу в кардіохірургії операцію без великих розрізів",
+    "text": "",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182939-u-lvovi-likari-vperse-vikonali-najskladnisu-v-kardiohirurgii-operaciu-bez-velikih-rozriziv.html",
+    "image": ""
+  },
+  {
+    "id": "n-156e52f75dc1",
+    "topic": "rebuild",
+    "date": "2026-11-09",
+    "title": "Після розголосу Служба відновлення Львівщини передумала купувати позашляховик за 4 млн грн",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/pislya_rozgolosu_sluzhba_vidnovlennya_lvivshhini_peredumala_kupuvati_pozashlyahovik_za_4_mln_grn_n1649737",
+    "image": ""
+  },
+  {
     "id": "n-584a3548de43",
     "topic": "science",
     "date": "2026-11-09",
@@ -557,46 +597,6 @@
     "text": "У Києві розгорнули 1 541 пункт незламності у стаціонарних будівлях.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4181702-u-stolici-zapracuvali-ponad-15-tisaci-punktiv-nezlamnosti-kmda.html",
-    "image": ""
-  },
-  {
-    "id": "n-dd33d026a5e9",
-    "topic": "animals",
-    "date": "2026-11-05",
-    "title": "Від адопції тварин до штучного інтелекту: МОН схвалило сім нових уроків для школярів",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/mon_shvalilo_sim_novih_urokiv_dlya_shkolyariv_n1649454",
-    "image": ""
-  },
-  {
-    "id": "n-4fc5741ad34e",
-    "topic": "rebuild",
-    "date": "2026-11-05",
-    "title": "Не схожий на звичайний басейн: у Копенгагені збудували водний центр із виразною архітектурою",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_kopengageni_zbuduvali_vodniy_tsentr_iz_nezvichnim_dizaynom_shho_vidomo_pro_proyekt_n1649301",
-    "image": ""
-  },
-  {
-    "id": "n-407e012f8ae2",
-    "topic": "sport",
-    "date": "2026-11-05",
-    "title": "Святослав Михайлюка набрав очки у матчі НБА",
-    "text": "Захисник національної збірної України Святослав Михайлюк набрав 6 очок за «Юту» в матчі регулярного чемпіонату північноамериканської Національнї баскетбольної асоціації (НБА)…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4181685-svatoslav-mihajluka-nabrav-ocki-u-matci-nba.html",
-    "image": ""
-  },
-  {
-    "id": "n-d3a734779763",
-    "topic": "animals",
-    "date": "2026-11-05",
-    "title": "Чи всім собакам потрібен одяг узимку: що врахувати господарям",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/zimoviy_odyag_dlya_sobak_hto_potrebuye_dodatkovogo_zahistu_i_yak_obrati_n1649452",
     "image": ""
   }
 ]
