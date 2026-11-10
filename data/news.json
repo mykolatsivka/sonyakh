@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-e01a7ab94389",
+    "topic": "sport",
+    "date": "2026-11-10",
+    "title": "На чемпіонаті України з карате визначені кандидати до національної і молодіжної збірних",
+    "text": "У Львові відбувся чемпіонат України з карате серед кадетів, юніорів, молоді (U21) та дорослих 2026 року.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183479-na-cempionati-ukraini-z-karate-viznaceni-kandidati-do-nacionalnoi-i-molodiznoi-zbirnih.html",
+    "image": ""
+  },
+  {
     "id": "n-4536292903c9",
     "topic": "rebuild",
     "date": "2026-11-10",
@@ -587,16 +597,6 @@
     "text": "Космічний об'єкт має позначення 2026 QQ8.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/2026-qq8-zemlya-otrimala-noviy-minisuputnik-13551471.html",
-    "image": ""
-  },
-  {
-    "id": "n-05079003ba2f",
-    "topic": "rebuild",
-    "date": "2026-11-06",
-    "title": "У Миколаєві відкрили виставку «Квітковий вайб»",
-    "text": "",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182009-u-mikolaevi-vidkrili-vistavku-kvitkovij-vajb.html",
     "image": ""
   }
 ]
