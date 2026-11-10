@@ -1,6 +1,6 @@
 // Service worker: зберігає Сонях на телефоні, щоб він працював без інтернету.
 // Після будь-яких змін у файлах збільш номер версії, щоб телефони підтягнули оновлення.
-const VERSION = 'sonyakh-v31';
+const VERSION = 'sonyakh-v32';
 const SHELL = [
   './',
   './index.html',
@@ -17,6 +17,7 @@ const SHELL = [
   './data/tips.json',
   './data/regions.json',
   './data/outages.json',
+  './data/changelog.json',
   './fonts/manrope-cyrillic.woff2',
   './fonts/manrope-latin.woff2',
   './fonts/unbounded-cyrillic.woff2',
