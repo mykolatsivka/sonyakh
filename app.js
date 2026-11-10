@@ -2285,6 +2285,10 @@
       art: ill('#E8EEFB', '<rect x="12" y="5" width="15" height="29" rx="3.5" fill="#12203A"/><rect x="14" y="8" width="11" height="21" rx="1.5" fill="#fff"/><g fill="#FFCF33"><circle cx="19.5" cy="15.2" r="2.2"/><circle cx="19.5" cy="21.6" r="2.2"/><circle cx="16.3" cy="18.4" r="2.2"/><circle cx="22.7" cy="18.4" r="2.2"/></g><circle cx="19.5" cy="18.4" r="1.8" fill="#7A4A12"/><circle cx="29" cy="29" r="5.5" fill="#3BA776"/><path d="M29 26.2v5.2M26.7 29.3l2.3 2.3 2.3-2.3" stroke="#fff" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>')
     },
     {
+      href: '#/updates', label: 'Що нового',
+      art: ill('#E8EEFB', '<path d="M18 7l2.6 7.4L28 17l-7.4 2.6L18 27l-2.6-7.4L8 17l7.4-2.6z" fill="#FFCF33" stroke="#E0A800" stroke-width="1" stroke-linejoin="round"/><path d="M30 23l1.2 3.3 3.3 1.2-3.3 1.2L30 32l-1.2-3.3-3.3-1.2 3.3-1.2z" fill="#1F4FB8"/><circle cx="30.5" cy="9.5" r="1.8" fill="#1F4FB8"/>')
+    },
+    {
       href: '#/support', label: 'Підтримати автора',
       art: ill('#FFF3D1', '<path d="M20 21v13" stroke="#3BA776" stroke-width="2.4" stroke-linecap="round"/><ellipse cx="24" cy="29" rx="3.6" ry="2" transform="rotate(-30 24 29)" fill="#3BA776"/><g fill="#FFCF33"><circle cx="25.2" cy="15" r="3"/><circle cx="23.7" cy="18.7" r="3"/><circle cx="20" cy="20.2" r="3"/><circle cx="16.3" cy="18.7" r="3"/><circle cx="14.8" cy="15" r="3"/><circle cx="16.3" cy="11.3" r="3"/><circle cx="20" cy="9.8" r="3"/><circle cx="23.7" cy="11.3" r="3"/></g><circle cx="20" cy="15" r="3.6" fill="#7A4A12"/><path d="M32 12c-3-2-4-3.5-4-4.7a1.9 1.9 0 0 1 4-.8 1.9 1.9 0 0 1 4 .8c0 1.2-1 2.7-4 4.7z" fill="#F2545B"/>')
     }
@@ -2343,6 +2347,7 @@
     app.innerHTML = html;
     if (screen.mount) cleanup = screen.mount(app) || null;
     updateOnline();
+    refreshUpdateUI();
     if (changed) {
       window.scrollTo(0, 0);
       app.focus({ preventScroll: true });
@@ -2382,6 +2387,95 @@
   window.addEventListener('offline', updateOnline);
   window.addEventListener('hashchange', render);
 
+  // ---------- Нова версія Соняха: банер, пункт меню, сторінка «Що нового» ----------
+  // Список змін лежить у data/changelog.json (найновіше зверху). banner: true — показати банер;
+  // дрібні правки без banner оновлюються тихо. Свіжий список береться з мережі, тож стара версія
+  // застосунку вже знає, що нового в новій.
+  const CHANGELOG = './data/changelog.json';
+  let updateReady = false;
+  const getChangelog = async () => {
+    const list = await loadJSON(CHANGELOG);
+    return Array.isArray(list) ? list.filter((e) => e && e.id && Array.isArray(e.items)) : [];
+  };
+  const CL_TAGS = { new: 'Нове', fix: 'Виправлено', fast: 'Швидше' };
+  const clDate = (d) => new Date(d + 'T12:00:00').toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' });
+  const clItems = (items) => items.map((it) =>
+    `<li class="cl-item"><span class="cl-tag cl-tag--${CL_TAGS[it.type] ? it.type : 'new'}">${CL_TAGS[it.type] || CL_TAGS.new}</span><span class="cl-item__text">${esc(it.text)}</span></li>`).join('');
+
+  screens['/updates'] = async () => {
+    const list = await getChangelog();
+    const pending = updateReady ? list[0] : null;
+    // Людина побачила, що нового: банер про цю версію більше не показуємо
+    if (pending) store.set('updSeen', pending.id);
+    const history = pending ? list.slice(1) : list;
+    return `
+      <div class="page">
+        <header class="topbar">${backBtn('#/', 'На головну')}</header>
+        <section class="stack stack--sm">
+          <h1 class="h1">Що нового в Сонясі</h1>
+          <p class="lead">Ми постійно покращуємо Сонях. Тут усе, що змінилося.</p>
+        </section>
+        ${pending ? `
+          <section class="cl-now">
+            <span class="cl-now__chip">✨ Нова версія · ${esc(clDate(pending.date))}</span>
+            <ul class="cl-list">${clItems(pending.items)}</ul>
+            <button class="btn btn--yellow btn--block" data-action="update-now">Оновити зараз</button>
+            <span class="small center cl-now__note">Займе секунду. Подяки, розмальовки й валіза лишаться.</span>
+          </section>` : ''}
+        ${history.map((e) => `
+          <section class="cl-day">
+            <h2 class="cl-day__date">${esc(clDate(e.date))}</h2>
+            <ul class="cl-card cl-list">${clItems(e.items)}</ul>
+          </section>`).join('')}
+        ${list.length ? '' : '<p class="muted center">Список змін з\'явиться, щойно буде інтернет.</p>'}
+        ${CONFIG.telegramChannel ? `<p class="small muted center">Маєш ідею чи помітив помилку? Пиши в наш <a href="https://t.me/${encodeURIComponent(CONFIG.telegramChannel)}" target="_blank" rel="noopener">Telegram-канал</a>.</p>` : ''}
+      </div>`;
+  };
+
+  // Банер живе поза #app, внизу екрана
+  const updBar = document.createElement('div');
+  updBar.className = 'upd';
+  updBar.hidden = true;
+  updBar.setAttribute('role', 'status');
+  updBar.innerHTML = `
+    <a class="upd__main" href="#/updates"><img class="upd__icon" src="./icons/icon.svg" alt="" width="40" height="40">
+      <span class="upd__text"><span class="upd__title">Сонях оновився</span><span class="upd__sub">Що нового ›</span></span></a>
+    <button class="upd__btn" data-upd="now">Оновити</button>
+    <button class="upd__x" data-upd="close" aria-label="Сховати">✕</button>`;
+  document.body.appendChild(updBar);
+
+  let reloading = false;
+  const updateNow = () => { if (reloading) return; reloading = true; location.reload(); };
+
+  async function refreshUpdateUI() {
+    const latest = (await getChangelog())[0];
+    // Лише на головній, лише коли нова версія вже завантажена, і лише для помітних оновлень
+    const show = !!(updateReady && currentRoute === '/' && latest && latest.banner && store.get('updSeen') !== latest.id);
+    updBar.hidden = !show;
+    document.documentElement.classList.toggle('has-upd', show);
+    const link = document.querySelector('#menu-nav a[href="#/updates"]');
+    if (link) {
+      link.classList.toggle('is-new', updateReady);
+      const label = link.querySelector('.sheet__label');
+      if (updateReady && !label.querySelector('.menu-pill')) label.insertAdjacentHTML('beforeend', '<span class="menu-pill">Нова версія</span>');
+      if (!updateReady) label.querySelector('.menu-pill')?.remove();
+    }
+  }
+
+  updBar.addEventListener('click', async (event) => {
+    const btn = event.target.closest('[data-upd]');
+    if (!btn) return;
+    if (btn.dataset.upd === 'now') updateNow();
+    if (btn.dataset.upd === 'close') {
+      const latest = (await getChangelog())[0];
+      if (latest) store.set('updSeen', latest.id);
+      refreshUpdateUI();
+    }
+  });
+  app.addEventListener('click', (event) => {
+    if (event.target.closest('[data-action="update-now"]')) updateNow();
+  });
+
   // ---------- Старт ----------
   if (isStandalone()) store.set('welcomeDone', true);
   if (!location.hash && !store.get('welcomeDone', false)) {
@@ -2396,21 +2490,32 @@
     // Нова версія тихо підставляється, коли людина згортає Сонях (і нічого не пише),
     // а якщо не згорнула — просто відкриється наступного разу.
     const hadController = !!navigator.serviceWorker.controller;
-    let updateReady = false;
-    let reloaded = false;
     const typing = () => [...document.querySelectorAll('textarea, input[type="text"], input:not([type])')]
       .some((el) => el.value.trim());
     const applyUpdate = () => {
-      if (!updateReady || reloaded || !document.hidden || typing()) return;
-      reloaded = true;
-      location.reload();
+      if (!updateReady || reloading || !document.hidden || typing()) return;
+      updateNow();
     };
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (!hadController) return;
       updateReady = true;
+      // Беремо свіжий список змін: у ньому вже є запис про нову версію
+      delete cache[CHANGELOG];
+      if (currentRoute === '/updates') render(); else refreshUpdateUI();
       applyUpdate();
     });
     document.addEventListener('visibilitychange', applyUpdate);
+
+    // Телефон часто не перезапускає Сонях, а розгортає з пам'яті. Тому перевіряємо нову версію
+    // щоразу, як людина повертається, і раз на пів години, поки Сонях відкритий
+    let lastCheck = Date.now();
+    const checkForUpdate = () => {
+      if (document.hidden || !navigator.onLine || Date.now() - lastCheck < 60 * 1000) return;
+      lastCheck = Date.now();
+      navigator.serviceWorker.getRegistration().then((reg) => reg && reg.update()).catch(() => { /* спробуємо наступного разу */ });
+    };
+    document.addEventListener('visibilitychange', checkForUpdate);
+    setInterval(checkForUpdate, 30 * 60 * 1000);
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js').catch(() => { /* без офлайну, але сайт працює */ });
     });
