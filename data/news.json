@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-c891da404af9",
+    "topic": "sport",
+    "date": "2026-11-10",
+    "title": "Шпажистка Аліна Дмитрук - у чвертьфіналі Юнацьких Олімпійських ігор",
+    "text": "Українська фехувальниця Аліна Дмитрук здобула шість перемог у шести зустрічах на Юнацьких Олімпійських іграх у Дакарі (Сенегал).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183363-spazistka-alina-dmitruk-u-cvertfinali-unackih-olimpijskih-igor.html",
+    "image": ""
+  },
+  {
+    "id": "n-9d75b40ca276",
+    "topic": "sport",
+    "date": "2026-11-10",
+    "title": "Відомі лавреати 12-го туру української футбольної Прем'єр-ліги",
+    "text": "Експерти української футбольної Прем’єр-ліга (УПЛ) визначили найкращого гравця та тренера 12-го туру чемпіонату країни.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183354-vidomi-laureati-12go-turu-ukrainskoi-futbolnoi-premerligi.html",
+    "image": ""
+  },
+  {
     "id": "n-ed5b440b73f8",
     "topic": "people",
     "date": "2026-11-10",
@@ -577,26 +597,6 @@
     "text": "Сто років тому археологи, які проводили розкопки в районі затоки Тампа, виявили фрагменти кераміки з візерунками, нетиповими для цієї місцевості.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/arheologi-zberigali-divni-posudini-cile-stolittya-a-potim-diznalisya-hto-naspravdi-jih-vigotoviv-13551234.html",
-    "image": ""
-  },
-  {
-    "id": "n-f687a2d99b3d",
-    "topic": "sport",
-    "date": "2026-11-06",
-    "title": "Збірна України з хокею обіграла Польщу в першому матчі Європейського кубка націй",
-    "text": "Збірна України з хокею в першому з трьох матчів Європейського кубка націй обіграла Польщу з рахунком 2:1.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4181942-zbirna-ukraini-z-hokeu-obigrala-polsu-v-persomu-matci-evropejskogo-kubka-nacij.html",
-    "image": ""
-  },
-  {
-    "id": "n-566bec957e90",
-    "topic": "animals",
-    "date": "2026-11-05",
-    "title": "У Києві завершили зйомки комедії «Тваринний інстинкт»",
-    "text": "У Києві завершилися зйомки комедії «Тваринний інстинкт», яка є продовженням популярної стрічки «Песики».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4181879-u-kievi-zaversili-zjomki-komedii-tvarinnij-instinkt.html",
     "image": ""
   }
 ]
