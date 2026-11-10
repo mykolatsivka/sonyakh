@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-fbbf2c6af099",
+    "topic": "animals",
+    "date": "2026-11-10",
+    "title": "На Волині вперше у фотопастку потрапила червонокнижна рись",
+    "text": "На території Ківерцівського національного природного парку «Цуманська пуща», що у Волинській області, вперше фотопастка зафіксувала євразійську рись.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4183274-na-volini-vperse-u-fotopastku-potrapila-cervonoknizna-ris.html",
+    "image": ""
+  },
+  {
+    "id": "n-fc19cd49cd46",
+    "topic": "science",
+    "date": "2026-11-10",
+    "title": "Турецький хіт уперше вийде на українському ТБ: \"Кизиловий шербет\" - ексклюзивна прем’єра на Бігуді",
+    "text": "Дізнайтеся, про що історія двох родин, хто зіграв головні ролі та коли прем'єра на телеканалі Бігуді.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/common/tureckiy-hit-upershe-viyde-na-ukrajinskomu-tb-kiziloviy-sherbet-eksklyuzivna-prem-yera-na-bigudi-13555215.html",
+    "image": ""
+  },
+  {
     "id": "n-7f36c2d5acf0",
     "topic": "science",
     "date": "2026-11-10",
@@ -577,26 +597,6 @@
     "text": "21 листопада у Миколаєві команда Премії імені Георгія Ґонґадзе проведе \"Медіадень Премії Ґонґадзе.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/05/8061432/",
-    "image": ""
-  },
-  {
-    "id": "n-01ded379329a",
-    "topic": "science",
-    "date": "2026-11-05",
-    "title": "В Івано-Франківську знесли частину кінотеатру «Космос»",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_frankivsku_znesli_chastinu_kinoteatru_kosmos_n1649519",
-    "image": ""
-  },
-  {
-    "id": "n-4b2c85cdb2a1",
-    "topic": "science",
-    "date": "2026-11-05",
-    "title": "За посаду директора львівського центру «Супутник» змагалися три кандидати: хто переміг",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/lvivskiy_kulturno_mistetskiy_tsentr_suputnik_ocholit__n1649469",
     "image": ""
   }
 ]
