@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-d3697c8fda02",
+    "topic": "people",
+    "date": "2026-11-10",
+    "title": "У Львові лікарі врятували чотирирічну дівчинку, в бронхах якої виявили будівельний шуруп",
+    "text": "У Львові лікарі врятували чотирирічну дівчинку, в бронхах якої виявили довгий та гострий будівельний шуруп.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4183139-u-lvovi-likari-vratuvali-cotiriricnu-divcinku-v-bronhah-akoi-viavili-budivelnij-surup.html",
+    "image": ""
+  },
+  {
     "id": "n-51a6327f1882",
     "topic": "sport",
     "date": "2026-11-09",
@@ -587,16 +597,6 @@
     "text": "Проблема проявилася у вигляді вигорання біжучого рядка новин.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/gadgets/oled-televizori-lg-i-samsung-ne-vitrimali-600-godin-viprobuvan-bez-vigorannya-13550712.html",
-    "image": ""
-  },
-  {
-    "id": "n-9849e71e76cd",
-    "topic": "science",
-    "date": "2026-11-05",
-    "title": "Свобода бути: Українська правда оголошує дату проведення премії УП100",
-    "text": "26 листопада 2026 року вже вчетверте Українська правда проведе церемонію нагородження переможців премії УП100.",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/05/8061396/",
     "image": ""
   }
 ]
