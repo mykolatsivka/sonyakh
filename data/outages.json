@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T07:50:20.435Z",
+ "updatedAt": "2026-11-11T08:15:02.929Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -148,10 +148,11 @@
    "updatedAt": "2026-11-11T05:36:45.999Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-11T07:50:20.435Z"
+   "updatedAt": "2026-11-11T07:50:20.435Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1446,7 +1447,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "11.11.2026 08:58",
+   "sourceUpdated": "11.11.2026 10:14",
    "days": [
     {
      "date": "2026-11-11",
@@ -1493,16 +1494,6 @@
       "2.1": [
        {
         "from": 690,
-        "to": 720,
-        "type": "maybe"
-       },
-       {
-        "from": 720,
-        "to": 870,
-        "type": "off"
-       },
-       {
-        "from": 870,
         "to": 900,
         "type": "maybe"
        },
@@ -1589,16 +1580,6 @@
        },
        {
         "from": 690,
-        "to": 720,
-        "type": "maybe"
-       },
-       {
-        "from": 720,
-        "to": 870,
-        "type": "off"
-       },
-       {
-        "from": 870,
         "to": 900,
         "type": "maybe"
        }
@@ -1724,16 +1705,6 @@
        },
        {
         "from": 690,
-        "to": 720,
-        "type": "maybe"
-       },
-       {
-        "from": 720,
-        "to": 870,
-        "type": "off"
-       },
-       {
-        "from": 870,
         "to": 900,
         "type": "maybe"
        },
@@ -1788,7 +1759,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-11T07:12:31.411Z"
+   "updatedAt": "2026-11-11T08:15:02.929Z"
   },
   "odesa": {
    "status": "ok",
@@ -1906,10 +1877,11 @@
    "updatedAt": "2026-11-11T07:12:31.411Z"
   },
   "rivne": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "11.11.2026 09:30",
    "days": [],
-   "updatedAt": "2026-11-11T07:36:19.883Z"
+   "updatedAt": "2026-11-11T07:36:19.883Z",
+   "error": "fetch failed (ENOTFOUND)"
   },
   "chernivtsi": {
    "days": [],
