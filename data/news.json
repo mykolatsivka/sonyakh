@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-db23eaa4f4fa",
+    "topic": "science",
+    "date": "2026-11-11",
+    "title": "У Тихому океані знайшли місця, яких майже не торкнулася людина: що виявили дослідники",
+    "text": "Під час експедицій вчені виявили 15 колоній морських птахів, які розмножуються.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/dva-atoli-tihogo-okeanu-mozhut-prihovuvati-nevidomi-nauci-vidi-shcho-z-yasuvali-doslidniki-13556877.html",
+    "image": ""
+  },
+  {
     "id": "n-8fe855139e3d",
     "topic": "rebuild",
     "date": "2026-11-11",
@@ -587,16 +597,6 @@
     "text": "Цей результат значно перевищує попередній офіційний показник - 1,7 метра за секунду.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/science/z-yakoyu-shvidkistyu-bigaye-nayshvidshiy-pavuk-u-sviti-i-de-vin-zhive-13551324.html",
-    "image": ""
-  },
-  {
-    "id": "n-e21a486e3f7a",
-    "topic": "people",
-    "date": "2026-11-06",
-    "title": "Український фільм «No shade in the forest» покажуть на кінофестивалі в Нідерландах",
-    "text": "Український документальний фільм «No shade in the forest» (“У лісі немає тіні”) Володимира Тихого увійшов до офіційної програми міжнародного фестивалю Wildlife Film Festival…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182109-ukrainskij-film-no-shade-in-the-forest-pokazut-na-kinofestivali-v-niderlandah.html",
     "image": ""
   }
 ]
