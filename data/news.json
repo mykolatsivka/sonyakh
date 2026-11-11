@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-d4298d6bf866",
+    "topic": "animals",
+    "date": "2026-11-11",
+    "title": "Українські лелеки продовжують міграцію Африкою: один із птахів перетнув одразу чотири країни",
+    "text": "Маршрути птахів пролягали повз стародавні вулкани, солоні озера та заповідні савани.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/ukrajinski-leleki-v-africi-de-zaraz-perebuvayut-boy-shikidim-stefaniya-ta-hartbit-13557033.html",
+    "image": ""
+  },
+  {
+    "id": "n-034235f0e63d",
+    "topic": "science",
+    "date": "2026-11-11",
+    "title": "Три обласні бібліотеки Тернопільщини об'єднають в одну установу та скоротять до 20% працівників",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/tri_oblasni_biblioteki_ternopilshhini_obyednayut_v_odnu_ustanovu_n1649927",
+    "image": ""
+  },
+  {
     "id": "n-db23eaa4f4fa",
     "topic": "science",
     "date": "2026-11-11",
@@ -577,26 +597,6 @@
     "text": "У п'ятницю розпочався 12-й тур чемпіонату України з футболу серед клубів української Прем'єр-ліги (УПЛ).",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182147-fk-polissa-pepremig-vdoma-veres-u-cempionati-upl.html",
-    "image": ""
-  },
-  {
-    "id": "n-558dbc48090b",
-    "topic": "animals",
-    "date": "2026-11-06",
-    "title": "На Закарпатті переселенцям передали понад 7 тисяч тонн корму для тварин",
-    "text": "На Закарпатті у межах Національної програми догляду за домашніми тваринами переселенцям передали понад 7 тис.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182151-na-zakarpatti-pereselencam-peredali-ponad-7-tisac-tonn-kormu-dla-tvarin.html",
-    "image": ""
-  },
-  {
-    "id": "n-bb32b098a9b1",
-    "topic": "science",
-    "date": "2026-11-06",
-    "title": "Учені знайшли найшвидшого павука у світі: він розганяється до 3,6 метра за секунду",
-    "text": "Цей результат значно перевищує попередній офіційний показник - 1,7 метра за секунду.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/z-yakoyu-shvidkistyu-bigaye-nayshvidshiy-pavuk-u-sviti-i-de-vin-zhive-13551324.html",
     "image": ""
   }
 ]
