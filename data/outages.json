@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T20:11:42.092Z",
+ "updatedAt": "2026-11-11T21:08:24.120Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -3646,9 +3646,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "11.11.2026 22:00",
+   "sourceUpdated": "11.11.2026 23:00",
    "days": [],
-   "updatedAt": "2026-11-11T20:11:42.092Z"
+   "updatedAt": "2026-11-11T21:08:24.120Z"
   },
   "chernivtsi": {
    "days": [],
