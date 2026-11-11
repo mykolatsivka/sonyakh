@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T04:36:24.683Z",
+ "updatedAt": "2026-11-11T04:50:02.439Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1502,7 +1502,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "11.11.2026 05:23",
+   "sourceUpdated": "11.11.2026 06:43",
    "days": [
     {
      "date": "2026-11-11",
@@ -1510,16 +1510,6 @@
       "1.1": [
        {
         "from": 480,
-        "to": 510,
-        "type": "maybe"
-       },
-       {
-        "from": 510,
-        "to": 660,
-        "type": "off"
-       },
-       {
-        "from": 660,
         "to": 690,
         "type": "maybe"
        },
@@ -1537,16 +1527,6 @@
       "1.2": [
        {
         "from": 330,
-        "to": 420,
-        "type": "maybe"
-       },
-       {
-        "from": 420,
-        "to": 450,
-        "type": "off"
-       },
-       {
-        "from": 450,
         "to": 480,
         "type": "maybe"
        },
@@ -1719,16 +1699,6 @@
        },
        {
         "from": 330,
-        "to": 420,
-        "type": "maybe"
-       },
-       {
-        "from": 420,
-        "to": 450,
-        "type": "off"
-       },
-       {
-        "from": 450,
         "to": 480,
         "type": "maybe"
        },
@@ -1783,16 +1753,6 @@
       "5.2": [
        {
         "from": 480,
-        "to": 510,
-        "type": "maybe"
-       },
-       {
-        "from": 510,
-        "to": 660,
-        "type": "off"
-       },
-       {
-        "from": 660,
         "to": 690,
         "type": "maybe"
        },
@@ -1884,7 +1844,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-11T03:26:06.099Z"
+   "updatedAt": "2026-11-11T04:50:02.439Z"
   },
   "odesa": {
    "status": "ok",
