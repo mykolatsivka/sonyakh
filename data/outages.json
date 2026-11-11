@@ -1,9 +1,9 @@
 {
- "updatedAt": "2026-11-11T19:49:32.938Z",
+ "updatedAt": "2026-11-11T20:11:42.092Z",
  "regions": {
   "dnipro": {
    "status": "ok",
-   "sourceUpdated": "11.11.2026 21:47",
+   "sourceUpdated": "11.11.2026 21:53",
    "days": [
     {
      "date": "2026-11-11",
@@ -27,11 +27,6 @@
         "from": 90,
         "to": 150,
         "type": "off"
-       },
-       {
-        "from": 1350,
-        "to": 1440,
-        "type": "off"
        }
       ],
       "2.2": [
@@ -43,11 +38,6 @@
        {
         "from": 720,
         "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 1350,
-        "to": 1440,
         "type": "off"
        }
       ],
@@ -136,7 +126,7 @@
        },
        {
         "from": 1140,
-        "to": 1350,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -153,7 +143,7 @@
        },
        {
         "from": 1140,
-        "to": 1350,
+        "to": 1440,
         "type": "off"
        }
       ]
@@ -334,13 +324,14 @@
      }
     }
    ],
-   "updatedAt": "2026-11-11T19:49:32.938Z"
+   "updatedAt": "2026-11-11T20:11:42.092Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-11T19:35:58.683Z"
+   "updatedAt": "2026-11-11T19:35:58.683Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -350,7 +341,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "11.11.2026 20:47",
    "days": [
     {
@@ -2454,7 +2445,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-11T19:09:38.239Z"
+   "updatedAt": "2026-11-11T19:09:38.239Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
    "status": "ok",
@@ -3654,9 +3646,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "11.11.2026 21:30",
+   "sourceUpdated": "11.11.2026 22:00",
    "days": [],
-   "updatedAt": "2026-11-11T19:35:58.683Z"
+   "updatedAt": "2026-11-11T20:11:42.092Z"
   },
   "chernivtsi": {
    "days": [],
