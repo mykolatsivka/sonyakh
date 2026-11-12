@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-0e0cd8dc9a7f",
+    "topic": "animals",
+    "date": "2026-11-12",
+    "title": "Давній Єгипет не був раєм для котів, попри їхнє шанування: яким насправді було життя тварин",
+    "text": "Науковці припускають, що деяких тварин спеціально розводили для релігійних ритуалів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/koti-v-starodavnomu-yegipti-mogli-strazhdati-vid-golodu-ta-zhorstokogo-povodzhennya-shcho-z-yasuvali-vcheni-13557861.html",
+    "image": ""
+  },
+  {
+    "id": "n-5b1fe37bff52",
+    "topic": "science",
+    "date": "2026-11-12",
+    "title": "На дні Середземного моря виявили 1300 кіл: вчені запропонували теорії їхнього походження",
+    "text": "Через 15 років після їхнього виявлення вчені досі не можуть точно з’ясувати, як вони утворилися.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/15-rokiv-tomu-u-seredzemnomu-mori-bulo-viyavleno-1300-zagadkovih-kil-vcheni-visunuli-teoriji-shchodo-jihnogo-pohodzhennya-13557780.html",
+    "image": ""
+  },
+  {
     "id": "n-9114dc30a2ee",
     "topic": "science",
     "date": "2026-11-12",
@@ -577,26 +597,6 @@
     "text": "Подільський шлях святого Якова (Camino Podolico) цього року пройшли 1700 людей, що є рекордним показником за весь час проєкту.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182390-podilskim-slahom-svatogo-akova-cogo-roku-projsla-rekordna-kilkist-ludej.html",
-    "image": ""
-  },
-  {
-    "id": "n-637f667f1007",
-    "topic": "sport",
-    "date": "2026-11-07",
-    "title": "Українські тенісистки - у півфіналі Billie Jean King Cup Junior Finals",
-    "text": "Юніорська збірна України з тенісу серед дівчат до-ти 16 років вийшла до півфіналу Billie Jean King Cup Junior Finals, що триває у Каїрі (Єгипет).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182387-ukrainski-tenisistki-u-pivfinali-billie-jean-king-cup-junior-finals.html",
-    "image": ""
-  },
-  {
-    "id": "n-09914467177f",
-    "topic": "sport",
-    "date": "2026-11-07",
-    "title": "Українські хокеїсти перемогли британців у Європейському кубку націй",
-    "text": "Національна збірна України з хокею обіграла команду Великої Британії.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182372-ukrainski-hokeisti-peremogli-britanciv-u-evropejskomu-kubku-nacij.html",
     "image": ""
   }
 ]
