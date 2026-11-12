@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-cd44cee25419",
+    "topic": "rebuild",
+    "date": "2026-11-12",
+    "title": "У Львові в Університетській лікарні ветерану відновили природну роботу кишківника",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_v_universitetskiy_likarni_veteranu_vidnovili_prirodnu_robotu_kishkivnika_n1650040",
+    "image": ""
+  },
+  {
+    "id": "n-591fa2a313bd",
+    "topic": "science",
+    "date": "2026-11-12",
+    "title": "В Афінах презентували книги української письменниці Надії Богородецької",
+    "text": "У четвер в Інституті Ґете в Афінах відбулась презентація двох книг української письменниці, громадської діячки української діаспори в Греції Надії Богородецької.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4184046-v-afinah-prezentuvali-knigi-ukrainskoi-pismennici-nadii-bogorodeckoi.html",
+    "image": ""
+  },
+  {
     "id": "n-4e129c8f4184",
     "topic": "rebuild",
     "date": "2026-11-12",
@@ -577,26 +597,6 @@
     "text": "Чісора визнав, що Усик досягнув багато чого у своїй кар’єрі.",
     "source": "УНІАН",
     "sourceUrl": "https://sport.unian.ua/oleksandr-usik-chisora-raptovo-rozkritikuvav-ukrajincya-13553043.html",
-    "image": ""
-  },
-  {
-    "id": "n-15325fa7fa5c",
-    "topic": "rebuild",
-    "date": "2026-11-07",
-    "title": "Канада та Австрія спільно допомагатимуть Україні у відбудові",
-    "text": "Австрія та Канада домовилися активізувати співпрацю у повоєнній відбудові України.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4182498-kanada-ta-avstria-spilno-dopomagatimut-ukraini-u-vidbudovi.html",
-    "image": ""
-  },
-  {
-    "id": "n-33f786562a99",
-    "topic": "science",
-    "date": "2026-11-07",
-    "title": "Єгорушкіна стала першою лавреаткою міжнародної стипендії імені Волтера Фідеровича",
-    "text": "Українська письменниця Катерина Єгорушкіна стала першою лавреаткою міжнародної стипендії імені Волтера Фідеровича та учасницею Charleston Literary Festival у США.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182472-egoruskina-stala-persou-lavreatkou-miznarodnoi-stipendii-imeni-voltera-fiderovica.html",
     "image": ""
   }
 ]
