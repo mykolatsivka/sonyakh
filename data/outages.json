@@ -1,9 +1,9 @@
 {
- "updatedAt": "2026-11-12T22:36:28.102Z",
+ "updatedAt": "2026-11-12T23:09:28.003Z",
  "regions": {
   "dnipro": {
    "status": "ok",
-   "sourceUpdated": "12.11.2026 23:24",
+   "sourceUpdated": "13.11.2026 01:00",
    "days": [
     {
      "date": "2026-11-13",
@@ -13,44 +13,13 @@
         "from": 0,
         "to": 30,
         "type": "off"
-       },
-       {
-        "from": 360,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 990,
-        "to": 1230,
-        "type": "off"
        }
       ],
-      "1.2": [
-       {
-        "from": 360,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 990,
-        "to": 1230,
-        "type": "off"
-       }
-      ],
+      "1.2": [],
       "2.1": [
        {
         "from": 0,
         "to": 30,
-        "type": "off"
-       },
-       {
-        "from": 360,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 990,
-        "to": 1230,
         "type": "off"
        }
       ],
@@ -59,128 +28,38 @@
         "from": 0,
         "to": 30,
         "type": "off"
-       },
-       {
-        "from": 360,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 990,
-        "to": 1230,
-        "type": "off"
        }
       ],
       "3.1": [
        {
         "from": 0,
-        "to": 180,
-        "type": "off"
-       },
-       {
-        "from": 570,
-        "to": 810,
-        "type": "off"
-       },
-       {
-        "from": 1200,
-        "to": 1440,
+        "to": 30,
         "type": "off"
        }
       ],
       "3.2": [
        {
         "from": 0,
-        "to": 180,
-        "type": "off"
-       },
-       {
-        "from": 570,
-        "to": 810,
-        "type": "off"
-       },
-       {
-        "from": 1200,
-        "to": 1440,
+        "to": 30,
         "type": "off"
        }
       ],
       "4.1": [
        {
         "from": 0,
-        "to": 180,
-        "type": "off"
-       },
-       {
-        "from": 570,
-        "to": 810,
-        "type": "off"
-       },
-       {
-        "from": 1200,
-        "to": 1320,
+        "to": 30,
         "type": "off"
        }
       ],
-      "4.2": [
-       {
-        "from": 570,
-        "to": 810,
-        "type": "off"
-       },
-       {
-        "from": 1200,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "5.1": [
-       {
-        "from": 780,
-        "to": 1020,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 150,
-        "to": 390,
-        "type": "off"
-       },
-       {
-        "from": 780,
-        "to": 1020,
-        "type": "off"
-       }
-      ],
-      "6.1": [
-       {
-        "from": 150,
-        "to": 390,
-        "type": "off"
-       },
-       {
-        "from": 780,
-        "to": 1020,
-        "type": "off"
-       }
-      ],
-      "6.2": [
-       {
-        "from": 150,
-        "to": 390,
-        "type": "off"
-       },
-       {
-        "from": 780,
-        "to": 1020,
-        "type": "off"
-       }
-      ]
+      "4.2": [],
+      "5.1": [],
+      "5.2": [],
+      "6.1": [],
+      "6.2": []
      }
     }
    ],
-   "updatedAt": "2026-11-12T22:10:23.325Z"
+   "updatedAt": "2026-11-12T23:09:28.003Z"
   },
   "donetsk": {
    "status": "stale",
@@ -1899,9 +1778,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "13.11.2026 00:30",
+   "sourceUpdated": "13.11.2026 01:00",
    "days": [],
-   "updatedAt": "2026-11-12T22:36:28.102Z"
+   "updatedAt": "2026-11-12T23:09:28.003Z"
   },
   "chernivtsi": {
    "days": [],
