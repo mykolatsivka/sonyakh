@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-12T07:36:29.765Z",
+ "updatedAt": "2026-11-12T07:49:46.963Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "12.11.2026 03:01",
    "days": [
     {
@@ -180,7 +180,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-12T06:51:20.514Z"
+   "updatedAt": "2026-11-12T06:51:20.514Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
    "status": "stale",
