@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T05:22:33.429Z",
+ "updatedAt": "2026-11-13T05:36:44.793Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1286,7 +1286,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "13.11.2026 05:50",
+   "sourceUpdated": "13.11.2026 07:28",
    "days": [
     {
      "date": "2026-11-13",
@@ -1525,16 +1525,6 @@
       "5.1": [
        {
         "from": 330,
-        "to": 420,
-        "type": "maybe"
-       },
-       {
-        "from": 420,
-        "to": 510,
-        "type": "off"
-       },
-       {
-        "from": 510,
         "to": 540,
         "type": "maybe"
        },
@@ -1557,16 +1547,6 @@
       "5.2": [
        {
         "from": 330,
-        "to": 420,
-        "type": "maybe"
-       },
-       {
-        "from": 420,
-        "to": 510,
-        "type": "off"
-       },
-       {
-        "from": 510,
         "to": 540,
         "type": "maybe"
        },
@@ -1589,16 +1569,6 @@
       "6.1": [
        {
         "from": 330,
-        "to": 420,
-        "type": "maybe"
-       },
-       {
-        "from": 420,
-        "to": 510,
-        "type": "off"
-       },
-       {
-        "from": 510,
         "to": 540,
         "type": "maybe"
        },
@@ -1633,7 +1603,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-13T04:13:54.279Z"
+   "updatedAt": "2026-11-13T05:36:44.793Z"
   },
   "odesa": {
    "status": "ok",
@@ -1763,9 +1733,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "13.11.2026 07:00",
+   "sourceUpdated": "13.11.2026 07:30",
    "days": [],
-   "updatedAt": "2026-11-13T05:11:59.091Z"
+   "updatedAt": "2026-11-13T05:36:44.793Z"
   },
   "chernivtsi": {
    "days": [],
