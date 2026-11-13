@@ -219,10 +219,23 @@ svg { flex-shrink: 0; }
   transform: scale(.62);
 }
 .breath__core { display: block; width: 64%; height: 64%; border-radius: 50%; background: var(--yellow); opacity: .9; }
-.breath__word { position: absolute; font-family: var(--display); font-weight: 700; font-size: 20px; color: var(--night); }
+.breath__word { position: absolute; font-family: var(--display); font-weight: 700; font-size: 20px; color: var(--night); pointer-events: none; }
+.breath:not(.is-on) .breath__word { font-size: 14px; }
 .breath.is-on .breath__ball { animation: breathe 8s ease-in-out infinite; }
 @keyframes breathe { 0% { transform: scale(.62); } 50% { transform: scale(1); } 100% { transform: scale(.62); } }
-@media (prefers-reduced-motion: reduce) { .breath.is-on .breath__ball { animation: none; transform: scale(.85); } }
+/* Поки вправа не запущена, коло тихенько «дихає» і світиться — запрошує торкнутися */
+.breath:not(.is-on) .breath__ball { animation: breath-idle 2.6s ease-in-out infinite; }
+.breath:not(.is-on) .breath__core { animation: breath-glow 2.6s ease-in-out infinite; }
+@keyframes breath-idle { 0%, 100% { transform: scale(.62); } 50% { transform: scale(.67); } }
+@keyframes breath-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 207, 51, .35); } 50% { box-shadow: 0 0 0 14px rgba(255, 207, 51, 0); } }
+.breath__ring:active .breath__core { opacity: 1; }
+.breath__text { display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
+.breath__hint { margin: 0; font-size: 16px; font-weight: 600; color: var(--night-text); }
+.breath__sub { margin: 0; font-size: 14px; color: var(--night-muted); }
+@media (prefers-reduced-motion: reduce) {
+  .breath.is-on .breath__ball { animation: none; transform: scale(.85); }
+  .breath:not(.is-on) .breath__ball, .breath:not(.is-on) .breath__core { animation: none; }
+}
 
 .night-tile {
   min-height: 104px; border: 0; border-radius: 20px; background: var(--night-2); color: var(--night-text);

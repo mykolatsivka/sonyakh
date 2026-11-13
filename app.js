@@ -540,10 +540,12 @@
         <section class="night-card breath" data-breath>
           <button type="button" class="breath__ring" data-breath-ring aria-label="Почати дихати">
             <span class="breath__ball"><span class="breath__core"></span></span>
-            <span class="breath__word" data-breath-word aria-live="polite"></span>
+            <span class="breath__word" data-breath-word aria-live="polite">Почати</span>
           </button>
-          <p class="center" style="font-size: 15px; color: var(--night-muted)">4 секунди вдих, 4 секунди видих.<br>Слідкуй за колом.</p>
-          <button class="btn btn--yellow btn--block" data-action="breath" style="font-size: 17px">Почати дихати</button>
+          <div class="breath__text">
+            <p class="breath__hint" data-breath-hint>Торкнись кола, щоб почати</p>
+            <p class="breath__sub">4 секунди вдих, 4 секунди видих</p>
+          </div>
         </section>
 
         <section class="stack stack--sm">
@@ -593,31 +595,30 @@
 
     const breath = root.querySelector('[data-breath]');
     const word = root.querySelector('[data-breath-word]');
-    const btn = root.querySelector('[data-action="breath"]');
     const ring = root.querySelector('[data-breath-ring]');
+    const hint = root.querySelector('[data-breath-hint]');
     let wordTimer = null;
     const stopBreath = () => {
       clearInterval(wordTimer);
       wordTimer = null;
       breath.classList.remove('is-on');
-      word.textContent = '';
-      btn.textContent = 'Почати дихати';
+      word.textContent = 'Почати';
+      hint.textContent = 'Торкнись кола, щоб почати';
       ring.setAttribute('aria-label', 'Почати дихати');
     };
-    // Запускає і зупиняє і кнопка, і саме жовте коло
+    // Вправу запускає і зупиняє дотик до самого кола
     const toggleBreath = () => {
       if (wordTimer) return stopBreath();
       let inhale = true;
       word.textContent = 'Вдих';
       breath.classList.add('is-on');
-      btn.textContent = 'Зупинити';
+      hint.textContent = 'Торкнись кола, щоб зупинити';
       ring.setAttribute('aria-label', 'Зупинити дихання');
       wordTimer = setInterval(() => {
         inhale = !inhale;
         word.textContent = inhale ? 'Вдих' : 'Видих';
       }, 4000);
     };
-    btn.addEventListener('click', toggleBreath);
     ring.addEventListener('click', toggleBreath);
 
     root.querySelectorAll('[data-bag]').forEach((box) => {
