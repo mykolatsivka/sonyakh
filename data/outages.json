@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T13:49:46.752Z",
+ "updatedAt": "2026-11-13T14:12:15.733Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -163,11 +163,10 @@
    "updatedAt": "2026-11-13T13:36:22.839Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-13T11:21:02.127Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-13T14:12:15.733Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1382,7 +1381,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "13.11.2026 15:37",
+   "sourceUpdated": "13.11.2026 16:09",
    "days": [
     {
      "date": "2026-11-13",
@@ -1434,6 +1433,16 @@
       "2.1": [
        {
         "from": 960,
+        "to": 1020,
+        "type": "maybe"
+       },
+       {
+        "from": 1020,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1140,
         "to": 1170,
         "type": "maybe"
        }
@@ -1441,6 +1450,16 @@
       "2.2": [
        {
         "from": 960,
+        "to": 1020,
+        "type": "maybe"
+       },
+       {
+        "from": 1020,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1140,
         "to": 1170,
         "type": "maybe"
        },
@@ -1507,6 +1526,16 @@
       "4.1": [
        {
         "from": 960,
+        "to": 1020,
+        "type": "maybe"
+       },
+       {
+        "from": 1020,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1140,
         "to": 1170,
         "type": "maybe"
        },
@@ -1534,6 +1563,16 @@
        },
        {
         "from": 960,
+        "to": 1020,
+        "type": "maybe"
+       },
+       {
+        "from": 1020,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1140,
         "to": 1170,
         "type": "maybe"
        }
@@ -1589,7 +1628,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-13T13:49:46.752Z"
+   "updatedAt": "2026-11-13T14:12:15.733Z"
   },
   "odesa": {
    "status": "ok",
@@ -1659,9 +1698,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "13.11.2026 15:30",
+   "sourceUpdated": "13.11.2026 16:00",
    "days": [],
-   "updatedAt": "2026-11-13T13:36:22.839Z"
+   "updatedAt": "2026-11-13T14:12:15.733Z"
   },
   "chernivtsi": {
    "days": [],
