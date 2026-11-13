@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T23:10:26.001Z",
+ "updatedAt": "2026-11-13T23:20:42.171Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -38,10 +38,11 @@
    "updatedAt": "2026-11-13T22:35:27.991Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-13T23:10:26.001Z"
+   "updatedAt": "2026-11-13T23:10:26.001Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zaporizhzhia": {
    "days": [],
