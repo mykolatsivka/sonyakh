@@ -210,14 +210,15 @@ svg { flex-shrink: 0; }
 /* ---------- Режим укриття ---------- */
 .night-card { background: var(--night-2); border-radius: 24px; padding: 22px; }
 .breath { display: flex; flex-direction: column; align-items: center; gap: 18px; }
-.breath__ring { position: relative; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; }
+.breath__ring { position: relative; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;
+  border: 0; padding: 0; background: none; color: inherit; border-radius: 50%; cursor: pointer; }
 .breath__ring::before { content: ''; position: absolute; inset: 0; border-radius: 50%; border: 2px dashed var(--night-line); }
 .breath__ball {
   width: 200px; height: 200px; border-radius: 50%; background: var(--night-3);
   display: flex; align-items: center; justify-content: center;
   transform: scale(.62);
 }
-.breath__core { width: 64%; height: 64%; border-radius: 50%; background: var(--yellow); opacity: .9; }
+.breath__core { display: block; width: 64%; height: 64%; border-radius: 50%; background: var(--yellow); opacity: .9; }
 .breath__word { position: absolute; font-family: var(--display); font-weight: 700; font-size: 20px; color: var(--night); }
 .breath.is-on .breath__ball { animation: breathe 8s ease-in-out infinite; }
 @keyframes breathe { 0% { transform: scale(.62); } 50% { transform: scale(1); } 100% { transform: scale(.62); } }
