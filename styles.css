@@ -310,6 +310,14 @@ legend { padding: 0; margin-bottom: 10px; font-weight: 700; font-size: 16px; }
 .night-tile--row small { font-size: 13px; font-weight: 500; color: var(--night-muted); }
 
 .coloring { background: #FFFFFF; border-radius: 24px; padding: 10px; }
+/* Стрічка мініатюр розмальовок: гортається вбік */
+.pics { display: flex; gap: 10px; overflow-x: auto; margin: 0 -20px; padding: 2px 20px 6px; scroll-snap-type: x proximity; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.pics::-webkit-scrollbar { display: none; }
+.pic { flex: none; width: 78px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 0; border: 0; background: none;
+  color: var(--night-muted); font-size: 12px; font-weight: 600; scroll-snap-align: start; }
+.pic svg { display: block; width: 72px; height: 72px; background: #fff; border-radius: 16px; border: 3px solid var(--night-2); pointer-events: none; }
+.pic[aria-pressed="true"] { color: var(--night-text); }
+.pic[aria-pressed="true"] svg { border-color: var(--yellow); box-shadow: 0 0 0 2px var(--yellow); }
 .coloring svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
 .coloring [data-r] { cursor: pointer; }
 .palette { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
