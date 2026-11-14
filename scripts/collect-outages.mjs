@@ -16,7 +16,10 @@ async function get(url, type = 'text') {
     signal: AbortSignal.timeout(30000)
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return type === 'json' ? res.json() : res.text();
+  if (type === 'json') return res.json();
+  // Деякі старі сайти віддають сторінку в кодуванні windows-1251
+  if (type === 'cp1251') return new TextDecoder('windows-1251').decode(await res.arrayBuffer());
+  return res.text();
 }
 
 // Зливає сусідні проміжки одного типу: [8:00–9:00] + [9:00–10:00] = [8:00–10:00]
@@ -275,7 +278,37 @@ async function collectRoe() {
   return parseRoeHtml(await get('https://www.roe.vsei.ua/disconnections'));
 }
 
-const COLLECTORS = { dtek: collectDtek, loe: collectLoe, zoe: collectZoe, mk: collectMk, cv: collectCv, roe: collectRoe };
+// ---------- Житомиробленерго: таблиця «підчерга × 48 півгодин», червоні клітинки — відключення ----------
+const ZT_OFF = /^#?(ff3333|f33|ff0000|f00|red)$/i;
+const ZT_ON = /^#?(ffffff|fff|white)$/i;
+
+export function parseZtoeHtml(html) {
+  const days = [];
+  for (const table of html.match(/<table x:str[\s\S]*?<\/table>/g) || []) {
+    const dm = table.match(/(\d{2})\.(\d{2})\.(\d{4})<\/b>/);
+    if (!dm) continue;
+    const groups = {};
+    for (const row of table.match(/<tr[^>]*>[\s\S]*?<\/tr>/g) || []) {
+      const cells = [...row.matchAll(/<td([^>]*)>([\s\S]*?)<\/td>/g)];
+      const label = cells.map((c) => stripTags(c[2]).trim()).find((t) => /^\d\.\d$/.test(t));
+      if (!label || cells.length < 48) continue;
+      const slots = cells.slice(-48).map((c) => (c[1].match(/background:\s*([^;"]+)/) || [])[1]?.trim() || '');
+      // Незнайомий колір: не вгадуємо, а показуємо як «можливе відключення»
+      groups[label] = merge(slots.flatMap((bg, i) => ZT_ON.test(bg) || !bg ? []
+        : [{ from: i * 30, to: i * 30 + 30, type: ZT_OFF.test(bg) ? 'off' : 'maybe' }]));
+    }
+    if (Object.keys(groups).length) days.push({ date: `${dm[3]}-${dm[2]}-${dm[1]}`, groups });
+  }
+  if (!days.length) throw new Error('таблицю графіка не знайдено');
+  const upd = stripTags(html).match(/Дата оновлення інформації\s*-\s*(\d{1,2}:\d{2})\s+(\d{2}\.\d{2}\.\d{4})/);
+  return { days, sourceUpdated: upd ? `${upd[2]} ${upd[1]}` : null };
+}
+
+async function collectZtoe() {
+  return parseZtoeHtml(await get('https://www.ztoe.com.ua/unhooking-search.php', 'cp1251'));
+}
+
+const COLLECTORS = { dtek: collectDtek, loe: collectLoe, zoe: collectZoe, mk: collectMk, cv: collectCv, roe: collectRoe, ztoe: collectZtoe };
 
 // ---------- Головний цикл (лише коли файл запущено напряму) ----------
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/').split('/').pop())) await main();
