@@ -3,7 +3,7 @@
   { "id": "volyn", "name": "Волинська", "operator": "Волиньобленерго", "url": "https://energy.volyn.ua/spozhyvacham/perervy-u-elektropostachanni/hrafik-vidkliuchen/" },
   { "id": "dnipro", "name": "Дніпропетровська", "operator": "ДТЕК Дніпровські електромережі", "url": "https://www.dtek-dnem.com.ua/ua/shutdowns", "source": { "type": "dtek", "site": "dtek-dnem" } },
   { "id": "donetsk", "name": "Донецька", "operator": "ДТЕК Донецькі електромережі", "url": "https://www.dtek-dem.com.ua/ua/shutdowns", "source": { "type": "dtek", "site": "dtek-dem" } },
-  { "id": "zhytomyr", "name": "Житомирська", "operator": "Житомиробленерго", "url": "https://www.ztoe.com.ua/unhooking-search.php" },
+  { "id": "zhytomyr", "name": "Житомирська", "operator": "Житомиробленерго", "url": "https://www.ztoe.com.ua/unhooking-search.php", "source": { "type": "ztoe" } },
   { "id": "zakarpattia", "name": "Закарпатська", "operator": "Закарпаттяобленерго", "url": "https://zakarpat.energy/customers/break-in-electricity-supply/schedule/" },
   { "id": "zaporizhzhia", "name": "Запорізька", "operator": "Запоріжжяобленерго", "url": "https://www.zoe.com.ua/outage/", "source": { "type": "zoe" } },
   { "id": "ivano-frankivsk", "name": "Івано-Франківська", "operator": "Прикарпаттяобленерго", "url": "https://www.oe.if.ua/uk/shutdowns_table" },
