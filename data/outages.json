@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T11:35:49.568Z",
+ "updatedAt": "2026-11-14T11:49:46.053Z",
  "regions": {
   "dnipro": {
    "status": "stale",
@@ -39,11 +39,261 @@
    "error": "HTTP 502"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-14T09:35:54.895Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-14T11:49:46.053Z"
+  },
+  "zhytomyr": {
+   "status": "ok",
+   "sourceUpdated": "14.11.2026 13:30",
+   "days": [
+    {
+     "date": "2026-11-14",
+     "groups": {
+      "1.1": [
+       {
+        "from": 120,
+        "to": 300,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 780,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 0,
+        "to": 120,
+        "type": "off"
+       },
+       {
+        "from": 480,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 780,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 180,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 0,
+        "to": 180,
+        "type": "off"
+       },
+       {
+        "from": 420,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 0,
+        "to": 180,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 780,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 0,
+        "to": 180,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 780,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 360,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 780,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 360,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 780,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1140,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 480,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 780,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 480,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 780,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 180,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 780,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 180,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 780,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1140,
+        "to": 1320,
+        "type": "off"
+       }
+      ]
+     }
+    }
+   ],
+   "updatedAt": "2026-11-14T11:49:46.053Z"
   },
   "zaporizhzhia": {
    "days": [],
