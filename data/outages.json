@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-14T04:36:11.715Z",
+ "updatedAt": "2026-11-14T04:49:31.234Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "14.11.2026 00:31",
    "days": [
     {
@@ -35,14 +35,14 @@
      }
     }
    ],
-   "updatedAt": "2026-11-14T03:36:39.685Z"
+   "updatedAt": "2026-11-14T03:36:39.685Z",
+   "error": "HTTP 500"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-14T03:36:39.685Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-14T04:49:31.234Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1507,7 +1507,7 @@
    "updatedAt": "2026-11-13T22:10:23.648Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "14.11.2026 05:54",
    "days": [
     {
@@ -1528,7 +1528,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-14T04:12:45.577Z"
+   "updatedAt": "2026-11-14T04:12:45.577Z",
+   "error": "HTTP 500"
   },
   "rivne": {
    "status": "ok",
