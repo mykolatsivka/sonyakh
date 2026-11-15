@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-110f26a6ddb4",
+    "topic": "sport",
+    "date": "2026-11-15",
+    "title": "Принц Гаррі завітав на Всеукраїнські Ігри Нескорених у Львові",
+    "text": "",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4184893-princ-garri-zavitav-na-vseukrainski-igri-neskorenih-u-lvovi.html",
+    "image": ""
+  },
+  {
     "id": "n-c46a8a59a4c5",
     "topic": "science",
     "date": "2026-11-15",
@@ -587,16 +597,6 @@
     "text": "У сучасному цифровому світі персоналізація вже давно стала звичним явищем, але пам’ять чат-ботів виводить цей механізм на новий рівень.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/neiroseti/chatgpt-tayemno-zbiraye-psihologichni-profili-lyudey-naukovci-b-yut-na-spoloh-13554489.html",
-    "image": ""
-  },
-  {
-    "id": "n-4b535855f3c9",
-    "topic": "rebuild",
-    "date": "2026-11-09",
-    "title": "У Франківську відкрили мурал, присвячений аеропідрозділу «Рій» 102-ї бригади ТрО",
-    "text": "В Івано-Франківську відкрили мурал, присвячений історії аеропідрозділу «Рій» 102-ї бригади ТрО.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4182954-u-frankivsku-vidkrili-mural-prisvacenij-aeropidrozdilu-rij-102i-brigadi-tro.html",
     "image": ""
   }
 ]
