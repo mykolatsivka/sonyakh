@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-9287ddb26ae8",
+    "topic": "science",
+    "date": "2026-11-15",
+    "title": "У Грузії археологи виявили частину стародавнього палацу",
+    "text": "Археологи виявили частину архітектурного комплексу V-VI століть, який, імовірно, був палацом місцевого правителя або представників аристократії, під час розкопок у…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184952-u-gruzii-arheologi-viavili-castinu-starodavnogo-palacu.html",
+    "image": ""
+  },
+  {
     "id": "n-110f26a6ddb4",
     "topic": "sport",
     "date": "2026-11-15",
@@ -587,16 +597,6 @@
     "text": "Після семи років реставрації та суперечок жовківську церкву відкриють для богослужінь",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/derevyanu_tserkvu_svyatoyi_triytsi_xviii_st_u_zhovkvi_peredali_u_koristuvannya_parafiyi_na_49_rokiv_n1649741",
-    "image": ""
-  },
-  {
-    "id": "n-37071dddfef3",
-    "topic": "science",
-    "date": "2026-11-09",
-    "title": "ChatGPT складає психологічний профіль кожного користувача: що з'ясували вчені",
-    "text": "У сучасному цифровому світі персоналізація вже давно стала звичним явищем, але пам’ять чат-ботів виводить цей механізм на новий рівень.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/neiroseti/chatgpt-tayemno-zbiraye-psihologichni-profili-lyudey-naukovci-b-yut-na-spoloh-13554489.html",
     "image": ""
   }
 ]
