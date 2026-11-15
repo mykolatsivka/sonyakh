@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-c0644f898bd5",
+    "topic": "sport",
+    "date": "2026-11-15",
+    "title": "Світоліна пробилась до фіналу надпрестижного турніру",
+    "text": "Вона вийшла до третього фіналу WTA Finals в кар’єрі.",
+    "source": "УНІАН",
+    "sourceUrl": "https://sport.unian.ua/elina-svitolina-linda-noskova-rezultat-pivfinalu-wta-finals-14-13560081.html",
+    "image": ""
+  },
+  {
+    "id": "n-a50266a2fed6",
+    "topic": "rebuild",
+    "date": "2026-11-15",
+    "title": "У Запоріжжі частково відновили рух транспорту греблею ДніпроГЕС",
+    "text": "14 листопада у Запоріжжі відкрили проїзд греблею Дніпровської ГЕС – транспорт їде по одній смузі в кожному напрямку.",
+    "source": "Українська правда",
+    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/15/8062907/",
+    "image": ""
+  },
+  {
+    "id": "n-0dcd27aca6d1",
+    "topic": "science",
+    "date": "2026-11-15",
+    "title": "Вперше в історії SpaceX \"впіймала\" корабель Starship після повернення з орбіти",
+    "text": "Це найважливіший крок на шляху до створення повністю багаторазової космічної системи.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/vpershe-v-istoriji-spacex-vpiymala-korabel-starship-pislya-povernennya-z-orbiti-video-13560099.html",
+    "image": ""
+  },
+  {
     "id": "n-6082b19da1a5",
     "topic": "science",
     "date": "2026-11-14",
@@ -567,36 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/pislya_rozgolosu_sluzhba_vidnovlennya_lvivshhini_peredumala_kupuvati_pozashlyahovik_za_4_mln_grn_n1649737",
-    "image": ""
-  },
-  {
-    "id": "n-584a3548de43",
-    "topic": "science",
-    "date": "2026-11-09",
-    "title": "Вчені дослідили рухи восьминогів: це може вплинути на підхід до створення роботів",
-    "text": "У новому дослідженні описано дві основні стратегії, які застосовують морські безхребетні.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/yak-vosminogi-proslizayut-kriz-neymovirno-vuzki-otvori-vcheni-rozkrili-jihniy-sekret-13554345.html",
-    "image": ""
-  },
-  {
-    "id": "n-902ddc667cbd",
-    "topic": "people",
-    "date": "2026-11-09",
-    "title": "В Україні відкривають новий набір на освітню програму про лідерство та партнерства в культурі",
-    "text": "Відкривається другий набір на програму «Лідерство та партнерства в культурі» – безоплатне навчання для команд, які працюють із культурною спадщиною та хочуть розвивати…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4182926-v-ukraini-vidkrivaut-novij-nabir-na-osvitnu-programu-pro-liderstvo-ta-partnerstva-v-kulturi.html",
-    "image": ""
-  },
-  {
-    "id": "n-5bc1c3ecf894",
-    "topic": "sport",
-    "date": "2026-11-09",
-    "title": "17-річна українка Лазаренко здобула перший титул WTT в одиночному розряді",
-    "text": "17-річна українська тенісистка Марія Лазаренко стала чемпіонкою турніру WTT (World Tennis Tour) W15 у місті Монастір (Туніс).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4182862-17ricna-ukrainka-lazarenko-zdobula-persij-titul-wtt-v-odinocnomu-rozradi.html",
     "image": ""
   }
 ]
