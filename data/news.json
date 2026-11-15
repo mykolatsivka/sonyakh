@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-fc349fff7dac",
+    "topic": "sport",
+    "date": "2026-11-16",
+    "title": "За крок від титулу: Світоліна не зуміла завоювати трофей WTA Finals",
+    "text": "На Підсумковому турнірі WTA 2026 Світоліна встигла переграти Кароліну Мухову, Аріну Соболенко та Лінду Носкову.",
+    "source": "УНІАН",
+    "sourceUrl": "https://sport.unian.ua/elina-svitolina-ukrajinska-tenisistka-prograla-mirri-andryeyeviy-13560813.html",
+    "image": ""
+  },
+  {
     "id": "n-81820d0404cc",
     "topic": "science",
     "date": "2026-11-15",
@@ -587,16 +597,6 @@
     "text": "Міжнародна профспілка футболістів FIFPRO оголосила символічну збірну 2026 року.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183109-messi-z-novim-rekordom-potrapiv-do-simvolicnoi-zbirnoi-roku.html",
-    "image": ""
-  },
-  {
-    "id": "n-974093781430",
-    "topic": "science",
-    "date": "2026-11-09",
-    "title": "Криза на шкоду Туску: як битва за Трибунал б'є по прем'єру Польщі та який пропонують вихід",
-    "text": "",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/articles/2026/11/09/8061981/",
     "image": ""
   }
 ]
