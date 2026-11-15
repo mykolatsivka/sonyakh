@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T13:20:30.880Z",
+ "updatedAt": "2026-11-15T13:35:29.012Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -26,15 +26,14 @@
    "updatedAt": "2026-11-15T13:20:30.880Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-15T12:49:57.426Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-15T13:35:29.012Z"
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "15.11.2026 15:00",
+   "sourceUpdated": "15.11.2026 15:30",
    "days": [
     {
      "date": "2026-11-15",
@@ -281,7 +280,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-15T13:09:43.400Z"
+   "updatedAt": "2026-11-15T13:35:29.012Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1261,7 +1260,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "14.11.2026 19:05",
+   "sourceUpdated": "15.11.2026 15:33",
    "days": [
     {
      "date": "2026-11-15",
@@ -1269,16 +1268,6 @@
       "1.1": [
        {
         "from": 1020,
-        "to": 1050,
-        "type": "maybe"
-       },
-       {
-        "from": 1050,
-        "to": 1200,
-        "type": "off"
-       },
-       {
-        "from": 1200,
         "to": 1230,
         "type": "maybe"
        }
@@ -1286,16 +1275,6 @@
       "1.2": [
        {
         "from": 930,
-        "to": 960,
-        "type": "maybe"
-       },
-       {
-        "from": 960,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1303,16 +1282,6 @@
       "2.1": [
        {
         "from": 930,
-        "to": 960,
-        "type": "maybe"
-       },
-       {
-        "from": 960,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1321,16 +1290,6 @@
       "3.1": [
        {
         "from": 1020,
-        "to": 1050,
-        "type": "maybe"
-       },
-       {
-        "from": 1050,
-        "to": 1200,
-        "type": "off"
-       },
-       {
-        "from": 1200,
         "to": 1230,
         "type": "maybe"
        }
@@ -1374,16 +1333,6 @@
       "5.2": [
        {
         "from": 1020,
-        "to": 1050,
-        "type": "maybe"
-       },
-       {
-        "from": 1050,
-        "to": 1200,
-        "type": "off"
-       },
-       {
-        "from": 1200,
         "to": 1230,
         "type": "maybe"
        }
@@ -1408,16 +1357,6 @@
       "6.2": [
        {
         "from": 930,
-        "to": 960,
-        "type": "maybe"
-       },
-       {
-        "from": 960,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1425,7 +1364,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-14T22:09:42.971Z"
+   "updatedAt": "2026-11-15T13:35:29.012Z"
   },
   "odesa": {
    "status": "ok",
@@ -1453,9 +1392,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "15.11.2026 15:00",
+   "sourceUpdated": "15.11.2026 15:30",
    "days": [],
-   "updatedAt": "2026-11-15T13:09:43.400Z"
+   "updatedAt": "2026-11-15T13:35:29.012Z"
   },
   "chernivtsi": {
    "days": [],
