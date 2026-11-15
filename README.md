@@ -1,120 +1,57 @@
-# Сонях
+# Sonyakh 🌻
 
-Безкоштовний сайт-застосунок (PWA) для українців: режим укриття, добрі новини, стіна подяк.
-Встановлюється на телефон як застосунок і працює без інтернету.
+**A free offline-first PWA that helps people in Ukraine get through air-raid alerts and power outages.**
 
-## Що всередині
+**Live:** [sonyakh.pp.ua](https://sonyakh.pp.ua) · **Telegram:** [@sonyakh56](https://t.me/sonyakh56) · [Інструкція українською](docs/README.uk.md)
 
-| Файл | Що це |
-|---|---|
-| `index.html` | Каркас сторінки і меню |
-| `styles.css` | Увесь вигляд: кольори, шрифти, відступи |
-| `app.js` | Усі екрани і логіка |
-| `config.js` | **Налаштування**: твоє ім'я, посилання на банку, адреса сервера |
-| `data/news.json` | Добрі новини |
-| `data/thanks.json` | Схвалені подяки для стіни |
-| `sw.js` | Робота без інтернету (service worker) |
-| `manifest.webmanifest`, `icons/` | Назва та іконка застосунку на телефоні |
+![Sonyakh screens: home, shelter mode, power outage schedule, coloring](docs/screenshots/sonyakh-screens.png)
 
-## Запустити у себе на комп'ютері
+## What it does
 
-У папці з сайтом виконай:
+- **Shelter mode** works with no connection: a guided breathing exercise, calming games for kids (memory, bubbles, spot the difference), 10 coloring pages and 10 bedtime stories, an emergency bag checklist and first-aid tips.
+- **Power outage schedules** for 11 regions, collected automatically from regional grid operators every 15 minutes. People see whether their queue has power right now, the next outage and the whole day on a 24-hour "sunflower clock".
+- **Good news feed**, filtered hourly from five Ukrainian media RSS feeds and cross-posted to a Telegram channel.
+- **Wall of thanks** and parenting tips sent by users, moderated before they are published.
+- **"What's new" page and update banner**, so people know the installed app has been improved.
+
+It installs to the home screen like a native app, works without the internet, and has no ads, no sign-up and no tracking cookies.
+
+## Architecture
+
+```
+GitHub Actions (cron)                 GitHub Pages (static)                 Phone (PWA)
+┌─────────────────────────┐   commit   ┌──────────────────────┐   fetch    ┌────────────────────────────┐
+│ collect-outages  /15 min├──────────►│ data/outages.json     ├──────────►│ Service Worker cache        │
+│ collect-news     hourly ├──────────►│ data/news.json        │           │  - app shell: cache-first   │
+│ post-telegram    hourly │           │ index.html, app.js …  │           │  - data/*: network-first    │
+└─────────────────────────┘           └──────────────────────┘           │ Vanilla JS SPA (hash router)│
+                                                                           └──────────────┬─────────────┘
+                                       Supabase (Postgres + RLS)  ◄── Edge Function ◄─────┘ user posts
+                                       thanks / tips / suggestions     (Cloudflare Turnstile check)
+```
+
+- **No framework, no build step.** A single-page app in plain JavaScript, HTML and CSS: hash routing, rendering from template strings, a tiny store over `localStorage`.
+- **Offline-first.** A Service Worker precaches the app shell and fonts and serves data network-first with a cached fallback. App updates install silently, are applied when the app goes to the background, and are announced by a banner with a changelog.
+- **Zero-cost backend.** Scheduled GitHub Actions act as the backend: they scrape, normalize and commit JSON data, which GitHub Pages then serves as a static API.
+- **Outage scrapers** (`scripts/collect-outages.mjs`): one parser per grid operator (embedded JSON in HTML, REST APIs, HTML tables, a windows-1251 legacy site). Each produces one normalized format of intervals per queue. A failed source keeps the last good data and is marked stale instead of being wiped. Sites protected against bots are never bypassed.
+- **News pipeline** (`scripts/collect-news.mjs`): RSS → keyword scoring with weighted positive terms, a blocklist and URL-section filters → de-duplication of the same event → JSON. If an `ANTHROPIC_API_KEY` is set, it switches to selecting and rewriting stories with the Claude API, using structured output.
+- **User content** goes through a Supabase Edge Function (Deno) that verifies Cloudflare Turnstile. Postgres row-level security and rate limits keep unapproved posts private.
+- **Security and privacy:** a strict Content-Security-Policy, self-hosted fonts, cookie-free analytics (GoatCounter), no secrets in the repository (all keys live in GitHub and Supabase secrets).
+- **Accessibility:** semantic buttons, ARIA labels, `prefers-reduced-motion` support and large touch targets for people under stress.
+
+## Tech stack
+
+JavaScript (ES2022) · HTML · CSS · Service Worker / PWA · Node.js 22 · GitHub Actions · GitHub Pages · Supabase (PostgreSQL, RLS, Edge Functions / Deno, TypeScript) · Cloudflare Turnstile · Telegram Bot API · Claude API (optional)
+
+## Run locally
 
 ```bash
-python -m http.server 8321
+python -m http.server 8321      # then open http://localhost:8321
+npm ci
+node scripts/collect-outages.mjs    # refresh power outage schedules
+node scripts/collect-news.mjs --dry # preview the news the robot would pick
 ```
 
-Потім відкрий у браузері http://localhost:8321
+## Author
 
-## Добрі новини: робот
-
-- `scripts/collect-news.mjs` щогодини читає RSS Суспільного, Укрінформу, Української правди, УНІАН і Zaxid.net
-  і додає до 5 добрих новин (не більше двох на одну тему, без повторів однієї події).
-- **Без ключа Claude (зараз):** відбір безкоштовний, за ключовими словами з `scripts/good-news-keywords.mjs`.
-  Там два списки: `BAD` (будь-яке з цих слів, і новина відкидається) та `GOOD` (слова з вагою і темою).
-  Новина проходить, якщо набрала щонайменше 4 бали. Показуються оригінальний заголовок і перше речення опису.
-  Побачив погану новину на сайті: додай слово з неї в `BAD`. Пропускає добру: додай слово в `GOOD`.
-- **З ключем Claude:** щойно в репозиторії з'явиться секрет `ANTHROPIC_API_KEY`, робот сам перейде на Claude,
-  і той відбиратиме новини та переписуватиме їх своїми словами.
-- `.github/workflows/news.yml` запускає його на GitHub щогодини (о :20).
-- Потрібен секрет **ANTHROPIC_API_KEY** у репозиторії: Settings › Secrets and variables › Actions › New repository secret.
-- Модель за замовчуванням: `claude-haiku-5-5` (приблизно 1–2 $ на місяць). Змінити її можна без коду:
-  Settings › Secrets and variables › Actions › Variables › `NEWS_MODEL` (наприклад, `claude-opus-5-5`, точніше, але дорожче).
-- `data/news-seen.json`: які новини робот уже переглянув, щоб не платити за них двічі.
-- Пробний запуск без Claude: `node scripts/collect-news.mjs --dry`
-
-## Сервер: подяки, поради від батьків, запропоновані новини (Supabase)
-
-- Адреса і публічний ключ — у `config.js` (`supabaseUrl`, `supabaseKey`). Адреса також прописана в `connect-src` в `index.html`.
-- Таблиці й правила безпеки — у `supabase/schema.sql` (запускається в Supabase › SQL Editor).
-- **Схвалення:** Supabase › Table Editor › `thanks` або `tips` › у колонці `approved` поставити `true`. Лише схвалене видно на сайті.
-- Запропоновані новини — у таблиці `news_suggestions` (їх бачиш лише ти).
-- `.github/workflows/keepalive.yml` раз на три дні звертається до сервера, щоб безкоштовний проєкт не «заснув».
-- Пароль бази та secret/service_role ключ **ніколи** не додавай у код чи в чат.
-
-## Як додати добру новину вручну
-
-Відкрий `data/news.json` і додай новий блок на початок списку:
-
-```json
-{
-  "id": "2026-10-25-mist",
-  "topic": "rebuild",
-  "date": "2026-10-25",
-  "title": "Заголовок новини",
-  "text": "Два речення: коротко і тепло.",
-  "source": "Назва медіа",
-  "sourceUrl": "https://...",
-  "image": ""
-}
-```
-
-- `topic`: одна з тем: `rebuild` (Відбудова), `people` (Люди), `sport` (Спорт), `animals` (Тварини), `science` (Наука).
-- `date`: у форматі РРРР-ММ-ДД. Найновіша новина автоматично стає «Доброю новиною дня».
-- `image`: посилання на картинку або порожньо (тоді буде логотип).
-
-**Перед запуском видали приклади** з позначкою `[Приклад]` у `data/news.json` і `data/thanks.json`.
-
-## Як додати подяку на стіну
-
-Відкрий `data/thanks.json` і додай:
-
-```json
-{ "id": "t-001", "to": "Енергетикам", "text": "Текст подяки", "who": "Ім'я, місто", "warm": 0 }
-```
-
-## Посилання на банку
-
-У `config.js` встав посилання в `donateUrl` і своє ім'я в `authorName`.
-
-## Після будь-яких змін
-
-У файлі `sw.js` збільш версію: `sonyakh-v1` → `sonyakh-v2`.
-Інакше телефони, де Сонях уже встановлено, продовжать показувати стару версію.
-
-## Викласти в інтернет безкоштовно
-
-PWA працює тільки через `https`. Обидва варіанти нижче безкоштовні і дають https:
-
-- **GitHub Pages**: створи репозиторій, завантаж туди ці файли, далі Settings › Pages › Deploy from branch.
-- **Cloudflare Pages**: Create project › Upload assets, перетягни папку.
-
-Власний домен (наприклад, `sonyakh.com.ua`) можна підключити пізніше, він коштує кілька сотень гривень на рік.
-
-## Графік світла
-
-- `data/regions.json`: усі області, назва обленерго і посилання «Яка моя черга?». Якщо обленерго змінить адресу, виправ її тут.
-- `scripts/collect-outages.mjs`: робот, який збирає графіки і записує `data/outages.json`. Запустити вручну: `node scripts/collect-outages.mjs`.
-- `.github/workflows/outages.yml`: запускає робота кожні 15 хвилин на GitHub (безкоштовно), коли сайт буде на GitHub.
-- Зараз робот уміє брати графік з **ДТЕК** (Київ, Київщина, Дніпропетровщина, Одещина, Донеччина), **Львів-**, **Запоріжжя-**, **Миколаїв-**, **Чернівці-**, **Рівне-** і **Житомиробленерго**.
-  Сайти ДТЕК мають захист від роботів, тому графік звідти може не оновлюватись. Тоді Сонях показує останній збережений і пише про це. Ми цей захист не обходимо.
-- Для інших областей Сонях показує кнопку на офіційний сайт. Щоб додати область, треба написати для неї функцію-збирач у `collect-outages.mjs` і додати `source` у `regions.json`.
-- Подивитись, як виглядає графік, коли відключення є: відкрий сайт з `?demo`, наприклад http://localhost:8321/?demo#/power
-
-## Що ще не зроблено
-
-- **Сервер для подяк і запропонованих новин.** Зараз вони зберігаються на телефоні людини і чекають у черзі.
-  Коли з'явиться сервер (наприклад, безкоштовний Supabase чи Firebase), впиши його адресу в `apiUrl` у `config.js`,
-  і черга відправиться сама. Подяки на стіні оновлюються через `data/thanks.json`.
-- **Лічильник «Тепло»** поки рахує тільки на телефоні людини, без сервера він не спільний.
-- **Статті** «Блекаут», «Як заспокоїти дитину», «Коли тривожно» позначені «Скоро».
+Built by **Mykola Tsivka**. Feedback and ideas are welcome via the [Telegram channel](https://t.me/sonyakh56).
