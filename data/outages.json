@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T16:25:42.242Z",
+ "updatedAt": "2026-11-16T16:37:20.338Z",
  "regions": {
   "dnipro": {
    "status": "stale",
@@ -181,17 +181,18 @@
     }
    ],
    "updatedAt": "2026-11-16T16:12:59.176Z",
-   "error": "The operation was aborted due to timeout"
+   "error": "fetch failed"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-16T16:25:42.242Z"
+   "updatedAt": "2026-11-16T16:25:42.242Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "16.11.2026 18:00",
+   "sourceUpdated": "16.11.2026 18:30",
    "days": [
     {
      "date": "2026-11-16",
@@ -398,7 +399,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:12:59.176Z"
+   "updatedAt": "2026-11-16T16:37:20.338Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -408,7 +409,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "15.11.2026 20:50",
    "days": [
     {
@@ -1312,10 +1313,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:12:59.176Z"
+   "updatedAt": "2026-11-16T16:12:59.176Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "15.11.2026 20:28",
    "days": [
     {
@@ -1488,7 +1490,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:12:59.176Z"
+   "updatedAt": "2026-11-16T16:12:59.176Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1818,7 +1821,7 @@
    "updatedAt": "2026-11-16T12:49:48.087Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.11.2026 14:49",
    "days": [
     {
@@ -1946,14 +1949,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T13:27:34.685Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-16T16:37:20.338Z"
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "16.11.2026 18:00",
+   "sourceUpdated": "16.11.2026 18:30",
    "days": [],
-   "updatedAt": "2026-11-16T16:12:59.176Z"
+   "updatedAt": "2026-11-16T16:37:20.338Z"
   },
   "chernivtsi": {
    "days": [],
