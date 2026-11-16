@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-2af6f35bc571",
+    "topic": "science",
+    "date": "2026-11-16",
+    "title": "Фільм «Пробач мені, мамо» про Героя України Геннадія Афанасьєва переміг на Мадридському кінофестивалі",
+    "text": "Документальний фільм режисера Євгена Лесного “Пробач мені, мамо” про Героя України Геннадія Афанасьєва переміг на Мадридському міжнародному кінофестивалі.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185158-film-probac-meni-mamo-pro-geroa-ukraini-gennadia-afanaseva-peremig-na-madridskomu-kinofestivali.html",
+    "image": ""
+  },
+  {
+    "id": "n-781d8f62d910",
+    "topic": "rebuild",
+    "date": "2026-11-16",
+    "title": "У Баку відкрили українську книжкову поличку",
+    "text": "В Університеті Одлар Юрду (Odlar Yurdu University) у столиці Азербайджану відкрили українську книжкову поличку в межах заходу «Нові горизонти української культури: Дні літератури».",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4185169-u-baku-vidkrili-ukrainsku-knizkovu-policku.html",
+    "image": ""
+  },
+  {
     "id": "n-4460eb1c4b0f",
     "topic": "rebuild",
     "date": "2026-11-16",
@@ -577,26 +597,6 @@
     "text": "На території Ківерцівського національного природного парку «Цуманська пуща», що у Волинській області, вперше фотопастка зафіксувала євразійську рись.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4183274-na-volini-vperse-u-fotopastku-potrapila-cervonoknizna-ris.html",
-    "image": ""
-  },
-  {
-    "id": "n-fc19cd49cd46",
-    "topic": "science",
-    "date": "2026-11-10",
-    "title": "Турецький хіт уперше вийде на українському ТБ: \"Кизиловий шербет\" - ексклюзивна прем’єра на Бігуді",
-    "text": "Дізнайтеся, про що історія двох родин, хто зіграв головні ролі та коли прем'єра на телеканалі Бігуді.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/common/tureckiy-hit-upershe-viyde-na-ukrajinskomu-tb-kiziloviy-sherbet-eksklyuzivna-prem-yera-na-bigudi-13555215.html",
-    "image": ""
-  },
-  {
-    "id": "n-7f36c2d5acf0",
-    "topic": "science",
-    "date": "2026-11-10",
-    "title": "23 науковці зі Львова отримають стипендії Кабміну для молодих вчених",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/23_naukovtsi_zi_lvova_otrimayut_stipendiyi_kabminu_dlya_molodih_vchenih_n1649778",
     "image": ""
   }
 ]
