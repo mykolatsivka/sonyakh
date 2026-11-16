@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-16T16:50:05.387Z",
+ "updatedAt": "2026-11-16T17:10:59.435Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 17:21",
    "days": [
     {
@@ -180,7 +180,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:50:05.387Z"
+   "updatedAt": "2026-11-16T16:50:05.387Z",
+   "error": "fetch failed"
   },
   "donetsk": {
    "status": "stale",
@@ -191,7 +192,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "16.11.2026 18:30",
+   "sourceUpdated": "16.11.2026 19:00",
    "days": [
     {
      "date": "2026-11-16",
@@ -398,7 +399,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:37:20.338Z"
+   "updatedAt": "2026-11-16T17:10:59.435Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -408,7 +409,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "15.11.2026 20:50",
    "days": [
     {
@@ -1312,10 +1313,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:50:05.387Z"
+   "updatedAt": "2026-11-16T16:50:05.387Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "15.11.2026 20:28",
    "days": [
     {
@@ -1488,7 +1490,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T16:50:05.387Z"
+   "updatedAt": "2026-11-16T16:50:05.387Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1497,7 +1500,7 @@
    "updatedAt": "2026-10-24T20:24:11.394Z"
   },
   "mykolaiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 14:42",
    "days": [
     {
@@ -1815,7 +1818,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-16T12:49:48.087Z"
+   "updatedAt": "2026-11-16T12:49:48.087Z",
+   "error": "HTTP 403"
   },
   "odesa": {
    "status": "ok",
@@ -1950,9 +1954,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "16.11.2026 18:30",
+   "sourceUpdated": "16.11.2026 19:00",
    "days": [],
-   "updatedAt": "2026-11-16T16:37:20.338Z"
+   "updatedAt": "2026-11-16T17:10:59.435Z"
   },
   "chernivtsi": {
    "days": [],
