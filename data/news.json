@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-24795c10aae5",
+    "topic": "science",
+    "date": "2026-11-16",
+    "title": "Бурштин із М’янми зберіг рідкісну знахідку віком 98 млн років: що виявили дослідники",
+    "text": "У М’янмі такі знахідки трапляються доволі часто.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/skam-yaniliy-burshtin-rozkriv-sekret-maskuvannya-bogomoliv-yakiy-isnuvav-98-mln-rokiv-tomu-13561851.html",
+    "image": ""
+  },
+  {
+    "id": "n-4db4795b34bf",
+    "topic": "sport",
+    "date": "2026-11-16",
+    "title": "Ольга Харлан повертається у фехтування після дворічної паузи",
+    "text": "Дворазова олімпійська чемпіонка з фехтування Ольга Харлан оголосила про повернення до змагань після дворічної перерви.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185311-olga-harlan-povertaetsa-u-fehtuvanna-pisla-dvoricnoi-pauzi.html",
+    "image": ""
+  },
+  {
     "id": "n-5272b6ae5860",
     "topic": "rebuild",
     "date": "2026-11-16",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/u_lvovi_vidbuvsya_kubok_komanduvacha_povitryanih_sil_z_plavannya_kompaniya_blago_pidtrimala_zahid_n1649703",
-    "image": ""
-  },
-  {
-    "id": "n-ad063da46cc9",
-    "topic": "rebuild",
-    "date": "2026-11-11",
-    "title": "У Загребі на книжковому ярмарку презентували українсько-хорватський словник",
-    "text": "У вівторок, 10 листопада, у столиці Хорватії відбулось урочисте відкриття 48-го міжнародного книжкового ярмарку Interliber, на якому презентували українсько-хорватський словник.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4183647-u-zagrebi-na-knizkovomu-armarku-prezentuvali-ukrainskohorvatskij-slovnik.html",
-    "image": ""
-  },
-  {
-    "id": "n-e01a7ab94389",
-    "topic": "sport",
-    "date": "2026-11-10",
-    "title": "На чемпіонаті України з карате визначені кандидати до національної і молодіжної збірних",
-    "text": "У Львові відбувся чемпіонат України з карате серед кадетів, юніорів, молоді (U21) та дорослих 2026 року.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183479-na-cempionati-ukraini-z-karate-viznaceni-kandidati-do-nacionalnoi-i-molodiznoi-zbirnih.html",
     "image": ""
   }
 ]
