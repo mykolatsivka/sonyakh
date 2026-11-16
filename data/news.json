@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-6ecc922b4739",
+    "topic": "sport",
+    "date": "2026-11-16",
+    "title": "Збірна України виступить в Узбекистані на ЧС-2026 із дзюдо серед юніорів",
+    "text": "У Ташкенті (Узбекистан) 19-21 листопада за участю збірної України відбудеться юніорський чемпіонат світу з дзюдо Tashkent World Championships Juniors Individuals 2026.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185231-zbirna-ukraini-vistupit-v-uzbekistani-na-cs2026-iz-dzudo-sered-unioriv.html",
+    "image": ""
+  },
+  {
+    "id": "n-1faa6b8d16b3",
+    "topic": "science",
+    "date": "2026-11-16",
+    "title": "У храмі на Тернопільщині завершили реставрацію розписів початку ХХ століття",
+    "text": "У місті Бережани на Тернопільщині завершили реставрацію розписів початку ХХ століття у церкві Пресвятої Трійці.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185241-u-hrami-na-ternopilsini-zaversili-restavraciu-rozpisiv-pocatku-hh-stolitta.html",
+    "image": ""
+  },
+  {
+    "id": "n-21594ff06f78",
+    "topic": "sport",
+    "date": "2026-11-16",
+    "title": "Українка Мотрічко вийшла вперед у матчі за звання чемпіонки світу з міжнародних шашок",
+    "text": "У столиці Естонії Таллінні триває матч за звання чемпіонки світу з міжнародних шашок між українкою Вікторією Мотрічко та представницею Нідерландів Дар'єю Ткаченко.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185232-ukrainka-motricko-vijsla-vpered-u-matci-za-zvanna-cempionki-svitu-z-miznarodnih-sasok.html",
+    "image": ""
+  },
+  {
     "id": "n-40847795c598",
     "topic": "science",
     "date": "2026-11-16",
@@ -567,36 +597,6 @@
     "text": "В Амстердамі в одній із найвідоміших концертних зал Європи – Консертгебау – відбувся благодійний концерт української піаністки Анни Федорової.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4183396-v-amsterdami-vidbuvsa-blagodijnij-koncert-ukrainskoi-pianistki-anni-fedorovoi.html",
-    "image": ""
-  },
-  {
-    "id": "n-90b5d10ec3d1",
-    "topic": "science",
-    "date": "2026-11-10",
-    "title": "Оголосили довгий список літературної премії «Воля»",
-    "text": "Оголосили довгий список державної літературної премії \"Воля\" 2026 року.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4183410-ogolosili-dovgij-spisok-literaturnoi-premii-vola.html",
-    "image": ""
-  },
-  {
-    "id": "n-c891da404af9",
-    "topic": "sport",
-    "date": "2026-11-10",
-    "title": "Шпажистка Аліна Дмитрук - у чвертьфіналі Юнацьких Олімпійських ігор",
-    "text": "Українська фехувальниця Аліна Дмитрук здобула шість перемог у шести зустрічах на Юнацьких Олімпійських іграх у Дакарі (Сенегал).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183363-spazistka-alina-dmitruk-u-cvertfinali-unackih-olimpijskih-igor.html",
-    "image": ""
-  },
-  {
-    "id": "n-9d75b40ca276",
-    "topic": "sport",
-    "date": "2026-11-10",
-    "title": "Відомі лавреати 12-го туру української футбольної Прем'єр-ліги",
-    "text": "Експерти української футбольної Прем’єр-ліга (УПЛ) визначили найкращого гравця та тренера 12-го туру чемпіонату країни.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4183354-vidomi-laureati-12go-turu-ukrainskoi-futbolnoi-premerligi.html",
     "image": ""
   }
 ]
