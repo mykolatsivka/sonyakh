@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T11:35:41.656Z",
+ "updatedAt": "2026-11-17T11:49:44.046Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -208,10 +208,11 @@
    "updatedAt": "2026-11-17T10:49:32.169Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-17T11:35:41.656Z"
+   "updatedAt": "2026-11-17T11:35:41.656Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
    "status": "ok",
@@ -295,7 +296,7 @@
         "type": "off"
        },
        {
-        "from": 840,
+        "from": 780,
         "to": 990,
         "type": "off"
        },
@@ -427,7 +428,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T11:35:41.656Z"
+   "updatedAt": "2026-11-17T11:49:44.046Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -437,7 +438,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 23:46",
    "days": [
     {
@@ -1266,10 +1267,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T10:49:32.169Z"
+   "updatedAt": "2026-11-17T10:49:32.169Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 23:37",
    "days": [
     {
@@ -1437,7 +1439,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T11:35:41.656Z"
+   "updatedAt": "2026-11-17T11:35:41.656Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1662,7 +1665,7 @@
    "updatedAt": "2026-11-17T11:20:53.523Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "17.11.2026 11:25",
    "days": [
     {
@@ -1770,7 +1773,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T11:20:53.523Z"
+   "updatedAt": "2026-11-17T11:20:53.523Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
    "status": "ok",
