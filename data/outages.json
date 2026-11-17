@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T20:22:22.325Z",
+ "updatedAt": "2026-11-17T20:36:41.760Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -415,7 +415,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "17.11.2026 22:00",
+   "sourceUpdated": "17.11.2026 22:30",
    "days": [
     {
      "date": "2026-11-17",
@@ -831,7 +831,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T20:11:43.683Z"
+   "updatedAt": "2026-11-17T20:36:41.760Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -2838,11 +2838,10 @@
    "updatedAt": "2026-11-17T19:49:32.250Z"
   },
   "lviv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": null,
    "days": [],
-   "updatedAt": "2026-10-24T20:24:11.394Z",
-   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+   "updatedAt": "2026-11-17T20:36:41.760Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -3285,7 +3284,7 @@
    "updatedAt": "2026-11-17T18:37:34.559Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "17.11.2026 19:10",
    "days": [
     {
@@ -3425,13 +3424,14 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T17:21:15.349Z"
+   "updatedAt": "2026-11-17T17:21:15.349Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "17.11.2026 22:00",
+   "sourceUpdated": "17.11.2026 22:30",
    "days": [],
-   "updatedAt": "2026-11-17T20:11:43.683Z"
+   "updatedAt": "2026-11-17T20:36:41.760Z"
   },
   "chernivtsi": {
    "days": [],
