@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-69cd265278f3",
+    "topic": "sport",
+    "date": "2026-11-17",
+    "title": "Кікбоксер Щербатюк виграв «золото» чемпіонату Європи",
+    "text": "Черкащанин Роман Щербатюк завершив змагальний сезон 2026 року перемогою на чемпіонаті Європи з кікбоксингу WAKO.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185393-kikbokser-serbatuk-vigrav-zoloto-cempionatu-evropi.html",
+    "image": ""
+  },
+  {
     "id": "n-c7246fd1f026",
     "topic": "rebuild",
     "date": "2026-11-17",
@@ -587,16 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/u_peredmisti_frankivska_planuyut_zbuduvati_zhk_na_867_kvartir_n1649900",
-    "image": ""
-  },
-  {
-    "id": "n-e7e4f456e96e",
-    "topic": "rebuild",
-    "date": "2026-11-11",
-    "title": "Львів залучив €450 тисяч гранту на підготовку проєкту Центру активного довголіття",
-    "text": "Львів залучив 450 тисяч євро гранту на підготовку проєкту Центру активного довголіття для реабілітації та соціальної підтримки літніх людей.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4183704-lviv-zaluciv-450-tisac-grantu-na-pidgotovku-proektu-centru-aktivnogo-dovgolitta.html",
     "image": ""
   }
 ]
