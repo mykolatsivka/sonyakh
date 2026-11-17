@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T20:11:43.683Z",
+ "updatedAt": "2026-11-17T20:22:22.325Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -2838,10 +2838,11 @@
    "updatedAt": "2026-11-17T19:49:32.250Z"
   },
   "lviv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": null,
    "days": [],
-   "updatedAt": "2026-10-24T20:24:11.394Z"
+   "updatedAt": "2026-10-24T20:24:11.394Z",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   },
   "mykolaiv": {
    "status": "ok",
