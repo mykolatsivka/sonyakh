@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T05:11:57.108Z",
+ "updatedAt": "2026-11-17T05:23:03.256Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -433,7 +433,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 23:46",
    "days": [
     {
@@ -1262,10 +1262,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T04:36:59.348Z"
+   "updatedAt": "2026-11-17T04:36:59.348Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.11.2026 23:37",
    "days": [
     {
@@ -1433,7 +1434,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T04:25:33.010Z"
+   "updatedAt": "2026-11-17T04:25:33.010Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1443,7 +1445,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "17.11.2026 06:07",
+   "sourceUpdated": "17.11.2026 07:12",
    "days": [
     {
      "date": "2026-11-17",
@@ -1512,16 +1514,6 @@
       "2.2": [
        {
         "from": 450,
-        "to": 480,
-        "type": "maybe"
-       },
-       {
-        "from": 480,
-        "to": 630,
-        "type": "off"
-       },
-       {
-        "from": 630,
         "to": 660,
         "type": "maybe"
        },
@@ -1603,16 +1595,6 @@
       "4.1": [
        {
         "from": 450,
-        "to": 480,
-        "type": "maybe"
-       },
-       {
-        "from": 480,
-        "to": 630,
-        "type": "off"
-       },
-       {
-        "from": 630,
         "to": 660,
         "type": "maybe"
        },
@@ -1625,16 +1607,6 @@
       "4.2": [
        {
         "from": 450,
-        "to": 480,
-        "type": "maybe"
-       },
-       {
-        "from": 480,
-        "to": 630,
-        "type": "off"
-       },
-       {
-        "from": 630,
         "to": 660,
         "type": "maybe"
        },
@@ -1755,7 +1727,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T04:14:04.358Z"
+   "updatedAt": "2026-11-17T05:23:03.256Z"
   },
   "odesa": {
    "status": "ok",
