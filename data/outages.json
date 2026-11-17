@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-17T14:12:30.214Z",
+ "updatedAt": "2026-11-17T14:23:34.734Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "17.11.2026 00:43",
    "days": [
     {
@@ -205,13 +205,15 @@
      }
     }
    ],
-   "updatedAt": "2026-11-17T13:23:00.696Z"
+   "updatedAt": "2026-11-17T13:23:00.696Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-17T14:12:30.214Z"
+   "updatedAt": "2026-11-17T14:12:30.214Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
    "status": "ok",
