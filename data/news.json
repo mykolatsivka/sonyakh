@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-5f1efb14a631",
+    "topic": "rebuild",
+    "date": "2026-11-19",
+    "title": "У застосунку «Армія+» запустили курс про оборонні закупівлі",
+    "text": "У застосунку «Армія+» став доступним новий навчальний курс «Оборонні закупівлі.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186072-u-zastosunku-armia-zapustili-kurs-pro-oboronni-zakupivli.html",
+    "image": ""
+  },
+  {
+    "id": "n-a8f4341e0a16",
+    "topic": "rebuild",
+    "date": "2026-11-19",
+    "title": "У Європі заборонять продаж шампунів та гелів із мікропластиком: коли запрацює обмеження",
+    "text": "Виробники навмисно додають такі добавки до складу засобів, щоб поліпшити їхню структуру.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/mikroplastik-u-yevropi-obmezhat-prodazh-shampuniv-ta-geliv-iz-dribnimi-chastinkami-plastiku-13564290.html",
+    "image": ""
+  },
+  {
     "id": "n-dbb3b8136513",
     "topic": "science",
     "date": "2026-11-18",
@@ -577,26 +597,6 @@
     "text": "Український анімаційний 2D-серіал «Нелогічний дорослий світ» режисерки Ірини Сосімович та продюсерки Міри Оєторо здобув нагороду Ради Європи за розвиток копродукції серіалів на…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184349-ukrainskij-animacijnij-serial-zdobuv-nagorodu-radi-evropi-na-cee-animation-forum.html",
-    "image": ""
-  },
-  {
-    "id": "n-cd423733cd0f",
-    "topic": "science",
-    "date": "2026-11-13",
-    "title": "Через затримку в Тернопільській облраді на премію ВР не подали жодного освітянина з області",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/cherez_vidsutnist_sesiy_ternopilskoyi_oblradi_na_shhorichnu_premiyu_ne_podali_zhodnogo_osvityanina_n1650087",
-    "image": ""
-  },
-  {
-    "id": "n-0397cd992d75",
-    "topic": "rebuild",
-    "date": "2026-11-13",
-    "title": "«Небо»: у львівській галереї ZAG відкрили нову виставку",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/nebo_u_galereyi_zag_vidkrilas_nova_vistavka_n1650085",
     "image": ""
   }
 ]
