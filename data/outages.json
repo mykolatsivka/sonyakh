@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-18T08:36:16.171Z",
+ "updatedAt": "2026-11-18T08:50:15.755Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "18.11.2026 05:50",
    "days": [
     {
@@ -185,8 +185,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-18T04:13:50.365Z",
-   "error": "fetch failed"
+   "updatedAt": "2026-11-18T08:50:15.755Z"
   },
   "donetsk": {
    "status": "stale",
@@ -424,7 +423,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "17.11.2026 21:28",
    "days": [
     {
@@ -1253,11 +1252,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-18T08:15:17.781Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-18T08:50:15.755Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "17.11.2026 19:48",
    "days": [
     {
@@ -1430,8 +1428,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-18T07:49:12.824Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-18T08:50:15.755Z"
   },
   "lviv": {
    "status": "ok",
