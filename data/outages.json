@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-19T18:37:53.081Z",
+ "updatedAt": "2026-11-19T18:50:09.254Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "19.11.2026 07:55",
    "days": [
     {
@@ -35,8 +35,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T17:10:09.502Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-19T18:50:09.254Z"
   },
   "donetsk": {
    "status": "stale",
@@ -1222,7 +1221,7 @@
    "updatedAt": "2026-11-19T16:36:43.227Z"
   },
   "odesa": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "19.11.2026 19:53",
    "days": [
     {
@@ -1290,15 +1289,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T18:14:17.467Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-19T18:50:09.254Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "19.11.2026 20:00",
+   "status": "ok",
+   "sourceUpdated": "19.11.2026 20:30",
    "days": [],
-   "updatedAt": "2026-11-19T18:14:17.467Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-11-19T18:50:09.254Z"
   },
   "chernivtsi": {
    "days": [],
