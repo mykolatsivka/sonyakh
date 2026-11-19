@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-646b13039e4b",
+    "topic": "science",
+    "date": "2026-11-20",
+    "title": "Українські науковці створили програму, яка розпізнає голоси жаб",
+    "text": "Українські науковці розробили програму AnuraSearch, яка за допомогою штучного інтелекту розпізнає голоси різних видів земноводних на багатогодинних аудіозаписах.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186349-ukrainski-naukovci-stvorili-programu-aka-rozpiznae-golosi-zab.html",
+    "image": ""
+  },
+  {
     "id": "n-ba968fcc796e",
     "topic": "sport",
     "date": "2026-11-19",
@@ -587,16 +597,6 @@
     "text": "В Університеті Одлар Юрду (Odlar Yurdu University) у столиці Азербайджану відкрили українську книжкову поличку в межах заходу «Нові горизонти української культури: Дні літератури».",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4185169-u-baku-vidkrili-ukrainsku-knizkovu-policku.html",
-    "image": ""
-  },
-  {
-    "id": "n-4460eb1c4b0f",
-    "topic": "rebuild",
-    "date": "2026-11-16",
-    "title": "Відновлення енергетики: НКРЕКП обговорила зі шведськими партнерами інвестиції",
-    "text": "Члени НКРЕКП Роман Шикеринець та Олександр Формагей під час міжнародної виставки-конференції ReBuild Ukraine 2026 у Варшаві провели робочі зустрічі зі шведськими партнерами.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4185131-vidnovlenna-energetiki-nkrekp-obgovorila-zi-svedskimi-partnerami-investicii.html",
     "image": ""
   }
 ]
