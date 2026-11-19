@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-ba968fcc796e",
+    "topic": "sport",
+    "date": "2026-11-19",
+    "title": "Усик розповів про своє спілкування з Кріштіану Роналду",
+    "text": "За його словами, Роналду цікавився його родиною, справами та планами.",
+    "source": "УНІАН",
+    "sourceUrl": "https://sport.unian.ua/usik-rozpoviv-pro-stoye-spilkuvannya-z-krishtianu-ronaldu-13565397.html",
+    "image": ""
+  },
+  {
     "id": "n-5afb3b57d418",
     "topic": "sport",
     "date": "2026-11-19",
@@ -587,16 +597,6 @@
     "text": "Члени НКРЕКП Роман Шикеринець та Олександр Формагей під час міжнародної виставки-конференції ReBuild Ukraine 2026 у Варшаві провели робочі зустрічі зі шведськими партнерами.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4185131-vidnovlenna-energetiki-nkrekp-obgovorila-zi-svedskimi-partnerami-investicii.html",
-    "image": ""
-  },
-  {
-    "id": "n-18c702bd3388",
-    "topic": "science",
-    "date": "2026-11-16",
-    "title": "В Ірландії бібліотекар створив віртуальну Українську читальню",
-    "text": "Ірландський бібліотекар Колм О’Коннор відкрив віртуальну Українську читальню з творами класиків, народними казками, полицями пам’яті Розстріляного відродження й «Недописаних».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4185152-v-irlandii-bibliotekar-stvoriv-virtualnu-ukrainsku-citalnu.html",
     "image": ""
   }
 ]
