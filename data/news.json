@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-703e11c49664",
+    "topic": "rebuild",
+    "date": "2026-11-19",
+    "title": "У Миколаєві збудували нову модульну котельню, яка забезпечуватиме теплом житлові будинки",
+    "text": "У Миколаєві продовжується будівництво нових об’єктів теплової інфраструктури – наразі тривають пусконалагоджувальні роботи нової модульної котельні, яка забезпечуватиме тепло у…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4186275-u-mikolaevi-zbuduvali-novu-modulnu-kotelnu-aka-zabezpecuvatime-teplom-zitlovi-budinki.html",
+    "image": ""
+  },
+  {
+    "id": "n-f537c6b93c8d",
+    "topic": "science",
+    "date": "2026-11-19",
+    "title": "Україну запрошують до участі у третій Мальтійській бієнале сучасного мистецтва",
+    "text": "Українські культурні установи запрошують долучитися до третьої Мальтійської бієнале сучасного мистецтва (MB28).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186291-ukrainu-zaprosuut-do-ucasti-u-tretij-maltijskij-bienale-sucasnogo-mistectva.html",
+    "image": ""
+  },
+  {
+    "id": "n-ff3085078cd7",
+    "topic": "animals",
+    "date": "2026-11-19",
+    "title": "\"Сам собі господар\": у Чорнобильській зоні зафіксували рідкісного коня",
+    "text": "Тварина ніби позувала перед фотографом.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/kin-przhevalskogo-ridkisnu-tvarinu-zafiksuvali-v-chornobilskomu-zapovidniku-13564458.html",
+    "image": ""
+  },
+  {
     "id": "n-06c4ad68fa57",
     "topic": "people",
     "date": "2026-11-19",
@@ -567,36 +597,6 @@
     "text": "14 листопада у Запоріжжі відкрили проїзд греблею Дніпровської ГЕС – транспорт їде по одній смузі в кожному напрямку.",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/15/8062907/",
-    "image": ""
-  },
-  {
-    "id": "n-0dcd27aca6d1",
-    "topic": "science",
-    "date": "2026-11-15",
-    "title": "Вперше в історії SpaceX \"впіймала\" корабель Starship після повернення з орбіти",
-    "text": "Це найважливіший крок на шляху до створення повністю багаторазової космічної системи.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/science/vpershe-v-istoriji-spacex-vpiymala-korabel-starship-pislya-povernennya-z-orbiti-video-13560099.html",
-    "image": ""
-  },
-  {
-    "id": "n-6082b19da1a5",
-    "topic": "science",
-    "date": "2026-11-14",
-    "title": "Лавреатом премії імені Конрада став Мирослав Лаюк",
-    "text": "Літературну премію імені Джозефа Конрада-Коженьовського 2026 року отримав Мирослав Лаюк.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184734-lavreatom-premii-imeni-konrada-stav-miroslav-lauk.html",
-    "image": ""
-  },
-  {
-    "id": "n-882d81ef2287",
-    "topic": "animals",
-    "date": "2026-11-14",
-    "title": "На Одещині до військових завітала велика зграя рожевих птахів",
-    "text": "Під час чергувань до бійців навідуються різні мешканці дикої природи.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/na-odeshchini-do-ukrajinskih-viyskovih-zavitali-ridkisni-ptahi-foto-novini-odesi-13559454.html",
     "image": ""
   }
 ]
