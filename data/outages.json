@@ -1,146 +1,41 @@
 {
- "updatedAt": "2026-11-19T05:49:17.404Z",
+ "updatedAt": "2026-11-19T06:20:35.413Z",
  "regions": {
   "dnipro": {
    "status": "ok",
-   "sourceUpdated": "19.11.2026 05:39",
+   "sourceUpdated": "19.11.2026 07:55",
    "days": [
     {
      "date": "2026-11-19",
      "groups": {
-      "1.1": [
-       {
-        "from": 540,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 1170,
-        "to": 1410,
-        "type": "off"
-       }
-      ],
-      "1.2": [
-       {
-        "from": 1170,
-        "to": 1410,
-        "type": "off"
-       }
-      ],
-      "2.1": [
-       {
-        "from": 540,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 1170,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "2.2": [
-       {
-        "from": 540,
-        "to": 780,
-        "type": "off"
-       },
-       {
-        "from": 1170,
-        "to": 1410,
-        "type": "off"
-       }
-      ],
-      "3.1": [
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 1380,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "3.2": [
-       {
-        "from": 750,
-        "to": 990,
-        "type": "off"
-       }
-      ],
-      "4.1": [
-       {
-        "from": 750,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 1380,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "4.2": [
-       {
-        "from": 750,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 1380,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
+      "1.1": [],
+      "1.2": [],
+      "2.1": [],
+      "2.2": [],
+      "3.1": [],
+      "3.2": [],
+      "4.1": [],
+      "4.2": [],
       "5.1": [
        {
         "from": 360,
-        "to": 570,
-        "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1200,
+        "to": 480,
         "type": "off"
        }
       ],
       "5.2": [
        {
         "from": 360,
-        "to": 570,
-        "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1200,
+        "to": 480,
         "type": "off"
        }
       ],
-      "6.1": [
-       {
-        "from": 960,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "6.2": [
-       {
-        "from": 480,
-        "to": 570,
-        "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1200,
-        "type": "off"
-       }
-      ]
+      "6.1": [],
+      "6.2": []
      }
     }
    ],
-   "updatedAt": "2026-11-19T05:49:17.404Z"
+   "updatedAt": "2026-11-19T06:20:35.413Z"
   },
   "donetsk": {
    "status": "stale",
@@ -151,7 +46,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "19.11.2026 07:30",
+   "sourceUpdated": "19.11.2026 08:00",
    "days": [
     {
      "date": "2026-11-19",
@@ -363,7 +258,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T05:36:48.244Z"
+   "updatedAt": "2026-11-19T06:20:35.413Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -373,7 +268,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "18.11.2026 22:15",
    "days": [
     {
@@ -1127,10 +1022,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T03:37:26.649Z"
+   "updatedAt": "2026-11-19T03:37:26.649Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "18.11.2026 21:25",
    "days": [
     {
@@ -1268,7 +1164,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T03:37:26.649Z"
+   "updatedAt": "2026-11-19T03:37:26.649Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1533,9 +1430,9 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "19.11.2026 07:30",
+   "sourceUpdated": "19.11.2026 08:00",
    "days": [],
-   "updatedAt": "2026-11-19T05:36:48.244Z"
+   "updatedAt": "2026-11-19T06:20:35.413Z"
   },
   "chernivtsi": {
    "days": [],
