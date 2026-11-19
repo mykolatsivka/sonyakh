@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-0f94ea42db9e",
+    "topic": "science",
+    "date": "2026-11-19",
+    "title": "Свобода в служінні: хто став переможцем премії УП100: Свобода бути",
+    "text": "26 лютого Українська правда вже вчетверте відзначатиме сто діячів і діячок, які обрали шлях служіння країні та своїй справі.",
+    "source": "Українська правда",
+    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/19/8063594/",
+    "image": ""
+  },
+  {
+    "id": "n-b40fd299a74a",
+    "topic": "rebuild",
+    "date": "2026-11-19",
+    "title": "На Прикарпатті 25 майстринь із бісероплетіння представили свої доробки на виставці «Від витоків до сучасності»",
+    "text": "На Прикарпатті, в Національному музеї народного мистецтва Гуцульщини та Покуття імені Й.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186346-na-prikarpatti-25-majstrin-iz-biseropletinna-predstavili-svoi-dorobki-na-vistavci-vid-vitokiv-do-sucasnosti.html",
+    "image": ""
+  },
+  {
     "id": "n-b1aa03edda52",
     "topic": "people",
     "date": "2026-11-19",
@@ -577,26 +597,6 @@
     "text": "Філіппіни перемогли на першому міжнародному пісенному конкурсі «Євробачення – Азія» (Eurovision Song Contest Asia), який пройшов у тайській столиці Бангкок.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184881-filippini-peremogli-na-persomu-pisennomu-konkursi-evrobacenna-azia.html",
-    "image": ""
-  },
-  {
-    "id": "n-30be975d515c",
-    "topic": "people",
-    "date": "2026-11-15",
-    "title": "У Мукачеві відбулася традиційна ліхтарикова хода до Дня святого Мартина",
-    "text": "У центрі Мукачева на Закарпатті відбулася традиційна ліхтарикова хода з нагоди святкування Дня святого Мартина, який є покровителем міста.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4184814-u-mukacevi-vidbulasa-tradicijna-lihtarikova-hoda-do-dna-svatogo-martina.html",
-    "image": ""
-  },
-  {
-    "id": "n-8384652a7430",
-    "topic": "sport",
-    "date": "2026-11-15",
-    "title": "«Буковина» перемогла «Лівий берег» у дограному матчі 11-го туру УПЛ",
-    "text": "Футболісти чернівецької \"Буковини\" здобули перемогу над столичним \"Лівим берегом\" у дограному матчі 11-го туру Української Прем'єр-ліги (УПЛ).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4184784-bukovina-peremogla-livij-bereg-u-dogranomu-matci-11go-turu-upl.html",
     "image": ""
   }
 ]
