@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T19:50:06.507Z",
+ "updatedAt": "2026-11-19T20:12:17.519Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -200,7 +200,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "19.11.2026 21:30",
+   "sourceUpdated": "19.11.2026 22:00",
    "days": [
     {
      "date": "2026-11-19",
@@ -601,7 +601,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-19T19:36:28.652Z"
+   "updatedAt": "2026-11-19T20:12:17.519Z"
   },
   "zaporizhzhia": {
    "days": [],
