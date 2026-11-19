@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T10:36:42.066Z",
+ "updatedAt": "2026-11-19T10:50:04.873Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1417,11 +1417,10 @@
    "updatedAt": "2026-11-19T10:11:47.858Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "19.11.2026 12:00",
+   "status": "ok",
+   "sourceUpdated": "19.11.2026 12:30",
    "days": [],
-   "updatedAt": "2026-11-19T10:11:47.858Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-11-19T10:50:04.873Z"
   },
   "chernivtsi": {
    "days": [],
