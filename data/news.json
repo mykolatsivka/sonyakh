@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-5afb3b57d418",
+    "topic": "sport",
+    "date": "2026-11-19",
+    "title": "«Сокіл» переграв «Одещину» у чемпіонаті України з хокею",
+    "text": "Триває чемпіонат України з хокею сезону-2026/27.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186556-sokil-peregrav-odesinu-u-cempionati-ukraini-z-hokeu.html",
+    "image": ""
+  },
+  {
     "id": "n-d8e575cef3b7",
     "topic": "rebuild",
     "date": "2026-11-19",
@@ -587,16 +597,6 @@
     "text": "Ірландський бібліотекар Колм О’Коннор відкрив віртуальну Українську читальню з творами класиків, народними казками, полицями пам’яті Розстріляного відродження й «Недописаних».",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4185152-v-irlandii-bibliotekar-stvoriv-virtualnu-ukrainsku-citalnu.html",
-    "image": ""
-  },
-  {
-    "id": "n-61070e70385d",
-    "topic": "animals",
-    "date": "2026-11-16",
-    "title": "Біля Чорнобиля вовк, лось та лисиця \"засвітились\" за однією справою: що вони робили",
-    "text": "За словами дослідників, незабаром у тварин виникнуть додаткові проблеми.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/bilya-chornobilya-pomitili-losya-vovka-ta-lisicyu-za-odnakovoyu-spravoyu-shcho-ce-bulo-13561029.html",
     "image": ""
   }
 ]
