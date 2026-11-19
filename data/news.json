@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-b7d7c89557eb",
+    "topic": "science",
+    "date": "2026-11-19",
+    "title": "Фільм «Ти - Космос» покажуть у Малайзії",
+    "text": "На Фестивалі європейських фільмів у Малайзії відбудеться показ фільму «Ти – Космос» українського режисера Павла Острікова.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186363-film-ti-kosmos-pokazut-u-malajzii.html",
+    "image": ""
+  },
+  {
+    "id": "n-8c03e3df64d3",
+    "topic": "sport",
+    "date": "2026-11-19",
+    "title": "Тетяна Юркевічус – серед претенденток на звання MVP у відборі на Євробаскет-2027",
+    "text": "Національна жіноча збірна України з баскетболу провела три матчі першого вікна другого етапу відбору на чемпіонат Європи-2027.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186375-tetana-urkevicus-sered-pretendentok-na-zvanna-mvp-u-vidbori-na-evrobasket2027.html",
+    "image": ""
+  },
+  {
     "id": "n-0f94ea42db9e",
     "topic": "science",
     "date": "2026-11-19",
@@ -577,26 +597,6 @@
     "text": "Археологи виявили частину архітектурного комплексу V-VI століть, який, імовірно, був палацом місцевого правителя або представників аристократії, під час розкопок у…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184952-u-gruzii-arheologi-viavili-castinu-starodavnogo-palacu.html",
-    "image": ""
-  },
-  {
-    "id": "n-110f26a6ddb4",
-    "topic": "sport",
-    "date": "2026-11-15",
-    "title": "Принц Гаррі завітав на Всеукраїнські Ігри Нескорених у Львові",
-    "text": "",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4184893-princ-garri-zavitav-na-vseukrainski-igri-neskorenih-u-lvovi.html",
-    "image": ""
-  },
-  {
-    "id": "n-c46a8a59a4c5",
-    "topic": "science",
-    "date": "2026-11-15",
-    "title": "Філіппіни перемогли на першому пісенному конкурсі «Євробачення - Азія»",
-    "text": "Філіппіни перемогли на першому міжнародному пісенному конкурсі «Євробачення – Азія» (Eurovision Song Contest Asia), який пройшов у тайській столиці Бангкок.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4184881-filippini-peremogli-na-persomu-pisennomu-konkursi-evrobacenna-azia.html",
     "image": ""
   }
 ]
