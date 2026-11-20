@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-79f4ca62f028",
+    "topic": "science",
+    "date": "2026-11-20",
+    "title": "Авторитетні оглядачі обрали 10 найкращих смартфонів 2026 року",
+    "text": "Apple не отримала жодної нагороди.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/techno/gadgets/yaki-smartfoni-stali-naykrashchimi-u-2026-roci-vibir-ekspertiv-gsmarena-13565715.html",
+    "image": ""
+  },
+  {
+    "id": "n-8df8d76033fc",
+    "topic": "rebuild",
+    "date": "2026-11-20",
+    "title": "У Мукачеві відкрили фотовиставку, присвячену Тракайському замку в Литві",
+    "text": "У Мукачівському історичному музеї відбулося відкриття фотовиставки, присвяченої одному з найвідоміших замків Литви - Тракайському замку, що є литовським символом державності.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186742-u-mukacevi-vidkrili-fotovistavku-prisvacenu-trakajskomu-zamku-v-litvi.html",
+    "image": ""
+  },
+  {
     "id": "n-646b13039e4b",
     "topic": "science",
     "date": "2026-11-20",
@@ -577,26 +597,6 @@
     "text": "У Вінниці в середу, 18 листопада, відбудеться офіційна церемонія передачі місту 15 міських автобусів Solaris, придбаних польською фундацією «Сікорки в Україні» (Sikorki na…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4185203-vinnici-oficijno-peredadut-15-avtobusiv-solaris-pridbanih-polskimi-volonterami.html",
-    "image": ""
-  },
-  {
-    "id": "n-2af6f35bc571",
-    "topic": "science",
-    "date": "2026-11-16",
-    "title": "Фільм «Пробач мені, мамо» про Героя України Геннадія Афанасьєва переміг на Мадридському кінофестивалі",
-    "text": "Документальний фільм режисера Євгена Лесного “Пробач мені, мамо” про Героя України Геннадія Афанасьєва переміг на Мадридському міжнародному кінофестивалі.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185158-film-probac-meni-mamo-pro-geroa-ukraini-gennadia-afanaseva-peremig-na-madridskomu-kinofestivali.html",
-    "image": ""
-  },
-  {
-    "id": "n-781d8f62d910",
-    "topic": "rebuild",
-    "date": "2026-11-16",
-    "title": "У Баку відкрили українську книжкову поличку",
-    "text": "В Університеті Одлар Юрду (Odlar Yurdu University) у столиці Азербайджану відкрили українську книжкову поличку в межах заходу «Нові горизонти української культури: Дні літератури».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4185169-u-baku-vidkrili-ukrainsku-knizkovu-policku.html",
     "image": ""
   }
 ]
