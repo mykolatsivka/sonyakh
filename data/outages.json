@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-20T13:11:36.868Z",
+ "updatedAt": "2026-11-20T13:22:17.480Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "20.11.2026 13:35",
    "days": [
     {
@@ -160,7 +160,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T11:36:42.867Z"
+   "updatedAt": "2026-11-20T11:36:42.867Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
    "status": "stale",
@@ -388,7 +389,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "19.11.2026 20:35",
    "days": [
     {
@@ -1167,10 +1168,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T10:36:28.639Z"
+   "updatedAt": "2026-11-20T10:36:28.639Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "20.11.2026 14:19",
    "days": [
     {
@@ -1308,13 +1310,144 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T12:38:26.091Z"
+   "updatedAt": "2026-11-20T12:38:26.091Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": null,
-   "days": [],
-   "updatedAt": "2026-11-20T12:16:35.699Z"
+   "sourceUpdated": "13:36 20.11.2026",
+   "days": [
+    {
+     "date": "2026-11-20",
+     "groups": {
+      "1.1": [
+       {
+        "from": 630,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1170,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 630,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1170,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 750,
+        "to": 1050,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 750,
+        "to": 1050,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 840,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 840,
+        "to": 1170,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 510,
+        "to": 750,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 510,
+        "to": 750,
+        "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 510,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 510,
+        "to": 630,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1260,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 630,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 630,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1260,
+        "to": 1440,
+        "type": "off"
+       }
+      ]
+     }
+    }
+   ],
+   "updatedAt": "2026-11-20T13:22:17.480Z"
   },
   "mykolaiv": {
    "status": "ok",
