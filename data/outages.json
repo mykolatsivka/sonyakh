@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T18:27:00.823Z",
+ "updatedAt": "2026-11-20T18:37:19.707Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -171,7 +171,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "20.11.2026 20:00",
+   "sourceUpdated": "20.11.2026 20:30",
    "days": [
     {
      "date": "2026-11-20",
@@ -572,7 +572,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T18:14:18.044Z"
+   "updatedAt": "2026-11-20T18:37:19.707Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -3617,7 +3617,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "20.11.2026 20:00",
+   "sourceUpdated": "20.11.2026 20:30",
    "days": [
     {
      "date": "2026-11-20",
@@ -3767,9 +3767,193 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-21",
+     "groups": {
+      "1.1": [
+       {
+        "from": 240,
+        "to": 480,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1080,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1439,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1080,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1439,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 900,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 0,
+        "to": 240,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1439,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 360,
+        "to": 660,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 480,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 600,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 0,
+        "to": 120,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 840,
+        "type": "off"
+       },
+       {
+        "from": 1080,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 0,
+        "to": 120,
+        "type": "off"
+       },
+       {
+        "from": 660,
+        "to": 900,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1439,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 120,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1320,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 120,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 840,
+        "to": 1080,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1439,
+        "type": "off"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-20T18:14:18.044Z"
+   "updatedAt": "2026-11-20T18:37:19.707Z"
   },
   "chernivtsi": {
    "days": [],
