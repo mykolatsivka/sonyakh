@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T01:40:07.059Z",
+ "updatedAt": "2026-11-20T01:49:47.725Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -1346,7 +1346,7 @@
    "sourceUpdated": "20.11.2026 03:00",
    "days": [],
    "updatedAt": "2026-11-20T01:21:55.315Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "error": "fetch failed (EAI_AGAIN)"
   },
   "chernivtsi": {
    "days": [],
