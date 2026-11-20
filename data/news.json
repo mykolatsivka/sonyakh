@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-ca357ef5eaee",
+    "topic": "science",
+    "date": "2026-11-20",
+    "title": "У Франції розробили робота-муляра, здатного звести 60 квадратних метрів стіни за день",
+    "text": "За даними компанії, наразі у різних європейських країнах працює 12 таких роботів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/techno/u-franciji-provodyat-viprobuvannya-robota-wltr-zdatnogo-zvesti-60-kvadratnih-metriv-stini-za-den-13566534.html",
+    "image": ""
+  },
+  {
     "id": "n-423500c5896a",
     "topic": "science",
     "date": "2026-11-20",
@@ -587,16 +597,6 @@
     "text": "Черкащанин Роман Щербатюк завершив змагальний сезон 2026 року перемогою на чемпіонаті Європи з кікбоксингу WAKO.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185393-kikbokser-serbatuk-vigrav-zoloto-cempionatu-evropi.html",
-    "image": ""
-  },
-  {
-    "id": "n-c7246fd1f026",
-    "topic": "rebuild",
-    "date": "2026-11-17",
-    "title": "Де поставити роутер, щоб Wi-Fi ловив у всій квартирі: знайдено найкраще рішення",
-    "text": "Перед тим, як придбати новий маршрутизатор, варто спробувати змінити розташування того, що вже є.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/communications/kudi-postaviti-router-shchob-wi-fi-krashche-loviv-znaydeno-idealne-misce-13561767.html",
     "image": ""
   }
 ]
