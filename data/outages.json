@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T17:36:46.540Z",
+ "updatedAt": "2026-11-20T17:49:28.180Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -376,9 +376,203 @@
        }
       ]
      }
+    },
+    {
+     "date": "2026-11-21",
+     "groups": {
+      "1.1": [
+       {
+        "from": 510,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       },
+       {
+        "from": 1350,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 0,
+        "to": 150,
+        "type": "off"
+       },
+       {
+        "from": 510,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 0,
+        "to": 150,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 0,
+        "to": 240,
+        "type": "off"
+       },
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 810,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 360,
+        "to": 600,
+        "type": "off"
+       },
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 360,
+        "to": 510,
+        "type": "off"
+       },
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 240,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 150,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "5.2": [
+       {
+        "from": 150,
+        "to": 360,
+        "type": "off"
+       },
+       {
+        "from": 600,
+        "to": 720,
+        "type": "off"
+       },
+       {
+        "from": 960,
+        "to": 1200,
+        "type": "off"
+       }
+      ],
+      "6.1": [
+       {
+        "from": 720,
+        "to": 960,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1440,
+        "type": "off"
+       }
+      ],
+      "6.2": [
+       {
+        "from": 600,
+        "to": 810,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1440,
+        "type": "off"
+       }
+      ]
+     }
     }
    ],
-   "updatedAt": "2026-11-20T17:36:46.540Z"
+   "updatedAt": "2026-11-20T17:49:28.180Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -388,7 +582,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "19.11.2026 20:35",
    "days": [
     {
@@ -1167,11 +1361,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T16:49:47.943Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-20T17:49:28.180Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "20.11.2026 14:19",
    "days": [
     {
@@ -1309,8 +1502,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-20T16:49:47.943Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-20T17:49:28.180Z"
   },
   "lviv": {
    "status": "ok",
