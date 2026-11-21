@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-21T14:49:51.874Z",
+ "updatedAt": "2026-11-21T15:09:45.655Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "21.11.2026 15:59",
    "days": [
     {
@@ -92,8 +92,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T14:10:21.691Z",
-   "error": "fetch failed"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "donetsk": {
    "status": "stale",
@@ -104,7 +103,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "21.11.2026 16:30",
+   "sourceUpdated": "21.11.2026 17:00",
    "days": [
     {
      "date": "2026-11-21",
@@ -189,7 +188,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T14:35:42.950Z"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -199,7 +198,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "20.11.2026 23:36",
    "days": [
     {
@@ -1153,11 +1152,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T14:10:21.691Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "21.11.2026 15:08",
    "days": [
     {
@@ -1279,12 +1277,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T14:10:21.691Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "14:01 21.11.2026",
+   "sourceUpdated": "17:03 21.11.2026",
    "days": [
     {
      "date": "2026-11-21",
@@ -1315,11 +1312,6 @@
         "from": 0,
         "to": 30,
         "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1290,
-        "type": "off"
        }
       ],
       "3.1": [
@@ -1334,11 +1326,6 @@
         "from": 30,
         "to": 90,
         "type": "off"
-       },
-       {
-        "from": 1080,
-        "to": 1290,
-        "type": "off"
        }
       ],
       "4.1": [
@@ -1348,13 +1335,7 @@
         "type": "off"
        }
       ],
-      "4.2": [
-       {
-        "from": 1080,
-        "to": 1290,
-        "type": "off"
-       }
-      ],
+      "4.2": [],
       "5.1": [
        {
         "from": 1290,
@@ -1381,17 +1362,11 @@
         "type": "off"
        }
       ],
-      "6.2": [
-       {
-        "from": 1080,
-        "to": 1200,
-        "type": "off"
-       }
-      ]
+      "6.2": []
      }
     }
    ],
-   "updatedAt": "2026-11-21T13:20:19.889Z"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -1857,7 +1832,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "21.11.2026 16:30",
+   "sourceUpdated": "21.11.2026 17:00",
    "days": [
     {
      "date": "2026-11-21",
@@ -2019,7 +1994,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T14:35:42.950Z"
+   "updatedAt": "2026-11-21T15:09:45.655Z"
   },
   "chernivtsi": {
    "days": [],
