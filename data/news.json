@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-832854dbc118",
+    "topic": "science",
+    "date": "2026-11-21",
+    "title": "Українські дзюдоїсти без нагород завершили виступ на юніорському ЧС-2026 в Узбекистані",
+    "text": "У Ташкенті (Узбекистан) триває чемпіонат світу з дзюдо серед юніорів.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187079-ukrainski-dzudoisti-bez-nagorod-zaversili-vistup-na-uniorskomu-cs2026-v-uzbekistani.html",
+    "image": ""
+  },
+  {
     "id": "n-e88e351f6ef8",
     "topic": "science",
     "date": "2026-11-21",
@@ -587,16 +597,6 @@
     "text": "У столиці у вівторок відновили рух трамваїв та тролейбусів.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4185532-u-kievi-vidnovili-ruh-tramvaiv-i-trolejbusiv.html",
-    "image": ""
-  },
-  {
-    "id": "n-f136a38e306b",
-    "topic": "sport",
-    "date": "2026-11-17",
-    "title": "Українка Єсипчук учетверте в сезоні виграла турнір WTT у парному розряді",
-    "text": "Українська тенісистка Дар'я Єсипчук виграла парний турнір WTT (World Tennis Tour) у турецькому місті Анталія.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185447-ukrainka-esipcuk-ucetverte-v-sezoni-vigrala-turnir-wtt-u-parnomu-rozradi.html",
     "image": ""
   }
 ]
