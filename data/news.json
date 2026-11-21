@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-09a847b7802e",
+    "topic": "sport",
+    "date": "2026-11-21",
+    "title": "«Колос» здобув вольову перемогу над «Харковом» у футбольній Прем'єр-лізі",
+    "text": "У чемпіонаті України з футболу серед команд Премʼєр-ліги (УПЛ) тривають поєдинки 13-го туру.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187188-kolos-zdobuv-volovu-peremogu-nad-harkovom-u-futbolnij-premerlizi.html",
+    "image": ""
+  },
+  {
+    "id": "n-37bf940017aa",
+    "topic": "science",
+    "date": "2026-11-21",
+    "title": "Ведмежа з Аляски наважилося на \"стрибок віри\" й отримало нагороду",
+    "text": "Ведмежаті присудили жартівливу нагороду Yeet of Faith Award 2026.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/vedmedi-alyaski-vedmezha-zdivuvalo-reyndzheriv-smilivim-vchinkom-i-otrimalo-nagorodu-13567131.html",
+    "image": ""
+  },
+  {
+    "id": "n-81e99edbaf57",
+    "topic": "science",
+    "date": "2026-11-21",
+    "title": "Переклад збірки «Вірші з бійниці» Максима Кривцова отримав французьку премію",
+    "text": "Поетична збірка «Вірші з бійниці» Максима («Далі») Кривцова у перекладі Ніколь Дзюб отримала французьку премію П'єра-Франсуа Кайє (Prix Pierre-François Caillé).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187192-pereklad-zbirki-virsi-z-bijnici-maksima-krivcova-otrimav-francuzku-premiu.html",
+    "image": ""
+  },
+  {
     "id": "n-5231bcfdd533",
     "topic": "science",
     "date": "2026-11-21",
@@ -567,36 +597,6 @@
     "text": "Представники Міністерства культури України, керівники та фахівці культурних установ пройшли навчальну програму в Парижі, присвячену музейному менеджменту, меценатству,…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185704-ukrainski-muzejniki-projsli-navcanna-u-francii-z-upravlinna-kulturnimi-ustanovami.html",
-    "image": ""
-  },
-  {
-    "id": "n-8c638557c65e",
-    "topic": "rebuild",
-    "date": "2026-11-17",
-    "title": "iPhone Duo відкрили та закрили понад 500 тисяч разів: ось що з ним сталося",
-    "text": "Випробування триватимуть доти, доки смартфон не перестане вмикатися.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/gadgets/iphone-duo-perevirili-na-micnist-shcho-z-nim-stalo-pislya-500-000-skladan-13562895.html",
-    "image": ""
-  },
-  {
-    "id": "n-01cef6897361",
-    "topic": "people",
-    "date": "2026-11-17",
-    "title": "Принцу Гаррі під час візиту в Україну подарували книгу «Unbreakable Kherson»",
-    "text": "Під час візиту в Україну британському принцу Гаррі подарували книгу «Unbreakable Kherson», а також малюнки 9-річної дівчинки з Херсона, створені в укритті.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185622-princu-garri-pid-cas-vizitu-v-ukrainu-podaruvali-knigu-unbreakable-kherson.html",
-    "image": ""
-  },
-  {
-    "id": "n-c832d189eafd",
-    "topic": "science",
-    "date": "2026-11-17",
-    "title": "Космічні ідеї і нові аеропорти: що не так зі Схемою планування території області",
-    "text": "Як ми перемогли усіх ворогів і запланували будівництво ще двох аеропортів в області",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/yak_mi_peremogli_usih_vorogiv_i_zaplanuvali_budivnitstvo_shhe_dvoh_aeroportiv_v_oblasti_n1650337",
     "image": ""
   }
 ]
