@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T18:49:52.036Z",
+ "updatedAt": "2026-11-21T19:09:01.355Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -90,15 +90,14 @@
    "updatedAt": "2026-11-21T18:36:26.817Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-21T17:49:44.345Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-21T19:09:01.355Z"
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "21.11.2026 20:30",
+   "sourceUpdated": "21.11.2026 21:00",
    "days": [
     {
      "date": "2026-11-21",
@@ -160,7 +159,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T18:36:26.817Z"
+   "updatedAt": "2026-11-21T19:09:01.355Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1716,7 +1715,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "21.11.2026 20:30",
+   "sourceUpdated": "21.11.2026 21:00",
    "days": [
     {
      "date": "2026-11-21",
@@ -1878,7 +1877,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-21T18:36:26.817Z"
+   "updatedAt": "2026-11-21T19:09:01.355Z"
   },
   "chernivtsi": {
    "days": [],
