@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-1e16cfc03145",
+    "topic": "sport",
+    "date": "2026-11-21",
+    "title": "Олексій Крутих вийшов у фінал турніру ITF у Греції",
+    "text": "Українець Олексій Крутих розіграє титул у вирішальному поєдинку турніру Міжнародної федерації тенісу (ITF) M25 Heraklion 4 у грецькому місті Іракліон.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187203-oleksij-krutih-vijsov-u-final-turniru-itf-u-grecii.html",
+    "image": ""
+  },
+  {
+    "id": "n-4caac460fc62",
+    "topic": "science",
+    "date": "2026-11-21",
+    "title": "Північний і південний полюси Землі можуть \"блискавично\" помінятися місцями, - вчені",
+    "text": "Геологічна історія планети знає цілу серію таких кульбітів нашої планети.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/science/pivnichniy-polyus-zemli-mozhe-stati-pivdennim-usogo-za-90-tisyach-rokiv-vcheni-13567173.html",
+    "image": ""
+  },
+  {
     "id": "n-09a847b7802e",
     "topic": "sport",
     "date": "2026-11-21",
@@ -577,26 +597,6 @@
     "text": "У Львові стартував театральний фестиваль «Кришталеві вітрила», започаткований і організований Херсонським академічним обласним театром ляльок, фестиваль триватиме ще 18 та 19…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185719-u-lvovi-startuvav-teatralnij-festival-kristalevi-vitrila-organizovanij-hersonskim-teatrom-lalok.html",
-    "image": ""
-  },
-  {
-    "id": "n-87b1714cdc23",
-    "topic": "rebuild",
-    "date": "2026-11-17",
-    "title": "Мінвідновлення презентувало на ReBuild Ukraine проєкти публічно-приватного партнерства",
-    "text": "У межах конференції ReBuild Ukraine Міністерство з відновлення, інфраструктури та транспорту України презентувало міжнародним інвесторам портфель першочергових ППП-проєктів…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4185710-minvidnovlenna-prezentuvalo-na-rebuild-ukraine-proekti-publicnoprivatnogo-partnerstva.html",
-    "image": ""
-  },
-  {
-    "id": "n-8bc988d19b97",
-    "topic": "science",
-    "date": "2026-11-17",
-    "title": "Українські музейники пройшли навчання у Франції з управління культурними установами",
-    "text": "Представники Міністерства культури України, керівники та фахівці культурних установ пройшли навчальну програму в Парижі, присвячену музейному менеджменту, меценатству,…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4185704-ukrainski-muzejniki-projsli-navcanna-u-francii-z-upravlinna-kulturnimi-ustanovami.html",
     "image": ""
   }
 ]
