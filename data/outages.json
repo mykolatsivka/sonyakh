@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T10:35:47.547Z",
+ "updatedAt": "2026-11-22T10:49:44.088Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -62,11 +62,10 @@
    "updatedAt": "2026-11-22T07:49:24.302Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-22T09:11:55.578Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-22T10:49:44.088Z"
   },
   "zhytomyr": {
    "status": "ok",
@@ -1074,7 +1073,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "22.11.2026 09:29",
+   "sourceUpdated": "22.11.2026 12:39",
    "days": [
     {
      "date": "2026-11-22",
@@ -1131,16 +1130,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1175,16 +1164,6 @@
        },
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1236,11 +1215,11 @@
        },
        {
         "from": 930,
-        "to": 960,
+        "to": 1050,
         "type": "maybe"
        },
        {
-        "from": 960,
+        "from": 1050,
         "to": 1200,
         "type": "off"
        },
@@ -1275,16 +1254,6 @@
       "5.2": [
        {
         "from": 930,
-        "to": 960,
-        "type": "maybe"
-       },
-       {
-        "from": 960,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        },
@@ -1307,16 +1276,6 @@
       "6.1": [
        {
         "from": 810,
-        "to": 840,
-        "type": "maybe"
-       },
-       {
-        "from": 840,
-        "to": 990,
-        "type": "off"
-       },
-       {
-        "from": 990,
         "to": 1020,
         "type": "maybe"
        }
@@ -1346,7 +1305,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T07:36:00.372Z"
+   "updatedAt": "2026-11-22T10:49:44.088Z"
   },
   "odesa": {
    "status": "ok",
