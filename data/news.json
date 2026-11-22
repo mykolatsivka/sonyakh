@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-dd475392586d",
+    "topic": "people",
+    "date": "2026-11-22",
+    "title": "На Львівщині під час благодійного аукціону зібрали ₴60 мільйонів для захисників",
+    "text": "На Львівщині відбувся благодійний аукціон «Код героя», на якому зібрали 60 мільйонів гривень на підтримку українських захисників.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4187272-na-lvivsini-pid-cas-blagodijnogo-aukcionu-zibrali-60-miljoniv-dla-zahisnikiv.html",
+    "image": ""
+  },
+  {
     "id": "n-20b9a19c8c60",
     "topic": "people",
     "date": "2026-11-22",
@@ -587,16 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/fond_martina_skorseze_vidrestavruvav_tini_zabutih_predkiv_n1650430",
-    "image": ""
-  },
-  {
-    "id": "n-ca8bb3071b14",
-    "topic": "sport",
-    "date": "2026-11-18",
-    "title": "Наші футболісти справді добре зіграли - наставник української збірної Мальдера",
-    "text": "Головний тренер збірної України з футболу Андреа Мальдера після перемоги (1:0) над командою Грузії оцінив виступ у сезоні Ліги націй.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4185930-nasi-futbolisti-spravdi-dobre-zigrali-nastavnik-ukrainskoi-zbirnoi-maldera.html",
     "image": ""
   }
 ]
