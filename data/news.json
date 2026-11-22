@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-9cf9048a07a3",
+    "topic": "sport",
+    "date": "2026-11-22",
+    "title": "«Формула-1»: Гран-прі Лас-Вегасу виграв Ферстаппен",
+    "text": "Відбулася чергова гонка чемпіонату світу з автоперегонів «Формула-1».",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187356-formula1-granpri-lasvegasu-vigrav-ferstappen.html",
+    "image": ""
+  },
+  {
     "id": "n-454ccb1c281c",
     "topic": "science",
     "date": "2026-11-22",
@@ -587,16 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/odin_iz_naystarishih_budinkiv_rivnogo_hochut_vidrestavruvati_pid_multikulturniy_hab_n1650422",
-    "image": ""
-  },
-  {
-    "id": "n-4f03958217c2",
-    "topic": "people",
-    "date": "2026-11-18",
-    "title": "Чотири квартири за донати: як blago допомагає закривати мільйонні благодійні збори",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/chotiri_kvartiri_za_donati_yak_blago_dopomagaye_zakrivati_milyonni_blagodiyni_zbori_n1650432",
     "image": ""
   }
 ]
