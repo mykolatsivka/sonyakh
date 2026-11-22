@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T15:20:29.931Z",
+ "updatedAt": "2026-11-22T15:35:54.436Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -136,7 +136,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "22.11.2026 17:00",
+   "sourceUpdated": "22.11.2026 17:30",
    "days": [
     {
      "date": "2026-11-22",
@@ -145,6 +145,11 @@
        {
         "from": 930,
         "to": 1110,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -165,6 +170,11 @@
         "from": 360,
         "to": 540,
         "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
+        "type": "off"
        }
       ],
       "2.2": [
@@ -176,6 +186,11 @@
        {
         "from": 840,
         "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1320,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -189,12 +204,22 @@
         "from": 720,
         "to": 930,
         "type": "off"
+       },
+       {
+        "from": 1050,
+        "to": 1200,
+        "type": "off"
        }
       ],
       "3.2": [
        {
         "from": 720,
         "to": 930,
+        "type": "off"
+       },
+       {
+        "from": 1200,
+        "to": 1320,
         "type": "off"
        }
       ],
@@ -253,7 +278,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T15:09:50.293Z"
+   "updatedAt": "2026-11-22T15:35:54.436Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -263,7 +288,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "21.11.2026 23:08",
    "days": [
     {
@@ -892,8 +917,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T14:49:46.832Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-22T15:35:54.436Z"
   },
   "kyiv": {
    "status": "stale",
@@ -1338,7 +1362,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "22.11.2026 17:00",
+   "sourceUpdated": "22.11.2026 17:30",
    "days": [
     {
      "date": "2026-11-22",
@@ -1418,7 +1442,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T15:09:50.293Z"
+   "updatedAt": "2026-11-22T15:35:54.436Z"
   },
   "chernivtsi": {
    "days": [],
