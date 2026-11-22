@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-22T14:10:04.256Z",
+ "updatedAt": "2026-11-22T14:20:40.384Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "22.11.2026 15:24",
    "days": [
     {
@@ -125,7 +125,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T13:35:36.749Z"
+   "updatedAt": "2026-11-22T13:35:36.749Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "donetsk": {
    "status": "stale",
@@ -263,7 +264,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "21.11.2026 23:08",
    "days": [
     {
@@ -892,10 +893,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T13:20:09.675Z"
+   "updatedAt": "2026-11-22T13:20:09.675Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "22.11.2026 15:17",
    "days": [
     {
@@ -1008,67 +1010,14 @@
      }
     }
    ],
-   "updatedAt": "2026-11-22T13:20:09.675Z"
+   "updatedAt": "2026-11-22T13:20:09.675Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "14:34 22.11.2026",
-   "days": [
-    {
-     "date": "2026-11-22",
-     "groups": {
-      "1.1": [],
-      "1.2": [],
-      "2.1": [
-       {
-        "from": 1320,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "2.2": [
-       {
-        "from": 1320,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "3.1": [
-       {
-        "from": 1140,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "3.2": [
-       {
-        "from": 1140,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "4.1": [],
-      "4.2": [],
-      "5.1": [
-       {
-        "from": 1140,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 1140,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "6.1": [],
-      "6.2": []
-     }
-    }
-   ],
-   "updatedAt": "2026-11-22T14:10:04.256Z"
+   "sourceUpdated": null,
+   "days": [],
+   "updatedAt": "2026-11-22T14:20:40.384Z"
   },
   "mykolaiv": {
    "status": "ok",
