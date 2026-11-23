@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T06:52:29.912Z",
+ "updatedAt": "2026-11-23T07:14:15.999Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -201,7 +201,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "23.11.2026 08:30",
+   "sourceUpdated": "23.11.2026 09:00",
    "days": [
     {
      "date": "2026-11-23",
@@ -403,7 +403,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-23T06:52:29.912Z"
+   "updatedAt": "2026-11-23T07:14:15.999Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1287,75 +1287,9 @@
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "08:08 23.11.2026",
-   "days": [
-    {
-     "date": "2026-11-23",
-     "groups": {
-      "1.1": [
-       {
-        "from": 990,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "1.2": [
-       {
-        "from": 990,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "2.1": [],
-      "2.2": [],
-      "3.1": [
-       {
-        "from": 990,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "3.2": [
-       {
-        "from": 990,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "4.1": [],
-      "4.2": [],
-      "5.1": [
-       {
-        "from": 1200,
-        "to": 1350,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 1200,
-        "to": 1350,
-        "type": "off"
-       }
-      ],
-      "6.1": [
-       {
-        "from": 1350,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "6.2": [
-       {
-        "from": 1350,
-        "to": 1440,
-        "type": "off"
-       }
-      ]
-     }
-    }
-   ],
-   "updatedAt": "2026-11-23T06:27:45.669Z"
+   "sourceUpdated": null,
+   "days": [],
+   "updatedAt": "2026-11-23T07:14:15.999Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -1941,7 +1875,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "23.11.2026 08:30",
+   "sourceUpdated": "23.11.2026 09:00",
    "days": [
     {
      "date": "2026-11-23",
@@ -2093,7 +2027,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-23T06:52:29.912Z"
+   "updatedAt": "2026-11-23T07:14:15.999Z"
   },
   "chernivtsi": {
    "days": [],
