@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-5a1048c7e438",
+    "topic": "rebuild",
+    "date": "2026-11-23",
+    "title": "У Софії Київській відкрили прихований монументальний живопис",
+    "text": "У Софійському соборі Національного заповідника «Софія Київська» презентували результати реставраційних робіт, виконаних за грантової підтримки ЮНЕСКО.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187816-u-sofii-kiivskij-vidkrili-prihovanij-monumentalnij-zivopis.html",
+    "image": ""
+  },
+  {
+    "id": "n-88295f1d1e01",
+    "topic": "sport",
+    "date": "2026-11-23",
+    "title": "Дівоча збірна України U16 з волейболу - срібний призер чемпіонату СЄВЗА-2026",
+    "text": "Збірна України з волейболу серед дівчат віком до 16 років здобула срібні нагороди у чемпіонаті Східноєвропейської волейбольної зональної асоціації (СЄВЗА) в Азербайджані.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187827-divoca-zbirna-ukraini-u16-z-volejbolu-sribnij-prizer-cempionatu-sevza2026.html",
+    "image": ""
+  },
+  {
+    "id": "n-b667d8d5d23a",
+    "topic": "people",
+    "date": "2026-11-23",
+    "title": "У горах Румунії біля кордону знайшли мертвим 52-річного українця, двох його супутників врятували - ЗМІ",
+    "text": "У горах Румунії біля кордону з Україною знайшли мертвим 52-річного українця, двох його супутників врятували.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4187777-u-gorah-rumunii-bila-kordonu-znajsli-mertvim-52ricnogo-ukrainca-dvoh-jogo-suputnikiv-vratuvali-zmi.html",
+    "image": ""
+  },
+  {
     "id": "n-06471de04dac",
     "topic": "sport",
     "date": "2026-11-23",
@@ -567,36 +597,6 @@
     "text": "Тварина ніби позувала перед фотографом.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/ecology/kin-przhevalskogo-ridkisnu-tvarinu-zafiksuvali-v-chornobilskomu-zapovidniku-13564458.html",
-    "image": ""
-  },
-  {
-    "id": "n-06c4ad68fa57",
-    "topic": "people",
-    "date": "2026-11-19",
-    "title": "В Україні вперше двом ветеранам вживили імпланти у кістки для протезування кінцівок",
-    "text": "Українські та шведські лікарі вперше в Україні провели дві операції в межах пілотного проєкту з безоплатного остеоінтегративного протезування ветеранів.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186258-v-ukraini-vperse-dvom-veteranam-vzivili-implanti-u-kistki-dla-protezuvanna-kincivok.html",
-    "image": ""
-  },
-  {
-    "id": "n-cf8b03444cfa",
-    "topic": "rebuild",
-    "date": "2026-11-19",
-    "title": "У Сенаті Чехії відкрилася виставка дитячих малюнків «Кольори надії для України».",
-    "text": "У будівлі Сенату Чеської Республіки відбулося відкриття виставки дитячих малюнків «Кольори надії для України».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4186198-u-senati-cehii-vidkrilasa-vistavka-ditacih-malunkiv-kolori-nadii-dla-ukraini.html",
-    "image": ""
-  },
-  {
-    "id": "n-5f1efb14a631",
-    "topic": "rebuild",
-    "date": "2026-11-19",
-    "title": "У застосунку «Армія+» запустили курс про оборонні закупівлі",
-    "text": "У застосунку «Армія+» став доступним новий навчальний курс «Оборонні закупівлі.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186072-u-zastosunku-armia-zapustili-kurs-pro-oboronni-zakupivli.html",
     "image": ""
   }
 ]
