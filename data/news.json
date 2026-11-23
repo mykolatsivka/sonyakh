@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-06471de04dac",
+    "topic": "sport",
+    "date": "2026-11-23",
+    "title": "Чемпіонат УПЛ: «Епіцентр» переміг «Чорноморець», ЛНЗ зіграв унічию з «Поліссям»",
+    "text": "У понеділок пройшли два матчі матчі 13-го туру чемпіонату України з футболу серед клубів Прем'єр-ліги.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187747-cempionat-upl-epicentr-peremig-cornomorec-lnz-zigrav-uniciu-z-polissam.html",
+    "image": ""
+  },
+  {
+    "id": "n-6d5ef4a3cfcc",
+    "topic": "rebuild",
+    "date": "2026-11-23",
+    "title": "На Південному мосту в Києві відкрили проїзд на лівий берег для громадського транспорту",
+    "text": "У Києві оновили правила проїзду Південним мостом, відкривши рух із правого на лівий берег для громадського транспорту.",
+    "source": "Українська правда",
+    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/23/8064247/",
+    "image": ""
+  },
+  {
+    "id": "n-9ec266ce742e",
+    "topic": "rebuild",
+    "date": "2026-11-23",
+    "title": "На місці колишнього ринку «Добробут» у Львові почнуть проєктувати першу частину скверу",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_pochnut_proyektuvati_pershu_chastinu_skveru_na_mistsi_kolishnogo_rinku_dobrobut_n1650790",
+    "image": ""
+  },
+  {
     "id": "n-f5f6e106f36b",
     "topic": "people",
     "date": "2026-11-23",
@@ -567,36 +597,6 @@
     "text": "У застосунку «Армія+» став доступним новий навчальний курс «Оборонні закупівлі.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186072-u-zastosunku-armia-zapustili-kurs-pro-oboronni-zakupivli.html",
-    "image": ""
-  },
-  {
-    "id": "n-dbb3b8136513",
-    "topic": "science",
-    "date": "2026-11-18",
-    "title": "У Південній Кореї спростували інформацію про припинення діяльності оборонного стартапу в Україні",
-    "text": "Newtype - перший південнокорейський оборонний стартап, що працює безпосередньо в Україні.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/weapons/u-pivdenniy-koreji-sprostuvali-informaciyu-pro-pripinennya-diyalnosti-oboronnogo-startapu-newtype-v-ukrajini-13564272.html",
-    "image": ""
-  },
-  {
-    "id": "n-305f931a0a09",
-    "topic": "science",
-    "date": "2026-11-18",
-    "title": "Єврокомісію звинуватили у приховуванні листування щодо скасування закону про патенти",
-    "text": "",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/18/8063525/",
-    "image": ""
-  },
-  {
-    "id": "n-c6817a3d86ba",
-    "topic": "sport",
-    "date": "2026-11-18",
-    "title": "Стали відомі всі чвертьфіналісти Ліги націй сезону 2026/27",
-    "text": "У Лізі націй УЄФА сезону 2026/27 завершився груповий етап, за підсумками якого стали відомі вісім національних збірних, що продовжать боротьбу за трофей у чвертьфіналі турніру.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186116-stali-vidomi-vsi-cvertfinalisti-ligi-nacij-sezonu-202627.html",
     "image": ""
   }
 ]
