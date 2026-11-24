@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T08:36:50.293Z",
+ "updatedAt": "2026-11-24T08:50:12.561Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -188,11 +188,10 @@
    "updatedAt": "2026-11-24T07:24:28.087Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-24T07:36:27.515Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-24T08:50:12.561Z"
   },
   "zhytomyr": {
    "status": "ok",
@@ -1472,7 +1471,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "24.11.2026 05:58",
+   "sourceUpdated": "24.11.2026 10:47",
    "days": [
     {
      "date": "2026-11-24",
@@ -1611,11 +1610,11 @@
        },
        {
         "from": 690,
-        "to": 720,
+        "to": 900,
         "type": "maybe"
        },
        {
-        "from": 720,
+        "from": 900,
         "to": 1050,
         "type": "off"
        },
@@ -1769,11 +1768,11 @@
       "4.2": [
        {
         "from": 690,
-        "to": 720,
+        "to": 900,
         "type": "maybe"
        },
        {
-        "from": 720,
+        "from": 900,
         "to": 1050,
         "type": "off"
        },
@@ -1806,11 +1805,11 @@
        },
        {
         "from": 660,
-        "to": 690,
+        "to": 900,
         "type": "maybe"
        },
        {
-        "from": 690,
+        "from": 900,
         "to": 1050,
         "type": "off"
        },
@@ -1870,11 +1869,11 @@
        },
        {
         "from": 480,
-        "to": 840,
+        "to": 630,
         "type": "off"
        },
        {
-        "from": 840,
+        "from": 630,
         "to": 870,
         "type": "maybe"
        },
@@ -1934,7 +1933,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-24T04:14:09.133Z"
+   "updatedAt": "2026-11-24T08:50:12.561Z"
   },
   "odesa": {
    "status": "ok",
