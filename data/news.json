@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-1aa073e52541",
+    "topic": "sport",
+    "date": "2026-11-25",
+    "title": "Ліга чемпіонів УЄФА: \"Реал\" розгромив ПСВ і продовжує лідерство у розіграші",
+    "text": "У найпрестижнішому футбольному єврокубку, Лізі чемпіонів УЄФА, завершився перший ігровий день 5-го туру основного раунду розіграшу.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188273-liga-cempioniv-uefa-real-rozgromiv-psv-i-prodovzue-liderstvo-u-rozigrasi.html",
+    "image": ""
+  },
+  {
+    "id": "n-599f20277ef1",
+    "topic": "sport",
+    "date": "2026-11-24",
+    "title": "Жіноча збірна України з тенісу буде сіяною у кваліфікації Кубка Біллі Джин Кінг",
+    "text": "Збірна України з тенісу буде сіяною у кваліфікації Кубка Біллі Джин Кінг.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188271-zinoca-zbirna-ukraini-z-tenisu-bude-sianou-u-kvalifikacii-kubka-billi-dzin-king.html",
+    "image": ""
+  },
+  {
     "id": "n-e0e5fc034fc4",
     "topic": "rebuild",
     "date": "2026-11-24",
@@ -577,26 +597,6 @@
     "text": "В Одесі відкрили мурал «Вірність.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4186808-v-odesi-vidkrili-mural-na-cest-vms-ta-pogasili-postovu-marku.html",
-    "image": ""
-  },
-  {
-    "id": "n-fda9bacb3745",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "У Кривому Розі повністю відновили електро- та теплопостачання",
-    "text": "У Кривому Розі Дніпропетровської області відновили у повному обсязі електро- та теплопостачання.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4186802-u-krivomu-rozi-povnistu-vidnovili-elektro-ta-teplopostacanna.html",
-    "image": ""
-  },
-  {
-    "id": "n-0325427b9b46",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "У Львові в районі Городоцької планують збудувати новий ЖК на 285 квартир",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_lvovi_v_rayoni_gorodotskoyi_planuyut_zvesti_noviy_zhk_na_mayzhe_300_kvartir_n1650572",
     "image": ""
   }
 ]
