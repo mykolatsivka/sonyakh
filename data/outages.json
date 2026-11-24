@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T17:36:10.866Z",
+ "updatedAt": "2026-11-24T17:49:39.297Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -192,7 +192,7 @@
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
    "updatedAt": "2026-11-24T17:10:51.684Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "error": "The operation was aborted due to timeout"
   },
   "zhytomyr": {
    "status": "ok",
@@ -383,7 +383,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "23.11.2026 23:42",
    "days": [
     {
@@ -1237,8 +1237,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-24T17:10:51.684Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-24T17:49:39.297Z"
   },
   "kyiv": {
    "status": "stale",
@@ -1415,7 +1414,7 @@
     }
    ],
    "updatedAt": "2026-11-24T17:10:51.684Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "error": "The operation was aborted due to timeout"
   },
   "lviv": {
    "status": "ok",
@@ -2177,8 +2176,8 @@
      "groups": {
       "1.1": [
        {
-        "from": 1320,
-        "to": 1439,
+        "from": 1200,
+        "to": 1320,
         "type": "off"
        }
       ],
@@ -2250,7 +2249,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-24T17:36:10.866Z"
+   "updatedAt": "2026-11-24T17:49:39.297Z"
   },
   "chernivtsi": {
    "days": [],
