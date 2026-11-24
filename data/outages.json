@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T11:36:31.037Z",
+ "updatedAt": "2026-11-24T11:49:57.428Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -383,7 +383,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "23.11.2026 23:42",
    "days": [
     {
@@ -1237,11 +1237,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-24T10:49:31.195Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-24T11:49:57.428Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "24.11.2026 10:56",
    "days": [
     {
@@ -1414,80 +1413,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-24T10:49:31.195Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-24T11:49:57.428Z"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "13:28 24.11.2026",
-   "days": [
-    {
-     "date": "2026-11-24",
-     "groups": {
-      "1.1": [
-       {
-        "from": 480,
-        "to": 660,
-        "type": "off"
-       }
-      ],
-      "1.2": [
-       {
-        "from": 1170,
-        "to": 1320,
-        "type": "off"
-       }
-      ],
-      "2.1": [
-       {
-        "from": 1320,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "2.2": [],
-      "3.1": [],
-      "3.2": [
-       {
-        "from": 480,
-        "to": 660,
-        "type": "off"
-       }
-      ],
-      "4.1": [],
-      "4.2": [],
-      "5.1": [
-       {
-        "from": 960,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 840,
-        "to": 960,
-        "type": "off"
-       }
-      ],
-      "6.1": [
-       {
-        "from": 840,
-        "to": 960,
-        "type": "off"
-       }
-      ],
-      "6.2": [
-       {
-        "from": 960,
-        "to": 1170,
-        "type": "off"
-       }
-      ]
-     }
-    }
-   ],
-   "updatedAt": "2026-11-24T11:36:31.037Z"
+   "sourceUpdated": null,
+   "days": [],
+   "updatedAt": "2026-11-24T11:49:57.428Z"
   },
   "mykolaiv": {
    "status": "ok",
