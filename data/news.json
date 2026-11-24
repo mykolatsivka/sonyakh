@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-1ba48281bf87",
+    "topic": "sport",
+    "date": "2026-11-24",
+    "title": "Василь Костюк підтримав патріотичне виховання молоді: фонд долучився до вишколу «Спадщини»",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/vasil_kostyuk_pidtrimav_patriotichne_vihovannya_molodi_fond_doluchivsya_do_vishkolu_spadshhini_n1650779",
+    "image": ""
+  },
+  {
+    "id": "n-db2b82fbbde8",
+    "topic": "science",
+    "date": "2026-11-24",
+    "title": "Документальний фільм про українських нацгвардійців отримав Міжнародну премію «Еммі»",
+    "text": "Документальний фільм Sky News «24 Hours in the Kill Zone» («24 години в кіллзоні»), знятий разом із бійцями Національної гвардії України «Рубіж», отримав Міжнародну премію…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4187948-dokumentalnij-film-pro-ukrainskih-nacgvardijciv-otrimav-miznarodnu-premiu-emmi.html",
+    "image": ""
+  },
+  {
+    "id": "n-2fec62a451d9",
+    "topic": "people",
+    "date": "2026-11-24",
+    "title": "Врятувати пацієнтку могла лише надскладна операція та її стан не дозволяв терміново оперувати",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/vryatuvati_patsiyentku_mogla_lishe_nadskladna_operatsiya_ta_yiyi_stan_ne_dozvolyav_terminovo_operuvati_n1650807",
+    "image": ""
+  },
+  {
     "id": "n-1b628a05a596",
     "topic": "sport",
     "date": "2026-11-24",
@@ -567,36 +597,6 @@
     "text": "Національна жіноча збірна України з баскетболу провела три матчі першого вікна другого етапу відбору на чемпіонат Європи-2027.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186375-tetana-urkevicus-sered-pretendentok-na-zvanna-mvp-u-vidbori-na-evrobasket2027.html",
-    "image": ""
-  },
-  {
-    "id": "n-0f94ea42db9e",
-    "topic": "science",
-    "date": "2026-11-19",
-    "title": "Свобода в служінні: хто став переможцем премії УП100: Свобода бути",
-    "text": "26 лютого Українська правда вже вчетверте відзначатиме сто діячів і діячок, які обрали шлях служіння країні та своїй справі.",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/19/8063594/",
-    "image": ""
-  },
-  {
-    "id": "n-b40fd299a74a",
-    "topic": "rebuild",
-    "date": "2026-11-19",
-    "title": "На Прикарпатті 25 майстринь із бісероплетіння представили свої доробки на виставці «Від витоків до сучасності»",
-    "text": "На Прикарпатті, в Національному музеї народного мистецтва Гуцульщини та Покуття імені Й.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186346-na-prikarpatti-25-majstrin-iz-biseropletinna-predstavili-svoi-dorobki-na-vistavci-vid-vitokiv-do-sucasnosti.html",
-    "image": ""
-  },
-  {
-    "id": "n-b1aa03edda52",
-    "topic": "people",
-    "date": "2026-11-19",
-    "title": "Інсайдер показав дизайн ювілейного iPhone 20 з екраном-\"водоспадом\"",
-    "text": "У технічному плані також очікуються серйозні зміни.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/gadgets/bez-zvichnih-ramok-i-viriziv-yakim-bude-yuvileyniy-iphone-20-foto-13564635.html",
     "image": ""
   }
 ]
