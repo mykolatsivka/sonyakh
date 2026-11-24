@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-f25986f74b07",
+    "topic": "sport",
+    "date": "2026-11-24",
+    "title": "Букмекери оцінили шанси «Шахтаря» та «Фенербахче» у матчі Ліги чемпіонів УЄФА",
+    "text": "Букмекери нейтрально оцінюють перспективи донецького «Шахтаря» в номінально домашньому матчі 5-го туру основного етапу Ліги чемпіонів УЄФА із турецьким «Фенербахче», який…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188167-bukmekeri-ocinili-sansi-sahtara-ta-fenerbahce-u-matci-ligi-cempioniv-uefa.html",
+    "image": ""
+  },
+  {
     "id": "n-cc94938ce757",
     "topic": "science",
     "date": "2026-11-24",
@@ -587,16 +597,6 @@
     "text": "У Мукачівському історичному музеї відбулося відкриття фотовиставки, присвяченої одному з найвідоміших замків Литви - Тракайському замку, що є литовським символом державності.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186742-u-mukacevi-vidkrili-fotovistavku-prisvacenu-trakajskomu-zamku-v-litvi.html",
-    "image": ""
-  },
-  {
-    "id": "n-646b13039e4b",
-    "topic": "science",
-    "date": "2026-11-20",
-    "title": "Українські науковці створили програму, яка розпізнає голоси жаб",
-    "text": "Українські науковці розробили програму AnuraSearch, яка за допомогою штучного інтелекту розпізнає голоси різних видів земноводних на багатогодинних аудіозаписах.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4186349-ukrainski-naukovci-stvorili-programu-aka-rozpiznae-golosi-zab.html",
     "image": ""
   }
 ]
