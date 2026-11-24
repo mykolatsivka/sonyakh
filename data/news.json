@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-1349e8f146b5",
+    "topic": "animals",
+    "date": "2026-11-24",
+    "title": "У Пасіках-Зубрицьких фірма експоліцейського відремонтує дорогу за 14,4 млн грн",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_pasikah_zubritskih_firma_ekspolitseyskogo_vidremontuye_dorogu_za_144_mln_grn_n1650832",
+    "image": ""
+  },
+  {
+    "id": "n-d551da0262f2",
+    "topic": "animals",
+    "date": "2026-11-24",
+    "title": "Ідеальний антистрес: мережу підкорила гра, в якій можна нескінченно гладити кота",
+    "text": "Користувачі у захваті від медитативності цієї новинки.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/techno/games/brauzerna-gra-de-potribno-neskinchenno-gladiti-kota-noviy-hit-pislya-gta-6-13569630.html",
+    "image": ""
+  },
+  {
+    "id": "n-d64de37a95c4",
+    "topic": "science",
+    "date": "2026-11-24",
+    "title": "Оголосили лонглист нацвідбору на Євробачення-2027",
+    "text": "Суспільне Мовлення оголосило довгий список національного відбору на «Євробачення-2027», до якого ввійшли 18 виконавців.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188017-ogolosili-longlist-nacvidboru-na-evrobacenna2027.html",
+    "image": ""
+  },
+  {
     "id": "n-bdb887ac3237",
     "topic": "people",
     "date": "2026-11-24",
@@ -567,36 +597,6 @@
     "text": "Жіноча тенісна асоціація (WTA) оголосила номінантів щорічної премії в категоріях, за які голосують фани",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186442-svitolina-ta-kostuk-pretenduut-na-nagorodi-wta-awards.html",
-    "image": ""
-  },
-  {
-    "id": "n-c7fa228683c8",
-    "topic": "animals",
-    "date": "2026-11-19",
-    "title": "Український лелека долетів до Замбії: за тиждень він подолав близько 1200 км",
-    "text": "Орнітологи простежили маршрут групи українських лелек, які прилетіли на зимівлю до Африки.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/ukrajinski-leleki-v-africi-odin-doletiv-do-zambiji-inshi-v-tanzaniji-efiopiji-ta-pivdennomu-sudani-13565028.html",
-    "image": ""
-  },
-  {
-    "id": "n-3c77bcee62a2",
-    "topic": "sport",
-    "date": "2026-11-19",
-    "title": "Михайлюк провів найрезультативніший матч у сезоні НБА",
-    "text": "Український захисник Святослав Михайлюк провів найрезультативніший матч сезону, допомігши \"Юті\" обіграти \"Лейкерс\" - 109:97 і здобути другу поспіль перемогу у…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4186428-mihajluk-proviv-najrezultativnisij-matc-u-sezoni-nba.html",
-    "image": ""
-  },
-  {
-    "id": "n-c52aad0ecbd8",
-    "topic": "science",
-    "date": "2026-11-19",
-    "title": "«Книга року ВВС-2026» оголосила короткі списки",
-    "text": "ВВС News Україна визначила визначила короткі списки літературної премії “Книга року ВВС-2026”, до яких увійшли 15 книжок.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4186381-kniga-roku-vvs2026-ogolosila-korotki-spiski.html",
     "image": ""
   }
 ]
