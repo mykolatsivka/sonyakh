@@ -1,5 +1,15 @@
 [
   {
+    "id": "n-1b628a05a596",
+    "topic": "sport",
+    "date": "2026-11-24",
+    "title": "Сьогодні стартує п'ятий тур основного раунду Ліги чемпіонів УЄФА",
+    "text": "24-25 листопада пройдуть поєдинки 5-го туру основного етапу Ліги чемпіонів УЄФА сезону-2026/27.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187842-sogodni-startue-patij-tur-osnovnogo-raundu-ligi-cempioniv-uefa.html",
+    "image": ""
+  },
+  {
     "id": "n-80b2d3265114",
     "topic": "people",
     "date": "2026-11-24",
@@ -587,16 +597,6 @@
     "text": "У технічному плані також очікуються серйозні зміни.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/gadgets/bez-zvichnih-ramok-i-viriziv-yakim-bude-yuvileyniy-iphone-20-foto-13564635.html",
-    "image": ""
-  },
-  {
-    "id": "n-0fcd342d38e7",
-    "topic": "rebuild",
-    "date": "2026-11-19",
-    "title": "Альянс діаспори з відновлення України провів першу очну зустріч у Центрі єдності в Берліні",
-    "text": "У Центрі єдності в Берліні відбулася перша очна зустріч Альянсу діаспори з відновлення України, до якої долучилися близько 70 учасників з різних країн.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4186310-alans-diaspori-z-vidnovlenna-ukraini-proviv-persu-ocnu-zustric-u-centri-ednosti-v-berlini.html",
     "image": ""
   }
 ]
