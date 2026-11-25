@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-a828f5891007",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "У Львові подали рекордну кількість заявок на Освітню премію",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_podali_rekordnu_kilkist_zayavok_na_osvitnyu_premiyu_n1650902",
+    "image": ""
+  },
+  {
+    "id": "n-2ddae157aaa5",
+    "topic": "sport",
+    "date": "2026-11-25",
+    "title": "Урсу, Кравченко та Овчаренко успішно стартували на турнірах ATP",
+    "text": "Українські тенісисти Вадим Урсу, Георгій Кравченко та Олександр Овчаренко з перемог розпочали виступи на змаганнях ATP Challenger Tour.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188356-ursu-kravcenko-ta-ovcarenko-uspisno-startuvali-na-turnirah-atp.html",
+    "image": ""
+  },
+  {
     "id": "n-1aa073e52541",
     "topic": "sport",
     "date": "2026-11-25",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/20/8063830/",
-    "image": ""
-  },
-  {
-    "id": "n-1b8d6c145905",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "У Києві відновили рух Подільським мостовим переходом",
-    "text": "",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4186838-u-kievi-vidnovili-ruh-podilskim-mostovim-perehodom.html",
-    "image": ""
-  },
-  {
-    "id": "n-ea6145b9bedc",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "В Одесі відкрили мурал на честь ВМС та погасили поштову марку",
-    "text": "В Одесі відкрили мурал «Вірність.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4186808-v-odesi-vidkrili-mural-na-cest-vms-ta-pogasili-postovu-marku.html",
     "image": ""
   }
 ]
