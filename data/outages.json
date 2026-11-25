@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T10:36:49.640Z",
+ "updatedAt": "2026-11-25T10:49:40.026Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -118,10 +118,11 @@
    "updatedAt": "2026-11-25T08:49:53.627Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-25T10:36:49.640Z"
+   "updatedAt": "2026-11-25T10:36:49.640Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
    "status": "ok",
@@ -1157,7 +1158,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "25.11.2026 11:39",
+   "sourceUpdated": "25.11.2026 12:40",
    "days": [
     {
      "date": "2026-11-25",
@@ -1224,11 +1225,11 @@
        },
        {
         "from": 720,
-        "to": 870,
+        "to": 750,
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 750,
         "to": 900,
         "type": "maybe"
        },
@@ -1468,11 +1469,11 @@
        },
        {
         "from": 720,
-        "to": 870,
+        "to": 750,
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 750,
         "to": 900,
         "type": "maybe"
        },
@@ -1544,7 +1545,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T09:49:49.934Z"
+   "updatedAt": "2026-11-25T10:49:40.026Z"
   },
   "odesa": {
    "status": "ok",
