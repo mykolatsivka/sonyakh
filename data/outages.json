@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T11:36:43.200Z",
+ "updatedAt": "2026-11-25T11:49:18.100Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -293,7 +293,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "25.11.2026 10:49",
    "days": [
     {
@@ -922,10 +922,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T09:12:55.908Z"
+   "updatedAt": "2026-11-25T09:12:55.908Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "25.11.2026 10:35",
    "days": [
     {
@@ -1088,7 +1089,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T11:36:43.200Z"
+   "updatedAt": "2026-11-25T11:36:43.200Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1569,7 +1571,7 @@
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "25.11.2026 12:51",
+   "sourceUpdated": "25.11.2026 13:42",
    "days": [
     {
      "date": "2026-11-25",
@@ -1578,14 +1580,14 @@
       "1.2": [],
       "2.1": [
        {
-        "from": 1080,
+        "from": 840,
         "to": 1230,
         "type": "off"
        }
       ],
       "2.2": [
        {
-        "from": 1080,
+        "from": 840,
         "to": 1230,
         "type": "off"
        }
@@ -1597,7 +1599,7 @@
         "type": "off"
        },
        {
-        "from": 1080,
+        "from": 1050,
         "to": 1290,
         "type": "off"
        }
@@ -1609,7 +1611,7 @@
         "type": "off"
        },
        {
-        "from": 1080,
+        "from": 1050,
         "to": 1290,
         "type": "off"
        }
@@ -1689,7 +1691,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T11:10:50.614Z"
+   "updatedAt": "2026-11-25T11:49:18.100Z"
   },
   "rivne": {
    "status": "ok",
