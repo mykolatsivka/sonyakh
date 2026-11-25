@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-15e4e42c386d",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "Лауреатом премії імені Джеймса Мейса цьогоріч стала Ганна Гопко",
+    "text": "Цьогоріч премію імені Джеймса Мейса «Громадянська позиція» здобула громадська діячка Ганна Гопко.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4188550-laureatom-premii-imeni-dzejmsa-mejsa-cogoric-stala-ganna-gopko.html",
+    "image": ""
+  },
+  {
+    "id": "n-74fd711aa5cd",
+    "topic": "rebuild",
+    "date": "2026-11-25",
+    "title": "В Україні розширили медичні гарантії для військових, ветеранів і звільнених із полону",
+    "text": "Для військовослужбовців, ветеранів та звільнених із полону запрацювали оновлені правила медичної допомоги, які передбачають розширення доступу до безоплатного лікування,…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4188559-v-ukraini-rozsirili-medicni-garantii-dla-vijskovih-veteraniv-i-zvilnenih-iz-polonu.html",
+    "image": ""
+  },
+  {
+    "id": "n-f5efc1433086",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "У Полтаві музейників навчали оцифровувати експонати за міжнародними стандартами",
+    "text": "У Полтавському краєзнавчому музеї імені Василя Кричевського провели дводенне навчання з оцифрування музейних предметів за європейськими стандартами.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188567-u-poltavi-muzejnikiv-navcali-ocifrovuvati-eksponati-za-miznarodnimi-standartami.html",
+    "image": ""
+  },
+  {
     "id": "n-700fe0152058",
     "topic": "animals",
     "date": "2026-11-25",
@@ -567,36 +597,6 @@
     "text": "Українець Олексій Крутих розіграє титул у вирішальному поєдинку турніру Міжнародної федерації тенісу (ITF) M25 Heraklion 4 у грецькому місті Іракліон.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187203-oleksij-krutih-vijsov-u-final-turniru-itf-u-grecii.html",
-    "image": ""
-  },
-  {
-    "id": "n-09a847b7802e",
-    "topic": "sport",
-    "date": "2026-11-21",
-    "title": "«Колос» здобув вольову перемогу над «Харковом» у футбольній Прем'єр-лізі",
-    "text": "У чемпіонаті України з футболу серед команд Премʼєр-ліги (УПЛ) тривають поєдинки 13-го туру.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187188-kolos-zdobuv-volovu-peremogu-nad-harkovom-u-futbolnij-premerlizi.html",
-    "image": ""
-  },
-  {
-    "id": "n-37bf940017aa",
-    "topic": "science",
-    "date": "2026-11-21",
-    "title": "Ведмежа з Аляски наважилося на \"стрибок віри\" й отримало нагороду",
-    "text": "Ведмежаті присудили жартівливу нагороду Yeet of Faith Award 2026.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/vedmedi-alyaski-vedmezha-zdivuvalo-reyndzheriv-smilivim-vchinkom-i-otrimalo-nagorodu-13567131.html",
-    "image": ""
-  },
-  {
-    "id": "n-81e99edbaf57",
-    "topic": "science",
-    "date": "2026-11-21",
-    "title": "Переклад збірки «Вірші з бійниці» Максима Кривцова отримав французьку премію",
-    "text": "Поетична збірка «Вірші з бійниці» Максима («Далі») Кривцова у перекладі Ніколь Дзюб отримала французьку премію П'єра-Франсуа Кайє (Prix Pierre-François Caillé).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187192-pereklad-zbirki-virsi-z-bijnici-maksima-krivcova-otrimav-francuzku-premiu.html",
     "image": ""
   }
 ]
