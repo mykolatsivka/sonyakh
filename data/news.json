@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-09f6176e23dd",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "Оголосили короткий список літературної премії «Воля»",
+    "text": "Оголосили короткий список державної літературної премії \"Воля\" 2026 року.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188601-ogolosili-korotkij-spisok-literaturnoi-premii-vola.html",
+    "image": ""
+  },
+  {
+    "id": "n-f9c386235d51",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "У Вінниці на науково-практичній конференції обговорили дослідження і популяризацію Трипілля",
+    "text": "У Вінниці відбулася Всеукраїнська науково-практична конференція «Трипілля: генетика історичної пам’яті Поділля», яка зібрала відомих та молодих науковців – дослідників…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188582-u-vinnici-na-naukovoprakticnij-konferencii-obgovorili-doslidzenna-i-popularizaciu-tripilla.html",
+    "image": ""
+  },
+  {
+    "id": "n-1467d8b18ae7",
+    "topic": "rebuild",
+    "date": "2026-11-25",
+    "title": "У Тернополі готують до відкриття ТРЦ «Подоляни»: які магазини запрацюють першими",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/populyarni_magazini_vidkriyutsya_u_novomu_trts_podolyani_mall_27_listopada_n1650959",
+    "image": ""
+  },
+  {
     "id": "n-15e4e42c386d",
     "topic": "science",
     "date": "2026-11-25",
@@ -567,36 +597,6 @@
     "text": "Обсяг обговорень виявився вчетверо більшим, ніж під час виходу GTA 5.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/games/vihid-gta-6-viklikav-cifrove-cunami-yake-perevershuye-chempionat-svitu-2026-roku-zmi-13567302.html",
-    "image": ""
-  },
-  {
-    "id": "n-25b6cf731299",
-    "topic": "sport",
-    "date": "2026-11-21",
-    "title": "Тенісисти Кравченко і Маштаков в Іракліоні виграли перший спільний титул WTT",
-    "text": "Українські тенісисти Георгій Кравченко та Нікіта Маштаков стали чемпіонами парного турніру WTT World Tennis Tour категорії M25 в Іракліоні (Греція).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187236-tenisisti-kravcenko-i-mastakov-v-iraklioni-vigrali-persij-spilnij-titul-wtt.html",
-    "image": ""
-  },
-  {
-    "id": "n-cc459f14890f",
-    "topic": "sport",
-    "date": "2026-11-21",
-    "title": "«Карпати» обіграли «Зорю» у матчі чемпіонату України з футболу",
-    "text": "У чемпіонаті України з футболу серед команд Премʼєр-ліги (УПЛ) тривають поєдинки 13-го туру.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187235-karpati-obigrali-zoru-u-matci-cempionatu-ukraini-z-futbolu.html",
-    "image": ""
-  },
-  {
-    "id": "n-1e16cfc03145",
-    "topic": "sport",
-    "date": "2026-11-21",
-    "title": "Олексій Крутих вийшов у фінал турніру ITF у Греції",
-    "text": "Українець Олексій Крутих розіграє титул у вирішальному поєдинку турніру Міжнародної федерації тенісу (ITF) M25 Heraklion 4 у грецькому місті Іракліон.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187203-oleksij-krutih-vijsov-u-final-turniru-itf-u-grecii.html",
     "image": ""
   }
 ]
