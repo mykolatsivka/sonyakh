@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-700fe0152058",
+    "topic": "animals",
+    "date": "2026-11-25",
+    "title": "У Львові триває прокат фільму «Рятуй» про порятунок тварин з прифронтових територій",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_trivaye_prokat_filmu_ryatuy_pro_poryatunok_tvarin_z_prifrontovih_teritoriy_n1650948",
+    "image": ""
+  },
+  {
+    "id": "n-62513364b06b",
+    "topic": "rebuild",
+    "date": "2026-11-25",
+    "title": "Сибіга назвав три пріоритети Конференції з відновлення України в Таллінні",
+    "text": "Головними пріоритетами міжнародної Конференції з відновлення України, яка відбудеться наприкінці січня в Таллінні, будуть підтримка української енергетики й транспорту,…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4188525-sibiga-nazvav-tri-prioriteti-konferencii-z-vidnovlenna-ukraini-v-tallinni.html",
+    "image": ""
+  },
+  {
     "id": "n-9751d553400c",
     "topic": "science",
     "date": "2026-11-25",
@@ -577,26 +597,6 @@
     "text": "Поетична збірка «Вірші з бійниці» Максима («Далі») Кривцова у перекладі Ніколь Дзюб отримала французьку премію П'єра-Франсуа Кайє (Prix Pierre-François Caillé).",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187192-pereklad-zbirki-virsi-z-bijnici-maksima-krivcova-otrimav-francuzku-premiu.html",
-    "image": ""
-  },
-  {
-    "id": "n-832854dbc118",
-    "topic": "science",
-    "date": "2026-11-21",
-    "title": "Українські дзюдоїсти без нагород завершили виступ на юніорському ЧС-2026 в Узбекистані",
-    "text": "У Ташкенті (Узбекистан) триває чемпіонат світу з дзюдо серед юніорів.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187079-ukrainski-dzudoisti-bez-nagorod-zaversili-vistup-na-uniorskomu-cs2026-v-uzbekistani.html",
-    "image": ""
-  },
-  {
-    "id": "n-e88e351f6ef8",
-    "topic": "science",
-    "date": "2026-11-21",
-    "title": "У Софії Київській вперше за пів століття відкриють прихований монументальний живопис",
-    "text": "У Софійському соборі 23 листопада відбудеться презентація результатів реставраційних робіт, виконаних фахівцями Національного заповідника «Софія Київська» за грантової…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187020-u-sofii-kiivskij-vperse-za-piv-stolitta-vidkriut-prihovanij-monumentalnij-zivopis.html",
     "image": ""
   }
 ]
