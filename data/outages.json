@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T19:36:00.077Z",
+ "updatedAt": "2026-11-25T19:49:38.011Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -168,11 +168,10 @@
    "updatedAt": "2026-11-25T18:49:27.630Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-25T18:25:27.740Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-25T19:49:38.011Z"
   },
   "zhytomyr": {
    "status": "ok",
@@ -343,7 +342,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.11.2026 10:49",
    "days": [
     {
@@ -972,11 +971,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T18:25:27.740Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-25T19:49:38.011Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.11.2026 21:14",
    "days": [
     {
@@ -1139,8 +1137,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T19:20:25.272Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-25T19:49:38.011Z"
   },
   "lviv": {
    "status": "ok",
@@ -1216,7 +1213,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "25.11.2026 19:32",
+   "sourceUpdated": "25.11.2026 21:43",
    "days": [
     {
      "date": "2026-11-25",
@@ -1293,13 +1290,8 @@
        },
        {
         "from": 1320,
-        "to": 1350,
-        "type": "maybe"
-       },
-       {
-        "from": 1350,
         "to": 1440,
-        "type": "off"
+        "type": "maybe"
        }
       ],
       "2.2": [
@@ -1367,13 +1359,8 @@
        },
        {
         "from": 1320,
-        "to": 1350,
-        "type": "maybe"
-       },
-       {
-        "from": 1350,
         "to": 1440,
-        "type": "off"
+        "type": "maybe"
        }
       ],
       "3.2": [
@@ -1517,13 +1504,8 @@
        },
        {
         "from": 1320,
-        "to": 1350,
-        "type": "maybe"
-       },
-       {
-        "from": 1350,
         "to": 1440,
-        "type": "off"
+        "type": "maybe"
        }
       ],
       "6.1": [
@@ -1583,7 +1565,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T17:36:05.211Z"
+   "updatedAt": "2026-11-25T19:49:38.011Z"
   },
   "odesa": {
    "status": "ok",
