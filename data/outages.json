@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T16:50:03.206Z",
+ "updatedAt": "2026-11-25T17:09:56.762Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -176,7 +176,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "25.11.2026 18:30",
+   "sourceUpdated": "25.11.2026 19:00",
    "days": [
     {
      "date": "2026-11-25",
@@ -333,7 +333,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T16:36:01.907Z"
+   "updatedAt": "2026-11-25T17:09:56.762Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1142,69 +1142,9 @@
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "15:41 25.11.2026",
-   "days": [
-    {
-     "date": "2026-11-25",
-     "groups": {
-      "1.1": [
-       {
-        "from": 1230,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "1.2": [
-       {
-        "from": 480,
-        "to": 570,
-        "type": "off"
-       }
-      ],
-      "2.1": [
-       {
-        "from": 480,
-        "to": 570,
-        "type": "off"
-       }
-      ],
-      "2.2": [
-       {
-        "from": 570,
-        "to": 660,
-        "type": "off"
-       }
-      ],
-      "3.1": [
-       {
-        "from": 570,
-        "to": 660,
-        "type": "off"
-       }
-      ],
-      "3.2": [
-       {
-        "from": 960,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "4.1": [
-       {
-        "from": 960,
-        "to": 1230,
-        "type": "off"
-       }
-      ],
-      "4.2": [],
-      "5.1": [],
-      "5.2": [],
-      "6.1": [],
-      "6.2": []
-     }
-    }
-   ],
-   "updatedAt": "2026-11-25T16:36:01.907Z"
+   "sourceUpdated": null,
+   "days": [],
+   "updatedAt": "2026-11-25T17:09:56.762Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -1785,7 +1725,7 @@
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "25.11.2026 18:30",
+   "sourceUpdated": "25.11.2026 19:00",
    "days": [
     {
      "date": "2026-11-25",
@@ -1865,7 +1805,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-25T16:36:01.907Z"
+   "updatedAt": "2026-11-25T17:09:56.762Z"
   },
   "chernivtsi": {
    "days": [],
