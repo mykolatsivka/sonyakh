@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-ad6125d0e091",
+    "topic": "science",
+    "date": "2026-11-25",
+    "title": "У Коломиї відкрили виставку 700 писанок із музейної колекції",
+    "text": "У Музеї писанкового розпису в місті Коломия Івано-Франківської області відкрили пересувну виставку, до якої увійшли 700 писанок.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188403-u-kolomii-vidkrili-vistavku-700-pisanok-iz-muzejnoi-kolekcii.html",
+    "image": ""
+  },
+  {
+    "id": "n-6b1c9068d213",
+    "topic": "rebuild",
+    "date": "2026-11-25",
+    "title": "Берегове може стати символом добросусідства та співпраці України й Угорщини - мер",
+    "text": "Міський голова Берегова Золтан Бабяк назвав зустріч лідерів України та Угорщини, яка відбулася напередодні в місті, історичною подією для всієї громади та можливістю залучити…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4188394-beregove-moze-stati-simvolom-dobrosusidstva-ta-spivpraci-ukraini-j-ugorsini-mer.html",
+    "image": ""
+  },
+  {
+    "id": "n-1d395e17ed61",
+    "topic": "rebuild",
+    "date": "2026-11-25",
+    "title": "У Софії Київській відкрили приховані в радянський час розписи XIX ст.",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_sofiyskomu_sobori_kiyeva_vidnovili_zamalovani_rozpisi_xix_st_n1650912",
+    "image": ""
+  },
+  {
     "id": "n-a828f5891007",
     "topic": "science",
     "date": "2026-11-25",
@@ -567,36 +597,6 @@
     "text": "За даними компанії, наразі у різних європейських країнах працює 12 таких роботів.",
     "source": "УНІАН",
     "sourceUrl": "https://www.unian.ua/techno/u-franciji-provodyat-viprobuvannya-robota-wltr-zdatnogo-zvesti-60-kvadratnih-metriv-stini-za-den-13566534.html",
-    "image": ""
-  },
-  {
-    "id": "n-871e39515e51",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "Україні радять проводити відбудову одразу за стандартами ЄС, щоб не робити двічі",
-    "text": "Якщо Україна від початку здійснюватиме відбудову за стандартами Європейського Союзу, їй не доведеться відбудовувати двічі.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4186923-ukraini-radat-provoditi-vidbudovu-odrazu-za-standartami-es-sob-ne-robiti-dvici.html",
-    "image": ""
-  },
-  {
-    "id": "n-82edf92197af",
-    "topic": "science",
-    "date": "2026-11-20",
-    "title": "В Індії представили фільм про українських ветеранів «Друге дихання»",
-    "text": "В Індійському міжнародному центрі (India International Centre) у Нью-Делі в межах фестивалю українського кіно And Spring Shall Return відбулася індійська прем’єра…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4186862-v-indii-predstavili-film-pro-ukrainskih-veteraniv-druge-dihanna.html",
-    "image": ""
-  },
-  {
-    "id": "n-c51dffb8cdd2",
-    "topic": "rebuild",
-    "date": "2026-11-20",
-    "title": "Як зробити Верховну Раду справді відкритою: чотири кроки до прозорості",
-    "text": "",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/20/8063830/",
     "image": ""
   }
 ]
