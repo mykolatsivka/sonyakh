@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-dedd718f3312",
+    "topic": "rebuild",
+    "date": "2026-11-26",
+    "title": "У Києві відкрили виставку сучасних українських художників «НЕ/ВІДОМІ»",
+    "text": "У Києві в Центрі культури і мистецтв Київського політехнічного інституту імені Ігоря Сікорського відкрили виставку сучасних українських художників “НЕ/ВІДОМІ”.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188973-u-kievi-vidkrili-vistavku-sucasnih-ukrainskih-hudoznikiv-nevidomi.html",
+    "image": ""
+  },
+  {
+    "id": "n-cc172f63c865",
+    "topic": "science",
+    "date": "2026-11-26",
+    "title": "Археологи виявили на Прикарпатті невідомі раніше печерні комплекси",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/na_prikarpatti_viyavili_novi_pecherni_monastiri_foto_n1651032",
+    "image": ""
+  },
+  {
     "id": "n-65096b9f966b",
     "topic": "rebuild",
     "date": "2026-11-26",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/u_lvovi_pochnut_proyektuvati_pershu_chastinu_skveru_na_mistsi_kolishnogo_rinku_dobrobut_n1650790",
-    "image": ""
-  },
-  {
-    "id": "n-f5f6e106f36b",
-    "topic": "people",
-    "date": "2026-11-23",
-    "title": "Вінницю відвідали польські волонтери, які допомогли придбати 15 автобусів для міста",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/vinnitsyu_vidvidali_polski_volonteri_yaki_dopomogli_pridbati_15_avtobusiv_dlya_mista_n1650766",
-    "image": ""
-  },
-  {
-    "id": "n-8bac14536abb",
-    "topic": "people",
-    "date": "2026-11-23",
-    "title": "Урологи Львівського онкоцентру пішли на ризик і врятували 56-річному чоловікові життя",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/onkologi_lvova_proveli_rizikovanu_operatsiyu_patsiyentu_z_ridkisnim_sindromom_i_puhlinoyu_nirki_n1650770",
     "image": ""
   }
 ]
