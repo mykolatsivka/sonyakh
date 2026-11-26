@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-26T11:36:57.253Z",
+ "updatedAt": "2026-11-26T11:50:01.533Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.11.2026 07:21",
    "days": [
     {
@@ -307,8 +307,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T10:23:49.514Z",
-   "error": "fetch failed"
+   "updatedAt": "2026-11-26T11:50:01.533Z"
   },
   "donetsk": {
    "status": "stale",
@@ -486,7 +485,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "25.11.2026 22:03",
    "days": [
     {
@@ -1190,11 +1189,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T10:23:49.514Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-26T11:50:01.533Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.11.2026 00:52",
    "days": [
     {
@@ -1357,108 +1355,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T10:23:49.514Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-26T11:50:01.533Z"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "12:34 26.11.2026",
-   "days": [
-    {
-     "date": "2026-11-26",
-     "groups": {
-      "1.1": [
-       {
-        "from": 1020,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "1.2": [
-       {
-        "from": 600,
-        "to": 810,
-        "type": "off"
-       }
-      ],
-      "2.1": [
-       {
-        "from": 600,
-        "to": 810,
-        "type": "off"
-       }
-      ],
-      "2.2": [
-       {
-        "from": 1230,
-        "to": 1440,
-        "type": "off"
-       }
-      ],
-      "3.1": [
-       {
-        "from": 780,
-        "to": 1020,
-        "type": "off"
-       }
-      ],
-      "3.2": [],
-      "4.1": [
-       {
-        "from": 480,
-        "to": 600,
-        "type": "off"
-       }
-      ],
-      "4.2": [
-       {
-        "from": 600,
-        "to": 630,
-        "type": "off"
-       }
-      ],
-      "5.1": [
-       {
-        "from": 1020,
-        "to": 1200,
-        "type": "off"
-       }
-      ],
-      "5.2": [
-       {
-        "from": 480,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 810,
-        "to": 1020,
-        "type": "off"
-       }
-      ],
-      "6.1": [
-       {
-        "from": 480,
-        "to": 600,
-        "type": "off"
-       },
-       {
-        "from": 1020,
-        "to": 1230,
-        "type": "off"
-       }
-      ],
-      "6.2": [
-       {
-        "from": 810,
-        "to": 1020,
-        "type": "off"
-       }
-      ]
-     }
-    }
-   ],
-   "updatedAt": "2026-11-26T11:36:57.253Z"
+   "sourceUpdated": null,
+   "days": [],
+   "updatedAt": "2026-11-26T11:50:01.533Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -1898,7 +1801,7 @@
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 13:15",
+   "sourceUpdated": "26.11.2026 13:42",
    "days": [
     {
      "date": "2026-11-26",
@@ -1918,28 +1821,6 @@
       "1.2": [
        {
         "from": 660,
-        "to": 900,
-        "type": "off"
-       },
-       {
-        "from": 960,
-        "to": 1110,
-        "type": "off"
-       },
-       {
-        "from": 1290,
-        "to": 1350,
-        "type": "off"
-       }
-      ],
-      "2.1": [
-       {
-        "from": 810,
-        "to": 900,
-        "type": "off"
-       },
-       {
-        "from": 960,
         "to": 1110,
         "type": "off"
        },
@@ -1949,14 +1830,21 @@
         "type": "off"
        }
       ],
-      "2.2": [
+      "2.1": [
        {
         "from": 810,
-        "to": 900,
+        "to": 1110,
         "type": "off"
        },
        {
-        "from": 960,
+        "from": 1290,
+        "to": 1350,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 810,
         "to": 1110,
         "type": "off"
        },
@@ -1985,7 +1873,7 @@
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 960,
         "to": 1200,
         "type": "off"
        }
@@ -1997,7 +1885,7 @@
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 960,
         "to": 1200,
         "type": "off"
        }
@@ -2009,7 +1897,7 @@
         "type": "off"
        },
        {
-        "from": 870,
+        "from": 960,
         "to": 1200,
         "type": "off"
        }
@@ -2075,7 +1963,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T11:36:57.253Z"
+   "updatedAt": "2026-11-26T11:50:01.533Z"
   },
   "rivne": {
    "status": "ok",
