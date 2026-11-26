@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T16:25:00.552Z",
+ "updatedAt": "2026-11-26T16:37:11.774Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -318,7 +318,7 @@
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 18:00",
+   "sourceUpdated": "26.11.2026 18:30",
    "days": [
     {
      "date": "2026-11-26",
@@ -475,7 +475,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T16:12:44.636Z"
+   "updatedAt": "2026-11-26T16:37:11.774Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1459,7 +1459,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 17:32",
+   "sourceUpdated": "26.11.2026 18:25",
    "days": [
     {
      "date": "2026-11-26",
@@ -1879,11 +1879,11 @@
        },
        {
         "from": 960,
-        "to": 1200,
+        "to": 1110,
         "type": "off"
        },
        {
-        "from": 1200,
+        "from": 1110,
         "to": 1230,
         "type": "maybe"
        }
@@ -1891,11 +1891,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T15:36:43.922Z"
+   "updatedAt": "2026-11-26T16:37:11.774Z"
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 17:34",
+   "sourceUpdated": "26.11.2026 18:26",
    "days": [
     {
      "date": "2026-11-26",
@@ -1980,7 +1980,7 @@
        },
        {
         "from": 870,
-        "to": 1230,
+        "to": 1110,
         "type": "off"
        }
       ],
@@ -2052,11 +2052,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T15:49:50.598Z"
+   "updatedAt": "2026-11-26T16:37:11.774Z"
   },
   "rivne": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 18:00",
+   "sourceUpdated": "26.11.2026 18:30",
    "days": [
     {
      "date": "2026-11-26",
@@ -2153,7 +2153,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T16:12:44.636Z"
+   "updatedAt": "2026-11-26T16:37:11.774Z"
   },
   "chernivtsi": {
    "days": [],
