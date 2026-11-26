@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-d40fd9294411",
+    "topic": "rebuild",
+    "date": "2026-11-26",
+    "title": "У Черкасах відкрили протезно-реабілітаційний центр біоніки",
+    "text": "Протезно-реабілітаційний центр біоніки Tytanovi запрацював у Черкасах.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4188912-u-cerkasah-vidkrili-proteznoreabilitacijnij-centr-bioniki.html",
+    "image": ""
+  },
+  {
+    "id": "n-c34c1381a427",
+    "topic": "sport",
+    "date": "2026-11-26",
+    "title": "Юні футболісти київського «Динамо» виграли турнір Ateitis Cup у Литві",
+    "text": "У столиці Литви Вільнюсі відбувся престижний міжнародний футбольний турнір Ateitis Cup серед гравців у віці до 15-ти років (U15).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188931-uni-futbolisti-kiivskogo-dinamo-vigrali-turnir-ateitis-cup-u-litvi.html",
+    "image": ""
+  },
+  {
     "id": "n-56df4de8e72a",
     "topic": "rebuild",
     "date": "2026-11-26",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Українська правда",
     "sourceUrl": "https://www.pravda.com.ua/news/2026/11/23/8064176/",
-    "image": ""
-  },
-  {
-    "id": "n-308e505832f3",
-    "topic": "rebuild",
-    "date": "2026-11-23",
-    "title": "LEV Development відкрила продажі квартир у новій секції SOUL PARK: що пропонує третя черга компл",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/lev_development_vidkrila_prodazhi_kvartir_u_noviy_sektsiyi_soul_park_shho_proponuye_tretya_cherga_kompl_n1650751",
-    "image": ""
-  },
-  {
-    "id": "n-4eb6ac3b8278",
-    "topic": "animals",
-    "date": "2026-11-23",
-    "title": "50-річний киянин ножем поранив собаку під час сварки з її господарем",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/50_richniy_kiyanin_nozhem_poraniv_sobaku_cherez_vigul_bez_namordnika_n1650742",
     "image": ""
   }
 ]
