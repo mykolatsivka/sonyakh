@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-53d3fde7f8ad",
+    "topic": "people",
+    "date": "2026-11-26",
+    "title": "Українці в Іспанії започаткували благодійний проєкт на підтримку дітей-сиріт в Україні",
+    "text": "Федерація українських асоціацій в Іспанії ініціювала збір прочитаних книжок, кошти від повторного продажу яких спрямовуватимуть на допомогу дітям-сиротам в Україні.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4188849-ukrainci-v-ispanii-zapocatkuvali-blagodijnij-proekt-na-pidtrimku-ditejsirit-v-ukraini.html",
+    "image": ""
+  },
+  {
+    "id": "n-812adf919e60",
+    "topic": "science",
+    "date": "2026-11-26",
+    "title": "Збанкрутілий ШІ-стартап виставив на торги особисті чати 21 млн користувачів",
+    "text": "Новий власник отримає право безперешкодно передавати третім особам відверті листування та розмови користувачів із ШІ-терапевтами.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/techno/neiroseti/osobisti-chati-21-mln-lyudey-prodadut-skandal-navkolo-bankrutstva-character-ai-13571919.html",
+    "image": ""
+  },
+  {
+    "id": "n-06ca23428b26",
+    "topic": "animals",
+    "date": "2026-11-26",
+    "title": "Нічні збої в акваріумі виявилися витівкою восьминога: як тварина вимикала електрику",
+    "text": "Отто вилазив на край споруди, щоб облити прожектор струменем води.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/yak-vosminig-otto-zalishav-ciliy-akvarium-bez-elektriki-istoriya-nezvichaynoji-vitivki-13571943.html",
+    "image": ""
+  },
+  {
     "id": "n-9455411dffe0",
     "topic": "science",
     "date": "2026-11-26",
@@ -567,36 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/u_lvovi_vidkrili_ruh_cherez_perehrestya_vulits_mazepi_orlika_ta_tichini_n1650715",
-    "image": ""
-  },
-  {
-    "id": "n-43389f4978d0",
-    "topic": "rebuild",
-    "date": "2026-11-22",
-    "title": "У Берліні українська діаспора обговорила нові механізми співпраці для повоєнної відбудови",
-    "text": "У Берліні пройшов Шостий форум української діаспори, учасники якого обговорили посилення ролі українців за кордоном у відбудові України, їхнє залучення до формування державної…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4187449-u-berlini-ukrainska-diaspora-obgovorila-novi-mehanizmi-spivpraci-dla-povoennoi-vidbudovi.html",
-    "image": ""
-  },
-  {
-    "id": "n-9ba9b4116c85",
-    "topic": "science",
-    "date": "2026-11-22",
-    "title": "Сина Додіка висунули у прем’єри Республіки Сербської",
-    "text": "",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/22/8064076/",
-    "image": ""
-  },
-  {
-    "id": "n-9cf9048a07a3",
-    "topic": "sport",
-    "date": "2026-11-22",
-    "title": "«Формула-1»: Гран-прі Лас-Вегасу виграв Ферстаппен",
-    "text": "Відбулася чергова гонка чемпіонату світу з автоперегонів «Формула-1».",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187356-formula1-granpri-lasvegasu-vigrav-ferstappen.html",
     "image": ""
   }
 ]
