@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-26T08:16:03.741Z",
+ "updatedAt": "2026-11-26T08:36:42.634Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "26.11.2026 07:21",
    "days": [
     {
@@ -307,19 +307,17 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T06:43:40.539Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-26T08:36:42.634Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-26T07:37:13.567Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-26T08:36:42.634Z"
   },
   "zhytomyr": {
    "status": "ok",
-   "sourceUpdated": "26.11.2026 10:00",
+   "sourceUpdated": "26.11.2026 10:30",
    "days": [
     {
      "date": "2026-11-26",
@@ -476,7 +474,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T08:16:03.741Z"
+   "updatedAt": "2026-11-26T08:36:42.634Z"
   },
   "zaporizhzhia": {
    "days": [],
@@ -1360,7 +1358,7 @@
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": "22:11 25.11.2026",
+   "sourceUpdated": "10:17 26.11.2026",
    "days": [
     {
      "date": "2026-11-26",
@@ -1411,7 +1409,7 @@
       "4.2": [
        {
         "from": 600,
-        "to": 810,
+        "to": 630,
         "type": "off"
        }
       ],
@@ -1448,7 +1446,7 @@
       ],
       "6.2": [
        {
-        "from": 810,
+        "from": 960,
         "to": 1020,
         "type": "off"
        }
@@ -1456,7 +1454,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T07:13:00.549Z"
+   "updatedAt": "2026-11-26T08:36:42.634Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -2061,8 +2059,8 @@
    "updatedAt": "2026-11-26T08:16:03.741Z"
   },
   "rivne": {
-   "status": "stale",
-   "sourceUpdated": "26.11.2026 09:30",
+   "status": "ok",
+   "sourceUpdated": "26.11.2026 10:30",
    "days": [
     {
      "date": "2026-11-26",
@@ -2159,8 +2157,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-26T07:37:13.567Z",
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
+   "updatedAt": "2026-11-26T08:36:42.634Z"
   },
   "chernivtsi": {
    "days": [],
