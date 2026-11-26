@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-56df4de8e72a",
+    "topic": "rebuild",
+    "date": "2026-11-26",
+    "title": "У Бельгії відкрили найбільший у Європі завод із виробництва супутників",
+    "text": "Ця фабрика є найбільшим майданчиком з виробництва супутників у Європі та третім за величиною у світі.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/weapons/u-belgiji-vidkrili-naybilshiy-u-yevropi-zavod-iz-virobnictva-suputnikiv-13572213.html",
+    "image": ""
+  },
+  {
+    "id": "n-05011d56d40e",
+    "topic": "sport",
+    "date": "2026-11-26",
+    "title": "Теніс: Овчаренко переміг Кравченка в українському дербі у Греції",
+    "text": "Олександр Овчаренко (№626 ATP) вийшов до 1/4 фіналу тенісних змагань ATP Challenger у Херсоніссосі (Греція) із призовим фондом €56,700.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188901-tenis-ovcarenko-peremig-kravcenka-v-ukrainskomu-derbi-u-grecii.html",
+    "image": ""
+  },
+  {
+    "id": "n-b626311b32a6",
+    "topic": "sport",
+    "date": "2026-11-26",
+    "title": "Українець Урсу - у чвертьфіналі змагань ATP Challenger в Анкарі",
+    "text": "Український тенісист Вадим Урсу продовжує виступи на турнірі ATP Challenger у столиці Туреччини із призовим фондом $63,000.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188896-ukrainec-ursu-u-cvertfinali-zmagan-atp-challenger-v-ankari.html",
+    "image": ""
+  },
+  {
     "id": "n-5aa46551b136",
     "topic": "animals",
     "date": "2026-11-26",
@@ -567,36 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/50_richniy_kiyanin_nozhem_poraniv_sobaku_cherez_vigul_bez_namordnika_n1650742",
-    "image": ""
-  },
-  {
-    "id": "n-2f327fa11d34",
-    "topic": "sport",
-    "date": "2026-11-23",
-    "title": "«Шахтар» та «Фенербахче» в Лізі чемпіонів УЄФА розсудять англійці",
-    "text": "Союз європейських футбольних асоціацій (УЄФА) призначив арбітрів на поєдинки п'ятого туру основного етапу Ліги чемпіонів.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187606-sahtar-ta-fenerbahce-v-lizi-cempioniv-uefa-rozsudat-anglijci.html",
-    "image": ""
-  },
-  {
-    "id": "n-eee1c44a86c8",
-    "topic": "sport",
-    "date": "2026-11-23",
-    "title": "Святослав Михайлюк встановив рекорд результативності серед українців в історії НБА",
-    "text": "Український захисник \"Юти Джаз\" Святослав Михайлюк провів найрезультативніший матч у кар’єрі у північноамериканській Національній баскетбольній асоціації (НБА).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187596-svatoslav-mihajluk-vstanoviv-rekord-rezultativnosti-sered-ukrainciv-v-istorii-nba.html",
-    "image": ""
-  },
-  {
-    "id": "n-811e44adab95",
-    "topic": "animals",
-    "date": "2026-11-23",
-    "title": "У Чорнобильському заповіднику помітили найменшу сову України: чим особливий цей птах",
-    "text": "Невеликого птаха можуть переслідувати зграї інших пернатих.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/ecology/naymenshu-sovu-ukrajini-zafiksuvali-u-chornobilskomu-zapovidniku-cikavi-fakti-pro-ptaha-13568178.html",
     "image": ""
   }
 ]
