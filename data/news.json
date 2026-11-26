@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-94a7e4585713",
+    "topic": "science",
+    "date": "2026-11-26",
+    "title": "ВЛК за 15 хвилин: юристка назвала ознаки порушень і розповіла, як оскаржити висновок",
+    "text": "Порушення процедури за законом можна фіксувати й оскаржувати.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/vlk-za-15-hvilin-yuristka-nazvala-oznaki-porushen-i-rozpovila-shcho-robiti-dali-ta-yak-oskarzhiti-visnovok-13572498.html",
+    "image": ""
+  },
+  {
+    "id": "n-f59f8f81679e",
+    "topic": "rebuild",
+    "date": "2026-11-26",
+    "title": "В Івано-Франківську відкрили форум «Сакральні Карпати»",
+    "text": "В Івано-Франківську, в Університеті Короля Данила, відкрили форум «Сакральні Карпати».",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188993-v-ivanofrankivsku-vidkrili-forum-sakralni-karpati.html",
+    "image": ""
+  },
+  {
+    "id": "n-e4c7131f755d",
+    "topic": "people",
+    "date": "2026-11-26",
+    "title": "Священник ПЦУ подарував Папі Римському ікону Покровительки Гуцульщини",
+    "text": "Священник ПЦУ, настоятель церкви Різдва Пресвятої Богородиці у селі Криворівня отець Іван Рибарук подарував Папі Римському Леву XIV ікону Покровительки Гуцульщини.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4188981-svasennik-pcu-podaruvav-papi-rimskomu-ikonu-pokrovitelki-guculsini.html",
+    "image": ""
+  },
+  {
     "id": "n-dedd718f3312",
     "topic": "rebuild",
     "date": "2026-11-26",
@@ -567,36 +597,6 @@
     "text": "У горах Румунії біля кордону з Україною знайшли мертвим 52-річного українця, двох його супутників врятували.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-society/4187777-u-gorah-rumunii-bila-kordonu-znajsli-mertvim-52ricnogo-ukrainca-dvoh-jogo-suputnikiv-vratuvali-zmi.html",
-    "image": ""
-  },
-  {
-    "id": "n-06471de04dac",
-    "topic": "sport",
-    "date": "2026-11-23",
-    "title": "Чемпіонат УПЛ: «Епіцентр» переміг «Чорноморець», ЛНЗ зіграв унічию з «Поліссям»",
-    "text": "У понеділок пройшли два матчі матчі 13-го туру чемпіонату України з футболу серед клубів Прем'єр-ліги.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187747-cempionat-upl-epicentr-peremig-cornomorec-lnz-zigrav-uniciu-z-polissam.html",
-    "image": ""
-  },
-  {
-    "id": "n-6d5ef4a3cfcc",
-    "topic": "rebuild",
-    "date": "2026-11-23",
-    "title": "На Південному мосту в Києві відкрили проїзд на лівий берег для громадського транспорту",
-    "text": "У Києві оновили правила проїзду Південним мостом, відкривши рух із правого на лівий берег для громадського транспорту.",
-    "source": "Українська правда",
-    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/23/8064247/",
-    "image": ""
-  },
-  {
-    "id": "n-9ec266ce742e",
-    "topic": "rebuild",
-    "date": "2026-11-23",
-    "title": "На місці колишнього ринку «Добробут» у Львові почнуть проєктувати першу частину скверу",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_lvovi_pochnut_proyektuvati_pershu_chastinu_skveru_na_mistsi_kolishnogo_rinku_dobrobut_n1650790",
     "image": ""
   }
 ]
