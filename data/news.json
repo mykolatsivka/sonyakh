@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-1374571bca0d",
+    "topic": "sport",
+    "date": "2026-11-27",
+    "title": "Волейболістка збірної України Котар стала найрезультативнішою у дебютному матчі ЛЧ",
+    "text": "Українська центральна блокувальниця Уляна Котар допомогла польському «Жешуву» перемогти німецький «Дрезднер» у першому турі групового етапу жіночої волейбольної Ліги чемпіонів…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189370-volejbolistka-zbirnoi-ukraini-kotar-stala-najrezultativnisou-u-debutnomu-matci-ligi-cempioniv.html",
+    "image": ""
+  },
+  {
+    "id": "n-9496752db19b",
+    "topic": "science",
+    "date": "2026-11-27",
+    "title": "У театрі «Воскресіння» відбулася прем’єра вистави «Мій дідусь був черешнею»",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_teatri_voskresinnya_vidbulasya_premyera_vistavi_miy_didus_buv_chereshneyu_n1651068",
+    "image": ""
+  },
+  {
     "id": "n-88bb64f24138",
     "topic": "science",
     "date": "2026-11-27",
@@ -577,26 +597,6 @@
     "text": "45 громад отримають від швейцарсько-українського проєкту DECIDE гранти розміром 1 млн грн кожен на розвиток академічних ліцеїв.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4188206-45-gromad-otrimaut-granti-po-1-miljon-na-rozvitok-akademicnih-liceiv.html",
-    "image": ""
-  },
-  {
-    "id": "n-f873475412ae",
-    "topic": "rebuild",
-    "date": "2026-11-24",
-    "title": "МОН визначило пріоритети інвестицій в освіту на наступні три роки",
-    "text": "Серед пріоритетних напрямків державних інвестицій в освіту на найближчі три роки – будівництво укриттів, модернізація освітнього простору, розвиток дошкілля, облаштування…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4188189-mon-viznacilo-prioriteti-investicij-v-osvitu-na-nastupni-tri-roki.html",
-    "image": ""
-  },
-  {
-    "id": "n-f25986f74b07",
-    "topic": "sport",
-    "date": "2026-11-24",
-    "title": "Букмекери оцінили шанси «Шахтаря» та «Фенербахче» у матчі Ліги чемпіонів УЄФА",
-    "text": "Букмекери нейтрально оцінюють перспективи донецького «Шахтаря» в номінально домашньому матчі 5-го туру основного етапу Ліги чемпіонів УЄФА із турецьким «Фенербахче», який…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188167-bukmekeri-ocinili-sansi-sahtara-ta-fenerbahce-u-matci-ligi-cempioniv-uefa.html",
     "image": ""
   }
 ]
