@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T14:36:59.316Z",
+ "updatedAt": "2026-11-27T14:49:36.875Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -310,13 +310,14 @@
    "updatedAt": "2026-11-27T13:22:43.242Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-27T14:36:59.316Z"
+   "updatedAt": "2026-11-27T14:36:59.316Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.11.2026 16:30",
    "days": [
     {
@@ -474,7 +475,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T14:36:59.316Z"
+   "updatedAt": "2026-11-27T14:36:59.316Z",
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "zaporizhzhia": {
    "days": [],
@@ -484,7 +486,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.11.2026 00:30",
    "days": [
     {
@@ -1313,10 +1315,11 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T13:22:43.242Z"
+   "updatedAt": "2026-11-27T13:22:43.242Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "kyiv": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.11.2026 15:50",
    "days": [
     {
@@ -1494,7 +1497,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T14:11:57.414Z"
+   "updatedAt": "2026-11-27T14:11:57.414Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "lviv": {
    "status": "ok",
@@ -1994,7 +1998,7 @@
    "updatedAt": "2026-11-27T13:22:43.242Z"
   },
   "odesa": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.11.2026 15:15",
    "days": [
     {
@@ -2147,7 +2151,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T13:22:43.242Z"
+   "updatedAt": "2026-11-27T13:22:43.242Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "rivne": {
    "status": "ok",
