@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T07:13:18.864Z",
+ "updatedAt": "2026-11-27T07:25:11.532Z",
  "regions": {
   "dnipro": {
    "status": "ok",
@@ -310,10 +310,11 @@
    "updatedAt": "2026-11-27T06:44:05.577Z"
   },
   "donetsk": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-27T06:53:59.708Z"
+   "updatedAt": "2026-11-27T06:53:59.708Z",
+   "error": "сайт не віддав графік (можливо, захист від роботів)"
   },
   "zhytomyr": {
    "status": "ok",
