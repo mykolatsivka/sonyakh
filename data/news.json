@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-211212933c01",
+    "topic": "sport",
+    "date": "2026-11-27",
+    "title": "Українка Ягупова допомогла «Чукурові» виграти матч Єврокубка ФІБА",
+    "text": "Капітан жіночої збірної України з баскетболу Аліна Ягупова допомогла турецькій команді \"Чукурова Мерсін\" здобути перемогу у черговому матчі групового етапу Єврокубка.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189134-ukrainka-agupova-dopomogla-cukurovi-vigrati-matc-evrokubka-fiba.html",
+    "image": ""
+  },
+  {
+    "id": "n-1672cc6d597d",
+    "topic": "animals",
+    "date": "2026-11-27",
+    "title": "На Одещину з Тундри прилетів національний птах Фінляндії",
+    "text": "Якщо його переслідувати, то важко наздогнати навіть на човні.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/lebid-klikun-nacionalniy-ptah-finlandiji-opinivsya-v-ukrajini-novini-odesi-13572825.html",
+    "image": ""
+  },
+  {
     "id": "n-f0f79ff0403e",
     "topic": "people",
     "date": "2026-11-26",
@@ -577,26 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/monstera_zhovtiye_ta_chorniye_vzimku_prichini_i_osoblivosti_doglyadu_n1650764",
-    "image": ""
-  },
-  {
-    "id": "n-91929aa7b80e",
-    "topic": "sport",
-    "date": "2026-11-23",
-    "title": "Визначилися господарі жіночих чемпіонатів світу з футболу 2031 та 2035 років",
-    "text": "Стали відомі країни-господарки жіночих чемпіонатів світу з футболу у 2031 та 2035 роках.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4187867-viznacilisa-gospodari-zinocih-cempionativ-svitu-z-futbolu-2031-ta-2035-rokiv.html",
-    "image": ""
-  },
-  {
-    "id": "n-7bc2f66951df",
-    "topic": "science",
-    "date": "2026-11-23",
-    "title": "Львівські театри стали лауреатами премії «Гра»",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/lvivski_teatri_stali_veteranami_premiyi_gra_n1650806",
     "image": ""
   }
 ]
