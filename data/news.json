@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-7376d55cb7aa",
+    "topic": "rebuild",
+    "date": "2026-11-27",
+    "title": "У Львові планують збудувати нову школу на 500 учнів",
+    "text": "",
+    "source": "Zaxid.net",
+    "sourceUrl": "https://zaxid.net/u_lvovi_planuyut_zbuduvati_novu_shkolu_na_500_uchniv_n1651074",
+    "image": ""
+  },
+  {
+    "id": "n-582efa46e37d",
+    "topic": "people",
+    "date": "2026-11-27",
+    "title": "Сама прийшла до військових: у КиївЗоо оселилася нутрія, яку врятували під Покровськом",
+    "text": "Ссавця вивезли з передової у спеціально облаштованому контейнері та передали волонтерам.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/nutriya-blindazh-u-kijivskomu-zooparku-yak-viyskovi-vryatuvali-tvarinu-z-pid-pokrovska-13573068.html",
+    "image": ""
+  },
+  {
     "id": "n-fbcf38c41358",
     "topic": "science",
     "date": "2026-11-27",
@@ -577,26 +597,6 @@
     "text": "У Києві в національному центрі «Український дім» з 26 по 29 листопада відбудеться книжковий фестиваль «Фундамент.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4187958-u-kievi-vidbudetsa-knizkovij-festival-fundament-istorii-pro-kulturu.html",
-    "image": ""
-  },
-  {
-    "id": "n-1ba48281bf87",
-    "topic": "sport",
-    "date": "2026-11-24",
-    "title": "Василь Костюк підтримав патріотичне виховання молоді: фонд долучився до вишколу «Спадщини»",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/vasil_kostyuk_pidtrimav_patriotichne_vihovannya_molodi_fond_doluchivsya_do_vishkolu_spadshhini_n1650779",
-    "image": ""
-  },
-  {
-    "id": "n-db2b82fbbde8",
-    "topic": "science",
-    "date": "2026-11-24",
-    "title": "Документальний фільм про українських нацгвардійців отримав Міжнародну премію «Еммі»",
-    "text": "Документальний фільм Sky News «24 Hours in the Kill Zone» («24 години в кіллзоні»), знятий разом із бійцями Національної гвардії України «Рубіж», отримав Міжнародну премію…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-society/4187948-dokumentalnij-film-pro-ukrainskih-nacgvardijciv-otrimav-miznarodnu-premiu-emmi.html",
     "image": ""
   }
 ]
