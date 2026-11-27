@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-27T10:12:03.301Z",
+ "updatedAt": "2026-11-27T10:23:05.395Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "27.11.2026 11:18",
    "days": [
     {
@@ -307,8 +307,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T09:50:16.720Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-27T10:23:05.395Z"
   },
   "donetsk": {
    "status": "stale",
@@ -1601,7 +1600,7 @@
   },
   "mykolaiv": {
    "status": "ok",
-   "sourceUpdated": "27.11.2026 08:58",
+   "sourceUpdated": "27.11.2026 12:23",
    "days": [
     {
      "date": "2026-11-27",
@@ -1842,12 +1841,12 @@
         "type": "maybe"
        },
        {
-        "from": 810,
-        "to": 840,
+        "from": 750,
+        "to": 780,
         "type": "maybe"
        },
        {
-        "from": 840,
+        "from": 780,
         "to": 1140,
         "type": "off"
        },
@@ -1993,7 +1992,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-27T07:13:18.864Z"
+   "updatedAt": "2026-11-27T10:23:05.395Z"
   },
   "odesa": {
    "status": "ok",
