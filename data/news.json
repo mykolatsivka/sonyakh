@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-d9fb2674bfba",
+    "topic": "sport",
+    "date": "2026-11-27",
+    "title": "ФК «Лівий Берег» переміг «Колос» на старті 14-го туру УПЛ",
+    "text": "У п'ятницю, 27 листопада, розпочався 14-й тур чемпіонату України з футболу серед клубів Прем'єр-ліги (УПЛ).",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189299-fk-livij-bereg-peremig-kolos-na-starti-14go-turu-upl.html",
+    "image": ""
+  },
+  {
+    "id": "n-b111b061c62a",
+    "topic": "science",
+    "date": "2026-11-27",
+    "title": "Канадському екссенатору вручили найвищу відзнаку української громади",
+    "text": "Конгрес українців Канади нагородив медаллю Тараса Шевченка колишнього сенатора Стенлі Кутчера за вагомий внесок у державну службу та підтримку України й української громади.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4189288-kanadskomu-ekssenatoru-vrucili-najvisu-vidznaku-ukrainskoi-gromadi.html",
+    "image": ""
+  },
+  {
+    "id": "n-f7a9774ea6f1",
+    "topic": "sport",
+    "date": "2026-11-27",
+    "title": "Волейбол: Плотницький став MVP матчу 10-го туру чемпіонату Італії",
+    "text": "Волейболісти Олег Плотницький і Максим Тонконог зійшлися в українському дербі у 10-у турі італійської Суперліги.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189293-volejbol-plotnickij-stav-mvp-matcu-10go-turu-cempionatu-italii.html",
+    "image": ""
+  },
+  {
     "id": "n-70473c98eaa5",
     "topic": "science",
     "date": "2026-11-27",
@@ -567,36 +597,6 @@
     "text": "",
     "source": "Zaxid.net",
     "sourceUrl": "https://zaxid.net/brokoli_korist_yak_vplivaye_na_sertse_pechinku_imunitet_i_zdorovya_mozku_n1650846",
-    "image": ""
-  },
-  {
-    "id": "n-1349e8f146b5",
-    "topic": "animals",
-    "date": "2026-11-24",
-    "title": "У Пасіках-Зубрицьких фірма експоліцейського відремонтує дорогу за 14,4 млн грн",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_pasikah_zubritskih_firma_ekspolitseyskogo_vidremontuye_dorogu_za_144_mln_grn_n1650832",
-    "image": ""
-  },
-  {
-    "id": "n-d551da0262f2",
-    "topic": "animals",
-    "date": "2026-11-24",
-    "title": "Ідеальний антистрес: мережу підкорила гра, в якій можна нескінченно гладити кота",
-    "text": "Користувачі у захваті від медитативності цієї новинки.",
-    "source": "УНІАН",
-    "sourceUrl": "https://www.unian.ua/techno/games/brauzerna-gra-de-potribno-neskinchenno-gladiti-kota-noviy-hit-pislya-gta-6-13569630.html",
-    "image": ""
-  },
-  {
-    "id": "n-d64de37a95c4",
-    "topic": "science",
-    "date": "2026-11-24",
-    "title": "Оголосили лонглист нацвідбору на Євробачення-2027",
-    "text": "Суспільне Мовлення оголосило довгий список національного відбору на «Євробачення-2027», до якого ввійшли 18 виконавців.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188017-ogolosili-longlist-nacvidboru-na-evrobacenna2027.html",
     "image": ""
   }
 ]
