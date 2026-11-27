@@ -1,5 +1,35 @@
 [
   {
+    "id": "n-4d0157633690",
+    "topic": "rebuild",
+    "date": "2026-11-27",
+    "title": "Пункт пропуску «Устилуг - Зосін» на кордоні з Польщею відкрили після ремонту",
+    "text": "У Волинській області завершено поточний ремонт єдиного автомобільного міжнародного пункту пропуску «Устилуг — Зосін» на українсько-польському кордоні.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-regions/4189305-punkt-propusku-ustilug-zosin-na-kordoni-z-polseu-vidkrili-pisla-remontu.html",
+    "image": ""
+  },
+  {
+    "id": "n-dc22a58ae0c7",
+    "topic": "sport",
+    "date": "2026-11-27",
+    "title": "Молодіжна жіноча збірна WU19 з футболу перемогла литовок у відборі Євро",
+    "text": "На Фарерських островах у п'ятницю завершився матч стартового туру першого раунду кваліфікації Євро-2027 WU19 з футболу між жіночими молодіжними збірними України та Литви.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189307-molodizna-zinoca-zbirna-wu19-z-futbolu-peremogla-litovok-u-vidbori-evro.html",
+    "image": ""
+  },
+  {
+    "id": "n-79f7c3982799",
+    "topic": "people",
+    "date": "2026-11-27",
+    "title": "Українська асоціація з італійського острова Іскія передала подарунки дітям в Україні",
+    "text": "Асоціація української громади Uniti per Ucraina-Ischia APS з італійського острова Іскія зібрала та відправила 23 великі ящики із солодощами й подарунками до Дня Святого Миколая…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4189321-ukrainska-asociacia-z-italijskogo-ostrova-iskia-peredala-podarunki-ditam-v-ukraini.html",
+    "image": ""
+  },
+  {
     "id": "n-d9fb2674bfba",
     "topic": "sport",
     "date": "2026-11-27",
@@ -567,36 +597,6 @@
     "text": "У Сан-Паулу (Бразилія) презентували мультимедійний виставковий проєкт Національного музею Голодомору-геноциду «Я розповім тобі історії з України…».",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-diaspora/4188075-u-sanpaulu-prohodit-vistavka-pro-golodomor-a-rozpovim-tobi-istorii-z-ukraini.html",
-    "image": ""
-  },
-  {
-    "id": "n-6570a9e5d48c",
-    "topic": "science",
-    "date": "2026-11-24",
-    "title": "Ще три об’єкти культурної спадщини отримали статус пам’яток національного значення",
-    "text": "Три об’єкти - у Києві, Миколаївській та Полтавській областях - отримали статус пам'ятки національного значення.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188077-se-tri-obekti-kulturnoi-spadsini-otrimali-status-pamatok-nacionalnogo-znacenna.html",
-    "image": ""
-  },
-  {
-    "id": "n-dc73d3bcb15a",
-    "topic": "rebuild",
-    "date": "2026-11-24",
-    "title": "Рада в першому читанні підтримала відкриття декларацій працівників спецслужб",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/verhovna_rada_v_pershomu_chitanni_pidtrimala_deklaruvannya_pratsivnikiv_spetssluzhb_n1650860",
-    "image": ""
-  },
-  {
-    "id": "n-96d17aca7967",
-    "topic": "people",
-    "date": "2026-11-24",
-    "title": "Зелене золото: як за допомогою броколі підтримати серце, печінку, імунітет і здоров’я мозку",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/brokoli_korist_yak_vplivaye_na_sertse_pechinku_imunitet_i_zdorovya_mozku_n1650846",
     "image": ""
   }
 ]
