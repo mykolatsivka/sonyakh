@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-28T09:36:05.244Z",
+ "updatedAt": "2026-11-28T09:49:16.018Z",
  "regions": {
   "dnipro": {
-   "status": "ok",
+   "status": "stale",
    "sourceUpdated": "27.11.2026 21:56",
    "days": [
     {
@@ -307,7 +307,8 @@
      }
     }
    ],
-   "updatedAt": "2026-11-28T08:49:43.361Z"
+   "updatedAt": "2026-11-28T08:49:43.361Z",
+   "error": "The operation was aborted due to timeout"
   },
   "donetsk": {
    "status": "stale",
