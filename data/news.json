@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-8387fc996b9a",
+    "topic": "animals",
+    "date": "2026-11-28",
+    "title": "Дельфіни, які підтримують дружні зв’язки, можуть жити довше: що зʼясували вчені",
+    "text": "На тривалість життя дельфінів впливає не лише кількість друзів.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/ecology/delfini-dovgozhiteli-mayut-odnu-spilnu-risu-shcho-pomitili-naukovci-13574448.html",
+    "image": ""
+  },
+  {
+    "id": "n-4f3edba04bf3",
+    "topic": "science",
+    "date": "2026-11-28",
+    "title": "Понад 45% поляків виступають за зміну прем’єра, якщо коаліція збереже владу",
+    "text": "",
+    "source": "Українська правда",
+    "sourceUrl": "https://www.pravda.com.ua/news/2026/11/28/8065151/",
+    "image": ""
+  },
+  {
     "id": "n-771a691e5663",
     "topic": "sport",
     "date": "2026-11-28",
@@ -577,26 +597,6 @@
     "text": "У Полтавському краєзнавчому музеї імені Василя Кричевського провели дводенне навчання з оцифрування музейних предметів за європейськими стандартами.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188567-u-poltavi-muzejnikiv-navcali-ocifrovuvati-eksponati-za-miznarodnimi-standartami.html",
-    "image": ""
-  },
-  {
-    "id": "n-700fe0152058",
-    "topic": "animals",
-    "date": "2026-11-25",
-    "title": "У Львові триває прокат фільму «Рятуй» про порятунок тварин з прифронтових територій",
-    "text": "",
-    "source": "Zaxid.net",
-    "sourceUrl": "https://zaxid.net/u_lvovi_trivaye_prokat_filmu_ryatuy_pro_poryatunok_tvarin_z_prifrontovih_teritoriy_n1650948",
-    "image": ""
-  },
-  {
-    "id": "n-62513364b06b",
-    "topic": "rebuild",
-    "date": "2026-11-25",
-    "title": "Сибіга назвав три пріоритети Конференції з відновлення України в Таллінні",
-    "text": "Головними пріоритетами міжнародної Конференції з відновлення України, яка відбудеться наприкінці січня в Таллінні, будуть підтримка української енергетики й транспорту,…",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4188525-sibiga-nazvav-tri-prioriteti-konferencii-z-vidnovlenna-ukraini-v-tallinni.html",
     "image": ""
   }
 ]
