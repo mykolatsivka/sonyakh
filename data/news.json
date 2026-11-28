@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-771a691e5663",
+    "topic": "sport",
+    "date": "2026-11-28",
+    "title": "Баскетбол. \"Дніпро\" розгромив \"Хмельницький\", БК \"Запоріжжя\" здолав \"Говерлу\"",
+    "text": "У баскетбольній Суперлізі України відбулися чергові поєдинки регулярного чемпіонату.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189631-basketbol-dnipro-rozgromiv-hmelnickij-bk-zaporizza-zdolav-goverlu.html",
+    "image": ""
+  },
+  {
+    "id": "n-8d082ee968c3",
+    "topic": "science",
+    "date": "2026-11-28",
+    "title": "В Україні розробили чіткі критерії для демобілізації: систему запропонують уряду",
+    "text": "Система враховує не просто тривалість служби, а й умови, в яких служив громадянин.",
+    "source": "УНІАН",
+    "sourceUrl": "https://www.unian.ua/society/demobilizaciya-v-ukrajini-viyskova-ombudsmenka-zaproponuvala-chitki-kriteriji-13574382.html",
+    "image": ""
+  },
+  {
     "id": "n-21cd9db52e80",
     "topic": "science",
     "date": "2026-11-28",
@@ -577,26 +597,6 @@
     "text": "Головними пріоритетами міжнародної Конференції з відновлення України, яка відбудеться наприкінці січня в Таллінні, будуть підтримка української енергетики й транспорту,…",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-vidbudova/4188525-sibiga-nazvav-tri-prioriteti-konferencii-z-vidnovlenna-ukraini-v-tallinni.html",
-    "image": ""
-  },
-  {
-    "id": "n-9751d553400c",
-    "topic": "science",
-    "date": "2026-11-25",
-    "title": "Відомі лауреати 13-го туру української футбольної Прем'єр-ліги",
-    "text": "Стали відомі найкращі футболіст та тренер за підсумками 13-го туру української Прем’єр-ліги (УПЛ).",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188488-vidomi-laureati-13go-turu-ukrainskoi-futbolnoi-premerligi.html",
-    "image": ""
-  },
-  {
-    "id": "n-ad6125d0e091",
-    "topic": "science",
-    "date": "2026-11-25",
-    "title": "У Коломиї відкрили виставку 700 писанок із музейної колекції",
-    "text": "У Музеї писанкового розпису в місті Коломия Івано-Франківської області відкрили пересувну виставку, до якої увійшли 700 писанок.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-culture/4188403-u-kolomii-vidkrili-vistavku-700-pisanok-iz-muzejnoi-kolekcii.html",
     "image": ""
   }
 ]
