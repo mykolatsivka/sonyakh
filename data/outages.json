@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-28T17:35:48.087Z",
+ "updatedAt": "2026-11-28T17:49:11.373Z",
  "regions": {
   "dnipro": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "27.11.2026 21:56",
    "days": [
     {
@@ -307,15 +307,13 @@
      }
     }
    ],
-   "updatedAt": "2026-11-28T17:09:12.535Z",
-   "error": "fetch failed"
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "donetsk": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "16.12.2024 00:13",
    "days": [],
-   "updatedAt": "2026-11-28T17:09:12.535Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "zhytomyr": {
    "status": "ok",
@@ -486,7 +484,7 @@
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT)"
   },
   "kyiv-city": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "28.11.2026 15:03",
    "days": [
     {
@@ -1205,11 +1203,10 @@
      }
     }
    ],
-   "updatedAt": "2026-11-28T13:49:51.536Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "kyiv": {
-   "status": "stale",
+   "status": "ok",
    "sourceUpdated": "28.11.2026 19:15",
    "days": [
     {
@@ -1362,14 +1359,91 @@
      }
     }
    ],
-   "updatedAt": "2026-11-28T17:20:46.381Z",
-   "error": "сайт не віддав графік (можливо, захист від роботів)"
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "lviv": {
    "status": "ok",
-   "sourceUpdated": null,
-   "days": [],
-   "updatedAt": "2026-11-28T17:20:46.381Z"
+   "sourceUpdated": "19:03 28.11.2026",
+   "days": [
+    {
+     "date": "2026-11-28",
+     "groups": {
+      "1.1": [
+       {
+        "from": 960,
+        "to": 1080,
+        "type": "off"
+       }
+      ],
+      "1.2": [
+       {
+        "from": 1080,
+        "to": 1110,
+        "type": "off"
+       }
+      ],
+      "2.1": [
+       {
+        "from": 660,
+        "to": 870,
+        "type": "off"
+       }
+      ],
+      "2.2": [
+       {
+        "from": 660,
+        "to": 870,
+        "type": "off"
+       }
+      ],
+      "3.1": [
+       {
+        "from": 870,
+        "to": 1080,
+        "type": "off"
+       }
+      ],
+      "3.2": [
+       {
+        "from": 480,
+        "to": 660,
+        "type": "off"
+       }
+      ],
+      "4.1": [
+       {
+        "from": 480,
+        "to": 660,
+        "type": "off"
+       }
+      ],
+      "4.2": [
+       {
+        "from": 1080,
+        "to": 1140,
+        "type": "off"
+       }
+      ],
+      "5.1": [
+       {
+        "from": 1080,
+        "to": 1140,
+        "type": "off"
+       }
+      ],
+      "5.2": [],
+      "6.1": [],
+      "6.2": [
+       {
+        "from": 870,
+        "to": 1080,
+        "type": "off"
+       }
+      ]
+     }
+    }
+   ],
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "mykolaiv": {
    "status": "ok",
@@ -1714,7 +1788,7 @@
   },
   "odesa": {
    "status": "ok",
-   "sourceUpdated": "28.11.2026 15:20",
+   "sourceUpdated": "28.11.2026 19:40",
    "days": [
     {
      "date": "2026-11-28",
@@ -1739,7 +1813,7 @@
        },
        {
         "from": 930,
-        "to": 1350,
+        "to": 1380,
         "type": "off"
        }
       ],
@@ -1751,7 +1825,7 @@
        },
        {
         "from": 930,
-        "to": 1290,
+        "to": 1170,
         "type": "off"
        }
       ],
@@ -1792,14 +1866,14 @@
        },
        {
         "from": 1140,
-        "to": 1350,
+        "to": 1380,
         "type": "off"
        }
       ],
       "4.1": [
        {
         "from": 1140,
-        "to": 1380,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -1814,6 +1888,11 @@
        {
         "from": 720,
         "to": 1170,
+        "type": "off"
+       },
+       {
+        "from": 1350,
+        "to": 1440,
         "type": "off"
        }
       ],
@@ -1861,7 +1940,7 @@
      }
     }
    ],
-   "updatedAt": "2026-11-28T15:20:45.534Z"
+   "updatedAt": "2026-11-28T17:49:11.373Z"
   },
   "rivne": {
    "status": "ok",
