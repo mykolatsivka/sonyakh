@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-950c37fb9261",
+    "topic": "sport",
+    "date": "2026-11-28",
+    "title": "Баскетбол: Михайлюк набрав 18 очок в НБА, Лохманчук яскраво діяв в NCAA",
+    "text": "Захисник національної збірної України Святослав Михайлюк результативно зіграв за \"Юту\" у матчі з \"Денвером\" у чемпіонаті північноамериканської Національної баскетбольної…",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189506-basketbol-mihajluk-nabrav-18-ocok-v-nba-lohmancuk-askravo-diav-v-ncaa.html",
+    "image": ""
+  },
+  {
+    "id": "n-96f4bbfb8021",
+    "topic": "sport",
+    "date": "2026-11-28",
+    "title": "Кубок світу з біатлону. В Контіолахті пройдуть перші змішані естафети сезону",
+    "text": "У фінському Контіолахті у третій змагальний день першого етапу Кубка світу-2026/27 з біатлону у суботу, 28 листопада, відбудуться перші у сезоні змішані естафети.",
+    "source": "Укрінформ",
+    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4189442-kubok-svitu-z-biatlonu-kontiolahti-prijmae-persi-zmisani-estafeti-sezonu.html",
+    "image": ""
+  },
+  {
     "id": "n-ef166a494431",
     "topic": "rebuild",
     "date": "2026-11-28",
@@ -577,26 +597,6 @@
     "text": "Українські тенісисти Вадим Урсу, Георгій Кравченко та Олександр Овчаренко з перемог розпочали виступи на змаганнях ATP Challenger Tour.",
     "source": "Укрінформ",
     "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188356-ursu-kravcenko-ta-ovcarenko-uspisno-startuvali-na-turnirah-atp.html",
-    "image": ""
-  },
-  {
-    "id": "n-1aa073e52541",
-    "topic": "sport",
-    "date": "2026-11-25",
-    "title": "Ліга чемпіонів УЄФА: \"Реал\" розгромив ПСВ і продовжує лідерство у розіграші",
-    "text": "У найпрестижнішому футбольному єврокубку, Лізі чемпіонів УЄФА, завершився перший ігровий день 5-го туру основного раунду розіграшу.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188273-liga-cempioniv-uefa-real-rozgromiv-psv-i-prodovzue-liderstvo-u-rozigrasi.html",
-    "image": ""
-  },
-  {
-    "id": "n-599f20277ef1",
-    "topic": "sport",
-    "date": "2026-11-24",
-    "title": "Жіноча збірна України з тенісу буде сіяною у кваліфікації Кубка Біллі Джин Кінг",
-    "text": "Збірна України з тенісу буде сіяною у кваліфікації Кубка Біллі Джин Кінг.",
-    "source": "Укрінформ",
-    "sourceUrl": "https://www.ukrinform.ua/rubric-sports/4188271-zinoca-zbirna-ukraini-z-tenisu-bude-sianou-u-kvalifikacii-kubka-billi-dzin-king.html",
     "image": ""
   }
 ]
